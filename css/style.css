@@ -13,7 +13,7 @@ html {
   box-sizing: inherit;
   list-style-type: none;
   text-decoration: none;
-  border: black 2px dotted;
+  /* border: black 2px dotted; */
 }
 body {
   font-style: "Open Sans", Quicksand, Lato, sans-serif;
