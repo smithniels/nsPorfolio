@@ -15,9 +15,14 @@ html {
   text-decoration: none;
   /* border: black 2px dotted; */
 }
+
+:root {
+  --myGrey: #eae9e7;
+  --myPink: #ff7272;
+}
 body {
   font-style: "Open Sans", Quicksand, Lato, sans-serif;
-  color: #eae9e7;
+  color: var(--myPink);
   text-decoration: none;
 }
 nav {
@@ -149,7 +154,7 @@ a:visited {
   transition: height 500ms;
   opacity: 1;
   animation-name: fadeInOpacity;
-  --animation-iteration-count: 1;
+  /* animation-iteration-count: 1; */
   animation-timing-function: ease-in;
   animation-duration: 0.25s;
 }
