@@ -22,7 +22,7 @@ html {
 
 body {
   font-style: "Open Sans", Quicksand, Lato, sans-serif;
-  color: var(--myPink);
+  color: var(--myGrey);
   text-decoration: none;
 }
 nav {
