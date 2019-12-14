@@ -138,27 +138,6 @@ a:visited {
   animation-duration: 0.25s;
 }
 
-.showme2 {
-  /*      border: red dotted 2px; */
-  display: none;
-  list-style-type: none;
-  transition: height 500ms;
-  font-style: Quicksand, Lato, sans-serif;
-  font-size: 20px;
-  line-height: 30px;
-  margin-left: 25px;
-}
-.showhim2:hover .showme2 {
-  display: block;
-  list-style-type: none;
-  transition: height 500ms;
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  /* animation-iteration-count: 1; */
-  animation-timing-function: ease-in;
-  animation-duration: 0.25s;
-}
-
 .brain {
   color: var(--myGrey);
 }
