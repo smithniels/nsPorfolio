@@ -5,7 +5,6 @@
 html {
   box-sizing: border-box;
   background-color: var(--myPink);
-  /* background-image: url(../images/bftcBlur.jpg);*/
   background-attachment: fixed;
   list-style-type: none;
   font-family: Quicksand, sans-serif;
@@ -13,7 +12,7 @@ html {
 *,
 ::before,
 ::after {
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
   list-style-type: none;
   text-decoration: none;
   /* border: black 2px dotted; */
@@ -27,6 +26,7 @@ body {
 nav {
   text-align: center;
   padding: 10px 0;
+  max-width: 100%;
 }
 nav ul {
   display: block;
@@ -58,15 +58,15 @@ h3 {
   color: var(--myGrey);
 }
 h3:hover {
-  /*      border: black 2px dotted; */
   font-weight: 700;
 }
-.location {
+/* Not sure if I actually need this: */
+/* .location {
   display: flex;
   white-space: pre;
   align-content: flex-end;
   padding-bottom: 0;
-}
+} */
 .top_bits {
   height: 80px;
   width: 100%;
@@ -141,6 +141,18 @@ a:visited {
   color: var(--myGrey);
 }
 
+.image {
+  width: 750px;
+  height: 100%;
+}
+
+.slider {
+  max-width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 20%;
+  position: absolute;
+}
 .activelink {
 }
 @keyframes fadeInOpacity {
@@ -150,4 +162,22 @@ a:visited {
   100% {
     opacity: 1;
   }
+}
+
+/** Visibility fix for stacking slides during initialization. */
+.slick__slide {
+  max-width: 100%;
+  position: absolute;
+  visibility: hidden;
+}
+
+/** Prevents collapsing container during initialization. */
+.slick__slide.slide--0 {
+  position: relative;
+}
+
+.unslick .slick__slide,
+.slick-initialized .slick__slide {
+  position: relative;
+  visibility: visible;
 }
