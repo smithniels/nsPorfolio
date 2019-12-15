@@ -51,7 +51,7 @@ nav a {
 
 nav a:hover {
   font-weight: 700;
-  border-bottom: lightpink 2px dotted;
+  border-bottom: var(--myPink) 2px dotted;
 }
 h3 {
   margin-left: 50px;
