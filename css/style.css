@@ -46,7 +46,7 @@ nav li {
 nav a {
   font-weight: normal;
   padding: 10px 5px;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 nav a:hover {
@@ -60,13 +60,13 @@ h3 {
 h3:hover {
   font-weight: 700;
 }
-/* Not sure if I actually need this: */
-/* .location {
+
+.location {
   display: flex;
   white-space: pre;
   align-content: flex-end;
   padding-bottom: 0;
-} */
+}
 .top_bits {
   height: 80px;
   width: 100%;
@@ -114,7 +114,7 @@ a:visited {
   flex-direction: row;
 }
 .showme {
-  /*      border: red dotted 2px; */
+  /* border: red dotted 2px; */
   display: none;
   list-style-type: none;
   transition: height 500ms;
@@ -144,12 +144,16 @@ a:visited {
 .image {
   width: 750px;
   height: 100%;
+  border-bottom: var(--myGrey) 2px solid;
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
 
 .slider {
   max-width: 100%;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  flex-direction: column;
   padding-left: 20%;
   position: absolute;
 }
