@@ -27,15 +27,11 @@ nav {
   text-align: center;
   padding: 10px 0;
   max-width: 100%;
+  z-index: 1;
 }
 nav ul {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
   list-style: none;
   margin: 0 2px;
 }
@@ -69,6 +65,8 @@ h3:hover {
 }
 .top_bits {
   height: 60px;
+  top: 0;
+  position: fixed;
   width: 100%;
   /* padding: 20px; */
   text-transform: uppercase;
@@ -141,8 +139,12 @@ a:visited {
 
 .wrapper {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   flex-wrap: wrap;
+}
+
+.index {
+  flex-direction: row;
 }
 
 .image {
@@ -158,7 +160,7 @@ a:visited {
   line-height: 0;
 }
 .slider {
-  max-width: 100%;
+  /* max-width: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -166,6 +168,17 @@ a:visited {
   padding-left: 20%;
   position: absolute;
 }
+
+.one {
+  order: 1;
+  flex: 1;
+}
+
+.two {
+  order: 2;
+  flex: 2;
+}
+
 .activelink {
 }
 @keyframes fadeInOpacity {
