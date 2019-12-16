@@ -49,6 +49,21 @@ nav a:hover {
   font-weight: 700;
   border-bottom: var(--myPink) 2px dotted;
 }
+
+li.nav-uo {
+  float: left;
+  list-style: none;
+  /* padding-top: 20px; */
+}
+
+.nav-up {
+  top: -60px;
+}
+
+.bar {
+  margin-top: 10px;
+  border: none;
+}
 h3 {
   margin-left: 50px;
   color: var(--myGrey);
