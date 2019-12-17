@@ -1,90 +1,73 @@
 // 4 part slidey bits
 $(document).ready(function() {
-  // $('.slider').bxSlider();
-  $(".slider").bxSlider({
-    // https://bxslider.com/options/
-    mode: "vertical",
-    keyboardEnabled: true,
-    minSlides: 1,
-    maxSlides: 1,
-    pager: false,
-    control: true,
-    // ticker: false,
-    control: true
-  });
+  // // $('.slider').bxSlider();
+  // $(".slider").bxSlider({
+  //   // https://bxslider.com/options/
+  //   mode: "vertical",
+  //   keyboardEnabled: true,
+  //   minSlides: 3,
+  //   // maxSlides: 1,
+  //   pager: false,
+  //
+  //   repeat: true,
+  //   // ticker: false,
+  //   // control: true,
+  //   controls: true
+  // });
+
+  //
+  $("#header").headroom();
 });
 
-// scrolly header bits
-// Credit to Marius Craciunoiu
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $("header").outerHeight();
+var slideIndex = 0;
+var numSlides = 4;
 
-$(window).scroll(function(event) {
-  didScroll = true;
+const slideshow = new Siema({
+  selector: ".slider",
+  loop: true,
+  // startIndex: 1,
+  // draggable: false,
+  threshold: 200
 });
 
-setInterval(function() {
-  if (didScroll) {
-    hasScrolled();
-    didScroll = false;
-  }
-}, 350);
+$(".prev").on("click", function() {
+  slideshow.prev();
+});
 
-function hasScrolled() {
-  var st = $(this).scrollTop();
-
-  // Make sure they scroll more than delta
-  if (Math.abs(lastScrollTop - st) <= delta) return;
-
-  // If they scrolled down and are past the navbar, add class .nav-up.
-  // This is necessary so you never see what is "behind" the navbar.
-  if (st > lastScrollTop && st > navbarHeight) {
-    // Scroll Down
-    $("header")
-      .removeClass("nav-down")
-      .addClass("nav-up");
-  } else {
-    // Scroll Up
-    if (st + $(window).height() < $(document).height()) {
-      $("header")
-        .removeClass("nav-up")
-        .addClass("nav-down");
-    }
-  }
-
-  lastScrollTop = st;
-}
-
-// $(".slider").slick({
-//   slidesToShow: 1,
-//   // slidesToScroll: 3,
-//   dots: true,
-//   infinite: true,
-//   cssEase: "linear"
-// });
-
-// $(function() {
-//   /* SET PARAMETERS */
-//   var change_img_time = 5000;
-//   var transition_speed = 100;
+$(".next").on("click", function() {
+  slideshow.next();
+});
+// import "./styles.css";
 //
-//   var simple_slideshow = $("#exampleSlider"),
-//     listItems = simple_slideshow.children("li"),
-//     listLen = listItems.length,
-//     i = 0,
-//     changeList = function() {
-//       listItems.eq(i).fadeOut(transition_speed, function() {
-//         i += 1;
-//         if (i === listLen) {
-//           i = 0;
-//         }
-//         listItems.eq(i).fadeIn(transition_speed);
-//       });
-//     };
+// // first import.
+// import Headroom from "headroom.js";
 //
-//   listItems.not(":first").hide();
-//   setInterval(changeList, change_img_time);
+// // grab the header element.
+// const Header = document.querySelector("nav");
+//
+// // construct an instance of Headroom, passing the header elemen.
+// const headroom = new Headroom(Header, {
+//   offset: 0,
+//   tolerance: {
+//     up: 0,
+//     down: 0
+//   },
+//   classes: {
+//     initial: "header--fixed",
+//     pinned: "slideDown",
+//     unpinned: "slideUp",
+//     top: "top",
+//     notTop: "not-top"
+//   }
 // });
+//
+// // initialise
+// headroom.init();
+//
+// // When the page is at the top, remove the slideDown class.
+// window.addEventListener("scroll", () => {
+//   if (window.pageYOffset === 0) {
+//     Header.classList.remove("slideDown");
+//   }
+// });
+// //
