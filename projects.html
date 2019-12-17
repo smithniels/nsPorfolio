@@ -6,7 +6,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" />
     <title>Niels Smith: Work</title>
     <!-- normalize css -->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -26,7 +26,7 @@
     />
   </head>
 
-  <nav class="top_bits">
+  <header class="top_bits header headroom ">
     <ul>
       <li><a class="active-link" href="index.html">Home</a></li>
       <li><a class="active-link" href="projects.html">Work</a></li>
@@ -35,35 +35,35 @@
         <a class="active-link" href="">Twitter</a>
       </li>
     </ul>
-  </nav>
+  </header>
 
   <body>
     <span>
       <span class="showhim"></span>
-    <span class="words">
+      <span class="words">
         <h1>Work</h1>
         <span class="location">
-          <h6> Niels Smith <br> DC based<br> Data Analyst / Web Developer</h6>
+          <h6>
+            Niels Smith <br />
+            DC based<br />
+            Data Analyst / Web Developer
+          </h6>
         </span>
-    </span>
+      </span>
     </span>
 
     <div class="wrapper">
+      <h2>Data Viz</h2>
 
-      <ul class="slider one" id="exampleSlider">
-        <li><img class="image" src="images/image_1.jpg" /><li>
-        <li><img class="image" src="images/image_2.png" /><li>
-        <li><img class="image" src="images/image_4.jpg" /><li>
-        <li><img class="image" src="images/image_5.jpg" /><li>
-        <!-- <div><img src="images/image_"></div> -->
-        <!-- <div><img class="image" src="images/image_3.png" /></div> -->
-      </ul>
-
-       <!-- <div class="slider two">
-       <div><img class="image" src="images/filler.png" .> -->
-        <h3>Data Viz</h3>
-      </div> -->
-
+      <div class="slide-container" id="">
+        <div class="slider">
+          <div><img class="image slide" src="images/image_1.jpg" /></div>
+          <div><img class="image slide" src="images/image_2.png" /></div>
+          <div><img class="image slide" src="images/image_4.jpg" /></div>
+          <div><img class="image slide" src="images/image_5.jpg" /></div>
+        </div>
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
       </div>
     </div>
 
@@ -71,10 +71,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- jquery -->
     <script rel="stylesheet" src="js/slick.js"></script>
-    <!-- bxSlider  -->
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!-- sisema -->
+    <script src="js/siema.js"></script>
+    <script src="js/siema.min.js"></script>
+    <!-- <script>
+      new Siema();
+    </script> -->
     <!-- headroom -->
-    <script    src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.10.2/headroom.min.js"></script>
+    <script src="js/jQuery.headroom.min.js"></script>
+    <!-- <script src="js/headroom.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.10.2/headroom.min.js"></script>
     <!-- js script! -->
     <script type="text/javascript" src="js/script.js"></script>
   </body>

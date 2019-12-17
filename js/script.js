@@ -1,24 +1,42 @@
 // 4 part slidey bits
 $(document).ready(function() {
-  // $('.slider').bxSlider();
-  $(".slider").bxSlider({
-    // https://bxslider.com/options/
-    mode: "vertical",
-    keyboardEnabled: true,
-    minSlides: 3,
-    maxSlides: 1,
-    pager: false,
-    control: true,
-    repeat: true,
-    // ticker: false,
-    control: true
-  });
+  // // $('.slider').bxSlider();
+  // $(".slider").bxSlider({
+  //   // https://bxslider.com/options/
+  //   mode: "vertical",
+  //   keyboardEnabled: true,
+  //   minSlides: 3,
+  //   // maxSlides: 1,
+  //   pager: false,
+  //
+  //   repeat: true,
+  //   // ticker: false,
+  //   // control: true,
+  //   controls: true
+  // });
 
   //
-
-  //
+  $("#header").headroom();
 });
 
+var slideIndex = 0;
+var numSlides = 4;
+
+const slideshow = new Siema({
+  selector: ".slider",
+  loop: true,
+  // startIndex: 1,
+  // draggable: false,
+  threshold: 200
+});
+
+$(".prev").on("click", function() {
+  slideshow.prev();
+});
+
+$(".next").on("click", function() {
+  slideshow.next();
+});
 // import "./styles.css";
 //
 // // first import.

@@ -23,29 +23,29 @@ body {
   color: var(--myGrey);
   text-decoration: none;
 }
-nav {
+header {
   text-align: center;
   padding: 10px 0;
   max-width: 100%;
   z-index: 1;
 }
-nav ul {
+header ul {
   display: block;
   list-style-type: disc;
   list-style: none;
   margin: 0 2px;
 }
-nav li {
+header li {
   display: inline-block;
   padding: 5px 5px;
 }
-nav a {
+header a {
   font-weight: normal;
   padding: 10px 5px;
   font-size: 1em;
 }
 
-nav a:hover {
+header a:hover {
   font-weight: 700;
   border-bottom: var(--myPink) 2px dotted;
 }
@@ -74,8 +74,8 @@ h3:hover {
 
 .location {
   display: flex;
-  white-space: pre;
-  align-content: flex-end;
+  /* white-space: pre; */
+  /* align-content: flex-start; */
   padding-bottom: 0;
 }
 .top_bits {
@@ -177,21 +177,12 @@ a:visited {
 .slider {
   /* max-width: 100%; */
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   flex-direction: column;
   padding-left: 20%;
   position: absolute;
-}
-
-.one {
-  order: 1;
-  flex: 1;
-}
-
-.two {
-  order: 2;
-  flex: 2;
 }
 
 .activelink {
@@ -221,4 +212,78 @@ a:visited {
 .slick-initialized .slick__slide {
   position: relative;
   visibility: visible;
+}
+
+/**
+ * Note: I have omitted any vendor-prefixes for clarity.
+ * Adding them is left as an exercise for the reader.
+ */
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+/* siema */
+.slider-container {
+  width: 320px;
+  height: 240px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider {
+  width: 320px;
+  height: 240px;
+  margin: 0 auto;
+}
+
+.prev,
+.next {
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  width: 30px;
+  height: 60px;
+  top: 100px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-weight: bold;
+}
+.next {
+  right: 0;
+}
+.prev:hover,
+.next:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
+button:focus {
+  outline: 0;
+}
+
+.slide {
+  width: 320px;
+  height: 240px;
+  line-height: 240px;
+  text-align: center;
+  color: #fff;
+}
+
+.slider-nav {
+  text-align: center;
+}
+.btn-nav {
+  border: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+.btn-nav.active {
+  background-color: #333;
 }
