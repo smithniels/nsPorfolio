@@ -37,6 +37,7 @@ $(".prev").on("click", function() {
 $(".next").on("click", function() {
   slideshow.next();
 });
+
 // import "./styles.css";
 //
 // // first import.
