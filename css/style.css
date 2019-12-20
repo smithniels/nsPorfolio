@@ -169,12 +169,12 @@ a:visited {
 }
 
 .index {
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .image {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  /* height: 100%; */
   border-bottom: var(--myGrey) 2px solid;
   padding-bottom: 35px;
   padding-top: 35px;
@@ -194,22 +194,9 @@ a:visited {
   position: relative;
 }
 
-.contacts {
-  margin-left: 20px;
+.navTop {
 }
-
-*/ .activelink {
-}
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-/**
+/*
  * Note: I have omitted any vendor-prefixes for clarity.
  * Adding them is left as an exercise for the reader.
  */
@@ -238,6 +225,25 @@ a:visited {
   margin: 0 auto;
 }
 
+.prev,
+.next {
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  /* width: 30px;*/
+  height: 80px;
+  top: 100px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-weight: bold;
+}
+.next {
+  right: 0;
+}
+.prev:hover,
+.next:hover {
+  background: rgba(255, 255, 255, 0.75);
+}
 button:focus {
   outline: 0;
 }
@@ -265,18 +271,9 @@ button:focus {
   background-color: #333;
 }
 .div-0 {
-  display: flex;
   font-size: 25px;
   width: 25%;
-}
-
-.div-1 {
   display: flex;
-}
-
-.div-2 {
-  display: flex;
-  overflow: auto;
 }
 
 #abc123 {
@@ -284,20 +281,18 @@ button:focus {
   font-size: 23px;
 }
 
-#abc123 a:hover {
-  font-weight: 700;
-  border-bottom: var(--myGrey) 2px dotted;
-  color: black;
-}
-
 .sql {
-  border: black 2px dotted;
+  /* border: black 2px dotted; */
   width: 30%;
   display: flex;
   padding-right: 2%;
   flex-direction: column;
 }
 
+.Here {
+  font-weight: 800;
+  border-bottom: var(--myPink) 2px dotted;
+}
 .code {
 }
 /*For Responsive*/
@@ -305,6 +300,13 @@ button:focus {
 .wrapper{
 flex-direction:column;
 }
-
-
  */
+/* @media screen and (max-width: 800px) {
+  * {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller
+  }
+
+  a {
+    display: flex;
+  }
+} */
