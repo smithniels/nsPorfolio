@@ -193,10 +193,12 @@ a:visited {
   /* padding-left: 20%; this puts padding inside of the slider ruining everything... */
   position: relative;
 }
-/*
 
-*/
-.activelink {
+.contacts {
+  margin-left: 20px;
+}
+
+*/ .activelink {
 }
 @keyframes fadeInOpacity {
   0% {
@@ -236,25 +238,6 @@ a:visited {
   margin: 0 auto;
 }
 
-.prev,
-.next {
-  background: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  /* width: 30px;*/
-  height: 80px;
-  top: 100px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.25s;
-  font-weight: bold;
-}
-.next {
-  right: 0;
-}
-.prev:hover,
-.next:hover {
-  background: rgba(255, 255, 255, 0.75);
-}
 button:focus {
   outline: 0;
 }
@@ -282,15 +265,29 @@ button:focus {
   background-color: #333;
 }
 .div-0 {
+  display: flex;
   font-size: 25px;
   width: 25%;
+}
+
+.div-1 {
   display: flex;
+}
+
+.div-2 {
+  display: flex;
+  overflow: auto;
 }
 
 #abc123 {
   color: var(--myGrey);
-
   font-size: 23px;
+}
+
+#abc123 a:hover {
+  font-weight: 700;
+  border-bottom: var(--myGrey) 2px dotted;
+  color: black;
 }
 
 .sql {
