@@ -1,21 +1,5 @@
 // 4 part slidey bits
 $(document).ready(function() {
-  // // $('.slider').bxSlider();
-  // $(".slider").bxSlider({
-  //   // https://bxslider.com/options/
-  //   mode: "vertical",
-  //   keyboardEnabled: true,
-  //   minSlides: 3,
-  //   // maxSlides: 1,
-  //   pager: false,
-  //
-  //   repeat: true,
-  //   // ticker: false,
-  //   // control: true,
-  //   controls: true
-  // });
-
-  //
   $("#header").headroom();
 });
 
