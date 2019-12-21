@@ -1,6 +1,7 @@
 :root {
   --myGrey: #eae9e7;
-  --myPink: #ff7272;
+  /* --myPink: #ff7272; */
+  --myPink: #ff8c69;
 }
 html {
   box-sizing: border-box;
@@ -63,6 +64,9 @@ li.nav-uo {
 .bar {
   margin-top: 10px;
   border: none;
+}
+h2 {
+  border-bottom: 2px solid var(--myGrey);
 }
 h3 {
   margin-left: 50px;
@@ -225,25 +229,6 @@ a:visited {
   margin: 0 auto;
 }
 
-.prev,
-.next {
-  background: rgba(255, 255, 255, 0.5);
-  position: absolute;
-  /* width: 30px;*/
-  height: 80px;
-  top: 100px;
-  border: none;
-  cursor: pointer;
-  transition: all 0.25s;
-  font-weight: bold;
-}
-.next {
-  right: 0;
-}
-.prev:hover,
-.next:hover {
-  background: rgba(255, 255, 255, 0.75);
-}
 button:focus {
   outline: 0;
 }
@@ -281,6 +266,12 @@ button:focus {
   font-size: 23px;
 }
 
+#abc123:hover {
+  /* color: black; */
+  font-weight: 700;
+  border-bottom: var(--myGrey) 2px dotted;
+}
+
 .sql {
   /* border: black 2px dotted; */
   width: 30%;
@@ -294,6 +285,14 @@ button:focus {
   border-bottom: var(--myPink) 2px dotted;
 }
 .code {
+}
+pre > code[class]::before {
+  content: attr(class);
+  display: block;
+  font-size: small;
+  font-style: italic;
+  color: #6c5f7c;
+  margin: -0.4rem 0 0.6rem -1.2rem;
 }
 /*For Responsive*/
 /* change flex-direction from row to column!
