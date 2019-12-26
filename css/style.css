@@ -25,7 +25,7 @@ body {
 }
 header {
   text-align: center;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   max-width: 100%;
   z-index: 1;
 }
@@ -33,16 +33,20 @@ header ul {
   display: block;
   list-style-type: disc;
   list-style: none;
-  margin: 0 2px;
+  /* margin: 0 2px; */
 }
 header li {
   display: inline-block;
-  padding: 5px 5px;
+  /* padding: 5px 5px; */
 }
 header a {
   font-weight: normal;
-  padding: 10px 5px;
-  font-size: 1em;
+  /* padding: auto 20px; */
+  font-size: 1.2em;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 header a:hover {
@@ -175,9 +179,10 @@ a:visited {
 
 .image {
   max-width: 100%;
-  border-bottom: var(--myGrey) 2px solid;
+  /* border-bottom: var(--myGrey) 2px solid;
   padding-bottom: 35px;
-  padding-top: 35px;
+  padding-top: 35px; */
+  margin-bottom: 20px;
 }
 
 .small {
@@ -200,24 +205,6 @@ a:visited {
  * Adding them is left as an exercise for the reader.
  */
 
-.headroom {
-  will-change: transform;
-  transition: transform 200ms linear;
-}
-.headroom--pinned {
-  transform: translateY(0%);
-}
-.headroom--unpinned {
-  transform: translateY(-100%);
-}
-/* siema */
-.slider-container {
-  /* width: 100%;
-  height: 100%; */
-  margin: 0 auto;
-  position: relative;
-}
-
 .slider {
   /* width: 520px; */
   height: 100%;
@@ -229,26 +216,12 @@ button:focus {
 }
 
 .slide {
+  border: black 4px solid;
   width: 100%;
   height: 100%;
   /* line-height: 240px; */
   text-align: center;
   color: #fff;
-}
-
-.slider-nav {
-  text-align: center;
-}
-.btn-nav {
-  border: 0;
-  width: 100%;
-  height: 10px;
-  border-radius: 10px;
-  padding: 0;
-  cursor: pointer;
-}
-.btn-nav.active {
-  background-color: #333;
 }
 .div-0 {
   font-size: 25px;
@@ -295,6 +268,17 @@ p.drop-cap:first-letter {
   float: left;
   margin-top: 0.05em;
   /* padding-bottom: 0.5em; */
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
 }
 
 /*For Responsive*/

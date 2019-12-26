@@ -11,7 +11,7 @@ const slideshow = new Siema({
   selector: ".slider",
   loop: true,
   threshold: 200,
-  easing: "cubic-bezier(.17,.67,.32,1.34)"
+  easing: "cubic-bezier(0.55, 0.085, 0.68, 0.53)"
 });
 
 $(".prev").on("click", function() {
