@@ -4,8 +4,6 @@ $(document).ready(function() {
   $("#header").headroom();
   //OWL
   $(".owl-carousel").owlCarousel({
-    animateOut: "slideOutDown",
-    animateIn: "flipInX",
     loop: true,
     margin: 10,
     nav: true,
