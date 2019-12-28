@@ -1,27 +1,36 @@
 // 4 part slidey bits
 $(document).ready(function() {
+  //HEADROOM
   $("#header").headroom();
+  //OWL
+  $(".owl-carousel").owlCarousel({
+    animateOut: "slideOutDown",
+    animateIn: "flipInX",
+    loop: true,
+    margin: 10,
+    nav: true,
+    pagination: false,
+    dots: false,
+    autoplay: true,
+    autoplayHoverPause: true,
+    // autoHeight: true,
+    slideSpeed: 600,
+    paginationSpeed: 700,
+    stagePadding: 70,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 2
+      }
+    }
+  });
 });
-
-// Siema means 'hello' in Polish
-var slideIndex = 0;
-var numSlides = 4;
-
-const slideshow = new Siema({
-  selector: ".slider",
-  loop: true,
-  threshold: 200,
-  easing: "cubic-bezier(0.55, 0.085, 0.68, 0.53)"
-});
-
-$(".prev").on("click", function() {
-  slideshow.prev();
-});
-
-$(".next").on("click", function() {
-  slideshow.next();
-});
-
+// BROKEN SCROLL THING
 // scrolly header bits
 // Credit to Marius Craciunoiu
 // Hide Header on on scroll down
@@ -29,7 +38,6 @@ var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
 var navbarHeight = $("header").outerHeight();
-
 $(window).scroll(function(event) {
   didScroll = true;
 });
@@ -66,40 +74,4 @@ function hasScrolled() {
   lastScrollTop = st;
 }
 
-// fancy bits
-// $.fancybox.defaults.animationEffect = "fade";
-
-// import "./styles.css";
 //
-// // first import.
-// import Headroom from "headroom.js";
-//
-// // grab the header element.
-// const Header = document.querySelector("nav");
-//
-// // construct an instance of Headroom, passing the header elemen.
-// const headroom = new Headroom(Header, {
-//   offset: 0,
-//   tolerance: {
-//     up: 0,
-//     down: 0
-//   },
-//   classes: {
-//     initial: "header--fixed",
-//     pinned: "slideDown",
-//     unpinned: "slideUp",
-//     top: "top",
-//     notTop: "not-top"
-//   }
-// });
-//
-// // initialise
-// headroom.init();
-//
-// // When the page is at the top, remove the slideDown class.
-// window.addEventListener("scroll", () => {
-//   if (window.pageYOffset === 0) {
-//     Header.classList.remove("slideDown");
-//   }
-// });
-// //
