@@ -1,4 +1,4 @@
-// 4 part slidey bits
+
 $(document).ready(function() {
   //HEADROOM
   $("#header").headroom();
