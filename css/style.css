@@ -233,12 +233,14 @@ button:focus {
 #abc123 {
   color: var(--myGrey);
   font-size: 23px;
+  padding: 5px;
 }
 
 #abc123:hover {
   /* color: black; */
   font-weight: 700;
-  border-bottom: var(--myGrey) 2px dotted;
+  background-color: grey;
+  border: var(--myGrey) 2px dotted;
 }
 
 .sql {

@@ -3,6 +3,7 @@ $(document).ready(function() {
   //HEADROOM
   $("#header").headroom();
   //OWL
+
   $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -12,9 +13,11 @@ $(document).ready(function() {
     autoplay: true,
     autoplayHoverPause: true,
     // autoHeight: true,
-    slideSpeed: 600,
-    paginationSpeed: 700,
+    slideSpeed: 3000,
+    paginationSpeed: 9000,
+    autoplaySpeed: 7000,
     stagePadding: 70,
+    height: 1000,
     responsive: {
       0: {
         items: 1
@@ -23,7 +26,7 @@ $(document).ready(function() {
         items: 1
       },
       1000: {
-        items: 2
+        items: 1
       }
     }
   });
