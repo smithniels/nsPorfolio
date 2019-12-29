@@ -12,7 +12,6 @@ $(document).ready(function() {
     dots: false,
     autoplay: true,
     autoplayHoverPause: true,
-    // autoHeight: true,
     slideSpeed: 3000,
     paginationSpeed: 9000,
     autoplaySpeed: 7000,
