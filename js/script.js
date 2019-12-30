@@ -2,8 +2,8 @@
 $(document).ready(function() {
   //HEADROOM
   $("#header").headroom();
-  //OWL
 
+  //OWL
   $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,

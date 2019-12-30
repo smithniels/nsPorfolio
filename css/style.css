@@ -265,30 +265,21 @@ button:focus {
   padding-left: 3px;
 }
 
-.headroom {
-  will-change: transform;
-  transition: transform 200ms linear;
-}
-.headroom--pinned {
-  transform: translateY(0%);
-}
-.headroom--unpinned {
-  transform: translateY(-100%);
-}
+
 
 /*For Responsive*/
-/* change flex-direction from row to column!
-.wrapper{
-flex-direction:column;
-}
- */
+/* change flex-direction from row to column!*/
 @media screen and (max-width: 800px) {
   .div-0 {
-    /* font-size: 25px; */
-    width: 100%;
-    /* display: flex; */
+     width: 100%;
   }
+
   #list {
     display: flex;
+  }
+  
+  div.top_bits{
+    flex-direction: row;
+    color:blue;
   }
 }
