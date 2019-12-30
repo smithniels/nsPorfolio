@@ -288,22 +288,11 @@ button:focus {
   header a {
     font-weight: bold;
     font-size: 1em;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> aa264dbe30cba10164f46cd8b1c341b964d3451b
+
     padding-right: 5px;
     padding-left: 5px;
     margin-left: 5px;
     margin-right: 5px;
-<<<<<<< HEAD
-=======
-=======
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
->>>>>>> a000b3bce117e17994bd17c32a8385913ce27608
->>>>>>> aa264dbe30cba10164f46cd8b1c341b964d3451b
+
   }
 }
