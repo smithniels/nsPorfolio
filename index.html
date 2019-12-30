@@ -1,282 +1,96 @@
-:root {
-  --myGrey: #eae9e7;
-  --myPink: #ff8c69;
-}
-html {
-  box-sizing: border-box;
-  background-color: var(--myPink);
-  background-attachment: fixed;
-  list-style-type: none;
-  font-family: Quicksand, sans-serif;
-}
-*,
-::before, 
-::after {
-  box-sizing: inherit;
-  list-style-type: none;
-  text-decoration: none;
-}
+<!DOCTYPE html>
+<!-- TODO:  -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Niels Smith</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- normalize css -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font -->
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      media="screen"
+      type="text/css"
+    />
+    <!-- css link -->
+  </head>
 
-body {
-  font-style: "Open Sans", Quicksand, Lato, sans-serif;
-  color: var(--myGrey);
-  text-decoration: none;
-}
-header {
-  text-align: center;
-  max-width: 100%;
-}
-header ul {
-  display: block;
-  list-style-type: disc;
-  list-style: none;
-}
-header li {
-  display: inline-block;
-}
-header a {
-  font-weight: normal;
-  font-size: 1.2em;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+  <header class="top_bits nav-down">
+    <div class="navTop">
+      <ul>
+        <li><a class="navTop Here" href="index.html">Home</a></li>
+        <li><a class="navTop" href="projects.html">Work</a></li>
+        <li><a class="navTop" href="about.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
 
-header a:hover {
-  font-weight: 700;
-  border-bottom: var(--myPink) 2px dotted;
-}
+  <body>
+    <span>
+      <span class="showhim"></span>
+      <span class="words">
+        <h1>Home</h1>
+        <span class="location">
+          <h6>
+            Niels Smith <br />
+            DC based<br />
+            Data Analyst / Web Developer
+          </h6>
+        </span>
+      </span>
+    </span>
 
-li.nav-uo {
-  float: left;
-  list-style: none;
-}
+    <div class="wrapper index">
+      <div class="div-0 ">
+        <p class="drop-cap">
+          <span class="firstcharacter">H</span>ello, my name's Niels. I'm a
+          Danish American living in DC. This website is still a work in
+          progress. Please excuse the mess.
+        </p>
+      </div>
 
-.nav-up {
-  top: -60px;
-}
-
-.bar {
-  margin-top: 10px;
-  border: none;
-}
-h2 {
-  border-bottom: 2px solid var(--myGrey);
-}
-h3 {
-  margin-left: 50px;
-  color: var(--myGrey);
-}
-h3:hover {
-  font-weight: 700;
-}
-
-.location {
-  display: flex;
-  padding-bottom: 0;
-}
-.top_bits {
-  height: 60px;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--myGrey);
-  font-size: 22px;
-  list-style-type: none;
-  text-decoration: none;
-  padding-inline-start: 40px;
-  line-height: 1em;
-}
-
-a {
-  cursor: pointer;
-}
-.top_bits a {
-  color: var(--myPink);
-}
-a:visited {
-  text-decoration: none;
-  color: var(--myPink);
-}
-.main {
-  margin-top: 300px;
-  margin: auto;
-}
-.words {
-  color: #eae9e7;
-  z-index: 0;
-  font-style: Quicksand, Lato, sans-serif;
-  font-size: 40px;
-  line-height: 30px;
-  padding-top: 20px;
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
-}
-.words2 {
-  color: var(--myGrey);
-  font-style: Quicksand, Lato, sans-serif;
-  margin-left: 55px;
-}
-
-.showme {
-  display: none;
-  list-style-type: none;
-  transition: height 500ms;
-  font-style: Quicksand, Lato, sans-serif;
-  font-size: 22px;
-  line-height: 30px;
-  margin-left: 25px;
-  border-bottom: var(--myGrey) 2px solid;
-}
-
-#list {
-  list-style-type: none;
-}
-.showhim:hover .showme {
-  display: block;
-  list-style-type: none;
-  transition: height 500ms;
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.25s;
-}
-
-.brain {
-  color: var(--myGrey);
-}
-
-.wrapper {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-left: 4%;
-  padding-right: 4%;
-  overflow: hidden;
-  align-content: flex-start;
-}
-
-.index {
-  flex-direction: column;
-}
-
-.image {
-  max-width: 100%;
-  margin-bottom: 20px;
-}
-
-.small {
-  font-size: 10px;
-  line-height: 0;
-}
-.slider {
-  width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  /* padding-left: 20%; this puts padding inside of the slider ruining everything... */
-  position: relative;
-}
-
-
-.slider {
-  height: 100%;
-  margin: 0 auto;
-}
-
-button:focus {
-  outline: 0;
-}
-
-.slide {
-  border: black 4px solid;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #fff;
-}
-.div-0 {
-  font-size: 25px;
-  width: 60%;
-  display: flex;
-}
-.div-0 > p {
-  border-bottom: 2px var(--myGrey)  solid;
-}
-#abc123 {
-  color: var(--myGrey);
-  font-size: 23px;
-  padding: 5px;
-}
-
-#abc123:hover {
-  /* color: black; */
-  font-weight: 700;
-  background-color: grey;
-  border: var(--myGrey) 2px dotted;
-}
-
-.sql {
-  width: 35%;
-  display: flex;
-  padding-right: 2%;
-  flex-direction: column;
-}
-
-.Here {
-  font-weight: 800;
-  border-bottom: var(--myPink) 2px dotted;
-}
-
-.firstcharacter {
-  color: var(--myGrey);
-  float: left;
-  font-size: 75px;
-  line-height: 60px;
-  padding-top: 4px;
-  padding-right: 8px;
-  padding-left: 3px;
-}
-
-
-
-/*For Responsive*/
-/* change flex-direction from row to column!*/
-@media screen and (max-width: 800px) {
-  .div-0 {
-     width: 100%;
-  }
-
-  #list {
-    display: flex;
-  }
-
-  div.top_bits{
-    flex-direction: row;
-    color:blue;
-  }
-
-
-  header ul {
-    display: block;
-  }
-  header li {
-    display: inline-block;
-  }
-  header a {
-    font-weight: bold;
-    font-size: 1em;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-}
+      <div class="div-2">
+        <span class="showhim" id="">
+          <h3>Education</h3>
+          <span class="showme" id="list">
+            <ul>
+              <li><strong>UC Berkeley</strong></strong> - [BA Political Science]</li>
+              <li>
+                <strong>Carnegie Mellon University</strong></strong> - [MS Public Policy & Management]
+              </li>
+              <li>
+                <strong>MITx on edX</strong></strong> - [Introduction to Computer Science and Programming
+                Using Python]
+              </li>
+              <li><strong>General Assembly</strong></strong> - [Front End Web Development]</li>
+            </ul>
+          </span>
+        </span>
+      </div>
+      <div class="div-1">
+        <span class="showhim">
+          <h3>Programming Frameworks, Languages, & Libraries</h3>
+          <span class="showme" id="list">
+            <ul class="brain">
+              <li>HTML5/CSS</li>
+              <li>MSSQL/MySQL</li>
+              <li>Python</li>
+              <li>R</li>
+              <li>Javascript</li>
+              <li>JQuery</li>
+              <li>React</li>
+              <li>BootStrap</li>
+            </ul>
+          </span>
+        </span>
+      </div>
+    </div>
+    <!--end of wrapper-->
+  </body>
+</html>
