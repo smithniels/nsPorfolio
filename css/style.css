@@ -279,10 +279,7 @@ button:focus {
   #list {
       display: flex;
  }
-  div.top_bits{
-      flex-direction: row;
-      color:blue;
- }
+
   header ul {
       display: block;
  }
@@ -296,5 +293,11 @@ button:focus {
       padding-left: 5px;
       margin-left: 5px;
       margin-right: 5px;
+ }
+
+ .top_bits{
+   padding-left: -160px;
+   display:flex; */
+   /* justify-content: ; */
  }
 }
