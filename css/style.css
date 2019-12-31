@@ -268,6 +268,8 @@ button:focus {
   padding-right: 8px;
   padding-left: 3px;
 }
+
+
 /*For Responsive*/
 /* change flex-direction from row to column!*/
 @media screen and (max-width: 800px) {
