@@ -71,7 +71,7 @@ h2 {
 }
 
 h3 {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   color: var(--myGrey);
 }
 
@@ -220,9 +220,11 @@ button:focus {
 }
 
 .div-0 {
-  font-size: 25px;
+  font-size: 50px;
   width: 60%;
   display: flex;
+  border-bottom:var(--myGrey) 2px solid;
+  /* padding-bottom: 150p x; */
 }
 
 .div-0 > p {
@@ -257,7 +259,7 @@ button:focus {
 }
 .Here {
   font-weight: 800;
-  border-bottom: var(--myPink) 2px dotted;
+  border-bottom: var(--myGrey) 2px dotted;
 }
 .firstcharacter {
   color: var(--myGrey);
@@ -275,6 +277,8 @@ button:focus {
 @media screen and (max-width: 800px) {
   .div-0 {
       width: 100%;
+      border-bottom: var(--myGrey) 2px solid;
+      font-size:30px;
  }
   #list {
       display: flex;
