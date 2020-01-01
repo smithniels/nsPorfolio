@@ -272,7 +272,10 @@ button:focus {
   padding-left: 3px;
 }
 
-
+.owl-carousel .owl-item{
+  height:1100px;
+  width:100%;
+}
 /*For Responsive*/
 /* change flex-direction from row to column!*/
 @media screen and (max-width: 800px) {

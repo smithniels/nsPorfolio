@@ -1,7 +1,5 @@
 
 $(document).ready(function() {
-  //HEADROOM
-  $("#header").headroom();
 
   //OWL
   $(".owl-carousel").owlCarousel({
@@ -12,11 +10,11 @@ $(document).ready(function() {
     dots: false,
     autoplay: true,
     autoplayHoverPause: true,
+    autoplaySpeed: 7000,
+    // autoHeight: true,
     slideSpeed: 3000,
     paginationSpeed: 9000,
-    autoplaySpeed: 7000,
-    stagePadding: 70,
-    height: 1000,
+    // stagePadding: 70,
     responsive: {
       0: {
         items: 1
