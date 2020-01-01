@@ -11,7 +11,7 @@ $(document).ready(function() {
     autoplay: true,
     autoplayHoverPause: true,
     autoplaySpeed: 7000,
-    // autoHeight: true,
+    autoHeight: true,
     slideSpeed: 3000,
     paginationSpeed: 9000,
     // stagePadding: 70,
