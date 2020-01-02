@@ -159,11 +159,11 @@ a:visited {
   display: block;
   list-style-type: none;
   transition: height 500ms;
-  opacity: 1;
+  opacity:1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 0.25s;
+  animation-duration: 0.55s;
 }
 
 .brain {
@@ -176,13 +176,15 @@ a:visited {
   flex-direction: column;
   flex-wrap: wrap;
   padding-left: 4%;
-  padding-right: 4%;
+  /* padding-right: 4%; */
   overflow: hidden;
   align-content: flex-start;
 }
 
 .index {
   flex-direction: column;
+  margin-bottom:40px;
+  border-bottom:var(--myPink) 2px solid;
 }
 
 .image {
@@ -223,17 +225,32 @@ button:focus {
 }
 
 .div-0 {
-  font-size: 50px;
-  width: 60%;
+  font-size: 45px;
+  
+  /* display:flex; */
+  /* flex-direction:row; */
+  width: 45%;
   display: flex;
   border-bottom:var(--myGrey) 2px solid;
   /* padding-bottom: 150p x; */
 }
 
+div-1{
+  display:flex;
+  width:25%;
+}
+
+div-2{
+  display:flex;
+  width:35%;
+  font-size:10px;
+}
+
 .div-0 > p {
  /* The bar under the title(Hi I'm Niels) section */
-  padding-bottom: 20px;
+  /* padding-bottom: 10px; */
 }
+
 .div-1 > p {
   border-bottom: 2px var(--myGrey) solid;
 }
@@ -241,7 +258,19 @@ button:focus {
   border-bottom: 2px var(--myGrey) solid;
 }
 .div-3 > p {
+  border-bottom: 2px var(--myGrey) solid;
  /* the Github/Linkedin/email section */
+}
+
+.spliter{
+  width:15px;
+}
+
+.bold_bits{
+font-weight:900;
+color:red;
+opacity:1;
+border-bottom:red 4px dotted;
 }
 #abc123 {
   color: var(--myGrey);
@@ -271,7 +300,7 @@ button:focus {
   line-height: 40px;
   padding-left: 3px;
 }
-
+/* This bit will make all of your Owl Carousel images the same size */
 .owl-carousel .item{
   height:750px;
   width:100%;
