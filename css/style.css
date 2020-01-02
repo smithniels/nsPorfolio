@@ -1,7 +1,8 @@
 :root {
   --myGrey: #eae9e7;
   /* --myPink: #ff8c69; /*light pink */
-  --myPink:  #0892d0;/*electric blue-ish/
+  --myPink:  #10069F /* Pantone Blue */
+  /* --myPink:  #0892d0;/*electric blue-ish/ */
   /* --myPink: black; */
 }
 
@@ -53,7 +54,7 @@ header a {
 
 header a:hover {
   font-weight: 700;
-  border-bottom: var(--myPink) 4px dotted;
+  border-bottom: var(--myPink) 4px ridge;
 }
 
 li.nav-uo {
