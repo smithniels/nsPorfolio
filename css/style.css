@@ -1,7 +1,8 @@
 :root {
   --myGrey: #eae9e7;
-  /* --myPink: #ff8c69; */
-  --myPink: black;
+  /* --myPink: #ff8c69; /*light pink */
+  --myPink:  #0892d0;/*electric blue-ish/
+  /* --myPink: black; */
 }
 
 html {
@@ -19,7 +20,7 @@ html {
 }
 
 body {
-  font-style: "Open Sans", Quicksand, Lato, sans-serif;
+  font-family: "Open Sans", Quicksand, Lato, sans-serif;
   color: var(--myGrey);
   text-decoration: none;
 }
@@ -52,7 +53,7 @@ header a {
 
 header a:hover {
   font-weight: 700;
-  border-bottom: var(--myPink) 2px dotted;
+  border-bottom: var(--myPink) 4px dotted;
 }
 
 li.nav-uo {
@@ -155,7 +156,7 @@ a:visited {
   list-style-type: none;
 }
 
-.showhim:hover .showme {
+.showhim .showme {
   display: block;
   list-style-type: none;
   transition: height 500ms;
@@ -258,7 +259,7 @@ div-2{
   border-bottom: 2px var(--myGrey) solid;
 }
 .div-3 > p {
-  border-bottom: 2px var(--myGrey) solid;
+  /* border-bottom: 2px var(--myGrey) solid; */
  /* the Github/Linkedin/email section */
 }
 
@@ -268,13 +269,14 @@ div-2{
 
 .bold_bits{
 font-weight:900;
-color:red;
+/* color:red; */
 opacity:1;
-border-bottom:red 4px dotted;
+/* border-bottom:red 4px dotted; */
 }
 #abc123 {
   color: var(--myGrey);
   font-size: 23px;
+  opacity:.85;
   padding: 5px;
 }
 #abc123:hover {
