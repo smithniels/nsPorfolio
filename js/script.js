@@ -14,7 +14,7 @@ $(document).ready(function() {
     autoHeight: true,
     slideSpeed: 3000,
     paginationSpeed: 9000,
-    // stagePadding: 70,
+    stagePadding: 70,
     responsive: {
       0: {
         items: 1

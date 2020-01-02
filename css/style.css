@@ -359,5 +359,11 @@ opacity:1;
  .firstcharacter {
    font-size: 45px;
   }
+ 
+  /* This bit will make all of your Owl Carousel images the same size */
+.owl-carousel .item{
+  width:200px;
+  /* height:100%; */
   
+}
 }
