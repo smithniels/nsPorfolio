@@ -365,15 +365,22 @@ div-2 {
   padding-bottom:50px;
 }
 .image_site{
-  height:400px;
+  height:450px;
 }
 .paragraph{
-  padding: 100px 100px;
+  margin: 100px 100px;
+  padding: 20px 20px;
+  font-size :23px;
+  border-radius:  15px;
+  border: var(--myGrey) 2px dotted;
 }
-
-paragraph{
-  font-size :30px !important;
-
+.site_title{
+  font-size:28px;
+  font-weight:bold;
+  /* border:2px var(--myGrey) dotted; */
+  margin-right:7px;
+  padding: 2px 5px;
+  color:black;
 }
 /*RESPONSIVE*/
 /*RESPONSIVE*/
