@@ -1,8 +1,13 @@
 :root {
 	--myGrey: #eae9e7;
-	/* --myPink: #ff8c69; /*light pink */
-	--myPink: #10069F/* Pantone Blue */
-	/* --myPink:  #0892d0;/*electric blue-ish/ */
+  /*light pink */
+  /* --myPink: #ff8c69; 
+  /*Pantone Blue */
+  /* --myPink: #10069F    
+  /*ANOTHER pink*/
+  --myPink: #FC5185
+  /*electric blue-ish/ */
+  /* --myPink:  #0892d0;
 	/* --myPink: black; */
 }
 
@@ -48,17 +53,17 @@ header li {
 header a {
 	font-weight: normal;
   /* font-size: 1.2em; */
-  font-size:2em;
+  font-size:1.5em;
 	padding-right: 10px;
 	padding-left: 10px;
 	margin-left: 10px;
   margin-right: 10px;
-  transition: border-width .5s linear;
+  transition: border-width .3s linear;
 }
 
 header a:hover {
   font-weight: 700;
-  border-width: 1 px;
+  border-width: thick;
 	border-bottom: var(--myPink) 3px dotted;
 }
 
@@ -290,7 +295,8 @@ div-2 {
 }
 
 #abc123:hover {
-	font-weight: 800;
+  font-weight: 800;
+  border-radius:  15px;
 	background-color: var(--myGrey);
 	color: var(--myPink);
 	border: var(--myGrey) 2px dotted;
@@ -319,10 +325,10 @@ div-2 {
 
 
 /*OWL*/
-
+/*OWL*/
+/*OWL*/
 
 /* This bit will make all of your Owl Carousel images the same size */
-
 .owl-carousel .item {
 	height: 700px;
 	width: 100%;
@@ -343,16 +349,14 @@ div-2 {
 	height: 100px;
 	position: absolute;
 	top: 40%;
-	right: -25px;
+	right: -2px;
 	display: block !important;
 	border: 0px solid black;
 }
 
-
-/*For Responsive*/
-
-
-/* change flex-direction from row to column!*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
+/*RESPONSIVE*/
 
 @media screen and (max-width: 800px) {
 	.div-0 {
@@ -371,7 +375,7 @@ div-2 {
 	}
 	header a {
 		font-weight: bold;
-		font-size: .5em;
+		font-size: 1em;
 		padding-right: 5px;
 		padding-left: 5px;
 		margin-left: 5px;
@@ -397,6 +401,6 @@ div-2 {
 	}
 	/* This bit will NOT work... /eternalsadface */
 	.owl-carousel .item {
-		width: 60%;;
+		width: 60%;
 	}
 }
