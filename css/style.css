@@ -120,9 +120,11 @@ a {
 	cursor: pointer;
 }
 
+/* 
 .top_bits a {
-	color: var(--myPink);
-}
+   color: var(--myPink); 
+} 
+*/
 
 a:visited {
 	text-decoration: none;
@@ -282,9 +284,7 @@ div-2 {
 
 .bold_bits {
 	font-weight: 900;
-	/* color:red; */
 	opacity: 1;
-	/* border-bottom:red 4px dotted; */
 }
 
 #abc123 {
@@ -354,6 +354,27 @@ div-2 {
 	border: 0px solid black;
 }
 
+/* sites section */
+/* sites section */
+/* sites section */
+.sites{
+  display:flex;
+  flex-direction:row;
+  /* align-content: center; */
+  align-items: center;
+  padding-bottom:50px;
+}
+.image_site{
+  height:400px;
+}
+.paragraph{
+  padding: 100px 100px;
+}
+
+paragraph{
+  font-size :30px !important;
+
+}
 /*RESPONSIVE*/
 /*RESPONSIVE*/
 /*RESPONSIVE*/
@@ -402,5 +423,13 @@ div-2 {
 	/* This bit will NOT work... /eternalsadface */
 	.owl-carousel .item {
 		width: 60%;
-	}
+  }
+  
+  .image_site{
+    width:80%;
+  }
+  .sites{
+   flex-direction: column; 
+   justify-content:flex-start;
+  }
 }
