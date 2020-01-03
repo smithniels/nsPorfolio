@@ -1,370 +1,402 @@
 :root {
-  --myGrey: #eae9e7;
-  /* --myPink: #ff8c69; /*light pink */
-  --myPink:  #10069F /* Pantone Blue */
-  /* --myPink:  #0892d0;/*electric blue-ish/ */
-  /* --myPink: black; */
+	--myGrey: #eae9e7;
+	/* --myPink: #ff8c69; /*light pink */
+	--myPink: #10069F/* Pantone Blue */
+	/* --myPink:  #0892d0;/*electric blue-ish/ */
+	/* --myPink: black; */
 }
 
 html {
-  box-sizing: border-box;
-  background-color: var(--myPink);
-  background-attachment: fixed;
-  list-style-type: none;
-  font-family: Quicksand, sans-serif;
+	box-sizing: border-box;
+	background-color: var(--myPink);
+	background-attachment: fixed;
+	list-style-type: none;
+	font-family: Quicksand, sans-serif;
 }
 
-*, ::before, ::after {
-  box-sizing: inherit;
-  list-style-type: none;
-  text-decoration: none;
+*,
+ ::before,
+ ::after {
+	box-sizing: inherit;
+	list-style-type: none;
+	text-decoration: none;
 }
 
 body {
-  font-family: "Open Sans", Quicksand, Lato, sans-serif;
-  color: var(--myGrey);
-  text-decoration: none;
+	font-family: "Open Sans", Quicksand, Lato, sans-serif;
+	color: var(--myGrey);
+	text-decoration: none;
 }
 
 header {
-  text-align: center;
-  max-width: 100%;
-  /* One higher than the owl-carousel(100) */
-  z-index:101;
+	text-align: center;
+	max-width: 100%;
+	/* One higher than the owl-carousel(100) */
+	z-index: 101;
 }
 
 header ul {
-  display: block;
-  list-style-type: disc;
-  list-style: none;
+	display: block;
+	list-style-type: disc;
+	list-style: none;
 }
 
 header li {
-  display: inline-block;
+	display: inline-block;
 }
 
 header a {
-  font-weight: normal;
-  font-size: 1.2em;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 10px;
+	font-weight: normal;
+  /* font-size: 1.2em; */
+  font-size:2em;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 10px;
   margin-right: 10px;
+  transition: border-width .5s linear;
 }
 
 header a:hover {
   font-weight: 700;
-  border-bottom: var(--myPink) 4px ridge;
+  border-width: 1 px;
+	border-bottom: var(--myPink) 3px dotted;
 }
 
 li.nav-uo {
-  float: left;
-  list-style: none;
+	float: left;
+	list-style: none;
 }
 
 .nav-up {
-  top: -60px;
+	top: -60px;
 }
 
 .bar {
-  margin-top: 10px;
-  border: none;
+	margin-top: 10px;
+	border: none;
 }
 
 h2 {
-  border-bottom: 2px solid var(--myGrey);
+	border-bottom: 2px solid var(--myGrey);
 }
 
 h3 {
-  /* margin-left: 50px; */
-  color: var(--myGrey);
+	/* margin-left: 50px; */
+	color: var(--myGrey);
 }
 
 h3:hover {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .location {
-  display: flex;
-  padding-bottom: 0;
+	display: flex;
+	padding-bottom: 0;
 }
 
 .top_bits {
-  height: 60px;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--myGrey);
-  font-size: 22px;
-  list-style-type: none;
-  text-decoration: none;
-  padding-inline-start: 40px;
-  line-height: 1em;
+	height: 60px;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--myGrey);
+	font-size: 22px;
+	list-style-type: none;
+	text-decoration: none;
+	padding-inline-start: 40px;
+	line-height: 1em;
 }
 
 a {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .top_bits a {
-  color: var(--myPink);
+	color: var(--myPink);
 }
 
 a:visited {
-  text-decoration: none;
-  color: var(--myPink);
+	text-decoration: none;
+	color: var(--myPink);
 }
 
 .main {
-  margin-top: 300px;
-  margin: auto;
+	margin-top: 300px;
+	margin: auto;
 }
 
 .words {
-  color: #eae9e7;
-  z-index: 0;
-  font-style: Quicksand, Lato, sans-serif;
-  font-size: 40px;
-  line-height: 30px;
-  padding-top: 20px;
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
+	color: #eae9e7;
+	z-index: 0;
+	font-style: Quicksand, Lato, sans-serif;
+	font-size: 40px;
+	line-height: 30px;
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
 }
 
 .words2 {
-  color: var(--myGrey);
-  font-style: Quicksand, Lato, sans-serif;
-  margin-left: 55px;
+	color: var(--myGrey);
+	font-style: Quicksand, Lato, sans-serif;
+	margin-left: 55px;
 }
 
 .showme {
-  display: none;
-  list-style-type: none;
-  transition: height 500ms;
-  font-style: Quicksand, Lato, sans-serif;
-  font-size: 22px;
-  line-height: 30px;
-  margin-left: 25px;
-  border-bottom: var(--myGrey) 2px solid;
+	display: none;
+	list-style-type: none;
+	transition: height 500ms;
+	font-style: Quicksand, Lato, sans-serif;
+	font-size: 22px;
+	line-height: 30px;
+	margin-left: 25px;
+	border-bottom: var(--myGrey) 2px solid;
 }
 
 #list {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 .showhim .showme {
-  display: block;
-  list-style-type: none;
-  transition: height 500ms;
-  opacity:1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.55s;
+	display: block;
+	list-style-type: none;
+	transition: height 500ms;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.55s;
 }
 
 .brain {
-  color: var(--myGrey);
+	color: var(--myGrey);
 }
 
 .wrapper {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-left: 4%;
-  /* padding-right: 4%; */
-  overflow: hidden;
-  align-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-left: 4%;
+	/* padding-right: 4%; */
+	overflow: hidden;
+	align-content: flex-start;
 }
 
 .index {
-  flex-direction: column;
-  margin-bottom:40px;
-  border-bottom:var(--myPink) 2px solid;
+	flex-direction: column;
+	margin-bottom: 40px;
+	border-bottom: var(--myPink) 2px solid;
 }
 
 .image {
-  max-width: 100%;
-  margin-bottom: 20px;
+	max-width: 100%;
+	margin-bottom: 20px;
 }
 
 .small {
-  font-size: 10px;
-  line-height: 0;
+	font-size: 10px;
+	line-height: 0;
 }
 
 .slider {
-  width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-   /* padding-left: 20%;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	/* padding-left: 20%;
   this puts padding inside of the slider ruining everything... */
-  position: relative;
+	position: relative;
 }
 
 .slider {
-  height: 100%;
-  margin: 0 auto;
+	height: 100%;
+	margin: 0 auto;
 }
 
 button:focus {
-  outline: 0;
+	outline: 0;
 }
 
 .slide {
-  border: black 4px solid;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #fff;
+	border: black 4px solid;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
 }
 
 .div-0 {
-  font-size: 45px;
-  
-  /* display:flex; */
-  /* flex-direction:row; */
-  width: 45%;
-  display: flex;
-  border-bottom:var(--myGrey) 2px solid;
-  /* padding-bottom: 150p x; */
+	font-size: 45px;
+	/* display:flex; */
+	/* flex-direction:row; */
+	width: 45%;
+	display: flex;
+	border-bottom: var(--myGrey) 2px solid;
+	/* padding-bottom: 150p x; */
 }
 
-div-1{
-  display:flex;
-  width:25%;
+div-1 {
+	display: flex;
+	width: 25%;
 }
 
-div-2{
-  display:flex;
-  width:35%;
-  font-size:10px;
+div-2 {
+	display: flex;
+	width: 35%;
+	font-size: 10px;
 }
 
-.div-0 > p {
- /* The bar under the title(Hi I'm Niels) section */
-  /* padding-bottom: 10px; */
+.div-0>p {
+	/* The bar under the title(Hi I'm Niels) section */
+	/* padding-bottom: 10px; */
 }
 
-.div-1 > p {
-  border-bottom: 2px var(--myGrey) solid;
-}
-.div-2 > p {
-  border-bottom: 2px var(--myGrey) solid;
-}
-.div-3 > p {
-  /* border-bottom: 2px var(--myGrey) solid; */
- /* the Github/Linkedin/email section */
+.div-1>p {
+	border-bottom: 2px var(--myGrey) solid;
+	padding-left: 0;
 }
 
-.spliter{
-  width:15px;
+.div-2>p {
+	border-bottom: 2px var(--myGrey) solid;
 }
 
-.bold_bits{
-font-weight:900;
-/* color:red; */
-opacity:1;
-/* border-bottom:red 4px dotted; */
+.div-3>p {
+	/* border-bottom: 2px var(--myGrey) solid; */
+	/* the Github/Linkedin/email section */
 }
+
+.spliter {
+	width: 15px;
+}
+
+.bold_bits {
+	font-weight: 900;
+	/* color:red; */
+	opacity: 1;
+	/* border-bottom:red 4px dotted; */
+}
+
 #abc123 {
-  color: var(--myGrey);
-  font-size: 23px;
-  opacity:.85;
-  padding: 5px;
+	color: var(--myGrey);
+	font-size: 23px;
+	opacity: .85;
+	padding: 5px;
 }
+
 #abc123:hover {
-  font-weight: 800;
-  background-color: lightgrey;
-  color: var(--myPink);
-  border: var(--myGrey) 2px dotted;
+	font-weight: 800;
+	background-color: var(--myGrey);
+	color: var(--myPink);
+	border: var(--myGrey) 2px dotted;
 }
+
 .sql {
-  width: 35%;
-  display: flex;
-  padding-right: 2%;
-  flex-direction: column;
+	width: 35%;
+	display: flex;
+	padding-right: 2%;
+	flex-direction: column;
 }
+
 .Here {
-  font-weight: 800;
-  border-bottom: var(--myGrey) 2px dotted;
+	font-weight: 800;
+	border-bottom: var(--myGrey) 2px dotted;
 }
+
 .firstcharacter {
-  color: var(--myGrey);
-  float: left;
-  font-size: 75px;
-  line-height: 40px;
-  padding-left: 3px;
+	/* color: var(--myGrey); */
+	color: white;
+	float: left;
+	font-size: 75px;
+	line-height: 40px;
+	padding-left: 3px;
 }
+
+
+/*OWL*/
+
+
 /* This bit will make all of your Owl Carousel images the same size */
-.owl-carousel .item{
-  height:750px;
-  width:100%;
+
+.owl-carousel .item {
+	height: 700px;
+	width: 100%;
 }
 
+.owl-prev {
+	width: 15px;
+	height: 100px;
+	position: absolute;
+	top: 40%;
+	margin-left: -20px;
+	display: block !important;
+	border: 0px solid black;
+}
 
+.owl-next {
+	width: 15px;
+	height: 100px;
+	position: absolute;
+	top: 40%;
+	right: -25px;
+	display: block !important;
+	border: 0px solid black;
+}
 
 
 /*For Responsive*/
+
+
 /* change flex-direction from row to column!*/
+
 @media screen and (max-width: 800px) {
-  .div-0 {
-      width: 100%;
-      border-bottom: var(--myGrey) 2px solid;
-      font-size:30px;
- }
-  #list {
-      display: flex;
- }
-
-  header ul {
-      display: block;
- }
-  header li {
-      display: inline-block;
- }
-  header a {
-      font-weight: bold;
-      font-size: 1em;
-      padding-right: 5px;
-      padding-left: 5px;
-      margin-left: 5px;
-      margin-right: 5px;
- }
-
- .navTop{
-   /* padding-left: -160px; */
-   display:flex; 
-   /* justify-content: ; */
- } 
-
- h3.makeBiggerWSmallSreen{
-   font-size:30px;
- }
-
- h2{
-   font-size:30px;
- }
-
- /* trying to make the image/graphs smaller */
- img{
-   width:50%;
- }
- .firstcharacter {
-   font-size: 45px;
-  }
- 
-  /* This bit will make all of your Owl Carousel images the same size */
-.owl-carousel .item{
-  width:200px;
-  /* height:100%; */
-  
-}
+	.div-0 {
+		width: 100%;
+		border-bottom: var(--myGrey) 2px solid;
+		font-size: 30px;
+	}
+	#list {
+		display: flex;
+	}
+	header ul {
+		display: block;
+	}
+	header li {
+		display: inline-block;
+	}
+	header a {
+		font-weight: bold;
+		font-size: .5em;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.navTop {
+		/* padding-left: -160px; */
+		display: flex;
+		/* justify-content: ; */
+	}
+	h3.makeBiggerWSmallSreen {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	/* trying to make the image/graphs smaller */
+	img {
+		width: 50%;
+	}
+	.firstcharacter {
+		font-size: 45px;
+	}
+	/* This bit will NOT work... /eternalsadface */
+	.owl-carousel .item {
+		width: 60%;;
+	}
 }
