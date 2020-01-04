@@ -5,9 +5,9 @@
   /*Pantone Blue */
   /* --myPink: #10069F    
   /*ANOTHER pink*/
-  /* --myPink: #FC5185 */
+  --myPink: #FC5185
   /*electric blue-ish/ */
-   --myPink:  #0892d0;
+   /* --myPink:  #0892d0; */
   /* --myPink: black; */
   /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
@@ -354,11 +354,10 @@ div-2 {
 .sites{
   display:flex;
   flex-direction:row;
-  /* align-content: center; */
   align-items: center;
   padding-bottom:50px;
 }
-.image_site{
+.image-site{
   height:450px;
 }
 .paragraph{
@@ -368,7 +367,7 @@ div-2 {
   border-radius:  15px;
   border: var(--myGrey) 2px solid;
 }
-.title_site{
+.title-site{
   font-size:29px;
   font-weight:bold;
   margin-right:7px;
@@ -426,18 +425,19 @@ div-2 {
 		width: 60%;
   }
   
-  .image_site{
+  .image-site{
     width:80%;
   }
   .sites{
    flex-direction: column; 
    justify-content:flex-start;
+   
   }
 
-  .order:nth-of-type(1) {order: 6;}
+  .order:nth-of-type(1) {order: 2;}
   .order:nth-of-type(2) {order: 1;}
   .order:nth-of-type(3) {order: 3;}
   .order:nth-of-type(4) {order: 4;}
-  .order:nth-of-type(5) {order: 5;}
-  .order:nth-of-type(6) {order: 6;}
+  .order:nth-of-type(5) {order: 6;}
+  .order:nth-of-type(6) {order: 5;}
 }
