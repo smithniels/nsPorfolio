@@ -86,6 +86,11 @@ h2 {
 	border-bottom: 2px solid var(--myGrey);
 }
 
+.line h2{
+  border-bottom: 2px solid var(--myGrey);
+  width:100px;
+}
+
 h3 {
 	color: var(--myGrey);
 }
@@ -434,6 +439,7 @@ div-2 {
    
   }
 
+  /* Probably need to break the objects out of the .sites classname sections and just have a list of individual objects to order */
   .sitesSection .sites .order:nth-of-type(1) {order: 2;}
   .sitesSection .sites .order:nth-of-type(2) {order: 1;}
   .sitesSection .sites .order:nth-of-type(3) {order: 3;}
