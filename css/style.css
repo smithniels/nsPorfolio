@@ -5,10 +5,10 @@
   /*Pantone Blue */
   /* --myPink: #10069F    
   /*ANOTHER pink*/
-  --myPink: #FC5185
+  /* --myPink: #FC5185 */
   /*electric blue-ish/ */
    /* --myPink:  #0892d0; */
-  /* --myPink: black; */
+  --myPink: black;
   /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 
@@ -355,7 +355,7 @@ div-2 {
   display:flex;
   flex-direction:row;
   align-items: center;
-  padding-bottom:50px;
+  padding-bottom:25px;
 }
 .image-site{
   height:450px;
