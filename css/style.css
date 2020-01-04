@@ -7,8 +7,8 @@
   /*ANOTHER pink*/
   /* --myPink: #FC5185 */
   /*electric blue-ish/ */
-   /* --myPink:  #0892d0; */
-  --myPink: black;
+   --myPink:  #0892d0;
+  /* --myPink: black; */
   /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 
@@ -415,7 +415,7 @@ div-2 {
 	}
 	/* trying to make the image/graphs smaller */
 	img {
-		height: 50%;
+		width: 50%;
 	}
 	.firstcharacter {
 		font-size: 45px;
@@ -434,10 +434,15 @@ div-2 {
    
   }
 
-  .order:nth-of-type(1) {order: 2;}
-  .order:nth-of-type(2) {order: 1;}
-  .order:nth-of-type(3) {order: 3;}
-  .order:nth-of-type(4) {order: 4;}
-  .order:nth-of-type(5) {order: 6;}
-  .order:nth-of-type(6) {order: 5;}
+  .sitesSection .sites .order:nth-of-type(1) {order: 2;}
+  .sitesSection .sites .order:nth-of-type(2) {order: 1;}
+  .sitesSection .sites .order:nth-of-type(3) {order: 3;}
+  .sitesSection .sites .order:nth-of-type(4) {order: 4;}
+  .sitesSection .sites .order:nth-of-type(5) {order: 6;}
+  .sitesSection .sites .order:nth-of-type(6) {order: 5;}
+
+  .words{
+    display:flex;
+    width:50%;
+  }
 }
