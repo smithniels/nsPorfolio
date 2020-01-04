@@ -305,7 +305,7 @@ div-2 {
 
 .Here {
 	font-weight: 800;
-	border-bottom: var(--myGrey) 2px dotted;
+	border-bottom: var(--myPink) 2px solid;
 }
 
 .firstcharacter {
@@ -414,8 +414,8 @@ div-2 {
 		font-size: 30px;
 	}
 	/* trying to make the image/graphs smaller */
-	img {
-		width: 50%;
+	.img-site {
+		width: 70%;
 	}
 	.firstcharacter {
 		font-size: 45px;
@@ -425,9 +425,9 @@ div-2 {
 		width: 60%;
   }
   
-  .image-site{
+  /* .image-site{
     width:80%;
-  }
+  } */
   .sites{
    flex-direction: column; 
    justify-content:flex-start;
