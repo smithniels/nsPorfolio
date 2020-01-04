@@ -5,10 +5,11 @@
   /*Pantone Blue */
   /* --myPink: #10069F    
   /*ANOTHER pink*/
-  --myPink: #FC5185
+  /* --myPink: #FC5185 */
   /*electric blue-ish/ */
-  /* --myPink:  #0892d0;
-	/* --myPink: black; */
+   --myPink:  #0892d0;
+  /* --myPink: black; */
+  /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 
 html {
@@ -60,11 +61,11 @@ header a {
   margin-right: 10px;
   transition: border-width .3s linear;
 }
-
+  
 header a:hover {
   font-weight: 700;
   border-width: thick;
-	border-bottom: var(--myPink) 3px dotted;
+	border-bottom: var(--myPink) 2px solid;
 }
 
 li.nav-uo {
@@ -86,7 +87,6 @@ h2 {
 }
 
 h3 {
-	/* margin-left: 50px; */
 	color: var(--myGrey);
 }
 
@@ -119,12 +119,6 @@ h3:hover {
 a {
 	cursor: pointer;
 }
-
-/* 
-.top_bits a {
-   color: var(--myPink); 
-} 
-*/
 
 a:visited {
 	text-decoration: none;
@@ -299,7 +293,7 @@ div-2 {
   border-radius:  15px;
 	background-color: var(--myGrey);
 	color: var(--myPink);
-	border: var(--myGrey) 2px dotted;
+	border: var(--myGrey) 2px solid;
 }
 
 .sql {
@@ -375,12 +369,11 @@ div-2 {
   border: var(--myGrey) 2px solid;
 }
 .title_site{
-  font-size:28px;
+  font-size:29px;
   font-weight:bold;
-  /* border:2px var(--myGrey) dotted; */
   margin-right:7px;
   padding: 2px 5px;
-  color:black;
+  color:var(--myGrey);
   border-right:var(--myGrey) 2px solid
 }
 /*RESPONSIVE*/
@@ -413,9 +406,7 @@ div-2 {
 		margin-right: 5px;
 	}
 	.navTop {
-		/* padding-left: -160px; */
 		display: flex;
-		/* justify-content: ; */
 	}
 	h3.makeBiggerWSmallSreen {
 		font-size: 30px;
@@ -425,7 +416,7 @@ div-2 {
 	}
 	/* trying to make the image/graphs smaller */
 	img {
-		width: 50%;
+		height: 50%;
 	}
 	.firstcharacter {
 		font-size: 45px;
@@ -442,4 +433,11 @@ div-2 {
    flex-direction: column; 
    justify-content:flex-start;
   }
+
+  .order:nth-of-type(1) {order: 6;}
+  .order:nth-of-type(2) {order: 1;}
+  .order:nth-of-type(3) {order: 3;}
+  .order:nth-of-type(4) {order: 4;}
+  .order:nth-of-type(5) {order: 5;}
+  .order:nth-of-type(6) {order: 6;}
 }
