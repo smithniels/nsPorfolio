@@ -99,11 +99,9 @@ h3:hover {
 	font-weight: 700;
 }
 
-/* The whole words header thingie Section/Niels/DC BASED/job title */
 .location {
 	display: flex;
 	padding-bottom: 0;
-	/* border-right: var(--myGrey) 2px solid; */
 }
 
 .top_bits {
@@ -143,12 +141,10 @@ a:visited {
 	font-style: Quicksand, Lato, sans-serif;
 	font-size: 40px;
 	line-height: 30px;
-	margin-top: 20px;
+	padding-top: 20px;
 	display: flex;
 	align-items: center;
 	margin-left: 50px;
-	border-left: var(--myGrey) 2px solid;
-	padding-left:4px;
 }
 
 .words2 {
@@ -183,24 +179,24 @@ a:visited {
 	animation-duration: 0.55s;
 }
 
+/* list (not title) of programming experience */
 .brain {
 	color: var(--myGrey);
 }
 
 .wrapper {
 	display: flex;
-	justify-content: flex-start;
+	/* justify-content: flex-start; */
 	flex-direction: column;
 	flex-wrap: wrap;
 	padding-left: 4%;
-	/* padding-right: 4%; */
 	overflow: hidden;
 	align-content: flex-start;
 }
 
 .index {
 	flex-direction: column;
-	margin-bottom: 40px;
+	margin-bottom: 4px;
 	border-bottom: var(--myPink) 2px solid;
 }
 
@@ -310,6 +306,8 @@ div-2 {
 	display: flex;
 	padding-right: 2%;
 	flex-direction: column;
+	padding-left:4%;
+	border-bottom: var(--myGrey) 2px solid;
 }
 
 .Here {
@@ -325,7 +323,9 @@ div-2 {
 	line-height: 40px;
 	padding-left: 3px;
 }
-
+.wide{
+	width:100%;
+}
 
 /*OWL*/
 /*OWL*/
@@ -337,6 +337,10 @@ div-2 {
 	width: 100%;
 }
 
+.owl-carousel{
+	margin: 0 auto;
+	padding-left:10%;
+}
 .owl-prev {
 	width: 15px;
 	height: 100px;
@@ -355,6 +359,11 @@ div-2 {
 	right: -2px;
 	display: block !important;
 	border: 0px solid black;
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    background-color: var(--myPink);
+    color:var(--myPink);
 }
 
 /* sites section */
