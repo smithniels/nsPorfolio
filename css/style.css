@@ -5,9 +5,9 @@
   /*Pantone Blue */
   /* --myPink: #10069F    
   /*ANOTHER pink*/
-  /* --myPink: #FC5185 */
+  --myPink: #FC5185
   /*electric blue-ish/ */
-   --myPink:  #0892d0;
+   /* --myPink:  #0892d0; */
   /* --myPink: black; */
   /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
@@ -295,7 +295,7 @@ div-2 {
 
 #abc123:hover {
   font-weight: 800;
-  border-radius:  15px;
+  /* border-radius:  15px; */
 	background-color: var(--myGrey);
 	color: var(--myPink);
 	border: var(--myGrey) 2px solid;
@@ -382,7 +382,7 @@ div-2 {
   margin: 100px 100px;
   padding: 20px 20px;
   font-size :23px;
-  border-radius:  15px;
+  /* border-radius:  15px; */
   border: var(--myGrey) 2px solid;
 }
 .title-site{
