@@ -1,114 +1,108 @@
 :root {
 	--myGrey: #eae9e7;
-  /*light pink */
-  /* --myPink: #ff8c69; 
-  /*Pantone Blue */
-  /* --myPink: #10069F    
-  /*ANOTHER pink*/
-  /* --myPink: #FC5185 */
-  /*electric blue-ish/ */
-   /* --myPink:  #0892d0; */
-  --myPink: black;
-  /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
+   /*light pink */
+   /* --myPink: #ff8c69;
+   /*Pantone Blue */
+   /* --myPink: #10069F 
+   /*ANOTHER pink*/
+   /* --myPink: #FC5185 */
+   /*electric blue-ish/ */
+   --myPink: #0892d0;
+	/* --myPink: black; */
+   /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
-
 html {
 	box-sizing: border-box;
 	background-color: var(--myPink);
 	background-attachment: fixed;
 	list-style-type: none;
 	font-family: Quicksand, sans-serif;
+	/* min-width:600px;	 */
 }
-
-*,
- ::before,
- ::after {
+*, ::before, ::after {
 	box-sizing: inherit;
 	list-style-type: none;
 	text-decoration: none;
 }
-
 body {
 	font-family: "Open Sans", Quicksand, Lato, sans-serif;
 	color: var(--myGrey);
 	text-decoration: none;
 }
-
 header {
 	text-align: center;
 	max-width: 100%;
-	/* One higher than the owl-carousel(100) */
+   /* One higher than the owl-carousel(100) */
 	z-index: 101;
 }
-
 header ul {
 	display: block;
 	list-style-type: disc;
 	list-style: none;
 }
-
 header li {
 	display: inline-block;
 }
-
 header a {
 	font-weight: normal;
-  /* font-size: 1.2em; */
-  font-size:1.5em;
+   /* font-size: 1.2em;
+	*/
+	font-size:1.5em;
 	padding-right: 10px;
 	padding-left: 10px;
 	margin-left: 10px;
-  margin-right: 10px;
-  transition: border-width .3s linear;
+	margin-right: 10px;
+	transition: border-width .3s linear;
 }
-  
 header a:hover {
-  font-weight: 700;
-  border-width: thick;
+	font-weight: 700;
+	border-width: thick;
 	border-bottom: var(--myPink) 2px solid;
 }
-
 li.nav-uo {
 	float: left;
 	list-style: none;
 }
-
 .nav-up {
 	top: -60px;
 }
-
 .bar {
 	margin-top: 10px;
 	border: none;
 }
 
-
-
+h1{
+	padding-right: 6px;
+}
 h2 {
 	border-bottom: 2px solid var(--myGrey);
 }
-
 .line h2{
-  border-bottom: 2px solid var(--myGrey);
-  width:100px;
+	border-bottom: 2px solid var(--myGrey);
+	width:100px;
 }
-
 h3 {
 	color: var(--myGrey);
+	/* border-top: var(--myGrey) 2px solid; */
 }
-
+h3.div-2{
+	border-top: 2px pink solid;
+}
 h3:hover {
 	font-weight: 700;
 }
 
+h6{
+	padding-left:6px;}
+
 .location {
 	display: flex;
 	padding-bottom: 0;
-	border-left:var(--myGrey) 2px solid; 
+	border-left:var(--myGrey) 2px solid;
 	margin-right: 3px;
-	/* padding-right: 20px; */
+   /* padding-right: 20px;
+	*/
 }
-
 .top_bits {
 	height: 60px;
 	top: 0;
@@ -125,40 +119,35 @@ h3:hover {
 	padding-inline-start: 40px;
 	line-height: 1em;
 }
-
 a {
 	cursor: pointer;
 }
-
 a:visited {
 	text-decoration: none;
 	color: var(--myPink);
 }
-
 .main {
 	margin-top: 300px;
 	margin: auto;
 }
-
 .words {
 	color: #eae9e7;
 	z-index: 0;
 	font-style: Quicksand, Lato, sans-serif;
 	font-size: 40px;
 	line-height: 30px;
-	/* padding-top: 20px; */
+   /* padding-top: 20px;
+	*/
 	display: flex;
 	align-items: center;
 	margin-left: 50px;
 }
-
 .words2 {
 	color: var(--myGrey);
 	font-style: Quicksand, Lato, sans-serif;
 	margin-left: 55px;
 }
-
-/* .showme {
+.showme {
 	display: none;
 	list-style-type: none;
 	transition: height 500ms;
@@ -167,73 +156,64 @@ a:visited {
 	line-height: 30px;
 	margin-left: 25px;
 	border-bottom: var(--myGrey) 2px solid;
-} */
-
+}
 #list {
 	list-style-type: none;
+	/* font-size:50px; */
 }
-
 .showhim .showme {
 	display: block;
 	list-style-type: none;
-	transition: height 500ms;
 	opacity: 1;
-	animation-name: fadeInOpacity;
+	/* animation-name: fadeInOpacity;
+	transition: height 500ms;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 0.55s;
+	animation-duration: 0.55s; */
 }
-
 /* list (not title) of programming experience */
 .brain {
 	color: var(--myGrey);
 }
-
 .wrapper {
 	display: flex;
-	/* justify-content: flex-start; */
+   /* justify-content: flex-start;
+	*/
 	flex-direction: column;
 	flex-wrap: wrap;
 	padding-left: 4%;
 	overflow: hidden;
 	align-content: flex-start;
 }
-
 .index {
 	flex-direction: column;
 	margin-bottom: 4px;
 	border-bottom: var(--myPink) 2px solid;
 }
-
 .image {
 	max-width: 100%;
 	margin-bottom: 20px;
 }
-
 .small {
 	font-size: 10px;
 	line-height: 0;
 }
-
 .slider {
 	width: 1000px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	/* padding-left: 20%;
-  this puts padding inside of the slider ruining everything... */
+   /* padding-left: 20%;
+	this puts padding inside of the slider ruining everything... */
 	position: relative;
 }
-
 .slider {
 	height: 100%;
 	margin: 0 auto;
 }
-
 button:focus {
 	outline: 0;
 }
-
 .slide {
 	border: black 4px solid;
 	width: 100%;
@@ -241,91 +221,84 @@ button:focus {
 	text-align: center;
 	color: #fff;
 }
-
 .div-0 {
 	font-size: 45px;
-	/* display:flex; */
-	/* flex-direction:row; */
+   /* display:flex;
+	*/
+   /* flex-direction:row;
+	*/
 	width: 45%;
 	display: flex;
 	border-bottom: var(--myGrey) 2px solid;
-	/* padding-bottom: 150p x; */
+   /* padding-bottom: 150p x;
+	*/
 }
-
 div-1 {
 	display: flex;
 	width: 25%;
 }
-
 div-2 {
 	display: flex;
 	width: 35%;
 	font-size: 10px;
 }
-
 .div-0>p {
-	/* The bar under the title(Hi I'm Niels) section */
-	/* padding-bottom: 10px; */
+   /* The bar under the title(Hi I'm Niels) section */
+   /* padding-bottom: 10px;
+	*/
 }
-
 .div-1>p {
 	border-bottom: 2px var(--myGrey) solid;
 	padding-left: 0;
 }
-
 .div-2>p {
 	border-bottom: 2px var(--myGrey) solid;
 }
-
 .div-3>p {
-	/* border-bottom: 2px var(--myGrey) solid; */
-	/* the Github/Linkedin/email section */
+   /* border-bottom: 2px var(--myGrey) solid;
+	*/
+   /* the Github/Linkedin/email section */
 }
-
 .spliter {
 	width: 15px;
 }
-
 .bold_bits {
 	font-weight: 900;
 	opacity: 1;
 }
-
 #abc123 {
 	color: var(--myGrey);
 	font-size: 23px;
 	opacity: .85;
 	padding: 5px;
 }
-
 #abc123:hover {
-  font-weight: 800;
-  /* border-radius:  15px; */
+	font-weight: 800;
+   /* border-radius: 15px;
+	*/
 	background-color: var(--myGrey);
 	color: var(--myPink);
 	border: var(--myGrey) 2px solid;
 }
-
 .sql {
 	width: 35%;
 	display: flex;
 	padding-right: 2%;
 	flex-direction: column;
 	padding-left:4%;
-	border-bottom: var(--myGrey) 2px solid;
+	/* border-bottom: var(--myGrey) 2px solid; */
 }
-
 .Here {
 	font-weight: 800;
 	border-bottom: var(--myPink) 2px solid;
 }
-
 .firstcharacter {
-	/* color: var(--myGrey); */
+   /* color: var(--myGrey);
+	*/
 	color: white;
 	float: left;
-	font-size: 75px;
-	line-height: 40px;
+	font-size: 78px;
+	line-height: 24px;
 	padding-left: 3px;
 }
 .wide{
@@ -334,13 +307,11 @@ div-2 {
 /*OWL*/
 /*OWL*/
 /*OWL*/
-
 /* This bit will make all of your Owl Carousel images the same size */
 .owl-carousel .item {
 	height: 700px;
 	width: 100%;
 }
-
 .owl-carousel{
 	margin: 0 auto;
 	padding-left: 5%;
@@ -354,7 +325,6 @@ div-2 {
 	display: block !important;
 	border: 0px solid black;
 }
-
 .owl-next {
 	width: 15px;
 	height: 100px;
@@ -374,7 +344,6 @@ div-2 {
 .owl-controls .owl-nav .owl-prev, .owl-controls .owl-nav .owl-next {
 	border: 1px solid #fff !important;
 }
-
 /* sites section */
 /* sites section */
 /* sites section */
@@ -385,13 +354,15 @@ div-2 {
 	padding-bottom:25px;
 }
 .image-site{
-	height:450px;
+width: 60vw; 
+height: 450px;
 }
 .paragraph{
 	margin: 100px 100px;
 	padding: 20px 20px;
 	font-size :23px;
-	/* border-radius:  15px; */
+   /* border-radius: 15px;
+	*/
 	border: var(--myGrey) 2px solid;
 }
 .title-site{
@@ -400,7 +371,7 @@ div-2 {
 	margin-right:7px;
 	padding: 2px 5px;
 	color:var(--myGrey);
-	border-right:var(--myGrey) 2px solid
+	border-right:var(--myGrey) 2px solid 
 }
 .linkTxt{
 	color: var(--myGrey) !important;
@@ -409,24 +380,22 @@ div-2 {
 /*RESPONSIVE*/
 /*RESPONSIVE*/
 /*RESPONSIVE*/
-
 /*Things I forget: start small go big*/
-
 @media screen and (max-width: 800px) {
 	.div-0 {
 		width: 100%;
 		border-bottom: var(--myGrey) 2px solid;
 		font-size: 30px;
-	}
+   }
 	#list {
 		display: flex;
-	}
+   }
 	header ul {
 		display: block;
-	}
+   }
 	header li {
 		display: inline-block;
-	}
+   }
 	header a {
 		font-weight: bold;
 		font-size: 1em;
@@ -434,47 +403,75 @@ div-2 {
 		padding-left: 5px;
 		margin-left: 5px;
 		margin-right: 5px;
-	}
+   }
 	.navTop {
 		display: flex;
-	}
+   }
 	h3.makeBiggerWSmallSreen {
 		font-size: 30px;
-	}
+   }
 	h2 {
 		font-size: 30px;
-	}
-	/* trying to make the image/graphs smaller */
+   }
+   /* trying to make the image/graphs smaller */
 	.img-site {
-		width: 70%;
-	}
+		width: 60vw; 
+   }
 	.firstcharacter {
 		font-size: 45px;
-	}
-	/* This bit will NOT work... /eternalsadface */
+   }
+   /* This bit will NOT work... /eternalsadface */
 	.owl-carousel .item {
-		width: 60%;
-  }
-  
-  /* .image-site{
-    width:80%;
-  } */
-  .sites{
-   flex-direction: column; 
-   justify-content:flex-start;
+		max-width: 90%;
+		min-width:40%;
+	/* height: auto; */
+	/*width: auto;  for ie9 */
+   }
+   .image-site{
+	width: 65vw; 
+	height: 270px;
+	/* padding-top:100px; */
+	}
+	
+	.sites{
+		flex-direction: column;
+		justify-content:flex-start;
+   }
+   /* Probably need to break the objects out of the .sites classname sections and just have a list of individual objects to order */
+	.sitesSection .sites .order:nth-of-type(1) {
+	   order: 2;
+   }
+	.sitesSection .sites .order:nth-of-type(2) {
+	   order: 1;
+   }
+	.sitesSection .sites .order:nth-of-type(3) {
+	   order: 4;
+   }
+	.sitesSection .sites .order:nth-of-type(4) {
+	   order: 3;
+   }
+	.sitesSection .sites .order:nth-of-type(5) {
+	   order: 6;
+   }
+	.sitesSection .sites .order:nth-of-type(6) {
+	   order: 5;
+   }
+	.words{
+		display:flex;
+		width:50%;
+   }
+   .owl-carousel.owl-loaded {
+	display: inline-block;
+}
+.img-wrap {
+	background-size: cover;
+    background-position: bottom;
+	height: 100%;
+    width: 70vw;
+
+    img {
+        visibility: hidden;
+    }
+}
    
-  }
-
-  /* Probably need to break the objects out of the .sites classname sections and just have a list of individual objects to order */
-  .sitesSection .sites .order:nth-of-type(1) {order: 2;}
-  .sitesSection .sites .order:nth-of-type(2) {order: 1;}
-  .sitesSection .sites .order:nth-of-type(3) {order: 4;}
-  .sitesSection .sites .order:nth-of-type(4) {order: 3;}
-  .sitesSection .sites .order:nth-of-type(5) {order: 6;}
-  .sitesSection .sites .order:nth-of-type(6) {order: 5;}
-
-  .words{
-    display:flex;
-    width:50%;
-  }
 }
