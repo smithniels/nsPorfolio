@@ -11,12 +11,11 @@ $(document).ready(function() {
       '<svg width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'
       // VIEWBOX^ IS POSITION WITHIN THE BOX
     ],
-    pagination: false,
+    pagination: false, 
     dots: false,
     autoplay: true,
     autoplayHoverPause: true,
     autoplaySpeed: 7000,
-    // autoHeight: true,
     slideSpeed: 3000,
     paginationSpeed: 9000,
     stagePadding: 70,
@@ -49,6 +48,7 @@ var delta = 5;
 var navbarHeight = $("header").outerHeight();
 $(window).scroll(function(event) {
   didScroll = true;
+  console.log('does this even appear?')
 });
 
 setInterval(function() {
