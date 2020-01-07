@@ -428,15 +428,22 @@ height: 450px;
 	/*width: auto;  for ie9 */
    }
    .image-site{
-	width: 65vw; 
-	height: 100%;
+	/* width: ; 
+	height: 40vw; */
 	/* padding-top:100px; */
+	}
+	
+	.owl-next, .owl-prev{
+		display:none !important;
+		width:100px;
 	}
 	
 	.sites{
 		flex-direction: column;
 		justify-content:flex-start;
    }
+
+   
    /* Probably need to break the objects out of the .sites classname sections and just have a list of individual objects to order */
 	.sitesSection .sites .order:nth-of-type(1) {
 	   order: 2;
