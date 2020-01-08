@@ -171,11 +171,6 @@ a:visited {
   display: block;
   list-style-type: none;
   opacity: 1;
-  /* animation-name: fadeInOpacity;
-	transition: height 500ms;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 0.55s; */
 }
 /* list (not title) of programming experience */
 .brain {
@@ -183,12 +178,10 @@ a:visited {
 }
 .wrapper {
   display: flex;
-  /* justify-content: flex-start;
-	*/
   flex-direction: column;
   flex-wrap: wrap;
   padding-left: 4%;
-  overflow: hidden;
+  /* overflow: hidden; */
   align-content: flex-start;
 }
 .index {
@@ -229,15 +222,9 @@ button:focus {
 }
 .div-0 {
   font-size: 45px;
-  /* display:flex;
-	*/
-  /* flex-direction:row;
-	*/
   width: 45%;
   display: flex;
   border-bottom: var(--myGrey) 2px solid;
-  /* padding-bottom: 150p x;
-	*/
 }
 div-1 {
   display: flex;
@@ -250,8 +237,6 @@ div-2 {
 }
 .div-0 > p {
   /* The bar under the title(Hi I'm Niels) section */
-  /* padding-bottom: 10px;
-	*/
 }
 .div-1 > p {
   border-bottom: 2px var(--myGrey) solid;
@@ -280,8 +265,6 @@ div-2 {
 }
 #abc123:hover {
   font-weight: 800;
-  /* border-radius: 15px;
-	*/
   background-color: var(--myGrey);
   color: var(--myPink);
   border: var(--myGrey) 2px solid;
@@ -292,15 +275,12 @@ div-2 {
   padding-right: 2%;
   flex-direction: column;
   padding-left: 4%;
-  /* border-bottom: var(--myGrey) 2px solid; */
 }
 .Here {
   font-weight: 800;
   border-bottom: var(--myPink) 2px solid;
 }
 .firstcharacter {
-  /* color: var(--myGrey);
-	*/
   color: white;
   float: left;
   font-size: 78px;
@@ -310,6 +290,7 @@ div-2 {
 .wide {
   width: 100%;
 }
+
 /*OWL*/
 /*OWL*/
 /*OWL*/
@@ -340,17 +321,7 @@ div-2 {
   display: block !important;
   border: 0px solid black;
 }
-/* Two things that don't work how they're supposed to: */
-/* 1 */
-.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
-  background-color: var(--myPink);
-  color: var(--myPink);
-}
-/* 2 */
-.owl-controls .owl-nav .owl-prev,
-.owl-controls .owl-nav .owl-next {
-  border: 1px solid #fff !important;
-}
+
 /* sites section */
 /* sites section */
 /* sites section */
@@ -365,12 +336,12 @@ div-2 {
   height: 450px;
 }
 .paragraph {
-  margin: 100px 100px;
+  margin: 30px 30px;
+  width: 400px;
   padding: 20px 20px;
   font-size: 23px;
-  /* border-radius: 15px;
-	*/
-  border: var(--myGrey) 2px solid;
+  /* border-left: var(--myGrey) 2px solid; */
+  border-right: var(--myGrey) 2px solid;
 }
 .title-site {
   font-size: 29px;
@@ -383,6 +354,14 @@ div-2 {
 .linkTxt {
   color: var(--myGrey) !important;
   border-bottom: 2px var(--myGrey) solid;
+}
+/* These two don't work how I want them to.. */
+#left {
+  display: flex;
+  justify-content: flex-start;
+}
+#right {
+  justify-content: flex-end;
 }
 /*RESPONSIVE*/
 /*RESPONSIVE*/
@@ -429,10 +408,10 @@ div-2 {
   }
   /* This bit will NOT work... /eternalsadface */
   .owl-carousel .item {
-    max-width: 90%;
-    min-width: 40%;
     /* height: auto; */
     /*width: auto;  for ie9 */
+    max-width: 90%;
+    min-width: 40%;
   }
   .image-site {
     /* width: ;
@@ -451,25 +430,6 @@ div-2 {
     justify-content: flex-start;
   }
 
-  /* Probably need to break the objects out of the .sites classname sections and just have a list of individual objects to order */
-  .sitesSection .sites .order:nth-of-type(1) {
-    order: 2;
-  }
-  .sitesSection .sites .order:nth-of-type(2) {
-    order: 1;
-  }
-  .sitesSection .sites .order:nth-of-type(3) {
-    order: 4;
-  }
-  .sitesSection .sites .order:nth-of-type(4) {
-    order: 3;
-  }
-  .sitesSection .sites .order:nth-of-type(5) {
-    order: 6;
-  }
-  .sitesSection .sites .order:nth-of-type(6) {
-    order: 5;
-  }
   .words {
     display: flex;
     width: 50%;

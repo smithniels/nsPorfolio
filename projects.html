@@ -1,141 +1,180 @@
 <!--
 
    TODO: Fix those images(recreate in Tableau starting with the correct dimensions)
- 
+
    TODO: https://www.jqueryscript.net/slider/Responsive-jQuery-Content-slider-with-HTML5-Liquid%20Slider.html
 
 -->
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Niels Smith: Work</title>
     <!-- normalize css keep at top-->
     <link rel="stylesheet" href="css/normalize.css" />
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Quicksand&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Quicksand&display=swap"
+      rel="stylesheet"
+    />
     <!-- OWL Assets -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.css" />
     <!-- animage css -->
     <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <!-- css link -->
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-</head>
-<header class="top_bits header headroom ">
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      media="screen"
+      type="text/css"
+    />
+  </head>
+  <header class="top_bits header headroom ">
     <ul>
-        <li><a class="active-link" href="index.html">Home</a></li>
-        <li><a class="active-link Here" href="projects.html">Work</a></li>
-        <li><a class="active-link" href="about.html">Contact</a></li>
+      <li><a class="active-link" href="index.html">Home</a></li>
+      <li><a class="active-link Here" href="projects.html">Work</a></li>
+      <li><a class="active-link" href="about.html">Contact</a></li>
     </ul>
-</header>
+  </header>
 
-<body>
+  <body>
     <span>
-         <span class="showhim"></span>
-    <span class="words">
-            <h1>Work</h1>
-            <span class="location">
-               <h6>
-                  Niels Smith <br />
-                  DC based<br />
-                  Data Analyst / Web Developer
-               </h6>
-            </span>
+      <span class="showhim"></span>
+      <span class="words">
+        <h1>Work</h1>
+        <span class="location">
+          <h6>
+            Niels Smith <br />
+            DC based<br />
+            Data Analyst / Web Developer
+          </h6>
+        </span>
+      </span>
     </span>
-    </span>
-    <div class="wrapper index">
-        <div class="">
-            <h2>Sites</h2>
-            <!-- <div class="sitesSection"> sitesSection isn't actually doing anything... -->
 
-                <div class="sites" style="flex-direction:column;">
-                    <!-- position 1 -->
-                    <!-- order 2 -->
-                    <div class="image-site order">
-                        <img   class="image-site" src="images/sites/nsBlog.PNG" alt="photo of my sort-of blog" />
-                    </div>
+    <div class="">
+      <div class="sql wide">
+        <h2>Sites</h2>
 
-                    <!-- position 2-->
-                    <!-- order 1 -->
-                    <div class="desc-site order">
-                        <p class="paragraph"><span class="title-site">Flask Blog</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At eius quos impedit ipsa dolores totam tenetur! Illum aliquid incidunt ipsam odit sint consequatur aspernatur, vero vel iure maxime rem quam?
-                            <br><a href="https://github.com/smithniels/attempt_Flask" target="_blank" class="linkTxt">Github</a></p>
-                    </div>
-                <!-- </div> -->
-
-                <!-- <div class="sites"> -->
-                    <!-- position 3-->
-                    <!-- order 3 -->
-                    <div class="desc-site order">
-                        <p class="paragraph"><span class="title-site order">Measure4Change</span>Website made with HTML with some HTML/CSS/JS for a project at Bread for the City in conjunction with the Urban Institute. <br>
-                        <a href="https://pages.git.generalassemb.ly/DCFEWD44/smithNielsFinal/"target="_blank" class="linkTxt">Link</a>
-                        </p>
-                    </div>
-                    <!-- position 4-->
-                    <!-- order 4 -->
-                    <div class="image-site order">
-                        <img class="image-site" src="images/sites/m4cSite.PNG" alt="photo of my measure for change project" />
-                    </div>
-                <!-- </div> -->
-
-                <!-- <div class="sites"> -->
-                    <!-- position 5-->
-                    <!-- order 6 -->
-                    <div class="image-site order">
-                        <img class="image-site" src="images/sites/nsPortfolio.PNG" alt="screenshot of this site" />
-                     </div>
-
-                    <!-- position 6-->
-                    <!-- order 5 -->
-                    <div class="desc-site order">
-                        <p class="paragraph"><span class="title-site">Portfolio</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi blanditiis at fuga, quod recusandae rem debitis. Cumque necessitatibus dolor quibusdam magni. Deserunt, delectus nam! Velit culpa dolore labore suscipit dignissimos. <br>
-                            <a href="https://github.com/smithniels/nsPortfolio"target="_blank" class="linkTxt">Github</a></p>
-                    </div>
-                </div>
-
+        <div class="sites" style="flex-direction:column;">
+          <div class="" style="flex-direction:row">
+            <div class="desc-site order">
+              <p class="paragraph">
+                <span class="title-site">Flask Blog</span>Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit. At eius quos impedit ipsa
+                dolores totam tenetur! Illum aliquid incidunt ipsam odit sint
+                consequatur aspernatur, vero vel iure maxime rem quam? <br /><a
+                  href="https://github.com/smithniels/attempt_Flask"
+                  target="_blank"
+                  class="linkTxt"
+                  >Github</a
+                >
+              </p>
             </div>
+
+            <div class="image-site order">
+              <img
+                class="image-site"
+                src="images/sites/nsBlog.PNG"
+                alt="photo of my sort-of blog"
+                style="width:100%; flex-direction:row;"
+              />
+            </div>
+          </div>
+
+          <div class="desc-site order">
+            <p class="paragraph">
+              <span class="title-site">Measure4Change</span>Lorem, ipsum dolor
+              sit amet consectetur adipisicing elit. At eius quos impedit ipsa
+              dolores totam tenetur! Illum aliquid incidunt ipsam odit sint
+              consequatur aspernatur, vero vel iure maxime rem quam? <br />
+            </p>
+          </div>
+
+          <div class="image-site order">
+            <img
+              class="image-site"
+              src="images/sites/nsBlog.PNG"
+              alt="photo of my sort-of blog"
+              style="width:100%; "
+            />
+          </div>
+          <div class="desc-site order">
+            <p class="paragraph">
+              <span class="title-site">Portfolio</span>Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. At eius quos impedit ipsa
+              dolores totam tenetur! Illum aliquid incidunt ipsam odit aliquid
+              incidunt ipsam odit sint consequatur aspernatur, vero vel iure
+              maxime rem quam?Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. At eius quos impedit ipsa dolores totam tenetur!
+              Illum aliquid incidunt ipsam odit sint consequatur aspernatur,
+              vero vel iure maxime rem quam? <br />
+            </p>
+          </div>
+
+          <div class="image-site order">
+            <img
+              class="image-site"
+              src="images/sites/nsPortfolio.PNG"
+              alt="screenshot of this site"
+              style="width:100%"
+            />
+          </div>
         </div>
-        <!-- 
-               1. Niels Blog
-               2. M4C project
-               3. nsPortfolio
-               4. 
-            -->
+      </div>
     </div>
+    <br />
+
     <div class="sql wide">
-        <h2>Data Visualizations</h2>
-        <div class="slider" id="">
-            <div class="owl-carousel owl-theme">
-                <div><img class="item" src="images/slider/image_1.JPG" /></div>
-                <div><img class=" item" src="images/slider/image_2.JPG" /></div>
-                <!-- <div><img class="item" src="images/slider/image_3.png" /></PNGdiv> -->
-                <div class=""><img class="item" src="images/slider/image_4.JPG" /></div class="item">
-                <div class=""><img class="item" src="images/slider/image_5.png" /></div>
-                <div class=""><img class="item" src="images/slider/image_6.png" /></div>
-                <div class="img-wrap"><img class="item" src="images/slider/image_7.png" /></div>
-                <div class=""><img class="item" src="images/slider/image_8.png" /></div>
-                <div class=""><img class="item" src="images/slider/image_9.png" /></div>
-                <div class=""><img class="item" src="images/slider/image_10.png" /></div>
-                <div class=""><img class="item" src="images/slider/image_11.png" /></div>
-
-            </div>
+      <h2>Data Visualizations</h2>
+      <div class="slider" id="">
+        <div class="owl-carousel owl-theme">
+          <div><img class="item" src="images/slider/image_1.JPG" /></div>
+          <div><img class=" item" src="images/slider/image_2.JPG" /></div>
+          <div class="">
+            <img class="item" src="images/slider/image_4.JPG" />
+          </div>
+          <div class="">
+            <img class="item" src="images/slider/image_5.png" />
+          </div>
+          <div class="">
+            <img class="item" src="images/slider/image_6.png" />
+          </div>
+          <div class="">
+            <img class="item" src="images/slider/image_7.png" />
+          </div>
+          <div class="">
+            <img class="item" src="images/slider/image_8.png" />
+          </div>
+          <div class="">
+            <img class="item" src="images/slider/image_9.png" />
+          </div>
+          <div class="">
+            <img class="item" src="images/slider/image_10.png" />
+          </div>
+          <div class="">
+            <img class="item" src="images/slider/image_11.png" />
+          </div>
         </div>
+      </div>
     </div>
-<div class="sql wide">
-    <h2>Coding Projects</h2>
-    <div class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime minus aspernatur commodi molestias cupiditate corrupti praesentium et omnis, explicabo vero eaque debitis voluptate autem iusto ipsum nulla. Rem, est.</div>
-</div>
-<!-- IG Hashtag Webscrapper  "how many p's in webscrapper?-->
-<!-- Politcal Python Sorts -->
 
+    <div class="sql wide">
+      <h2>Coding Projects</h2>
+      <div class="paragraph">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime
+        minus aspernatur commodi molestias cupiditate corrupti praesentium et
+        omnis, explicabo vero eaque debitis voluptate autem iusto ipsum nulla.
+        Rem, est.
+      </div>
 
-
+      <!-- IG Hashtag Webscrapper  "how many p's in webscrapper?-->
+      <!-- Politcal Python Sorts -->
     </div>
-    </div>
+
     <!-- JQuery+JS+Slick -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- headroom -->
@@ -143,11 +182,10 @@
     <!-- <script src="js/headroom.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.10.2/headroom.min.js"></script>
     <!-- highlight.js -->
-    <script charset="UTF-8" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/languages/go.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/languages/go.min.js"></script>
     <!-- OWL -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <!-- js script! -->
-    <script type="text/javascript" src="js/script.js"></script>
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>
