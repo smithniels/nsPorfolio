@@ -446,7 +446,8 @@ div-2 {
 	.div-0 {
 		width: 100%;
 		border-bottom: var(--myGrey) 2px solid;
-		font-size: 30px;
+    font-size: 20px;
+    min-width:300px;
   }
   
 	#list {
@@ -454,11 +455,16 @@ div-2 {
   }
   
 	header ul {
-		display: block;
-  }
+    display: block;
+    list-style-type: disc;
+    list-style: none;
+}
+  
   
 	header li {
-		display: inline-block;
+    display: inline-block;
+    
+    
   }
   
 	header a {
