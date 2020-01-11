@@ -223,16 +223,13 @@ a:visited {
 
 .slider {
 	width: 1000px;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	/* padding-left: 20%;
 	this puts padding inside of the slider ruining everything... */
 	position: relative;
-}
-
-.slider {
-	height: 100%;
 	margin: 0 auto;
 }
 
@@ -332,6 +329,41 @@ div-2 {
 .wide {
 	width: 100%;
 }
+/* Bottom to Top Clicker*/
+#scroll {
+  right: 10px;
+  bottom: 10px;
+  width: 7%;
+  height: 3em;
+  position: fixed;
+  cursor: pointer;
+  background-color: var(--myPink);
+  border:2px var(--myGrey) solid;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border-radius: 150px
+}
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
+}
+
+#scroll:hover {
+ background-color: #E3E3E3;
+
+ opacity: 1;
+ filter: "alpha(opacity=100)";
+ -ms-filter: "alpha(opacity=100)";
+}
 
 
 /*OWL*/
@@ -414,7 +446,7 @@ div-2 {
 	border-right: var(--myGrey) 2px solid;
 }
 
-.linkTxt {
+.link-text {
 	color: var(--myGrey) !important;
 	border-bottom: 2px var(--myGrey) solid;
 }
@@ -426,7 +458,7 @@ div-2 {
   padding-top:20px;
 }
 
-.rev{
+.site-ways-rev{
   display:flex;
   flex-direction: row-reverse;
   padding-top:50px;
@@ -435,14 +467,6 @@ div-2 {
 
 /* These two don't work how I want them to.. */
 
-#left {
-	display: flex;
-	justify-content: flex-start;
-}
-
-#right {
-	justify-content: flex-end;
-}
 
 
 /*RESPONSIVE*/
@@ -551,6 +575,18 @@ div-2 {
 		height: 100%;
     width: 70vw;
 	}
+  .site-ways{
+    display:flex;
+    flex-direction:column;
+    /* border: white 3px dotted; */
+    padding-top:8px; /* (20*20)/50 */
+  }
   
+  .site-ways-rev{
+    display:flex;
+    flex-direction: column;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
 
 }
