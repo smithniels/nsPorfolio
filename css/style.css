@@ -569,12 +569,7 @@ div-2 {
 		display: inline-block;
   }
   
-	.img-wrap {
-		background-size: cover;
-		background-position: bottom;
-		height: 100%;
-    width: 70vw;
-	}
+
   .site-ways{
     display:flex;
     flex-direction:column;
@@ -589,4 +584,11 @@ div-2 {
     padding-bottom:20px;
   }
 
+  .slider{
+    width:100%;
+  }
+
+  /* .item{
+    height:50%;
+  } */
 }

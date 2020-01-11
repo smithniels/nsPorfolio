@@ -16,16 +16,18 @@ $(document).ready(function() {
     lazyLoad: true,
     autoplay: true,
     autoplayHoverPause: true,
-    autoplaySpeed: 7000,
+    autoplaySpeed: 2000,
     slideSpeed: 3000,
     paginationSpeed: 9000,
     stagePadding: 70,
     responsiveClass:true,
     responsive: {
       0: {
+        stagePadding: 0,
         items: 1
       },
       600: {
+        stagePadding: 20,
         items: 1
       },
       1000: {
