@@ -130,7 +130,8 @@ h6 {
 	list-style-type: none;
 	text-decoration: none;
 	padding-inline-start: 40px;
-	line-height: 1em;
+  line-height: 1em;
+  opacity:.95;
 }
 
 a {
@@ -385,7 +386,7 @@ div-2 {
 
 .sites {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
 	padding-bottom: 25px;
 }
@@ -418,6 +419,19 @@ div-2 {
 	border-bottom: 2px var(--myGrey) solid;
 }
 
+.site-ways{
+  display:flex;
+  flex-direction:row;
+  /* border: white 3px dotted; */
+  padding-top:20px;
+}
+
+.rev{
+  display:flex;
+  flex-direction: row-reverse;
+  padding-top:50px;
+  padding-bottom:50px;
+}
 
 /* These two don't work how I want them to.. */
 
