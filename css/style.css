@@ -328,7 +328,7 @@ div-2 {
 
 .wide {
 	width: 100%;
-	border:red 10px dotted;
+	/* border:red 1px dotted; */
 	min-width:600px;
 }
 /* Bottom to Top Clicker*/
