@@ -492,17 +492,7 @@ div-2 {
 		display: flex;
   }
   
-	/* header ul {
-    display: block;
-    list-style-type: disc;
-    list-style: none;
-} */
-  
-  
-	header ul {
-	
-  }
-  
+
 	header a {
 		font-weight: bold;
 		font-size: .7em;
