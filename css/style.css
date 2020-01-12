@@ -328,6 +328,7 @@ div-2 {
 
 .wide {
 	width: 100%;
+	border:red 3px dotted;
 }
 /* Bottom to Top Clicker*/
 #scroll {
