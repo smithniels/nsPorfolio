@@ -9,6 +9,7 @@ $.each( $('*'), function() {
   } 
   // else{console.log("no extra widths!")}
 });
+
   //OWL
   $(".owl-carousel").owlCarousel({
     loop: true,
@@ -91,7 +92,7 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-// scrolly bits = bottom to top
+// scrolly bits => bottom to top
 $(window).scroll(function(){
   console.log('is this thing on?')
   if ($(this).scrollTop() > 100) {
