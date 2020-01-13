@@ -514,7 +514,7 @@ div-2 {
   
 	/* trying to make the image/graphs smaller */
 	.img-site {
-		width: 60vw;
+		/* width: 60vw; VF isn't the right name for that*/
   }
   
 	.firstcharacter {
