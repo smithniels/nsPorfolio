@@ -201,8 +201,10 @@ a:visited {
 
 .index {
 	flex-direction: column;
+	display:block;
 	margin-bottom: 4px;
 	border-bottom: var(--myPink) 2px solid;
+	padding-top:50px;
 }
 
 .image {
