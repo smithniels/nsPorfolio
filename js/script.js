@@ -32,11 +32,11 @@ $.each( $('*'), function() {
     responsiveClass:true,
     responsive: {
       0: {
-        stagePadding: 0,
+        // stagePadding: 0,
         items: 1
       },
       600: {
-        stagePadding: 20,
+        stagePadding: 0,
         items: 1
       },
       1000: {
