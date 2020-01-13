@@ -576,6 +576,13 @@ div-2 {
   }
 
   .paragraph{
-	  width:600px;
+	  width:60%
   }
+  /* .paragraph {
+	margin: 30px 30px;
+	width: 400px;
+	padding: 20px 20px;
+	font-size: 23px;
+	border-right: var(--myGrey) 2px solid;
+} */
 }
