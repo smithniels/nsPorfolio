@@ -2,13 +2,14 @@
 $(document).ready(function() {
 
 // What's wide?
-$.each( $('*'), function() { 
-  console.log("is something too wide?")
-  if( $(this).width() > $('body').width()) {
-      console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
-  } 
+// commented out for now. This code works though
+// $.each( $('*'), function() { 
+//   console.log("is something too wide?")
+//   if( $(this).width() > $('body').width()) {
+//       console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
+//   } 
   // else{console.log("no extra widths!")}
-});
+// });
 
   //OWL
   $(".owl-carousel").owlCarousel({
@@ -109,6 +110,19 @@ $('#scroll').click(function(){
   return false;
 });
 
-//
+//singular js code
+$('.js-singular').singular({
+  section: '.mod-singular-section',
+  nav: '.js-singular-nav',
+  prev: '.js-singular-prev',
+  next: '.js-singular-next',
+  navActiveClass: 'js-singular-active',
+  scrollSpeed: 1000,
+  mousewheel: true,
+  easing: 'easeInOutQuart',
+  scrollEnd: function(elem) {
+    console.log('scrollEnd');
+  }
+});
 
 });

@@ -514,11 +514,6 @@ div-2 {
 		font-size: 30px;
   }
   
-	/* trying to make the image/graphs smaller */
-	.img-site {
-		/* width: 60vw; VF isn't the right name for that*/
-  }
-  
 	.firstcharacter {
 		font-size: 45px;
   }
@@ -528,6 +523,7 @@ div-2 {
   }
   
 	.image-site {
+	height:200px;
   }
   
 	.owl-next,
