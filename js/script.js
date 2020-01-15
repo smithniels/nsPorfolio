@@ -50,6 +50,7 @@ $(document).ready(function() {
     margin:10,
     // autoHeight:true
 });
+
 // BROKEN SCROLL THING
 // scrolly header bits
 // Credit to Marius Craciunoiu
