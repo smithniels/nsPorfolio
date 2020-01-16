@@ -161,31 +161,14 @@ a:visited {
   margin-left: 55px;
 }
 
-.showme {
-  display: none;
+#list {
+  display: block;
   list-style-type: none;
   transition: height 500ms;
   font-style: Quicksand, Lato, sans-serif;
   font-size: 22px;
   line-height: 30px;
   margin-left: 25px;
-  /* border-bottom: var(--myGrey) 2px solid; */
-}
-
-#list {
-  list-style-type: none;
-  /* font-size:50px; */
-}
-
-.showhim .showme {
-  display: block;
-  list-style-type: none;
-  opacity: 1;
-}
-
-/* list (not title) of programming experience */
-
-.brain {
   color: var(--myGrey);
 }
 
@@ -244,13 +227,9 @@ button:focus {
   font-size: 45px;
   width: 45%;
   display: flex;
-  border-bottom: var(--myGrey) 2px solid;
+  /* border-bottom: var(--myGrey) 2px solid;   */
 }
 
-div-1 {
-  display: flex;
-  width: 25%;
-}
 
 div-2 {
   display: flex;
@@ -262,7 +241,7 @@ div-2 {
   /* The bar under the title(Hi I'm Niels) section */
 }
 
-.div-1 > p {
+.box-small > p {
   border-bottom: 2px var(--myGrey) solid;
   padding-left: 0;
 }
@@ -313,7 +292,7 @@ div-2 {
   border-bottom: var(--myPink) 2px solid;
 }
 
-.firstcharacter {
+.character-first {
   color: white;
   /* float: left; */
   font-size: 98px;
@@ -457,7 +436,27 @@ div-2 {
   padding-bottom: 50px;
 }
 
+.box-big{
+  border-right: var(--myGrey) 2px dotted;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.box-small {
+  display: flex;
+  width: 300px;
+  flex-wrap:wrap;
+  border: var(--myGrey) 2px solid;
+  width:375px;
+  padding-left: 14px;
+  margin:20px;
+}
 
+.box-small  li {
+  justify-content: center;
+  align-items: center;
+  
+}
 /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
 /* These two don't work how I want them to.. */
 
@@ -497,7 +496,7 @@ div-2 {
     font-size: 30px;
   }
 
-  .firstcharacter {
+  .character-first {
     font-size: 45px;
   }
 
