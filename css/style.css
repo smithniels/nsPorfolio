@@ -220,7 +220,7 @@ button:focus {
   width: 100%;
   height: 100%;
   text-align: center;
-  color: #fff;
+  /* color: ; */
 }
 
 .div-0 {
@@ -293,7 +293,7 @@ div-2 {
 }
 
 .character-first {
-  color: white;
+  color:var(--myGrey);
   /* float: left; */
   font-size: 98px;
   line-height: 24px;
