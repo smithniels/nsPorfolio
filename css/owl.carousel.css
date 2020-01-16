@@ -6,9 +6,11 @@
 /*
  *  Owl Carousel - Core
  */
-:root {
-  --myGrey: #eae9e7;
-  --myPink: #ff8c69;
+ :root {
+  --myPink: #eae9e7;
+  /* Margaret's Pantone Blue*/
+  --myGrey: #1d4e89;
+  /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 .owl-carousel {
   display: none;

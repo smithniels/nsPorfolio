@@ -1,15 +1,14 @@
 
 $(document).ready(function() {
 
-// What's wide?
-// commented out for now. This code works though
-// $.each( $('*'), function() { 
-//   console.log("is something too wide?")
-//   if( $(this).width() > $('body').width()) {
-//       console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
-//   } 
-  // else{console.log("no extra widths!")}
-// });
+// What's wide???
+$.each( $('*'), function() { 
+  // console.log("is something too wide?")
+  if( $(this).width() > $('body').width()) {
+      console.log("Wide Element: ", $(this), "Width: ", $(this).width()); 
+  } 
+  else{console.log("no extra widths!")}
+});
 
   //OWL
   $(".owl-carousel").owlCarousel({
