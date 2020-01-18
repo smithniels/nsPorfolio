@@ -251,29 +251,21 @@ div-2 {
   border-bottom: 2px var(--myGrey) solid;
 }
 
-.div-3 > p {
-  /* border-bottom: 2px var(--myGrey) solid;
-	*/
-  /* the Github/Linkedin/email section */
-}
-
-.spliter {
-  width: 15px;
-}
-
 .bold_bits {
   font-weight: 900;
   opacity: 1;
 }
 
-#abc123 {
+.contact-link {
   color: var(--myGrey);
   font-size: 23px;
   opacity: 0.85;
   padding: 5px;
 }
-
-#abc123:hover {
+.contact-link:visited{
+  color: var(--myGrey)
+}
+.contact-link:hover {
   font-weight: 800;
   background-color: var(--myGrey);
   color: var(--myPink);
@@ -299,6 +291,7 @@ div-2 {
   font-size: 98px;
   line-height: 24px;
   padding-left: 3px;
+  font-weight:2000;
 }
 
 .wide {
@@ -402,14 +395,15 @@ div-2 {
   width: 400px;
   padding: 20px 10px;
   font-size: 23px;
-  /* border-left: var(--myGrey) 2px solid; */
+  border: var(--myGrey) 2px solid;
   border-right: var(--myGrey) 2px solid;
   line-height:normal;
 }
 .paragraph-intro{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   padding-left:10px;
-  border-radius: 5%;
+  /* border-radius: 5%; */
+  border: var(--myGrey) 2px solid;
 }
 
 .title-site {
