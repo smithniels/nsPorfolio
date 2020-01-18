@@ -346,9 +346,7 @@ div-2 {
 }
 
 /*OWL*/
-
 /*OWL*/
-
 /*OWL*/
 
 /* This bit will make all of your Owl Carousel images the same size */
@@ -404,10 +402,16 @@ div-2 {
 .paragraph {
   margin: 30px 30px;
   width: 400px;
-  padding: 20px 20px;
+  padding: 20px 10px;
   font-size: 23px;
   /* border-left: var(--myGrey) 2px solid; */
   border-right: var(--myGrey) 2px solid;
+  line-height:normal;
+}
+.paragraph-intro{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding-left:10px;
+  border-radius: 5%;
 }
 
 .title-site {
