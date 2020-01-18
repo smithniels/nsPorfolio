@@ -1,5 +1,6 @@
 :root {
   --myPink: #eae9e7;
+  
   /* Margaret's Pantone Blue*/
   --myGrey: #1d4e89;
   /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
@@ -28,11 +29,26 @@ body {
   text-decoration: none;
 }
 
-header {
+
+  header {
+  position: fixed;
+  width: 100%;
+  /* text-transform: uppercase; */
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--myGrey);
+  font-size: 22px;
+  list-style-type: none;
+  text-decoration: none;
+  padding-inline-start: 40px;
+  line-height: 1em;
+  opacity: 0.95;
+  align-items: center;
   text-align: center;
-  max-width: 100%;
   /* One higher than the owl-carousel(100) */
   z-index: 101;
+  height:60px;
+  
 }
 
 header ul {
@@ -110,24 +126,6 @@ h6 {
   margin-right: 3px;
   /* padding-right: 20px;
 	*/
-}
-
-.top_bits {
-  height: 60px;
-  top: 0;
-  position: fixed;
-  width: 100%;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--myGrey);
-  font-size: 22px;
-  list-style-type: none;
-  text-decoration: none;
-  padding-inline-start: 40px;
-  line-height: 1em;
-  opacity: 0.95;
 }
 
 a {

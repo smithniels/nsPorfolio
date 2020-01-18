@@ -86,7 +86,6 @@
   font: inherit;
   width: 100px;
   height: auto;
-  border: var(--myGrey) 2px dotted;
 }
 .owl-carousel.owl-loaded {
   display: block;
