@@ -484,10 +484,15 @@ div-2 {
   font-size:16px;
   font-style: italic;
   padding-left:25px;
-  /* padding: 0; */
 }
 
 .show-text{
+  color:black !important;
+  font-weight:bold;
+}
+
+.list-code{
+  list-style-type:square ;
   color:var(--myGrey);
 }
 /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
