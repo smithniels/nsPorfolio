@@ -148,7 +148,8 @@ a:visited {
 	color: var(--myGrey);
 }
 .wrapper {
-	display: flex;
+  display: flex;
+  /* width:1000px; */
 	flex-direction: column;
 	flex-wrap: wrap;
 	padding-left: 4%;
@@ -338,7 +339,7 @@ div-2 {
 	max-width: 800px;
 	height: 450px;
 }
-.paragraph {
+.paragraph-site {
 	margin: 30px 30px;
 	width: 400px;
 	padding: 20px 10px;
@@ -349,7 +350,7 @@ div-2 {
   color:black;
 }
 .paragraph-intro {
-  color:var(--myGrey)
+  color:var(--myGrey);
 	padding-left: 10px;
 	padding-right: 20px;
 	/* width:70%; */
@@ -362,6 +363,14 @@ div-2 {
 .paragraph-body {
   font-size: 20px;
   color:black;
+}
+.paragraph-code{
+  width:90%;
+  padding-left: 20px;
+  margin-left:20px;
+  list-style-type:circle !important;
+  line-height:1.5em;
+  font-size:22px;
 }
 .title-site {
 	font-size: 29px;
@@ -424,6 +433,9 @@ div-2 {
 .list-code {
 	list-style-type: square !important;
 	color: black;
+}
+ li.paragraph{
+  font-size:30px;
 }
 /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
 
