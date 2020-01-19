@@ -79,6 +79,13 @@ header a:hover {
   border-bottom: var(--myPink) 2px solid;
 }
 
+footer{
+  display:flex;
+  align-items: flex-end;
+  justify-content:center;
+  margin-top:3.3rem;
+}
+
 li.nav-uo {
   float: left;
   list-style: none;
@@ -137,6 +144,9 @@ a:visited {
   color: var(--myPink);
 }
 
+#scroll:visited {
+  color:var(--myGrey);
+}
 .main {
   margin-top: 300px;
   margin: auto;
@@ -166,7 +176,7 @@ a:visited {
   font-style: Quicksand, Lato, sans-serif;
   font-size: 22px;
   line-height: 30px;
-  margin-left: 25px;
+  margin-left: 15px;
   color: var(--myGrey);
 }
 
@@ -226,16 +236,10 @@ button:focus {
 
 .div-0 {
   font-size: 45px;
-  width: 45%;
+  width: 59%;
   display: flex;
-  /* border-bottom: var(--myGrey) 2px solid;   */
-}
-
-
-div-2 {
-  display: flex;
-  width: 35%;
-  font-size: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  ;
 }
 
 .div-0 > p {
@@ -247,6 +251,11 @@ div-2 {
   padding-left: 0;
 }
 
+div-2 {
+  display: flex;
+  width: 35%;
+  font-size: 10px;
+}
 .div-2 > p {
   border-bottom: 2px var(--myGrey) solid;
 }
@@ -400,10 +409,19 @@ div-2 {
   line-height:normal;
 }
 .paragraph-intro{
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
   padding-left:10px;
+  padding-right:20px;
+  /* width:70%; */
+  margin-right:30px;
+  margin-left:5px;
+  font-size:30px;
   /* border-radius: 5%; */
-  border: var(--myGrey) 2px solid;
+  /* border: var(--myGrey) 2px solid; */
+}
+
+.paragraph-body{
+  font-size:20px;
 }
 
 .title-site {
@@ -456,10 +474,21 @@ div-2 {
   
 }
 
-.subItem{
+.item-sub{
   display:flex;
   flex-wrap: flex;
   padding-left:25px;
+}
+
+.location-edu{
+  font-size:16px;
+  font-style: italic;
+  padding-left:25px;
+  /* padding: 0; */
+}
+
+.show-text{
+  color:var(--myGrey);
 }
 /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
 /* These two don't work how I want them to.. */
@@ -561,6 +590,13 @@ div-2 {
 
   .paragraph {
     width: 80%;
+  }
+
+  .title-site{
+    /* border-bottom: var(--myGrey) 2px solid; */
+    border-right:none;
+    margin-bottom: 35px;
+    padding: 5px 10px;
   }
   /* .paragraph {
 	margin: 30px 30px;

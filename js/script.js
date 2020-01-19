@@ -33,7 +33,8 @@ $.each( $('*'), function() {
     responsive: {
       0: {
         // stagePadding: 0,
-        items: 1
+        items: 1,
+        dots: false,
       },
       600: {
         stagePadding: 0,
@@ -111,19 +112,5 @@ $('#scroll').click(function(){
   return false;
 });
 
-//singular js code
-$('.js-singular').singular({
-  section: '.mod-singular-section',
-  nav: '.js-singular-nav',
-  prev: '.js-singular-prev',
-  next: '.js-singular-next',
-  navActiveClass: 'js-singular-active',
-  scrollSpeed: 1000,
-  mousewheel: true,
-  easing: 'easeInOutQuart',
-  scrollEnd: function(elem) {
-    console.log('scrollEnd');
-  }
-});
 
 });
