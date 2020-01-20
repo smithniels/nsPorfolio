@@ -22,7 +22,8 @@ html {
 body {
 	font-family: "Open Sans", Quicksand, Lato, sans-serif;
 	color: var(--myGrey);
-	text-decoration: none;
+  text-decoration: none;
+  line-height:1.5em;
 }
 header {
 	position: fixed;
@@ -143,9 +144,14 @@ a:visited {
 	transition: height 500ms;
 	font-style: Quicksand, Lato, sans-serif;
 	font-size: 22px;
-	line-height: 30px;
+	line-height: 1.5em;
 	margin-left: 15px;
-	color: var(--myGrey);
+  color: var(--myGrey);
+  border: pink dotted 4px;
+  display:flex;
+  flex-direction:row !important;
+}
+.contact-links{
 }
 .wrapper {
   display: flex;
@@ -351,6 +357,8 @@ div-2 {
 }
 .paragraph-intro {
   color:var(--myGrey);
+  display:flex;
+  justify-content: flex-end;
 	padding-left: 10px;
 	padding-right: 20px;
 	/* width:70%; */
