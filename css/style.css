@@ -253,10 +253,11 @@ div-2 {
 }
 .character-first {
 	color: var(--myGrey);
-	font-size: 98px;
-	line-height: 24px;
+	font-size: 112px;
+	line-height: 100px;
 	padding-left: 3px;
-	font-weight: 2000;
+  font-weight: 2000;
+
 }
 .wide {
 	width: 100%;
@@ -360,16 +361,15 @@ div-2 {
   display:flex;
   justify-content: flex-end;
 	padding-left: 10px;
-	/* padding-right: 20px; */
-	/* width:70%; */
-	/* margin-right: 30px; */
 	margin-left: 5px;
-	font-size: 30px;
-	/* border-radius: 5%; */
-	/* border: var(--myGrey) 2px solid; */
+  font-size: 30px;
+
 }
 .paragraph-body {
+  /* display:flex;
+  justify-content:flex-start; */
   font-size: 20px;
+  margin-left:3px;
   color:black;
 }
 .paragraph-code{
