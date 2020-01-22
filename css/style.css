@@ -248,7 +248,7 @@ div-2 {
 	flex-direction: column;
 }
 .Here {
-	font-weight: 800;
+	font-weight: 900;
 	border-bottom: var(--myPink) 2px solid;
 }
 .character-first {
@@ -488,7 +488,8 @@ div-2 {
 		font-size: 30px;
 	}
 	.character-first {
-		font-size: 45px;
+    font-size: 100px;
+    height:100%;
 	}
 	.words {
 		margin-left: 20px;
