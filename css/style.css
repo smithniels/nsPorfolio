@@ -9,7 +9,6 @@ html {
 	background-attachment: fixed;
 	list-style-type: none;
 	font-family: Quicksand, sans-serif;
-	/* min-width:600px;	 */
 }
 *,
 ::before,
@@ -259,10 +258,10 @@ div-2 {
   font-weight: 2000;
 
 }
-.wide {
+/* .wide {
 	width: 100%;
 	min-width: 600px;
-}
+} */
 /* Bottom to Top Clicker*/
 
 #scroll {
@@ -447,7 +446,8 @@ div-2 {
 }
 
 .intro-photo{
-  height:350px;
+  height:450px;
+  /* width:100%; */
   border: 3px var(--myGrey) solid;
   padding: 7px;
 }
@@ -467,7 +467,6 @@ div-2 {
 @media screen and (max-width: 800px) {
 	.div-0 {
 		width: 100%;
-		/* border-bottom: var(--myGrey) 2px solid; */
 		min-width: 300px;
 	}
 	#list {
@@ -515,9 +514,7 @@ div-2 {
 	.site-ways {
 		display: flex;
 		flex-direction: column;
-		/* border: white 3px dotted; */
 		padding-top: 8px;
-		/* (20*20)/50 */
 	}
 	.site-ways-rev {
 		display: flex;
@@ -539,16 +536,8 @@ div-2 {
 		width: 80%;
 	}
 	.title-site {
-		/* border-bottom: var(--myGrey) 2px solid; */
 		border-right: none;
 		margin-bottom: 35px;
 		padding: 5px 10px;
-	}
-	/* .paragraph {
-	margin: 30px 30px;
-	width: 400px;
-	padding: 20px 20px;
-	font-size: 23px;
-	border-right: var(--myGrey) 2px solid;
-} */
+
 }
