@@ -1,7 +1,7 @@
 :root {
-  --myPink: #F2BE8D;
+  --myPink: #F2BE8D; /*background*/
   
-	--myGrey: #BA6C65;
+	--myGrey: #BA6C65; /*Text/Lines*/
 	/* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 html {
@@ -36,7 +36,7 @@ header {
 	text-decoration: none;
 	padding-inline-start: 40px;
 	line-height: 1em;
-	/* opacity: 0.95; */
+	/* opacity: 0.95;  */
 	align-items: center;
 	text-align: center;
 	/* One higher than the owl-carousel(100) */
