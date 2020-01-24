@@ -48,7 +48,7 @@
   width: 10px;
   height: 10px;
   margin: 5px 7px;
-  background: #d6d6d6;
+  background: black; /* controls color of UNSELECTED dots*/
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
@@ -56,5 +56,5 @@
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #869791;
+  background: white; /* controls color of selected dots */
 }
