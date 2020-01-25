@@ -1,7 +1,7 @@
 :root {
-  --myPink: #F2BE8D; /*background*/
+  --myPink: white; /*background*/
   
-	--myGrey: #BA6C65; /*Text/Lines*/
+	--myGrey: black; /*Text/Lines*/
 	/* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 html {
