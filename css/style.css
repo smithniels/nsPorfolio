@@ -465,11 +465,19 @@ div-2 {
 
 /*Things I forget: start small go big*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 	.div-0 {
 		width: 100%;
-		min-width: 300px;
+		min-width: 350px;
+		display: flex;
+		font-size:16px;
+		flex-direction: column;
+		line-height: normal;
+		justify-content:center;
+		/* margin-left: 15px; */
+		margin: auto 15px;
 	}
+
 	#list {
 		display: flex;
 	}
@@ -488,9 +496,27 @@ div-2 {
 		font-size: 30px;
 	}
 	.character-first {
-    font-size: 100px;
-    height:100%;
+		font-size: 16px;
+		line-height: normal
 	}
+	.paragraph-intro{
+		font-size:22px;
+		height:2px;
+		padding:0;
+		font-weight:bold;
+		justify-content:flex-start;
+	}
+	.paragraph-body{
+		height:100%;
+		padding-left:5px;
+		padding-right: 5px;
+		padding-top:none; 	
+	}
+	.intro-photo{
+		border: none;
+		padding: 10px;
+	}
+
 	.words {
 		margin-left: 20px;
 	}
