@@ -1,7 +1,6 @@
 :root {
-  --myPink: white; /*background*/
-  
-	--myGrey: black; /*Text/Lines*/
+	--myPink: #F09819; /*background*/
+	--myGrey: #2B580C; /*Text/Lines*/
 	/* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 html {
@@ -450,7 +449,7 @@ div-2 {
   height:450px;
   /* width:100%; */
   border: 3px var(--myGrey) solid;
-  padding: 7px;
+  padding: 3px;
 }
 
 /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
