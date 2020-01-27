@@ -573,7 +573,11 @@ padding-left: 20px;
 		height: 300px !important;
 	}
 	.paragraph {
-		width: 80%;
+		width: 90%;
+		font-size:16px;
+	}
+	.list-code{
+		width:90%;
 	}
 	.title-site {
 		border-right: none;
