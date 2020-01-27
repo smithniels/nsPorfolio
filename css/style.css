@@ -9,7 +9,7 @@ html {
 	background-attachment: fixed;
 	list-style-type: none;
 	font-family: Quicksand, sans-serif;
-}
+} 
 *,
 ::before,
 ::after {
@@ -261,14 +261,10 @@ div-2 {
 	line-height: 100px;
 	padding-left: 3px;
   font-weight: 2000;
-
 }
-/* .wide {
-	width: 100%;
-	min-width: 600px;
-} */
-/* Bottom to Top Clicker*/
-
+.character-first2{
+	display:none;
+}
 #scroll {
 	right: 10px;
 	bottom: 10px;
@@ -510,7 +506,11 @@ padding-left: 20px;
 	}
 	.character-first {
 		font-size: 22px;
-		line-height: normal
+		line-height: normal;
+		display:none;
+	}
+	.character-first2{
+		display:block;
 	}
 	.paragraph-intro{
 		font-size:22px;
