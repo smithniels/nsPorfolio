@@ -345,7 +345,7 @@ div-2 {
 .image-site {
 	width: 100%;
 	max-width: 800px;
-	height: 300px;
+	/* height: auto; */
 }
 .paragraph-site {
 	margin: 30px 30px;
@@ -474,6 +474,11 @@ padding-left: 20px;
 /*RESPONSIVE*/
 
 /*Things I forget: start small go big*/
+@media screen and (max-width: 700px){
+
+
+
+}
 
 @media screen and (max-width: 600px) {
 	.div-0 {
@@ -538,13 +543,10 @@ padding-left: 20px;
 
 	.words {
 		margin-left: 20px;
-		/* font-size:25px; */
 	}
 	.image-site {
 		height: auto;
 		width:100%;
-
-		/* height: 100%; */
 	}
 	.owl-next,
 	.owl-prev {
