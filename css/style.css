@@ -480,7 +480,7 @@ padding-left: 20px;
 		min-width: 350px;
 		display: flex;
 		font-size:16px;
-		flex-direction: column;
+		flex-direction: row;
 		line-height: normal;
 		justify-content:center;
 		/* margin-left: 15px; */
@@ -514,7 +514,7 @@ padding-left: 20px;
 	}
 	.paragraph-intro{
 		font-size:22px;
-		/* height:2px; */
+		width:100%;
 		padding:0;
 		font-weight:bold;
 	}
@@ -531,6 +531,7 @@ padding-left: 20px;
 
 	.words {
 		margin-left: 20px;
+		/* font-size:25px; */
 	}
 	.image-site {
 		height: 200px;
