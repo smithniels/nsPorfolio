@@ -474,8 +474,18 @@ padding-left: 20px;
 /*RESPONSIVE*/
 
 /*Things I forget: start small go big*/
-@media screen and (max-width: 700px){
-
+@media screen and (max-width: 800px){
+	.site-ways {
+		display: flex;
+		flex-direction: column;
+		padding-top: 8px;
+	}
+	.site-ways-rev {
+		display: flex;
+		flex-direction: column;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 
 
 }
