@@ -165,8 +165,8 @@ a:visited {
 }
 .index {
 	flex-direction: column;
-  display: flex;
-  width:100%;
+  	display: flex;
+  	width:100%;
 	margin-bottom: 4px;
 	border-bottom: var(--myPink) 2px solid;
 	padding-top: 50px;
@@ -548,7 +548,7 @@ padding-left: 20px;
 		padding: 10px;
 		max-width:50%;
 		height:auto;
-
+		max-height: 450px;
 	}
 
 	.words {
@@ -605,5 +605,8 @@ padding-left: 20px;
 		border-right: none;
 		margin-bottom: 35px;
 		padding: 5px 10px;
-
+	}
+	.index{
+		padding-top: 20px;
+	}
 }
