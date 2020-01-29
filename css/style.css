@@ -355,7 +355,9 @@ div-2 {
 	border: var(--myGrey) 2px solid;
 	border-right: var(--myGrey) 2px solid;
   line-height: normal;
-  color:var(--myGrey)
+  color:var(--myGrey);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
 }
 .paragraph-intro {
   color:var(--myGrey);
@@ -390,7 +392,7 @@ padding-left: 20px;
 }
 
 
-.title-site {
+.title {
 	font-size: 29px;
 	font-weight: bold;
 	margin-right: 7px;
@@ -425,11 +427,9 @@ padding-left: 20px;
 	height: 100%;;
 	flex-wrap: wrap;
 	border: var(--myGrey) 2px solid;
-	padding-left: 14px;
-	padding-right:14px;
-	padding-bottom: 20px;
+padding: 20px 10px;
 	margin: 20px;
-	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .box-small li {
 	/* justify-content: center;
@@ -603,7 +603,7 @@ padding-left: 20px;
 	.list-code{
 		width:90%;
 	}
-	.title-site {
+	.title {
 		border-right: none;
 		margin-bottom: 35px;
 		padding: 5px 10px;
