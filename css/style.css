@@ -611,4 +611,16 @@ padding: 20px 10px;
 	.index{
 		padding-top: 20px;
 	}
+.box-small{
+	width:80%;;
+	
+}
+
+.paragraph-code{
+	margin: 3px 1important;
+}
+.paragraph-site{
+	padding: 5px;
+}
+
 }
