@@ -380,7 +380,7 @@ flex-direction: column;
 padding-left: 20px;
 }
 .paragraph-code{
-  width:90%;
+  width:100%;
   padding-left: 20px;
   margin-left:20px;
   list-style-type:circle !important;
@@ -421,18 +421,19 @@ padding-left: 20px;
 }
 .box-small {
 	display: flex;
-	width: 300px;
+	width: 30%;
+	height: 100%;;
 	flex-wrap: wrap;
 	border: var(--myGrey) 2px solid;
-	width: 375px;
 	padding-left: 14px;
 	padding-right:14px;
+	padding-bottom: 20px;
 	margin: 20px;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .box-small li {
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center;
+	align-items: flex-start; */
 }
 .item-sub {
 	display: flex;
