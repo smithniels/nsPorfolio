@@ -501,7 +501,6 @@ padding: 20px 10px;
 		flex-direction: row;
 		line-height: normal;
 		justify-content:center;
-		
 		margin: auto 15px;
 		padding-bottom:10px;
 	}
@@ -611,17 +610,18 @@ padding: 20px 10px;
 	.index{
 		padding-top: 20px;
 	}
-.box-small{
-	width:80%;;
-	
-}
+	.box-small{
+		width:80%;;	
+	}
 
-.paragraph-code{
-	margin: 3px !important;
-	width: 400px;
-}
-.paragraph-site{
-	padding: 5px;
-}
+	.paragraph-code{
+		margin: 3px !important;
+		width: 400px;
+	}
+	.paragraph-site{
+		padding: 5px;
+		margin:5px 5px;
+		
+	}
 
 }
