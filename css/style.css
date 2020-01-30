@@ -548,7 +548,7 @@ padding: 20px 10px;
 	.intro-photo{
 		border: none;
 		padding: 10px;
-		max-width:50%;
+		max-width:65%;
 		height:auto;
 		max-height: 450px;
 	}
@@ -617,7 +617,8 @@ padding: 20px 10px;
 }
 
 .paragraph-code{
-	margin: 3px 1important;
+	margin: 3px !important;
+	width: 400px;
 }
 .paragraph-site{
 	padding: 5px;
