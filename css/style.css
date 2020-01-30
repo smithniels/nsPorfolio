@@ -1,6 +1,7 @@
 :root {
 	--myPink: #394359; /*background*/
-	--myGrey: #D88A83; /*Text/Lines*/
+	/* --myGrey: #D88A83; Text/Lines */
+	--myGrey: white;
 	/* rgba(255, 255, 255, 0.8) TRANSPARENT! */
 }
 html {
@@ -521,6 +522,7 @@ padding: 20px 10px;
 	}
 	h2 {
 		font-size: 30px;
+		margin: 0.150em 0;
 	}
 	.character-first {
 		font-size: 22px;
@@ -605,7 +607,7 @@ padding: 20px 10px;
 	.title {
 		border-right: none;
 		margin-bottom: 35px;
-		padding: 5px 10px;
+		padding: 5px 5px;
 	}
 	.index{
 		padding-top: 20px;
@@ -619,9 +621,13 @@ padding: 20px 10px;
 		width: 400px;
 	}
 	.paragraph-site{
-		padding: 5px;
-		margin:5px 15px;
-		
+		padding: 5px 25px;
+		/* margin:5px 15px; */
+		margin: 5px 0;
+	}
+	.pargraph-site2{
+		margin: 0.150em 0;
 	}
 
 }
+/* padding top, right, bottom, left */
