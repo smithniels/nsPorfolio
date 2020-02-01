@@ -1,4 +1,42 @@
+// Fade In/Out
+function fadeInPage() {
+  if (!window.AnimationEvent) { return; }
+  var fader = document.getElementById('fader');
+  fader.classList.add('fade-out');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  if (!window.AnimationEvent) { return; }
+  
+  var anchors = document.getElementsByTagName('a');
+  
+  for (var idx=0; idx<anchors.length; idx+=1) {
+      if (anchors[idx].hostname !== window.location.hostname ||
+          anchors[idx].pathname === window.location.pathname) {
+          continue;
+      }
+
+      anchors[idx].addEventListener('click', function(event) {
+          var fader = document.getElementById('fader'),
+          anchor = event.currentTarget;
+          
+          var listener = function() {
+              window.location = anchor.href;
+              fader.removeEventListener('animationend', listener);
+          };
+          fader.addEventListener('animationend', listener);
+          
+          event.preventDefault();
+          
+          fader.classList.add('fade-in');
+      });
+  }
+});
+
 $(document).ready(function() {
+
+
+
 
   // What's wide???
   $.each($('*'), function() {
@@ -53,7 +91,6 @@ $(document).ready(function() {
 
   // scrolly header bits
   // Credit to Marius Craciunoiu
-  // Hide Header on on scroll down
   // Hide Header on on scroll down
   var didScroll;
   var lastScrollTop = 0;
@@ -112,6 +149,39 @@ $(document).ready(function() {
       console.log('To The Top!')
       return false;
   });
+  // Fade In/Out
+    function fadeInPage() {
+        if (!window.AnimationEvent) { return; }
+        var fader = document.getElementById('fader');
+        fader.classList.add('fade-out');
+    }
 
+    document.addEventListener('DOMContentLoaded', function() {
+        if (!window.AnimationEvent) { return; }
+        
+        var anchors = document.getElementsByTagName('a');
+        
+        for (var idx=0; idx<anchors.length; idx+=1) {
+            if (anchors[idx].hostname !== window.location.hostname ||
+                anchors[idx].pathname === window.location.pathname) {
+                continue;
+            }
+
+            anchors[idx].addEventListener('click', function(event) {
+                var fader = document.getElementById('fader'),
+                anchor = event.currentTarget;
+                
+                var listener = function() {
+                    window.location = anchor.href;
+                    fader.removeEventListener('animationend', listener);
+                };
+                fader.addEventListener('animationend', listener);
+                
+                event.preventDefault();
+                
+                fader.classList.add('fade-in');
+            });
+        }
+    });
 
 });

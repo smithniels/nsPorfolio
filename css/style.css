@@ -464,6 +464,44 @@ div-2 {
 	margin-left:100px;
 }
 
+/* Let's make stuff fade! */
+/* Let's make stuff fade! */
+/* Let's make stuff fade! */
+#fader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	z-index: 999999;
+	pointer-events: none;
+	background: white;
+	animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-out {
+    from { opacity: 1 }
+      to { opacity: 0 }
+}
+
+@keyframes fade-in {
+    from { opacity: 0 }
+      to { opacity: 1 }
+}
+
+#fader.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+}
+
+#fader.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+}
+
+
+
 /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
 
 /* These two don't work how I want them to.. */
