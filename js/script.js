@@ -1,4 +1,5 @@
 // Fade In/Out
+// Thanks  Christopher Vue https://christopheraue.net/design/fading-pages-on-load-and-unload
 function fadeInPage() {
   if (!window.AnimationEvent) { return; }
   var fader = document.getElementById('fader');
