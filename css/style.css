@@ -18,11 +18,14 @@ html {
 	list-style-type: none;
 	text-decoration: none;
 }
+
+
 body {
 	font-family: "Open Sans", Quicksand, Lato, sans-serif;
 	color: var(--myGrey);
   text-decoration: none;
   line-height:1.5em;
+  transition:all 0.3s ease;
 }
 /* p {
 	color: var(--myGrey)
