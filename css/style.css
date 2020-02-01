@@ -361,14 +361,13 @@ div-2 {
 
 }
 .paragraph-intro {
-  color:var(--myGrey);
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  /* padding-left: 10px; */
-  /* margin-left: 5px; */
-  font-size: 30px;
-  width:25px;
+	color:var(--myGrey);
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+	font-size: 35px;
+	width:25px;
 }
 .paragraph-body {
   /* display:flex;
@@ -378,18 +377,18 @@ div-2 {
   color:var(--myGrey);
 }
 .paragraph-container{
-display:flex; 
-flex-direction: column;
-padding-left: 20px;
+	display:flex; 
+	flex-direction: column;
+	padding-left: 20px;
 }
 .paragraph-code{
-  width:100%;
-  padding-left: 20px;
-  margin-left:20px;
-  list-style-type:circle !important;
-  line-height:1.5em;
-  font-size:22px;
-  color: var(--myGrey);
+	width:100%;
+	padding-left: 20px;
+	margin-left:20px;
+	list-style-type:circle !important;
+	line-height:1.5em;
+	font-size:22px;
+	color: var(--myGrey);
 }
 
 
@@ -444,21 +443,22 @@ padding-left: 20px;
 }
 .show-text {
 	color: var(--myGrey) !important;
-  font-weight: bold;
-  text-decoration: underline;
+	font-weight: bold;
+	text-decoration: underline;
 }
 .list-code {
 	list-style-type: square;
 	color: var(--myGrey);
 }
  li.paragraph{
-  font-size:30px;
+  	font-size:30px;
 }
 
 .intro-photo{
-  height:450px;
-  border: 3px var(--myGrey) solid;
-  padding: 3px;
+	height:350px;
+	border: 3px var(--myGrey) solid;
+	padding: 3px;
+	margin-left:100px;
 }
 
 /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
@@ -483,15 +483,14 @@ padding-left: 20px;
 		flex-direction: column;
 		padding-top: 20px;
 		padding-bottom: 20px;
-	}
-
-
+	}  
 }
 
 @media screen and (max-width: 600px) {
 	.div-0 {
 		width: 100%;
-		min-width: 350px;
+		min-width: 450px;
+		max-width:480px;
 		display: flex;
 		font-size:16px;
 		flex-direction: row;
@@ -528,25 +527,29 @@ padding-left: 20px;
 		display:block;
 	}
 	.paragraph-intro{
-		font-size:16px;
-		width:100%;
+		font-size:26px;
+		/* width:50%; */
 		padding:0;
 		padding-right: 1px;
 		font-weight:bold;
+		z-index:1;
 
 	}
 	.paragraph-body{
 		height:100%;
+		width:150%;
 		padding-left:2px;
+
 		padding-right: 2px;
 		padding-top:none; 	
 	}
 	.intro-photo{
 		border: none;
+		box-shadow:inset 0 0 0 25px var(--myGrey);
 		padding: 10px;
-		max-width:65%;
+		max-width:75%;
 		height:auto;
-		max-height: 450px;
+		max-height: 350px;
 	}
 
 	.words {
