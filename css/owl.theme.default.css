@@ -6,6 +6,15 @@
 /*
  * 	Default theme - Owl Carousel CSS File
  */
+
+
+ :root {
+  --myPink: #eae9e7;
+  /* Margaret's Pantone Blue*/
+  --myGrey: #1d4e89;
+  /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
+}
+ 
 .owl-theme .owl-nav {
   margin-top: 10px;
   text-align: center;
@@ -56,5 +65,5 @@
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: white; /* controls color of selected dots */
+  background: var(--myGrey); /* controls color of selected dots */
 }

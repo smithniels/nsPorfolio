@@ -123,7 +123,6 @@ $(document).ready(function() {
           $('header').removeClass('nav-down').addClass('nav-up');
       } else {
           // Scroll Up
-          console.log("just wondering if this activates...")
           if (st + $(window).height() < $(document).height()) {
               $('header').removeClass('nav-up').addClass('nav-down');
           }
@@ -132,9 +131,8 @@ $(document).ready(function() {
       lastScrollTop = st;
   }
 
-  // scrolly bits => bottom to top
+  // scroll-ee bits => bottom to top
   $(window).scroll(function() {
-      console.log('is this thing on?')
       if ($(this).scrollTop() > 100) {
           // Is the window more than 100px (maybe pixels...) away?
           $('#scroll').fadeIn();
