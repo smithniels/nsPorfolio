@@ -49,12 +49,7 @@
 	height: 60px;
   }
   
-  /* header ul {
-	display: block;
-	list-style-type: disc;
-	list-style: none;
-  }
-   */
+
   header li {
 	display: inline-block; /* keep this bit!*/
   }
@@ -242,14 +237,8 @@
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	;
   }
-  
-  .div-0 > p {
-	  /* The bar under the title(Hi I'm Niels) section */
-  }
-  .box-small > p {
-	  /* border-bottom: 2px var(--myGrey) solid; */
-	  padding-left: 0;
-  }
+
+
   div-2 {
 	  display: flex;
 	  width: 35%;
@@ -284,8 +273,8 @@
 	  flex-direction: column;
   }
   .Here {
-	  /* font-weight: 900;
-	  border-bottom: var(--myPink) 2px solid; */
+	  font-weight: 900;
+	  border-bottom: var(--myPink) 2px solid;
   }
   .character-first {
 	  color: var(--myGrey);
@@ -297,6 +286,13 @@
   .character-first2{
 	  display:none;
   }
+
+  
+
+/* Scroll-ee bits */
+/* Scroll-ee bits */
+/* Scroll-ee bits */
+  
   #scroll {
 	  right: 10px;
 	  bottom: 10px;
@@ -361,10 +357,9 @@
 	  display: block !important;
 	  border: 0px solid black;
   }
+
   /* sites section */
-  
   /* sites section */
-  
   /* sites section */
   
   .sites {
@@ -376,7 +371,6 @@
   .image-site {
 	  width: 100%;
 	  max-width: 800px;
-	  /* height: auto; */
   }
   .paragraph-site {
 	  margin: 30px 30px;
@@ -400,8 +394,6 @@
 	  width:25px;
   }
   .paragraph-body {
-	/* display:flex;
-	justify-content:flex-start; */
 	font-size: 20px;
 	margin-left:3px;
 	color:var(--myGrey);
@@ -460,6 +452,10 @@
 	  padding: 20px 10px;
 	  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
+  .box-small > p {
+	/* border-bottom: 2px var(--myGrey) solid; */
+	padding-left: 0;
+}
   .item-sub {
 	  display: flex;
 	  flex-wrap: flex;
@@ -470,7 +466,7 @@
 	  font-style: italic;
 	  padding-left: 25px;
   }
-  .show-text {
+  a.show-text {
 	  color: var(--myGrey) !important;
 	  font-weight: bold;
 	  text-decoration: underline;
@@ -545,19 +541,6 @@
 	margin: 0 auto;
   }
 
-  ul li {
-	display: inline;
-	text-align: center;
-  }
-
-  a {
-	display: inline-block;
-	width: 25%;
-	padding: .75rem 0;
-	margin: 0;
-	text-decoration: none;
-	color: #333;
-  }
 
   .two:hover ~ hr {
 	margin-left: 25%;
@@ -588,7 +571,7 @@
   /*RESPONSIVE*/
   
   /*Things I forget: start small go big*/
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 1000px){
 	  .site-ways {
 		  display: flex;
 		  flex-direction: column;
@@ -611,7 +594,7 @@
 		  font-size:16px;
 		  flex-direction: row;
 		  line-height: normal;
-		  justify-content:center;
+		  justify-content:flex-start;
 		  margin: auto 15px;
 		  padding-bottom:10px;
 	  }box
@@ -622,8 +605,6 @@
 	  header li {
 		  font-weight: bold;
 		  font-size: 0.7em;
-		  display:flex;
-		  justify-content: space-between;
 		  padding-right: 5px;
 		  padding-left: 5px;
 		  margin-left: 5px;
@@ -635,14 +616,6 @@
 	  h2 {
 		  font-size: 30px;
 		  margin: 0.150em 0;
-	  }
-	  .character-first {
-		  /* font-size: 22px; */
-		  /* line-height: normal; */
-		  /* display:none; */
-	  }
-	  .character-first2{
-		  /* display:block; */
 	  }
 	  .paragraph-intro{
 		  font-size:26px;
@@ -693,13 +666,9 @@
 		  display: inline-block;
 	  }
 	  .site-ways {
-		  /* display: flex;
-		  flex-direction: column; */
 		  padding-top: 8px;
 	  }
 	  .site-ways-rev {
-		  /* display: flex;
-		  flex-direction: column; */
 		  padding-top: 20px;
 		  padding-bottom: 20px;
 	  }
@@ -750,6 +719,31 @@
 		  margin:10px;
 		  padding: 5px;	
 	  }
-  
+
+header{
+	  padding-inline-start: 0
+}
+	  header a {
+		font-size: 1.3em;
+		padding-right: 5px;
+		padding-left:  5px;
+		margin: 0 auto;
+		/* margin-left:   5px;
+		margin-right:  5px; */
+		display:flex;
+		justify-content:space-evenly;
+	  }
+
+	  .container {
+		width: 100%;
+	  }
+
+	  ul{
+		  padding: 50px 0;
+		margin: auto 0;
+		display: inline-block;
+	  }
+
+	  
   }
   /* padding top, right, bottom, left */
