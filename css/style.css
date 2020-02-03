@@ -607,10 +607,10 @@
 	  header li {
 		  font-weight: bold;
 		  font-size: 0.7em;
-		  padding-right: 5px;
-		  padding-left: 5px;
-		  margin-left: 5px;
-		  margin-right: 5px;
+		  padding-right: 2.5px;
+		  padding-left: 2.5px;
+		  /* margin-left: 5px; */
+		  /* margin-right: 5px; */
 	  }
 	  h3.makeBiggerWSmallSreen {
 		  font-size: 35px;
@@ -621,9 +621,8 @@
 	  }
 	  .paragraph-intro{
 		  font-size:26px;
-		  /* width:50%; */
 		  padding:0;
-		  padding-right: 1px;
+		  padding-right: .5px;
 		  font-weight:bold;
 		  z-index:1;
   
@@ -710,7 +709,6 @@
 	  }
 	  .paragraph-site{
 		  padding: 5px 25px;
-		  /* margin:5px 15px; */
 		  margin: 5px 0;
 	  }
 	  .pargraph-site2{
@@ -721,19 +719,16 @@
 		  margin:10px;
 		  padding: 5px;	
 	  }
-
-header{
-	  padding-inline-start: 0
-}
-	  header a {
-		font-size: 1.3em;
-		padding-right: 5px;
-		padding-left:  5px;
-		margin: 0 auto;
-		/* margin-left:   5px;
-		margin-right:  5px; */
-		display:flex;
-		justify-content:space-evenly;
+		header{
+			padding-inline-start: 0
+	  }
+		header a {
+			font-size: 1.3em;
+			padding-right: 5px;
+			padding-left:  5px;
+			margin: 0 auto;
+			display:flex;
+			justify-content:space-evenly;
 	  }
 
 	  .container {
@@ -741,11 +736,9 @@ header{
 	  }
 
 	  ul{
-		  padding: 50px 0;
+		padding: 50px 0;
 		margin: auto 0;
 		display: inline-block;
 	  }
-
-	  
   }
   /* padding top, right, bottom, left */
