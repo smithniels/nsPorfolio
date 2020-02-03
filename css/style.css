@@ -498,7 +498,7 @@
 	z-index: 999999;
 	pointer-events: none;
 	background: white;
-	animation-duration: 300ms;
+	animation-duration: 500ms;
 	animation-timing-function: ease-in-out;
   }
   
