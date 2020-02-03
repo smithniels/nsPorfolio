@@ -483,6 +483,7 @@
 	  height:350px;
 	  border: 3px var(--myGrey) solid;
 	  padding: 3px;
+	  margin-left:20px !important;
 	  margin-left:100px;
   }
   
@@ -589,7 +590,7 @@
   
   @media screen and (max-width: 600px) {
 	  .div-0 {
-		  width: 100%;
+		  width: 100% !important;
 		  min-width: 450px;
 		  max-width:480px;
 		  display: flex;
@@ -609,8 +610,6 @@
 		  font-size: 0.7em;
 		  padding-right: 2.5px;
 		  padding-left: 2.5px;
-		  /* margin-left: 5px; */
-		  /* margin-right: 5px; */
 	  }
 	  h3.makeBiggerWSmallSreen {
 		  font-size: 35px;
@@ -621,32 +620,38 @@
 	  }
 	  .paragraph-intro{
 		  font-size:26px;
+		  /* display: inline-block; */
 		  padding:0;
-		  padding-right: .5px;
+		  padding-right: .25px;
+		  /* padding-bottom: 20px; */
 		  font-weight:bold;
+		  width: 100%;
 		  z-index:1;
-  
+		  /* overflow: hidden; */
 	  }
 	  .paragraph-body{
+		  font-size:16px;
 		  height:100%;
-		  width:150%;
+		  width:125%;
+		  /* width:150%; */
 		  padding-left:2px;
-  
-		  padding-right: 2px;
+  		  padding-right: 2px;
 		  padding-top:none; 	
 	  }
 	  .intro-photo{
 		  border: none;
 		  box-shadow:inset 0 0 0 25px var(--myGrey);
 		  padding: 10px;
-		  max-width:65%;
+		  max-width:40%;
 		  height:auto;
-		  max-height: 350px;
+		  max-height: 300px;
 	  }
   
 	  .words {
 		  margin-left: 20px;
-	  }
+		  display: flex;
+		  width: 50%;
+		}
 	  .image-site {
 		  height: auto;
 		  width:100%;
@@ -659,10 +664,7 @@
 		  flex-direction: column;
 		  justify-content: flex-start;
 	  }
-	  .words {
-		  display: flex;
-		  width: 50%;
-	  }
+
 	  .owl-carousel.owl-loaded {
 		  display: inline-block;
 	  }
@@ -740,5 +742,19 @@
 		margin: auto 0;
 		display: inline-block;
 	  }
+
+	  .character-first {
+		  display:none;
+		color: var(--myGrey);
+		font-size: 112px;
+		line-height: 100px;
+		padding-left: 3px;
+	  font-weight: 2000;
+	}
+	.character-first2{
+		display:inline-block;
+		padding-bottom:0;
+
+	}
   }
   /* padding top, right, bottom, left */
