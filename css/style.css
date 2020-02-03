@@ -648,9 +648,9 @@
 	  }
   
 	  .words {
-		  margin-left: 20px;
+		  margin-left: 10px;
 		  display: flex;
-		  width: 50%;
+		  width: 275px;
 		}
 	  .image-site {
 		  height: auto;
