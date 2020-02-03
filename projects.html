@@ -19,27 +19,28 @@
 </head>
 
 <body>
-	<!-- page transition fade -->
-	<svg id="fader"></svg>
+    <!-- page transition fade -->
+    <svg id="fader"></svg>
 
-	<a href="#" id="scroll" style="display: none;">
-<header class="nav-down">
-    <div>
-        <ul>
-            <li>
-                <a  href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="Here" href="projects.html">Work</a>
-            </li>
-            <li>
-                <a  href="about.html">About</a>
-            </li>
-        </ul>
-    </div>
-</header>
+    <a href="#" id="scroll" style="display: none;">
+        <header class="nav-down">
+            <div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="Here" href="projects.html">Work</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
 
-        <span></span>  <!--is this necessary for something??? -->
+        <span></span>
+        <!--is this necessary for something??? -->
     </a>
     <div>
         <span>
@@ -54,7 +55,7 @@
 						Data Analyst & Web Developer
 					</h6>
 				</span>
-			</span>
+        </span>
         </span>
     </div>
     <div>
@@ -67,30 +68,26 @@
                         <div>
                             <p class="paragraph-site">
                                 <span class="title">Blog</span>
-								<br>
-								<span class="paragraph-site2">Created a blog page with Python's Flask framework running in the background to handle login and GET'ing and POST'ing to and from a MySQL server run from my laptop.</span>
+                                <br>
+                                <span class="paragraph-site2">Created a blog page with Python's Flask framework running in the background to handle login and GET'ing and POST'ing to and from a MySQL server run from my laptop.</span>
                                 <br />
                                 <a href="https://github.com/smithniels/attempt_Flask" target="_blank" class="  link-text">Github</a>
-							</p>
-						</div>
-						<div class="image-site">
-				  			<img src="images/sites/nsBlog.PNG" class="image-site" alt="photo of my sort-of blog"/>
-						</div>
-					</div>
-				</div>
-<!-- part two -->
-				<div class="site-ways-rev">
-					<div>
-						<p class="paragraph-site">
-							<span class="title">BFTC's Measure4Change Project</span>
-							<br>
-							<span class="paragraph-site2">A webpage created to document the progress of the collaborative project between Bread for the City (BFTC) and the Urban Institute to improve BFTC's racial equity for organization staff and clientele.</span> 
-							<br/>
-							<a
-								href="https://smithniels.github.io/M4C_BFC_Site/"
-								target="_blank"
-								class="  link-text"
-								>Visit Site</a
+                            </p>
+                        </div>
+                        <div class="image-site">
+                            <img src="images/sites/nsBlog.PNG" class="image-site" alt="photo of my sort-of blog" />
+                        </div>
+                    </div>
+                </div>
+                <!-- part two -->
+                <div class="site-ways-rev">
+                    <div>
+                        <p class="paragraph-site">
+                            <span class="title">BFTC's Measure4Change Project</span>
+                            <br>
+                            <span class="paragraph-site2">A webpage created to document the progress of the collaborative project between Bread for the City (BFTC) and the Urban Institute to improve BFTC's racial equity for organization staff and clientele.</span>
+                            <br/>
+                            <a href="https://smithniels.github.io/M4C_BFC_Site/" target="_blank" class="  link-text">Visit Site</a
 							>
 						</p>
 					</div>
@@ -100,7 +97,7 @@
 							src="images/sites/m4cSite.PNG"
 							alt="photo of my sort-of blog"
 						/>
-		
+
 					</div>
 				</div>
 				<!-- part three -->
@@ -135,13 +132,9 @@
 				<div>
 					<img class="item" src="images/slider/image_1.JPG" />
 				</div>
-				<!-- <div>
-					<img class=" item" src="images/slider/image_2.JPG" />
-				</div> -->
 				<div>
 					<img class="item" src="images/slider/image_4.JPG" />
 				</div>
-				<!-- <div><img class="item" src="images/slider/image_5.png" /></div> -->
 				<div>
 					<img class="item" src="images/slider/image_6.png" />
 				</div>
@@ -151,10 +144,6 @@
 				<div>
 					<img class="item" src="images/slider/image_8.png" />
 				</div>
-				<!-- <div><img class="item" src="images/slider/image_9.png" /></div> -->
-				<!-- <div>
-					<img class="item" src="images/slider/image_10.png" />
-				</div> -->
 				<div>
 					<img class="item" src="images/slider/image_11.png" />
 				</div>
@@ -169,50 +158,56 @@
 				<div class="box-big">
 					<div class="box-small">
 						<span class="title">Python</span>
-						<li>
+						<li class="list-item">
 							- <a class="show-text" target="_blank" href="https://github.com/smithniels/tuesdayreportsAutomationpython">Automated Python program</a> to automate MSSQL reports to run every Tuesday that places the data into new Google Sheet document before sharing with staff via Gmail.
-						</li>
-						<li>
-							- <a class="show-text" target="_blank" href="https://github.com/smithniels/Webscraping">Instagram webscraper guide</a> that shows the steps to search Instagram (TM) for the latest images posted with the inputted hashtag.
-						</li>
-						<li>
-							- I made a <a class="show-text" target="_blank" href="https://github.com/smithniels/Webscraping">blog app</a>. Once the user passes the login page they're able to create blog posts that will populate the main blog page. The posts are stored in a MySql server. I made this as a test for myself on doing a full stack project.
-						</li>
-					</div>
-					<div class="box-small">
-						<span class="title">SQL</span>
-						<li>
-							- <a class="show-text" target="_blank" href="https://github.com/smithniels/twoMonthPtDx">Two month patient dx MSSQL code</a> used in the medical clinic to report on patients with certain diagnoses within the prior 2 month period.
-						</li>
-						<li> - I made a
-							<a class="show-text" target="_blank" href=https://github.com/smithniels/political_sorts>"Politically Themed" sorter</a> based on a funny comment I saw on Reddit.
-						</li>
-					</div>
-					<div class="box-small">
-						<span class="title">Misc.</span>
-						<li>
-							- I made an <a class="show-text" target="_blank" href="https://github.com/smithniels/Federal-Poverty-Calculation">American Federal Poverty Calculator</a>to calculate the poverty level (2019) of clients in Excel. The only inputs needed are household size and monthly income.
-						</li>
-						<!-- <li>
+                            </li>
+                            <li class="list-item">
+                                - <a class="show-text" target="_blank" href="https://github.com/smithniels/Webscraping">Instagram webscraper guide</a> that shows the steps to search Instagram (TM) for the latest images posted with the inputted hashtag.
+                            </li>
+                            <li class="list-item">
+
+                                - I made a <a class="show-text" target="_blank" href="https://github.com/smithniels/Webscraping">blog app</a>. Once the user passes the login page they're able to create blog posts that will populate the main blog page. The posts are stored in a MySql server. I made this as a test for myself on doing a full stack project.
+                            </li>
+                            <li class="list-item">
+                                - I made a
+                                <a class="show-text" target="_blank" href=https://github.com/smithniels/political_sorts>"Politically Themed" sorter</a> based on a <a href="https://www.reddit.com/r/cscareerquestions/comments/bojrrb/hiring_managers_what_projects_stood_out_in_a_bad/enhmnu6/?utm_source=share&utm_medium=web2x" class="show-text">funny comment</a> I saw on Reddit.
+                            </li>
+                    </div>
+                    <div class="box-small">
+                        <span class="title">SQL</span>
+                        <li class="list-item">
+                            - <a class="show-text" target="_blank" href="https://github.com/smithniels/twoMonthPtDx">Two month patient dx MSSQL code</a> used in the medical clinic to report on patients with certain diagnoses within the prior 2 month period.
+                        </li>
+                        <li class="list-item">
+                            - I made a SQL report for the <a class="show-text" target="_blank" href="https://github.com/smithniels/Capital-Expansion-Report">Capital Expansion Report</a>. It's currently over 900 lines of code and probably needs to be updated for changes in certain variable fields that are likely to have changed.
+                        </li>
+
+                    </div>
+                    <div class="box-small">
+                        <span class="title">Misc.</span>
+                        <li class="list-item">
+                            - I made an <a class="show-text" target="_blank" href="https://github.com/smithniels/Federal-Poverty-Calculation">American Federal Poverty Calculator</a>to calculate the poverty level (2019) of clients in Excel. The only inputs needed are household size and monthly income.
+                        </li>
+                        <!-- <li>
 							<a class="show-text" target="_blank" href=""></a>
 						</li>
 						<li>
 							<a class="show-text" target="_blank" href=""></a>
 						</li> -->
-					</div>
-				</div>
-			</ol>
-		</div>
-	</div>
-	<!-- JQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- OWL -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-	<!-- js script! -->
-	<script src="js/script.js"></script>
-	<script>
-		fadeInPage();
-	</script>
+                    </div>
+                </div>
+                </ol>
+            </div>
+        </div>
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- OWL -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+        <!-- js script! -->
+        <script src="js/script.js"></script>
+        <script>
+            fadeInPage();
+        </script>
 </body>
 
 </html>

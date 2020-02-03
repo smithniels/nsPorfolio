@@ -559,6 +559,8 @@
 	transition: .3s ease-in-out;
   }
 
+  .list-item{
+	  margin:10px 0;}
   
   /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
   
