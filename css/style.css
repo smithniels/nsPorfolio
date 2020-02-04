@@ -168,7 +168,7 @@
 	color: var(--myGrey);
 	/* border: pink dotted 4px; */
 	display: flex;
-	flex-direction: row !important;
+	flex-direction: row;
   }
   
   .contact-links {
@@ -387,11 +387,11 @@
   .paragraph-intro {
 	  color:var(--myGrey);
 	  display:flex;
-	  flex-direction: row;
+	  flex-direction: row; 
 	  justify-content: flex-start;
-  
-	  font-size: 35px;
+  	  font-size: 35px;
 	  width:25px;
+	  padding-right:1px;
   }
   .paragraph-body {
 	font-size: 20px;
@@ -562,6 +562,12 @@
 
   .list-item{
 	  margin:10px 0;}
+
+
+	a:after{
+		transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
+	}
   
   /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
   
@@ -590,7 +596,7 @@
   
   @media screen and (max-width: 600px) {
 	  .div-0 {
-		  width: 100% !important;
+		  width: 100% ;
 		  min-width: 450px;
 		  max-width:480px;
 		  display: flex;
@@ -620,20 +626,18 @@
 	  }
 	  .paragraph-intro{
 		  font-size:26px;
-		  /* display: inline-block; */
 		  padding:0;
-		  padding-right: .25px;
-		  /* padding-bottom: 20px; */
 		  font-weight:bold;
-		  width: 100%;
-		  z-index:1;
-		  /* overflow: hidden; */
+		  width: 100%; */
+		 padding-right: .25px; 
+		 display: inline-block; 
+		 padding-bottom: 20px; 
+		  
 	  }
 	  .paragraph-body{
 		  font-size:16px;
 		  height:100%;
-		  width:125%;
-		  /* width:150%; */
+		  width:100%;
 		  padding-left:2px;
   		  padding-right: 2px;
 		  padding-top:none; 	
@@ -658,7 +662,7 @@
 	  }
 	  .owl-next,
 	  .owl-prev {
-		  display: none !important;
+		  display: none ;
 	  }
 	  .sites {
 		  flex-direction: column;
@@ -683,7 +687,7 @@
 		  height: 250px !important;
 	  }
 	  .owl-carousel {
-		  height: 300px !important;
+		  height: 300px;
 	  }
 	  .paragraph {
 		  width: 90%;
@@ -694,7 +698,6 @@
 	  }
 	  .title {
 		  border-right: none;
-		  margin-bottom: 35px;
 		  padding: 5px 5px;
 	  }
 	  .index{
@@ -706,7 +709,7 @@
 	  }
   
 	  .paragraph-code{
-		  margin: 3px !important;
+		  margin: 3px ;
 		  width: 440px;
 	  }
 	  .paragraph-site{
@@ -738,7 +741,7 @@
 	  }
 
 	  ul{
-		padding: 50px 0;
+		padding: 10px 0;
 		margin: auto 0;
 		display: inline-block;
 	  }
