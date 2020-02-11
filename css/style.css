@@ -334,7 +334,7 @@
   
   .owl-carousel .item {
 	  height: 700px;
-	  width: 100%;
+	  max-width: 1000px;
   }
   .owl-carousel {
 	  margin: 0 auto;
