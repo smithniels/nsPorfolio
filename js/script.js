@@ -6,9 +6,10 @@ function fadeInPage() {
   fader.classList.add('fade-out');
 }
 
+// Mostly annoying  title effect that should probably contained on one page, but who knows
 const hero = document.querySelector('.hero');
 const text = hero.querySelector('h1');
-const walk = 500; // 500px
+const walk = 200; // 500px  // Niels Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target :D 
 
 function shadow(e) {
   const { offsetWidth: width, offsetHeight: height } = hero;
@@ -23,9 +24,9 @@ function shadow(e) {
   const yWalk = Math.round((y / height * walk) - (walk / 2));
 
   text.style.textShadow = `
-    ${xWalk}px ${yWalk}px 0 rgba(255,0,255,0.7),
+    ${xWalk}px      ${yWalk}px 0 rgba(255,0,255,0.7),
     ${xWalk * -1}px ${yWalk}px 0 rgba(0,255,255,0.7),
-    ${yWalk}px ${xWalk * -1}px 0 rgba(0,255,0,0.7),
+    ${yWalk}px      ${xWalk * -1}px 0 rgba(0,255,0,0.7),
     ${yWalk * -1}px ${xWalk}px 0 rgba(0,0,255,0.7)
   `;
 
