@@ -1,9 +1,8 @@
 :root {
-	--myPink: #FAEACC3;
-   /*background*/
-	  /* --myGrey: #D88A83; Text/Lines */
-	--myGrey: #EA4C4C;
-	  /* rgba(255, 255, 255, 0.8) TRANSPARENT! */;
+	/* Background */
+	--myPink: #1998cb;
+	/* lines */
+	--myGrey:#f0cd13 ;
   }
   
   html {
@@ -51,7 +50,7 @@
   
 
   header li {
-	display: inline-block; /* keep this bit!*/
+	display: inline-block; /* keep this bit! */
   }
   
   header a {
@@ -446,6 +445,7 @@
   }
   .box-small {
 	  display: flex;
+	  font-size: 20px;
 	  width: 30%;
 	  height: 100%;;
 	  flex-wrap: wrap;
@@ -570,17 +570,15 @@
 
 	}
   
-  /* .owl-height {min-height: 500px; height:auto !important; height: 500px; } */
-  
-  /* These two don't work how I want them to.. */
-  
+  .line{
+	  color: var(--myPink);
+  }
+
+  /*RESPONSIVE*/
+  /*RESPONSIVE*/
   /*RESPONSIVE*/
   
-  /*RESPONSIVE*/
-  
-  /*RESPONSIVE*/
-  
-  /*Things I forget: start small go big*/
+  /*Things I forget: start small go big when designing responsive pages!*/
   @media screen and (max-width: 1000px){
 	  .site-ways {
 		  display: flex;

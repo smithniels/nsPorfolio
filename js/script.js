@@ -33,49 +33,54 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   }
 });
-
 $(document).ready(function() {
 
+
 // Mostly annoying  title effect that should probably contained on one page, but who knows
-const hero = document.querySelector('.hero');
-const text = hero.querySelector('h1');
-const walk = 100; // 500px  // Niels Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target :D 
+// Mostly annoying  title effect that should probably contained on one page, but who knows
+// Mostly annoying  title effect that should probably contained on one page, but who knows
+    const hero = document.querySelector('.hero');
+    const text = hero.querySelector('h1');
+    const walk = 100; // 500px  // Niels Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target :D 
 
-function shadow(e) {
-  const { offsetWidth: width, offsetHeight: height } = hero;
-  let { offsetX: x, offsetY: y } = e;
+    function shadow(e) {
+    const { offsetWidth: width, offsetHeight: height } = hero;
+    let { offsetX: x, offsetY: y } = e;
 
-  if (this !== e.target) {
-    x = x + e.target.offsetLeft;
-    y = y + e.target.offsetTop;
-  }
+    if (this !== e.target) {
+        x = x + e.target.offsetLeft;
+        y = y + e.target.offsetTop;
+    }
 
-  const xWalk = Math.round((x / width * walk) - (walk / 2));
-  const yWalk = Math.round((y / height * walk) - (walk / 2));
+    const xWalk = Math.round((x / width * walk) - (walk / 2));
+    const yWalk = Math.round((y / height * walk) - (walk / 2));
 
-  text.style.textShadow = `
-    ${xWalk}px      ${yWalk}px      0 #9197AE,
-    ${xWalk * -1}px ${yWalk}px      0 #EA4C4C,
-    ${yWalk}px      ${xWalk * -1}px 0 #9D2D3C,
-    ${yWalk * -1}px ${xWalk}px      0 #EDFFD9
-  `;
+    text.style.textShadow = `
+        ${xWalk}px      ${yWalk}px      0 #000000,
+        ${xWalk * -1}px ${yWalk}px      0 #f0cd13,
+        ${yWalk}px      ${xWalk * -1}px 0 #f8ded7,
+        ${yWalk * -1}px ${xWalk}px      0 #ec3c37
+    `;
 
-}
+    }
+    hero.addEventListener('mousemove', shadow);
 
-hero.addEventListener('mousemove', shadow);
 
+// What's wide???
+// What's wide???
+// What's wide???
+    $.each($('*'), function() {
+        // console.log("is something too wide?")
+        if ($(this).width() > $('body').width()) {
+            console.log("Wide Element: ", $(this), "Width: ", $(this).width());
+        } else {
+            console.log("no extra widths!")
+        }
+    });
 
-  // What's wide???
-  $.each($('*'), function() {
-      // console.log("is something too wide?")
-      if ($(this).width() > $('body').width()) {
-          console.log("Wide Element: ", $(this), "Width: ", $(this).width());
-      } else {
-          console.log("no extra widths!")
-      }
-  });
-
-  //OWL
+//OWL
+//OWL
+//OWL
   $(".owl-carousel").owlCarousel({
       loop: true,
       margin: 10,
@@ -116,67 +121,69 @@ hero.addEventListener('mousemove', shadow);
       // autoHeight:true
   });
 
-  // scrolly header bits
-  // Credit to Marius Craciunoiu
-  // Hide Header on on scroll down
-  var didScroll;
-  var lastScrollTop = 0;
-  var delta = 5;
-  var navbarHeight = $('header').outerHeight();
+// scrolly header bits
+// Credit to Marius Craciunoiu
+// Hide Header on on scroll down
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 5;
+    var navbarHeight = $('header').outerHeight();
 
-  $(window).scroll(function(event) {
-      didScroll = true;
-  });
+    $(window).scroll(function(event) {
+        didScroll = true;
+    });
 
-  setInterval(function() {
-      if (didScroll) {
-          hasScrolled();
-          didScroll = false;
-      }
-  }, 250);
+    setInterval(function() {
+        if (didScroll) {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
 
-  function hasScrolled() {
-      var st = $(this).scrollTop();
+    function hasScrolled() {
+        var st = $(this).scrollTop();
 
-      // Make sure they scroll more than delta
-      if (Math.abs(lastScrollTop - st) <= delta)
-    
-          return;
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta)
+        
+            return;
 
-      // If they scrolled down and are past the navbar, add class .nav-up.
-      // This is necessary so you never see what is "behind" the navbar.
-      if (st > lastScrollTop && st > navbarHeight) {
-          // Scroll Down
-          $('header').removeClass('nav-down').addClass('nav-up');
+        // If they scrolled down and are past the navbar, add class .nav-up.
+        // This is necessary so you never see what is "behind" the navbar.
+        if (st > lastScrollTop && st > navbarHeight) {
+            // Scroll Down
+            $('header').removeClass('nav-down').addClass('nav-up');
 
-      } else {
-          // Scroll Up
-          if (st + $(window).height() < $(document).height()) {
-            
-              $('header').removeClass('nav-up').addClass('nav-down');
-          }
-      }
+        } else {
+            // Scroll Up
+            if (st + $(window).height() < $(document).height()) {
+                
+                $('header').removeClass('nav-up').addClass('nav-down');
+            }
+        }
 
-      lastScrollTop = st;
-  }
+        lastScrollTop = st;
+    }
 
-  // scroll-ee bits => bottom to top
-  $(window).scroll(function() {
-      if ($(this).scrollTop() > 100) {
-          // Is the window more than 100px (maybe pixels...) away?
-          $('#scroll').fadeIn();
-          // if yes, turn on the scroll button
-      } else {
-          $('#scroll').fadeOut();
-      }
-  });
-  $('#scroll').click(function() {
-      $("html, body").animate({
-          scrollTop: 0
-      }, 800);
-      console.log('To The Top!')
-      return false;
-  });
+// scroll-ee bits => bottom to top
+// scroll-ee bits => bottom to top
+// scroll-ee bits => bottom to top
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            // Is the window more than 100px (maybe pixels...) away?
+            $('#scroll').fadeIn();
+            // if yes, turn on the scroll button
+        } else {
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 800);
+        console.log('To The Top!')
+        return false;
+    });
   
 
 });
