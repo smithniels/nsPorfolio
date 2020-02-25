@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   }
 });
-$(document).ready(function() {
+// $(document).ready(function() {
 
 
 // Mostly annoying  title effect that should probably contained on one page, but who knows
@@ -41,9 +41,9 @@ $(document).ready(function() {
 // Mostly annoying  title effect that should probably contained on one page, but who knows
     const hero = document.querySelector('.hero');
     const text = hero.querySelector('h1');
-    const walk = 100; // 500px  // Niels Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target :D 
 
     function shadow(e) {
+    let walk = 100; // Nie  ls Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target :D 
     const { offsetWidth: width, offsetHeight: height } = hero;
     let { offsetX: x, offsetY: y } = e;
 
@@ -56,14 +56,20 @@ $(document).ready(function() {
     const yWalk = Math.round((y / height * walk) - (walk / 2));
 
     text.style.textShadow = `
-        ${xWalk}px      ${yWalk}px      0 #000000,
-        ${xWalk * -1}px ${yWalk}px      0 #f0cd13,
+        ${xWalk}px      ${yWalk}px      0 #000000, 
+   
         ${yWalk}px      ${xWalk * -1}px 0 #f8ded7,
         ${yWalk * -1}px ${xWalk}px      0 #ec3c37
     `;
 
     }
+
+    function unshadow(e) {
+        walk = 0;
+    }
     hero.addEventListener('mousemove', shadow);
+    hero.addEventListener('mouseleave', unshadow);
+    hero.addEventListener('mousein', shadow);
 
 
 // What's wide???
@@ -186,4 +192,4 @@ $(document).ready(function() {
     });
   
 
-});
+//});
