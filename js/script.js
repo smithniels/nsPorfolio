@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const text = hero.querySelector('h1');
 
     function shadow(e) {
-    let walk = 100; // Nie  ls Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target :D 
+    let walk = 35; // Niels Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target. Just set it to zero :D 
     const { offsetWidth: width, offsetHeight: height } = hero;
     let { offsetX: x, offsetY: y } = e;
 
@@ -55,9 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const xWalk = Math.round((x / width * walk) - (walk / 2));
     const yWalk = Math.round((y / height * walk) - (walk / 2));
 
+    // ${xWalk * -1}px ${yWalk}px      0 #f0cd13,
     text.style.textShadow = `
-        ${xWalk}px      ${yWalk}px      0 #000000, 
-   
+        ${xWalk}px      ${yWalk}px      0 #000000,
         ${yWalk}px      ${xWalk * -1}px 0 #f8ded7,
         ${yWalk * -1}px ${xWalk}px      0 #ec3c37
     `;
