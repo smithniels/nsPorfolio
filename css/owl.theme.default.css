@@ -7,13 +7,14 @@
  * 	Default theme - Owl Carousel CSS File
  */
 
-
  :root {
-  --myPink: #eae9e7;
-  /* Margaret's Pantone Blue*/
-  --myGrey: #1d4e89;
-  /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
-}
+	/* Background */
+	--myPink: #f0cd13;
+	/* lines */
+	--myGrey:#1998cb ;
+	/* Popart Color (almost white) */
+	--color3:#000000;
+  }
  
 .owl-theme .owl-nav {
   margin-top: 10px;

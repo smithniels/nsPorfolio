@@ -1,10 +1,10 @@
 :root {
 	/* Background */
-	--myPink: #1998cb;
+	--myPink: #f0cd13;
 	/* lines */
-	--myGrey:#f0cd13 ;
+	--myGrey:#1998cb ;
 	/* Popart Color (almost white) */
-	--color3:#f8ded7;
+	--color3:#000000;
   }
   
   html {
@@ -132,6 +132,7 @@
 	color: var(--myPink);
   }
   
+  /* what is this referencing? */
   #scroll:visited {
 	color: var(--myGrey);
   }
@@ -303,8 +304,10 @@
 	  height: 3em;
 	  position: fixed;
 	  cursor: pointer;
-	  background-color: var(--myPink);
-	  border: 2px var(--myGrey) solid;
+	  /* Color of unhovered pill*/
+	  background-color: var(--myPink); 
+	  /* unhovered pill border */
+	  border: 2px var(--color3) solid;
 	  text-indent: -9999px;
 	  display: none;
 	  -webkit-border-radius: 150px;
@@ -320,6 +323,7 @@
 	  height: 0;
 	  width: 0;
 	  border: 8px solid transparent;
+	  
 	  border-bottom-color: #ffffff;
   }
   #scroll:hover {
@@ -487,8 +491,7 @@
 	  height:350px;
 	  border: 3px var(--myGrey) solid;
 	  padding: 3px;
-	  margin-left:20px !important;
-	  margin-left:100px;
+	  margin-left:80px !important; 
   }
   
   /* Let's make stuff fade! */
@@ -577,6 +580,20 @@
 	  color: var(--myPink);
   }
 
+
+  .highlight {
+	transition: all 0.2s;
+	border-bottom: 2px solid white;
+	position: absolute;
+	top: 0;
+	background: white;
+	left: 0;
+	z-index: -1;
+	border-radius: 20px;
+	display: block;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
   /*RESPONSIVE*/
   /*RESPONSIVE*/
   /*RESPONSIVE*/

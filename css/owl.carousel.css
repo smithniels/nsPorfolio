@@ -7,11 +7,13 @@
  *  Owl Carousel - Core
  */
  :root {
-  --myPink: #eae9e7;
-  /* Margaret's Pantone Blue*/
-  --myGrey: #1d4e89;
-  /* rgba(255, 255, 255, 0.8) TRANSPARENT! */
-}
+	/* Background */
+	--myPink: #f0cd13;
+	/* lines */
+	--myGrey:#1998cb ;
+	/* Popart Color (almost white) */
+	--color3:#000000;
+  }
 .owl-carousel {
   display: none;
   width: 100%;
@@ -69,7 +71,7 @@
 .owl-carousel .owl-nav .owl-prev,
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-dot {
-  cursor: pointer;
+  cursor: grab;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -109,7 +111,7 @@
   user-select: none;
 }
 .owl-carousel.owl-grab {
-  cursor: move;
+  /* cursor: move; */
   cursor: grab;
 }
 .owl-carousel.owl-rtl {
@@ -199,7 +201,7 @@
   margin-left: -40px;
   margin-top: -40px;
   background: url("owl.video.play.png") no-repeat;
-  cursor: pointer;
+  cursor: grab;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   transition: transform 100ms ease;
