@@ -705,6 +705,9 @@
 	  .item {
 		  height: 280px !important;
 	  }
+	  .item:hover {
+		  cursor:grabbing;
+	  }
 	  .owl-carousel {
 		  height: 300px;
 	  }
