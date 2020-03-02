@@ -164,7 +164,6 @@ function hasScrolled() {
     } else {
         // Scroll Up
         if (st + $(window).height() < $(document).height()) {
-
             $('header').removeClass('nav-up').addClass('nav-down');
         }
     }

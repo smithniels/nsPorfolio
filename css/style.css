@@ -72,8 +72,11 @@
   footer {
 	display: flex;
 	align-items: flex-end;
+	position:bottom;
 	justify-content: center;
 	margin-top: 3.3rem;
+	font-weight:bold;
+	flex
   }
   
   li.nav-uo {
@@ -307,7 +310,7 @@
 	  /* Color of unhovered pill*/
 	  background-color: var(--myPink); 
 	  /* unhovered pill border */
-	  border: 2px var(--color3) solid;
+	  border: 2px var(--myGrey) solid;
 	  text-indent: -9999px;
 	  display: none;
 	  -webkit-border-radius: 150px;
