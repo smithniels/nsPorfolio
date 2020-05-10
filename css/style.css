@@ -1,8 +1,8 @@
 :root {
 	/* Background */
-	--myPink: #CCCCC;
+	--myPink: yellow;
 	/* lines */
-	--myGrey: yellow;
+	--myGrey: black;
 	/* Popart Color (almost white) */
 	--color3:#000000;
   }
