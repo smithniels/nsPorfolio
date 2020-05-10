@@ -280,7 +280,7 @@
   }
   .Here {
 	  font-weight: 900;
-	  border-bottom: var(--myPink) 2px solid;
+	  border-bottom: var(--myGrey) 2px solid;
   }
   .character-first {
 	  color: var(color3);
