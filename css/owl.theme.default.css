@@ -59,6 +59,7 @@
   height: 10px;
   margin: 5px 7px;
   background: black; /* controls color of UN-SELECTED dots*/
+	
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
@@ -68,5 +69,6 @@
 .owl-theme .owl-dots .owl-dot:hover span {
   outline: 5px dashed blue;
   outline-color: coral;
+  -webkit-transition: background-color 2s ease-out;
   background: white; /* controls color of SELECTED dots */
 }
