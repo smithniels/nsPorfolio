@@ -66,6 +66,7 @@
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
+  outline: 5px dashed blue;
   outline-color: coral;
-  background: red; /* controls color of SELECTED dots */
+  background: black; /* controls color of SELECTED dots */
 }
