@@ -70,5 +70,5 @@
   outline: 5px dashed blue;
   outline-color: coral;
   -webkit-transition: background-color 2s ease-out;
-  background: white; /* controls color of SELECTED dots */
+  background: black; /* controls color of SELECTED dots */
 }
