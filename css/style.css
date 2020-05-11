@@ -308,7 +308,8 @@
 	  position: fixed;
 	  cursor: pointer;
 	  /* Color of unhovered pill*/
-	  background-color: var(--myPink); 
+/* 	  background-color: var(--myPink);  */
+	  opacity:.5;
 	  /* unhovered pill border */
 	  border: 2px var(--myGrey) solid;
 	  text-indent: -9999px;
