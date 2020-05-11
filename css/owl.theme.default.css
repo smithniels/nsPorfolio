@@ -66,5 +66,5 @@
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--myGrey); /* controls color of selected dots */
+  background: red; /* controls color of selected dots */
 }
