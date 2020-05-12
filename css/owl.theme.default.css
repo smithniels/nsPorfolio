@@ -59,7 +59,7 @@
   height: 10px;
   margin: 5px 7px;
   background: black; /* controls color of UN-SELECTED dots*/
-	
+  -webkit-transition: background-color 2s ease-out;
   display: block;
   -webkit-backface-visibility: visible;
   transition: opacity 200ms ease;
