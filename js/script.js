@@ -90,6 +90,7 @@ hero.addEventListener('mousein', shadow);
 //OWL
 //OWL
 //OWL
+
 $(".owl-carousel").owlCarousel({
     loop: true,
     margin: 10,
@@ -135,6 +136,7 @@ $('.owl-carousel').owlCarousel({
 // scrolly header bits
 // scrolly header bits
 // Credit to Marius Craciunoiu
+
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
