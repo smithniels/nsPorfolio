@@ -73,12 +73,12 @@ function shadow(e) {
     text.style.textShadow = `
           ${xWalk}px      ${yWalk}px      0 #000000, // JUST changing to all white to see what that looks like
           ${xWalk}px      ${yWalk}px      0 #000000,
-          ${xWalk}px      ${yWalk}px      0 #000000,
+          ${xWalk}px      ${yWalk}px      0 #000000;
 
 //           ${xWalk}px      ${yWalk}px      0 #000000, // Pop Art COLORS (3)
 //           ${yWalk}px      ${xWalk * -1}px 0 #f8ded7,
 //           ${yWalk * -1}px ${xWalk}px      0 #ec3c37
-      `;
+      `
 
 }
 
