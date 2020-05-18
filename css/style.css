@@ -455,6 +455,7 @@
   }
   .box-small {
 	  display: flex;
+	  background:white;
 	  font-size: 20px;
 	  width: 30%;
 	  height: 100%;;
