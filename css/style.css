@@ -1,7 +1,7 @@
 :root {
 	--myPink: #D3D3D3; /*Primary/Background */
 	--myGrey: black; /* Secondary/Lines */
-	
+	--boxColor: white; /* it's the color of the boxes!*/
 	/* Popart Color (almost white) */
 	--color3:#000000;
   }
