@@ -235,7 +235,7 @@
   
   .div-0 {
 	font-size: 45px;
-	background:white;
+	background:--boxColor;
 	width: 59%;
 	display: flex;
 	height: auto;
@@ -458,7 +458,7 @@
   }
   .box-small {
 	  display: flex;
-	  background:white;
+	  background:--boxColor:;
 	  font-size: 20px;
 	  width: 30%;
 	  height: 100%;;
