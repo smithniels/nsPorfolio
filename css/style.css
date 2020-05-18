@@ -409,7 +409,8 @@
 	color:var(--color3) ;
   }
   .paragraph-container{
-	  display:flex; 
+	  display:flex;
+	  background: white;
 	  flex-direction: column;
 	  padding-left: 20px;
   }
