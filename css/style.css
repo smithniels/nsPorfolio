@@ -235,7 +235,7 @@
   
   .div-0 {
 	font-size: 45px;
-	background:--boxColor;
+	background:var(--boxColor);
 	width: 59%;
 	display: flex;
 	height: auto;
@@ -412,7 +412,7 @@
   }
   .paragraph-container{
 	  display:flex;
-	  background: white;
+	  background: var(--boxColor;
 	  flex-direction: column;
 	  padding-left: 20px;
   }
