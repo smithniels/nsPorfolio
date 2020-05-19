@@ -412,7 +412,7 @@
   }
   .paragraph-container{
 	  display:flex;
-	  background: var(--boxColor;
+	  background: var(--boxColor);
 	  flex-direction: column;
 	  padding-left: 20px;
   }
