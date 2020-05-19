@@ -497,7 +497,7 @@
   .intro-photo{
 	  height:350px;
 	  border: 3px var(--myGrey) solid;
-	  padding: 3px;
+	  /* padding: 3px; */
 	  margin-left:80px !important; 
   }
   
