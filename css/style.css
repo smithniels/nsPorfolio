@@ -458,7 +458,7 @@
   }
   .box-small {
 	  display: flex;
-	  background:--boxColor:;
+	  background:var(--boxColor);
 	  font-size: 20px;
 	  width: 30%;
 	  height: 100%;;
