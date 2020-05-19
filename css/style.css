@@ -75,7 +75,7 @@
 	justify-content: center;
 	margin-top: 3.3rem;
 	font-weight:bold;
-	flex
+	/* flex the word "flex" was just sitting here... */
   }
   
   li.nav-uo {
