@@ -51,7 +51,8 @@ const hero = document.querySelector('.hero');
 const text = hero.querySelector('h1');
 
 function shadow(e) {
-    let walk = 10; // Niels Note <-- this changes the range of the annoying effect. If I ever decide to have a click event to turn that off this would be the var to target. Just set it to zero :D 
+    let walk = 10;  // Niels Note <-- this changes the range of the annoying effect. 
+                    //If I ever decide to have a click event to turn that off this would be the var to target. Just set it to zero :D 
     const {
         offsetWidth: width,
         offsetHeight: height
