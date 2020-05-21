@@ -51,7 +51,7 @@ const hero = document.querySelector('.hero');
 const text = hero.querySelector('h1');
 
 function shadow(e) {
-    let walk = 10;  // Niels Note <-- this changes the range of the annoying effect. 
+    let walk = 10; // Niels Note <-- this changes the range of the annoying effect. 
                     //If I ever decide to have a click event to turn that off this would be the var to target. Just set it to zero :D 
     const {
         offsetWidth: width,
@@ -72,13 +72,9 @@ function shadow(e) {
 
     // ${xWalk * -1}px ${yWalk}px      0 #f0cd13,
     text.style.textShadow = `
-          ${xWalk}px      ${yWalk}px      0 #000000, // JUST changing to all white to see what that looks like
-          ${xWalk}px      ${yWalk}px      0 pink,
-          ${xWalk}px      ${yWalk}px      0 pink;
-
-//           ${xWalk}px      ${yWalk}px      0 #000000, // Pop Art COLORS (3)
-//           ${yWalk}px      ${xWalk * -1}px 0 #f8ded7,
-//           ${yWalk * -1}px ${xWalk}px      0 #ec3c37
+          ${xWalk}px      ${yWalk}px      0 #000000, // Pop Art COLORS (3)
+          ${yWalk}px      ${xWalk * -1}px 0 #f8ded7,
+          ${yWalk * -1}px ${xWalk}px      0 #ec3c37
       `
 
 }
