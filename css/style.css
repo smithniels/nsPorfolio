@@ -1,3 +1,4 @@
+ /* padding top, right, bottom, left */
 :root {
 	--myPink: #D3D3D3; /*Primary/Background */
 	--myGrey: black; /* Secondary/Lines */
@@ -796,4 +797,4 @@
 
 	}
   }
-  /* padding top, right, bottom, left */
+ 
