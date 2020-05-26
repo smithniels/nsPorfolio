@@ -687,7 +687,7 @@
 		  padding-top:none; 	
 	  }
 	  .intro-photo{
-		  border: none;
+		  /* border: 2px var(--myGrey) solid; */
 		  box-shadow:inset 0 0 0 25px var(--myGrey);
 		  padding: 10px;
 		  margin-right: 14px;
