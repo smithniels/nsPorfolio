@@ -281,6 +281,7 @@
   }
   .Here {
 	  font-weight: 900;
+	  text-decoration: underline ;
 	  border-bottom: var(--myGrey) 2px solid;
   }
   .character-first {
