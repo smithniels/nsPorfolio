@@ -1,4 +1,5 @@
 -- del.sql
+-- I'd never thought of writting loops in SQL. I don't think I ever will need to, but here we are.
 
 declare @int float
 set @int = 0
