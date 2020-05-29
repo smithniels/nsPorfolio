@@ -670,14 +670,14 @@
 	  .paragraph-intro{
 		  font-size:26px;
 		  line-height: 26px;
-		  color: red;
+		  color: black;
 		  padding:0;
 		  font-weight:bold;
 		  width: 100%; */
 		  padding-right: .25px; 
-		  display: inline-block; 
-		  padding-bottom: 20px; 
-		  
+		  padding-top: 10px;
+		  padding-bottom: 10px; 
+		  display: inline-block;
 	  }
 	  .paragraph-body{
 		  font-size:16px;
