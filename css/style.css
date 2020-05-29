@@ -286,10 +286,10 @@
   }
   .character-first {
 	  color: var(color3);
-	  font-size: 112px;
+	  font-size: 180px;
 	  line-height: 100px;
 	  padding-left: 3px;
-	font-weight: 2000;
+	  font-weight: 2000;
   }
   .character-first2{
 	  display:none;
