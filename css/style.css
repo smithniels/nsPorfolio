@@ -392,10 +392,10 @@
 	  font-size: 23px;
 	  border: var(--myGrey) 2px solid;
 	  border-right: var(--myGrey) 2px solid;
-	line-height: normal;
-	color:var(--myGrey);
-	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  
+	  line-height: normal;
+	  color:var(--myGrey);
+	  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	
   }
   .paragraph-intro {
 	  color:var(--color3);
@@ -765,7 +765,7 @@
 	  }
 	  .paragraph-site{
 		  padding: 5px 25px;
-		  margin: 5px 0;
+		  margin: 50px 0;
 	  }
 	  .pargraph-site2{
 		  margin: 0.150em 0;
