@@ -314,9 +314,9 @@
 	  cursor: pointer;
 	  /* Color of unhovered pill*/
 	  
-	  background-color: red; 
+	  background-color: var(--myPink); 
 	  /* background-color: var(--myPink);  */
-	  /* opacity:.5; */
+	  opacity:.6;
 	  /* unhovered pill border */
 	  border: 2px var(--myGrey) solid;
 	  text-indent: -9999px;
