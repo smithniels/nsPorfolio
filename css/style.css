@@ -135,7 +135,13 @@
 	color: var(--myPink);
   }
   
+  /* what is this referencing?
 
+  /* A: #scroll is on the up button in the bottom right. But there's another scroll-eee section
+  #scroll:visited {
+	color: var(--myGrey);
+  } 
+  */
   
   .main {
 	margin-top: 300px;
@@ -307,7 +313,7 @@
 	  position: fixed;
 	  cursor: pointer;
 	  /* Color of unhovered pill*/
-/* 	  background-color: var(--myPink);  */
+	  background-color: var(--myPink); 
 	  opacity:.5;
 	  /* unhovered pill border */
 	  border: 2px var(--myGrey) solid;
