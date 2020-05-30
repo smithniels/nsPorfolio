@@ -334,7 +334,6 @@
 	  height: 0;
 	  width: 0;
 	  border: 8px solid transparent;
-	  
 	  border-bottom-color: #ffffff;
   }
   #scroll:hover {
@@ -509,10 +508,10 @@
   }
   
   /* Let's make stuff fade! */
-  /* Let's make stuff fade! */
+  /* Let's make stuff fade! */ /* Fading up/down button */
   /* Let's make stuff fade! */
 	#fader {
-	  position: fixed;
+	position: fixed;
 	top: -150;
 	left: 0;
 	width: 100%;
@@ -530,7 +529,7 @@
 	}
   
 	to {
-	  opacity: 0;
+	  opacity: .5;
 	}
   }
   
