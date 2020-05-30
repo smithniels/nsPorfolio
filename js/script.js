@@ -43,9 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-//OWL
-//OWL
-//OWL
+// OWL
+// OWL
+// OWL
 
 $(".owl-carousel").owlCarousel({
   loop: true,
