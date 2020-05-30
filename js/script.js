@@ -165,11 +165,12 @@ function hasScrolled() {
 // scroll-ee bits => bottom to top
 // scroll-ee bits => bottom to top
 // scroll-ee bits => bottom to top
+
 $(window).scroll(function () {
+  // Is the window more than 100px away?
   if ($(this).scrollTop() > 100) {
-    // Is the window more than 100px away?
-    $("#scroll").fadeIn();
     // if yes, turn on the scroll button
+    $("#scroll").fadeIn();
   } else {
     $("#scroll").fadeOut();
   }
