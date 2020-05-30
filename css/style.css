@@ -135,10 +135,7 @@
 	color: var(--myPink);
   }
   
-  /* what is this referencing? */
-  #scroll:visited {
-	color: var(--myGrey);
-  }
+
   
   .main {
 	margin-top: 300px;
