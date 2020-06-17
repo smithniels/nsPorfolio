@@ -501,7 +501,7 @@
   }
   
   .intro-photo{
-	  height:350px;
+	  height:75%;
 	  border: 2px var(--myGrey) solid;
 	  /* padding: 3px; */
 	  margin-left:80px !important; 
