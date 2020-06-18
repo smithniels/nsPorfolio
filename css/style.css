@@ -238,6 +238,7 @@
   }
   
   .div-0 {
+	border: var(--myGrey) 2px solid;
 	font-size: 45px;
 	background:var(--boxColor);
 	width: 59%;
@@ -300,8 +301,17 @@
 
   .container {
     display: flex;
+	flex-flow: row wrap;
+}
+
+.container {
+    display: flex;
     flex-flow: row wrap;
 }
+
+	/* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
+
+
 
 /* Scroll-ee bits */
 /* Scroll-ee bits */
