@@ -301,19 +301,7 @@
 	  display:none;
   }
 
-  .container {
-    display: flex;
-	flex-flow: row wrap;
-}
-
-.container {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-	/* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
-
-
+ 
 
 /* Scroll-ee bits */
 /* Scroll-ee bits */
@@ -627,6 +615,32 @@
  	top:0;
 }
   
+
+
+
+/* Blog Experiementation */
+.container {
+    display: flex;
+	flex-flow: row wrap;
+	border-left: var(--myGrey) 2px solid;
+
+	
+}
+
+.blog, .sidebar, .footer {
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+
+
+	/* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
+
+
+
+
+
+
   /*RESPONSIVE*/
   /*RESPONSIVE*/
   /*RESPONSIVE*/
