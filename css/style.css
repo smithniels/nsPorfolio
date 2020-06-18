@@ -622,9 +622,13 @@
 .container {
     display: flex;
 	flex-flow: row wrap;
-	border-left: var(--myGrey) 2px solid;
+	
 
 	
+}
+
+.sidebar{
+	border-left: var(--myGrey) 2px solid;
 }
 
 .blog, .sidebar, .footer {
