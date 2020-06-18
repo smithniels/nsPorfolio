@@ -61,6 +61,7 @@
 	padding-left: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
+	text-decoration: none;
   }
   
   header a:hover {
@@ -128,6 +129,7 @@
   
   a {
 	cursor: pointer;
+	text-decoration: none;
   }
   
   a:visited {
@@ -802,6 +804,7 @@
 			margin: 0 auto;
 			display:flex;
 			justify-content:space-evenly;
+			text-decorator: none;
 	  }
 
 	  .container {
