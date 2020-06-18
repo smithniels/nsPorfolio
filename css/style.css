@@ -834,7 +834,7 @@
   
   @media all and (min-width: 600px) {
 	/* if screen > 600px sidebar appears alongside blog getting 1/3rd of space */
-	.blog { flex: 2 0px; }
+	.blog { flex: 3 0px; }
 	.sidebar { flex: 1 0px; }
   }
   
