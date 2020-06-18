@@ -238,13 +238,6 @@
 	;
   }
 
-  .div-5{
-	border: var(--myGrey) 2px solid;
-	height: auto;
-	background:var(--boxColor);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  ;
-  
   div-2 {
 	  display: flex;
 	  width: 35%;
@@ -790,10 +783,10 @@
 		  margin:10px;
 		  padding: 5px;	
 	  }
-	  header{
+	header{
 		padding-inline-start: 0
 	  }
-	  header a {
+	header a {
 		font-size: 1.3em;
 		padding-right: 5px;
 		padding-left:  5px;
@@ -802,10 +795,6 @@
 		justify-content:space-evenly;
 		text-decoration: none;
 	  } 
-	
-	  a {
-		  text-decoration: none;
-	  }
 
 	  .container {
 		width: 100%;
@@ -825,7 +814,7 @@
 		padding-left: 3px;
 	  	font-weight: 2000;
 	}
-	  .character-first2{
+	.character-first2{
 		display:inline;
 		padding-bottom:0;
 
