@@ -298,7 +298,10 @@
 	  display:none;
   }
 
-  
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+}
 
 /* Scroll-ee bits */
 /* Scroll-ee bits */
