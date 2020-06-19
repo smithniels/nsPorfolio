@@ -900,7 +900,7 @@ hr{
 		display: flex;
 		justify-content: space-evenly;
 		text-decoration: none;
-		color: var(--myGrey) !important;
+		color: var(--myPink) !important;
 	}
 	.container {
 		width: 100%;
