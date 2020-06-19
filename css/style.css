@@ -1,42 +1,46 @@
- /* padding top, right, bottom, left */
+/* padding top, right, bottom, left */
+
 :root {
-	--myPink: #D3D3D3; /*Primary/Background */
-	--myGrey: black; /* Secondary/Lines */
-	--boxColor: white; /* it's the color of the boxes!*/
+	--myPink: #D3D3D3;
+	/*Primary/Background */
+	--myGrey: black;
+	/* Secondary/Lines */
+	--boxColor: white;
+	/* it's the color of the boxes!*/
 	/* Popart Color (almost white) */
-	--color3:#000000;
-  }
-  
-  html {
+	--color3: #000000;
+}
+
+html {
 	box-sizing: border-box;
 	background-color: var(--myPink);
 	background-attachment: fixed;
 	list-style-type: none;
 	font-family: Quicksand, sans-serif;
-  }
-  
-  *,
-  ::before,
-  ::after {
+}
+
+*,
+ ::before,
+ ::after {
 	box-sizing: inherit;
 	list-style-type: none;
 	text-decoration: none;
-  }
-  
-  body {
-	font-family:  Quicksand, Lato, sans-serif;
+}
+
+body {
+	font-family: Quicksand, Lato, sans-serif;
 	color: var(--myGrey);
 	text-decoration: none;
 	line-height: 1.5em;
 	transition: all 0.3s ease;
-  }
-  
-  header {
+}
+
+header {
 	position: fixed;
 	width: 100%;
 	text-transform: uppercase;
-	display: flex; 
-	justify-content: space-evenly; 
+	display: flex;
+	justify-content: space-evenly;
 	background-color: var(--myGrey);
 	font-size: 22px;
 	list-style-type: none;
@@ -45,112 +49,101 @@
 	line-height: 1em;
 	align-items: center;
 	text-align: center;
-	  /* One higher than the owl-carousel(100) */
 	z-index: 101;
 	height: 60px;
-  }
-  
+}
 
-  header li {
-	display: inline-block; /* keep this bit! */
-  }
-  
-  header a {
+header li {
+	display: inline-block;
+}
+
+header a {
 	font-size: 1.5em;
 	padding-right: 10px;
 	padding-left: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration: none;
-  }
-  
-  header a:hover {
+}
+
+header a:hover {
 	font-weight: 700;
 	border-width: thick;
 	border-bottom: var(--myPink) 2px solid;
-  }
-  
-  footer {
+}
+
+footer {
 	display: flex;
 	align-items: flex-end;
-	position:bottom;
+	position: bottom;
 	justify-content: center;
 	margin-top: 3.3rem;
-	font-weight:bold;
-	/* flex the word "flex" was just sitting here... */
-  }
-  
-  li.nav-uo {
+	font-weight: bold;
+}
+
+li.nav-uo {
 	float: left;
 	list-style: none;
-  }
-  
-  .nav-up {
+}
+
+.nav-up {
 	top: -60px;
-  }
-  
-  .bar {
+}
+
+.bar {
 	margin-top: 10px;
 	border: none;
-  }
-  
-  h1 {
+}
+
+h1 {
 	padding-right: 6px;
-  }
-  
-  h2 {
+}
+
+h2 {
 	border-bottom: 2px solid var(--myGrey);
-  }
-  
-  .line h2 {
+}
+
+.line h2 {
 	border-bottom: 2px solid var(--myGrey);
 	width: 100px;
-  }
-  
-  h3 {
+}
+
+h3 {
 	color: var(--myGrey);
 	font-size: 1.4em;
-  }
-  
-  h3:hover {
+}
+
+h3:hover {
 	font-weight: 700;
-  }
-  
-  h6 {
+}
+
+h6 {
 	padding-left: 6px;
-  }
-  
-  .location {
+}
+
+.location {
 	display: flex;
 	padding-bottom: 0;
 	border-left: var(--myGrey) 2px solid;
 	margin-right: 3px;
-  }
-  
-  a {
+}
+
+a {
 	cursor: pointer;
 	text-decoration: none;
-  }
-  
-  a:visited {
+}
+
+a:visited {
 	text-decoration: none;
 	color: var(--myPink);
-  }
-  
-  /* what is this referencing?
+}
 
-  /* A: #scroll is on the up button in the bottom right. But there's another scroll-eee section
-  #scroll:visited {
-	color: var(--myGrey);
-  } 
-  */
-  
-  .main {
+.main {
 	margin-top: 300px;
 	margin: auto;
-  }
-  
-  .words {
+}
+
+.words {
 	color: var(--myGrey);
 	z-index: 0;
 	font-style: Quicksand, Lato, sans-serif;
@@ -159,15 +152,15 @@
 	display: flex;
 	align-items: center;
 	margin-left: 50px;
-  }
-  
-  .words2 {
+}
+
+.words2 {
 	color: var(--myGrey);
 	font-style: Quicksand, Lato, sans-serif;
 	margin-left: 55px;
-  }
-  
-  #list {
+}
+
+#list {
 	display: block;
 	list-style-type: none;
 	transition: height 500ms;
@@ -176,344 +169,386 @@
 	line-height: 1.5em;
 	margin-left: 15px;
 	color: var(--myGrey);
-	/* border: pink dotted 4px; */
 	display: flex;
 	flex-direction: row;
-  }
-  
-  .contact-links {
-  }
-  
-  .wrapper {
+}
+
+.contact-links {}
+
+.wrapper {
 	display: flex;
-	/* width:1000px; */
 	flex-direction: column;
 	flex-wrap: wrap;
 	padding-left: 4%;
 	padding-right: 4%;
 	align-content: flex-start;
-  }
-  
-  .index {
+}
+
+.index {
 	flex-direction: column;
 	display: flex;
 	width: 100%;
 	margin-bottom: 4px;
 	border-bottom: var(--myPink) 2px solid;
 	padding-top: 50px;
-  }
-  
-  .image {
+}
+
+.image {
 	max-width: 100%;
 	margin-bottom: 20px;
-  }
-  
-  .small {
+}
+
+.small {
 	font-size: 10px;
 	line-height: 0;
-  }
-  
-  .slider {
+}
+
+.slider {
 	width: 100%;
-	max-width:1100px;
+	max-width: 1100px;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	  /* padding-left: 20%;
-	  this puts padding inside of the slider ruining everything... */
 	position: relative;
 	margin: 0 auto;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	padding-left: 0;
-  }
-  
-  button:focus {
+}
+
+button:focus {
 	outline: 0;
-  }
-  
-  .slide {
+}
+
+.slide {
 	border: black 4px solid;
 	width: 100%;
 	height: 100%;
 	text-align: center;
-  }
-  
-  .div-0 {
+}
+
+.div-0 {
 	border: var(--myGrey) 2px solid;
 	font-size: 45px;
-	background:var(--boxColor);
+	background: var(--boxColor);
 	width: 59%;
 	display: flex;
 	height: auto;
-	  /* flex-wrap: wrap; */
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	;
-  }
+}
 
+div-2 {
+	display: flex;
+	width: 35%;
+	font-size: 10px;
+}
 
-  div-2 {
-	  display: flex;
-	  width: 35%;
-	  font-size: 10px;
-  }
-  .div-2 > p {
-	  border-bottom: 2px var(--myGrey) solid;
-  }
-  .bold_bits {
-	  font-weight: 900;
-	  opacity: 1;
-  }
-  .contact-link {
-	  color: var(--myGrey);
-	  font-size: 23px;
-	  opacity: 0.85;
-	  padding: 5px;
-  }
-  .contact-link:visited {
-	  color: var(--myGrey)
-  }
-  .contact-link:hover {
-	  font-weight: 800;
-	  background-color: var(--myGrey);
-	  color: var(--myPink);
-	  border: var(--myGrey) 2px solid;
-  }
-  .sql {
-	  width: 35%;
-	  display: flex;
-	  padding-right: 2%;
-	  flex-direction: column;
-  }
-  .Here {
-	  font-weight: 900;
-	  text-decoration: underline ;
-	  border-bottom: var(--myGrey) 2px solid;
-  }
-  .character-first {
-	  color: var(color3);
-	  font-size: 180px;
-	  line-height: 100px;
-	  padding-left: 3px;
-	  font-weight: 2000;
-  }
-  .character-first2{
-	  display:none;
-  }
+.div-2>p {
+	border-bottom: 2px var(--myGrey) solid;
+}
 
- 
+.bold_bits {
+	font-weight: 900;
+	opacity: 1;
+}
+
+.contact-link {
+	color: var(--myGrey);
+	font-size: 23px;
+	opacity: 0.85;
+	padding: 5px;
+}
+
+.contact-link:visited {
+	color: var(--myGrey)
+}
+
+.contact-link:hover {
+	font-weight: 800;
+	background-color: var(--myGrey);
+	color: var(--myPink);
+	border: var(--myGrey) 2px solid;
+}
+
+.sql {
+	width: 35%;
+	display: flex;
+	padding-right: 2%;
+	flex-direction: column;
+}
+
+.Here {
+	font-weight: 900;
+	text-decoration: underline;
+	border-bottom: var(--myGrey) 2px solid;
+}
+
+.character-first {
+	color: var(color3);
+	font-size: 180px;
+	line-height: 100px;
+	padding-left: 3px;
+	font-weight: 2000;
+}
+
+.character-first2 {
+	display: none;
+}
+
 
 /* Scroll-ee bits */
-/* Scroll-ee bits */
-/* Scroll-ee bits */
-  
-  #scroll {
-	  right: 10px;
-	  bottom: 10px;
-	  z-index: 101;
-	  width: 7%;
-	  height: 3em;
-	  position: fixed;
-	  cursor: pointer;
-	  /* Color of unhovered pill*/
-	  
-	  background-color: var(--myPink); 
-	  /* background-color: var(--myPink);  */
-	  opacity:.6;
-	  /* unhovered pill border */
-	  border: 2px var(--myGrey) solid;
-	  text-indent: -9999px;
-	  display: none;
-	  -webkit-border-radius: 150px;
-	  -moz-border-radius: 150px;
-	  border-radius: 150px;
-  }
-  #scroll span {
-	  position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  margin-left: -8px;
-	  margin-top: -12px;
-	  height: 0;
-	  width: 0;
-	  border: 8px solid transparent;
-	  border-bottom-color: #ffffff;
-  }
-  #scroll:hover {
-	  background-color: var(--myGrey);
-	  opacity: 1;
-	  filter: "alpha(opacity=100)";
-	  -ms-filter: "alpha(opacity=100)";
-  }
-  /*OWL*/
-  /*OWL*/
-  /*OWL*/
-  
-  /* This bit will make all of your Owl Carousel images the same size */
-  
-  .owl-carousel .item {
-	  height: 700px;
-	  max-width: 1000px;
-  }
-  .owl-carousel {
-	  margin: 0 auto;
-  }
-  .owl-prev {
-	  width: 15px;
-	  height: 100px;
-	  position: absolute;
-	  top: 40%;
-	  margin-left: -20px;
-	  display: block !important;
-	  border: 0px solid black;
-  }
-  .owl-next {
-	  width: 15px;
-	  height: 100px;
-	  position: absolute;
-	  top: 40%;
-	  right: -2px;
-	  display: block !important;
-	  border: 0px solid black;
-  }
 
-  /* sites section */
-  /* sites section */
-  /* sites section */
-  
-  .sites {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	  padding-bottom: 25px;
-  }
-  .image-site {
-	  width: 100%;
-	  max-width: 800px;
-  }
-  .paragraph-site {
-	  margin: 30px 30px;
-	  background: white;
-	  width: 400px;
-	  padding: 20px 10px;
-	  font-size: 23px;
-	  border: var(--myGrey) 2px solid;
-	  border-right: var(--myGrey) 2px solid;
-	  line-height: normal;
-	  color:var(--myGrey);
-	  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-	
-  }
-  .paragraph-intro {
-	  color:var(--color3);
-	  display:flex;
-	  flex-direction: row; 
-	  justify-content: flex-start;
-  	  font-size: 35px;
-	  width:25px;
-	  padding-right:1px;
-  }
-  .paragraph-body {
+
+/* Scroll-ee bits */
+
+
+/* Scroll-ee bits */
+
+#scroll {
+	right: 10px;
+	bottom: 10px;
+	z-index: 101;
+	width: 7%;
+	height: 3em;
+	position: fixed;
+	cursor: pointer;
+	/* Color of unhovered pill*/
+	background-color: var(--myPink);
+	opacity: .6;
+	border: 2px var(--myGrey) solid;
+	text-indent: -9999px;
+	display: none;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+}
+
+#scroll span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -8px;
+	margin-top: -12px;
+	height: 0;
+	width: 0;
+	border: 8px solid transparent;
+	border-bottom-color: #ffffff;
+}
+
+#scroll:hover {
+	background-color: var(--myGrey);
+	opacity: 1;
+	filter: "alpha(opacity=100)";
+	-ms-filter: "alpha(opacity=100)";
+}
+
+
+/*OWL*/
+
+
+/*OWL*/
+
+
+/*OWL*/
+
+
+/* This bit will make all of your Owl Carousel images the same size */
+
+.owl-carousel .item {
+	height: 700px;
+	max-width: 1000px;
+}
+
+.owl-carousel {
+	margin: 0 auto;
+}
+
+.owl-prev {
+	width: 15px;
+	height: 100px;
+	position: absolute;
+	top: 40%;
+	margin-left: -20px;
+	display: block !important;
+	border: 0px solid black;
+}
+
+.owl-next {
+	width: 15px;
+	height: 100px;
+	position: absolute;
+	top: 40%;
+	right: -2px;
+	display: block !important;
+	border: 0px solid black;
+}
+
+
+/* sites section */
+
+
+/* sites section */
+
+
+/* sites section */
+
+.sites {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 25px;
+}
+
+.image-site {
+	width: 100%;
+	max-width: 800px;
+}
+
+.paragraph-site {
+	margin: 30px 30px;
+	background: white;
+	width: 400px;
+	padding: 20px 10px;
+	font-size: 23px;
+	border: var(--myGrey) 2px solid;
+	border-right: var(--myGrey) 2px solid;
+	line-height: normal;
+	color: var(--myGrey);
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.paragraph-intro {
+	color: var(--color3);
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: 35px;
+	width: 25px;
+	padding-right: 1px;
+}
+
+.paragraph-body {
 	font-size: 20px;
-	margin-left:3px;
-	/* color:var(--myGrey); */
-	color:var(--color3) ;
-  }
-  .paragraph-container{
-	  display:flex;
-	  background: var(--boxColor);
-	  flex-direction: column;
-	  padding-left: 20px;
-  }
-  .paragraph-code{
-	  width:100%;
-	  padding-left: 20px;
-	  margin-left:20px;
-	  list-style-type:circle !important;
-	  line-height:1.5em;
-	  font-size:22px;
-	  color: var(--myGrey);
-  }
-  
-  
-  .title {
-	  font-size: 29px;
-	  font-weight: bold;
-	  margin-right: 7px;
-	  padding: 2px 5px;
-	  color: var(--myGrey);
-	  border-right: var(--myGrey) 2px solid;
-  }
-  .link-text {
-	  color: var(--myGrey) !important;
-	  border-bottom: 2px var(--myGrey) solid;
-  }
-  .site-ways {
-	  display: flex;
-	  flex-direction: row;
-	  /* border: white 3px dotted; */
-	  padding-top: 20px;
-  }
-  .site-ways-rev {
-	  display: flex;
-	  flex-direction: row-reverse;
-	  padding-top: 50px;
-	  padding-bottom: 50px;
-  }
-  .box-big {
-	  display: flex;
-	  flex-wrap: wrap;
-	  justify-content: space-between;
-  }
-  .box-small {
-	  display: flex;
-	  background:var(--boxColor);
-	  font-size: 20px;
-	  width: 30%;
-	  height: 100%;;
-	  flex-wrap: wrap;
-	  border: var(--myGrey) 2px solid;
-	  padding: 20px 10px;
-	  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  }
-  .box-small > p {
+	margin-left: 3px;
+	color: var(--color3);
+}
+
+.paragraph-container {
+	display: flex;
+	background: var(--boxColor);
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.paragraph-code {
+	width: 100%;
+	padding-left: 20px;
+	margin-left: 20px;
+	list-style-type: circle !important;
+	line-height: 1.5em;
+	font-size: 22px;
+	color: var(--myGrey);
+}
+
+.title {
+	font-size: 29px;
+	font-weight: bold;
+	margin-right: 7px;
+	padding: 2px 5px;
+	color: var(--myGrey);
+	border-right: var(--myGrey) 2px solid;
+}
+
+.link-text {
+	color: var(--myGrey) !important;
+	border-bottom: 2px var(--myGrey) solid;
+}
+
+.site-ways {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+}
+
+.site-ways-rev {
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.box-big {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.box-small {
+	display: flex;
+	background: var(--boxColor);
+	font-size: 20px;
+	width: 30%;
+	height: 100%;
+	;
+	flex-wrap: wrap;
+	border: var(--myGrey) 2px solid;
+	padding: 20px 10px;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.box-small>p {
 	/* border-bottom: 2px var(--myGrey) solid; */
 	padding-left: 0;
 }
-  .item-sub {
-	  display: flex;
-	  flex-wrap: flex;
-	  padding-left: 25px;
-  }
-  .location-edu {
-	  font-size: 16px;
-	  font-style: italic;
-	  padding-left: 25px;
-  }
-  a.show-text {
-	  color: var(--myGrey) !important;
-	  font-weight: bold;
-	  text-decoration: underline;
-  }
-  .list-code {
-	  list-style-type: square;
-	  color: var(--myGrey);
-  }
-   li.paragraph{
-		font-size:30px;
-  }
-  
-  .intro-photo{
-	  height:350px;
-	  border: 2px var(--myGrey) solid;
-	  /* padding: 3px; */
-	  margin-left:80px !important; 
-  }
-  
-  /* Let's make stuff fade! */
-  /* Let's make stuff fade! */ /* Fading up/down button */
-  /* Let's make stuff fade! */
-	#fader {
+
+.item-sub {
+	display: flex;
+	flex-wrap: flex;
+	padding-left: 25px;
+}
+
+.location-edu {
+	font-size: 16px;
+	font-style: italic;
+	padding-left: 25px;
+}
+
+a.show-text {
+	color: var(--myGrey) !important;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.list-code {
+	list-style-type: square;
+	color: var(--myGrey);
+}
+
+li.paragraph {
+	font-size: 30px;
+}
+
+.intro-photo {
+	height: 350px;
+	border: 2px var(--myGrey) solid;
+	/* padding: 3px; */
+	margin-left: 80px !important;
+}
+
+
+/* Let's make stuff fade! */
+
+
+/* Let's make stuff fade! */
+
+
+/* Fading up/down button */
+
+
+/* Let's make stuff fade! */
+
+#fader {
 	position: fixed;
 	top: -150;
 	left: 0;
@@ -524,80 +559,80 @@
 	background: white;
 	animation-duration: 500ms;
 	animation-timing-function: ease-in-out;
-  }
-  
-  @keyframes fade-out {
+}
+
+@keyframes fade-out {
 	from {
-	  opacity: 1;
+		opacity: 1;
 	}
-  
 	to {
-	  opacity: .5;
+		opacity: .5;
 	}
-  }
-  
-  @keyframes fade-in {
+}
+
+@keyframes fade-in {
 	from {
-	  opacity: 0;
+		opacity: 0;
 	}
-  
 	to {
-	  opacity: 1;
+		opacity: 1;
 	}
-  }
-  
-  #fader.fade-out {
+}
+
+#fader.fade-out {
 	opacity: 0;
 	animation-name: fade-out;
-  }
-  
-  #fader.fade-in {
+}
+
+#fader.fade-in {
 	opacity: 1;
 	animation-name: fade-in;
-  }
-  
-  /* Let's underline shiftily */
-  /* Let's underline shiftily */
-  /* Let's underline shiftily */
+}
 
-  .container {
+
+/* Let's underline shiftily */
+
+
+/* Let's underline shiftily */
+
+
+/* Let's underline shiftily */
+
+.container {
 	width: 50%;
 	margin: 0 auto;
-  }
+}
 
-
-  .two:hover ~ hr {
+.two:hover~hr {
 	margin-left: 25%;
-  }
-  
-  .three:hover ~ hr {
+}
+
+.three:hover~hr {
 	margin-left: 50%;
-  }
-  
-  hr {
+}
+
+hr {
 	height: .25rem;
 	width: 50%;
 	margin: 0;
 	background: tomato;
 	border: none;
 	transition: .3s ease-in-out;
-  }
+}
 
-  .list-item{
-	  margin:10px 0;}
+.list-item {
+	margin: 10px 0;
+}
 
+a:after {
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
 
-	a:after{
-		transition: width 0.3s ease 0s, left 0.3s ease 0s;
+.line {
+	color: var(--myPink);
+}
 
-	}
-  
-  .line{
-	  color: var(--myPink);
-  }
-
-
-  .highlight {
+.highlight {
 	transition: all 0.2s;
 	border-bottom: 2px solid white;
 	position: absolute;
@@ -607,258 +642,268 @@
 	z-index: -1;
 	border-radius: 20px;
 	display: block;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  }
-
-#bruh{
-	position:absolute;
- 	top:0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-  
 
+#bruh {
+	position: absolute;
+	top: 0;
+}
 
 
 /* Blog Experiementation */
+
 .container {
-    display: flex;
+	display: flex;
 	flex-flow: row wrap;
 	margin-top: 25px;
-	
-
-	
 }
 
-.sidebar{
+.sidebar {
 	margin-left: 30px;
 	border-left: var(--myGrey) 2px solid;
 }
 
-.blog, .sidebar, .footer {
-    flex-grow: 1;
-    flex-basis: 100%;
+.blog,
+.sidebar,
+.footer {
+	flex-grow: 1;
+	flex-basis: 100%;
 }
 
 
-
-	/* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
-
+/* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
 
 
+/*RESPONSIVE*/
 
 
+/*RESPONSIVE*/
 
-  /*RESPONSIVE*/
-  /*RESPONSIVE*/
-  /*RESPONSIVE*/
-		/*RESPONSIVE*/
-		/*RESPONSIVE*/
-		/*RESPONSIVE*/
-			/*RESPONSIVE*/
-		/*RESPONSIVE*/
-  /*RESPONSIVE*/
-  /*RESPONSIVE*/
-   /*RESPONSIVE*/
-  /*RESPONSIVE*/
-  /*RESPONSIVE*/
-  
-  /* Things I forget: start small go big when designing responsive pages! */
-  @media screen and (max-width: 1000px){
-	  .site-ways {
-		  display: flex;
-		  flex-direction: column;
-		  padding-top: 8px;
-	  }
-	  .site-ways-rev {
-		  display: flex;
-		  flex-direction: column;
-		  padding-top: 20px;
-		  padding-bottom: 20px;
-	  }  
-  }
-  
-  @media screen and (max-width: 800px) {
-	  .div-0 {
-		  width: 100% ;
-		  min-width: 450px;
-		  max-width:480px;
-		  display: flex;
-		  font-size:16px;
-		  flex-direction: row;
-		  line-height: normal;
-		  justify-content:flex-start;
-		  margin: auto 15px;
-		  padding-bottom:10px;
-	  }
-  
-	  #list {
-		  display: flex;
-	  }
-	  header li {
-		  font-weight: bold;
-		  font-size: 0.7em;
-		  padding-right: 2.5px;
-		  padding-left: 2.5px;
-	  }
-	  h3.makeBiggerWSmallSreen {
-		  font-size: 35px;
-	  }
-	  h2 {
-		  font-size: 30px;
-		  margin: 0.150em 0;
-	  }
-	  .paragraph-intro{
-		  font-size:26px;
-		  line-height: 26px;
-		  color: black;
-		  padding:0;
-		  font-weight:bold;
-		  width: 100%; */
-		  padding-right: .25px; 
-		  padding-top: 10px;
-		  padding-bottom: 10px; 
-		  display: inline-block;
-	  }
-	  .paragraph-body{
-		  font-size:16px;
-		  height:100%;
-		  width:120%;
-		  padding-left:2px;
-  		  padding-right: 2px;
-		  padding-top:none; 	
-	  }
-	  .intro-photo{
-		  border: 2px var(--myGrey) solid;
-		  box-shadow:inset 0 0 0 25px var(--myGrey);
-		  padding: 2px;
-		  margin-right: 14px;
-		  max-width:40%;
-		  height:auto;
-		  max-height: 300px;
-		  margin-top: 20px;
-		  margin-bottom: 20px;
-	  }
-  
-	  .words {
-		  margin-left: 10px;
-		  display: flex;
-		  width: 275px;
-		}
-	  .image-site {
-		  height: auto;
-		  width:100%;
-	  }
-	  .owl-next,
-	  .owl-prev {
-		  display: none ;
-	  }
-	  .sites {
-		  flex-direction: column;
-		  justify-content: flex-start;
-	  }
 
-	  .owl-carousel.owl-loaded {
-		  display: inline-block;
-	  }
-	  .site-ways {
-		  padding-top: 8px;
-	  }
-	  .site-ways-rev {
-		  padding-top: 20px;
-		  padding-bottom: 20px;
-	  }
-	  .slider {
-		  width: 100%;
-		  height: 280px;
-	  }
-	  .item {
-		  height: 280px !important;
-	  }
-	  .item:hover {
-		  cursor:grabbing;
-	  }
-	  .owl-carousel {
-		  height: 300px;
-	  }
-	  .paragraph {
-		  width: 90%;
-		  font-size:16px;
-	  }
-	  .list-code{
-		  width:100%;
-	  }
-	  .title {
-		  border-right: none;
-		  padding: 5px 5px;
-	  }
-	  .index{
-		  padding-top: 20px;
-	  }
-	  .box-small{
-		  width:100%;;	
-		  margin-bottom: 15px;
-	  }
-  
-	  .paragraph-code{
-		  margin: 3px ;
-		  width: 440px;
-	  }
-	  .paragraph-site{
-		  padding: 5px 25px;
-		  margin: 50px 0;
-	  }
-	  .pargraph-site2{
-		  margin: 0.150em 0;
-	  }
-  
-	  .paragraph-code{
-		  margin:10px;
-		  padding: 5px;	
-	  }
-		header{
-			padding-inline-start: 0
-	  }
-		header a {
-			font-size: 1.3em;
-			padding-right: 5px;
-			padding-left:  5px;
-			margin: 0 auto;
-			display:flex;
-			justify-content:space-evenly;
-			text-decoration: none;
-	  }
+/*RESPONSIVE*/
 
-	  .container {
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/*RESPONSIVE*/
+
+
+/* Things I forget: start small go big when designing responsive pages! */
+
+@media screen and (max-width: 1000px) {
+	.site-ways {
+		display: flex;
+		flex-direction: column;
+		padding-top: 8px;
+	}
+	.site-ways-rev {
+		display: flex;
+		flex-direction: column;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.div-0 {
 		width: 100%;
-	  }
-
-	  ul{
+		min-width: 450px;
+		max-width: 480px;
+		display: flex;
+		font-size: 16px;
+		flex-direction: row;
+		line-height: normal;
+		justify-content: flex-start;
+		margin: auto 15px;
+		padding-bottom: 10px;
+	}
+	#list {
+		display: flex;
+	}
+	header li {
+		font-weight: bold;
+		font-size: 0.7em;
+		padding-right: 2.5px;
+		padding-left: 2.5px;
+	}
+	h3.makeBiggerWSmallSreen {
+		font-size: 35px;
+	}
+	h2 {
+		font-size: 30px;
+		margin: 0.150em 0;
+	}
+	.paragraph-intro {
+		font-size: 26px;
+		line-height: 26px;
+		color: black;
+		padding: 0;
+		font-weight: bold;
+		width: 100%;
+		*/ padding-right: .25px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		display: inline-block;
+	}
+	.paragraph-body {
+		font-size: 16px;
+		height: 100%;
+		width: 120%;
+		padding-left: 2px;
+		padding-right: 2px;
+		padding-top: none;
+	}
+	.intro-photo {
+		border: 2px var(--myGrey) solid;
+		box-shadow: inset 0 0 0 25px var(--myGrey);
+		padding: 2px;
+		margin-right: 14px;
+		max-width: 40%;
+		height: auto;
+		max-height: 300px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.words {
+		margin-left: 10px;
+		display: flex;
+		width: 275px;
+	}
+	.image-site {
+		height: auto;
+		width: 100%;
+	}
+	.owl-next,
+	.owl-prev {
+		display: none;
+	}
+	.sites {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.owl-carousel.owl-loaded {
+		display: inline-block;
+	}
+	.site-ways {
+		padding-top: 8px;
+	}
+	.site-ways-rev {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.slider {
+		width: 100%;
+		height: 280px;
+	}
+	.item {
+		height: 280px !important;
+	}
+	.item:hover {
+		cursor: grabbing;
+	}
+	.owl-carousel {
+		height: 300px;
+	}
+	.paragraph {
+		width: 90%;
+		font-size: 16px;
+	}
+	.list-code {
+		width: 100%;
+	}
+	.title {
+		border-right: none;
+		padding: 5px 5px;
+	}
+	.index {
+		padding-top: 20px;
+	}
+	.box-small {
+		width: 100%;
+		;
+		margin-bottom: 15px;
+	}
+	.paragraph-code {
+		margin: 3px;
+		width: 440px;
+	}
+	.paragraph-site {
+		padding: 5px 25px;
+		margin: 50px 0;
+	}
+	.pargraph-site2 {
+		margin: 0.150em 0;
+	}
+	.paragraph-code {
+		margin: 10px;
+		padding: 5px;
+	}
+	header {
+		padding-inline-start: 0
+	}
+	header a {
+		font-size: 1.3em;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-evenly;
+		text-decoration: none;
+	}
+	.container {
+		width: 100%;
+	}
+	ul {
 		padding: 10px 0;
 		margin: auto 0;
 		display: inline-block;
-	  }
-
-	  .character-first {
-		display:none;
+	}
+	.character-first {
+		display: none;
 		color: var(color3);
 		font-size: 112px;
 		line-height: 100px;
 		padding-left: 3px;
-	  	font-weight: 2000;
+		font-weight: 2000;
 	}
-	.character-first2{
-		display:inline;
-		padding-bottom:0;
+	.character-first2 {
+		display: inline;
+		padding-bottom: 0;
 	}
-  }
- 
-  
-  @media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 600px) {
 	/* if screen > 600px sidebar appears alongside blog getting 1/3rd of space */
-	.blog { 
-		flex: 3 0px; 
+	.blog {
+		flex: 3 0px;
 	}
-	.sidebar { 
-		flex: 1 0px; 
+	.sidebar {
+		flex: 1 0px;
 	}
-  }
-  
+}
