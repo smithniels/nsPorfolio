@@ -512,7 +512,8 @@ div-2 {
 .item-sub {
 	display: flex;
 	flex-wrap: flex;
-	padding-left: 25px;
+	flex-direction: column;
+	/* padding-left: 25px; */
 }
 
 .location-edu {
