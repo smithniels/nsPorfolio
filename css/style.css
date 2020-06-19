@@ -64,6 +64,11 @@ header a {
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration: none;
+	
+}
+
+a:focus {
+  color: var(--myPink);
 }
 
 header a:hover {
