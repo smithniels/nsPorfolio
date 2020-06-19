@@ -621,7 +621,7 @@ hr {
 	height: .25rem;
 	width: 50%;
 	margin: 0;
-	background: tomato;
+	background: var(--myPink);
 	border: none;
 	transition: .3s ease-in-out;
 }
