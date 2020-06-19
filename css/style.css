@@ -67,9 +67,12 @@ header a {
 	
 }
 
+
 a:focus {
   color: var(--myPink);
 }
+/* If the focus didn't work try a:visited */
+/* a:visited{color: #40A97B;} */
 
 header a:hover {
 	font-weight: 700;
