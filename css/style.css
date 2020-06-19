@@ -699,6 +699,13 @@ hr{
 	max-height: 100px;
 }
 
+ul {
+    border-left: 6px solid var(--myPink);
+    background-color: #b495c9;
+    color: var(--boxColor);
+   list-style-type: circle;
+   padding: 11px 21px;
+}
 
 /*RESPONSIVE*/
 
@@ -768,7 +775,7 @@ hr{
 		margin: auto 15px;
 		padding-bottom: 10px;
 		padding-right:10px;
-		margin-right:10px;
+		margin-right:1	0px;
 	}
 	#list {
 		display: flex;
