@@ -498,7 +498,6 @@ div-2 {
 }
 
 .box-small>p {
-	/* border-bottom: 2px var(--myGrey) solid; */
 	padding-left: 0;
 }
 
@@ -532,7 +531,6 @@ li.paragraph {
 .intro-photo {
 	height: 350px;
 	border: 2px var(--myGrey) solid;
-	/* padding: 3px; */
 	margin-left: 80px !important;
 }
 
