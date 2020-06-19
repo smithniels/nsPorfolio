@@ -680,6 +680,7 @@ a:after {
 .item-ed{
 	display:flex;
 	flex-wrap: flex;
+	border-bottom: 2px solid var(--myGrey)
 }
 
 hr{
