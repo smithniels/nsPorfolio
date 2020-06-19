@@ -897,6 +897,7 @@ hr{
 		display: flex;
 		justify-content: space-evenly;
 		text-decoration: none;
+		color: var(--myGrey);
 	}
 	.container {
 		width: 100%;
