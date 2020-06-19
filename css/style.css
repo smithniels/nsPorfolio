@@ -523,7 +523,7 @@ div-2 {
 }
 
 a.show-text {
-	color: var(--myGrey) !important;
+	color: var(--myPink) !important;
 	font-weight: bold;
 	text-decoration: underline;
 }
