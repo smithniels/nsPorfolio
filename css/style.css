@@ -767,6 +767,8 @@ hr{
 		justify-content: flex-start;
 		margin: auto 15px;
 		padding-bottom: 10px;
+		padding-right:10px;
+		margin-right:10px;
 	}
 	#list {
 		display: flex;
