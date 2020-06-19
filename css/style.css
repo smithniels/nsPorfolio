@@ -699,9 +699,9 @@ hr{
 	max-height: 100px;
 }
 
-ul {
+ul.SpecUl {
     border-left: 6px solid var(--myPink);
-    background-color: #b495c9;
+    background-color: purple;
     color: var(--boxColor);
    list-style-type: circle;
    padding: 11px 21px;
