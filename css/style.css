@@ -682,6 +682,11 @@ a:after {
 	flex-wrap: flex;
 }
 
+hr{
+	/* color:black; */
+	border-color: black;
+}
+
 /* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
 
 .logo {
