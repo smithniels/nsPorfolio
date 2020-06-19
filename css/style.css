@@ -169,7 +169,7 @@ a:visited {
 }
 
 #list {
-	display: block;
+	display: inline-block;
 	list-style-type: none;
 	transition: height 500ms;
 	font-style: Quicksand, Lato, sans-serif;
