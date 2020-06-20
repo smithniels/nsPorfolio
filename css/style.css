@@ -436,6 +436,11 @@ div-2 {
 	padding-right: 1px;
 }
 
+.paragraph-intro-main{
+	line-height:.9em; 
+	z-index:102; 
+	min-width: 300px;
+}
 .paragraph-body {
 	font-size: 20px;
 	margin-left: 3px;
