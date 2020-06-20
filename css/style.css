@@ -505,10 +505,9 @@ div-2 {
 	font-size: 20px;
 	width: 30%;
 	height: 100%;
-	;
 	flex-wrap: wrap;
 	border: var(--myGrey) 2px solid;
-	padding: 20px 10px;
+	padding: 10px 10px;
 	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
