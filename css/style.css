@@ -523,7 +523,7 @@ div-2 {
 }
 
 a.show-text {
-	color: var(--myPink) !important;
+	color: black;
 	font-weight: bold;
 	text-decoration: underline;
 }
@@ -701,7 +701,7 @@ hr{
 
 ul.SpecUl {
     border-left: 6px solid var(--myPink);
-    background-color: purple;
+    background-color: purple; /* Probably delete me */
     color: var(--boxColor);
    list-style-type: circle;
    padding: 11px 21px;
