@@ -439,7 +439,7 @@ div-2 {
 .paragraph-intro-main{
 	line-height:.9em; 
 	z-index:102; 
-	min-width: 300px;
+	min-width: 600px;
 }
 .paragraph-body {
 	font-size: 20px;
