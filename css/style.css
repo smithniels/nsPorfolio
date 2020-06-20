@@ -678,6 +678,11 @@ a:after {
 	flex-basis: 100%;
 }
 
+.blog,
+.sidebar {
+	padding-left: 20px;
+}
+
 .item-ed{
 	display:flex;
 	flex-wrap: flex;
