@@ -444,7 +444,10 @@ div-2 {
 .paragraph-body {
 	font-size: 20px;
 	margin-left: 3px;
-	color: var(--color3);
+	/* color: var(--color3); */
+	color:red;
+	padding-bottom: 20px;
+	
 }
 
 .paragraph-container {
