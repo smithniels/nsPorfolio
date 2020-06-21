@@ -17,7 +17,7 @@ html {
 	background-attachment: fixed;
 	list-style-type: none;
 	font-family: Quicksand, sans-serif;
-	background-image: url("/images/wallpaper/wallpaper1.jpg");
+	background-image: url("../images/wallpaper/wallpaper1.jpg");
 }
 
 *,
