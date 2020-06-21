@@ -17,7 +17,7 @@ html {
 	background-attachment: fixed;
 	list-style-type: none;
 	font-family: Quicksand, sans-serif;
-	background-image: url("../images/wallpaper/wallpaper1.jpg");
+	background-image: url("/images/wallpaper/wallpaper1.jpg");
 }
 
 *,
@@ -161,7 +161,6 @@ a:visited {
 	display: flex;
 	align-items: center;
 	margin-left: 50px;
-	background-color:var(--myGrey);
 }
 
 .words2 {
@@ -499,6 +498,7 @@ div-2 {
 	border: var(--myGrey) 2px solid;
 	padding: 10px 10px;
 	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	opacity:85%;
 }
 
 .box-small>p {
