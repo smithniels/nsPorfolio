@@ -198,7 +198,7 @@ a:visited {
 	display: flex;
 	width: 100%;
 	margin-bottom: 4px;
-	border-bottom: var(--myPink) 2px solid;
+	/* border-bottom: var(--myPink) 2px solid; */
 	padding-top: 50px;
 }
 
