@@ -161,6 +161,7 @@ a:visited {
 	display: flex;
 	align-items: center;
 	margin-left: 50px;
+	background-color:var(--myGrey);
 }
 
 .words2 {
