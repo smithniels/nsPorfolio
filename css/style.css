@@ -55,7 +55,7 @@ body {
 header {
   position: fixed;
   width: 100%;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   display: flex;
   justify-content: space-evenly;
   background-color: var(--myGrey);
