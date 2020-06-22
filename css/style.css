@@ -721,6 +721,10 @@ ul.SpecUl {
   padding: 11px 21px;
 }
 
+.width-limit{
+	max-width: 350px;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
