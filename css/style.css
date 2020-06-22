@@ -181,9 +181,10 @@ a:visited {
   margin-left: 50px;
 }
 
-.words:hover, .location:hover {
-background-color:white;
-opacity:.85;
+.words:hover,
+.location:hover {
+  background-color: white;
+  opacity: 0.85;
 }
 
 .words2 {
@@ -708,9 +709,10 @@ hr {
 /* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
 
 .logo {
+  width: 60%;
   max-width: 250px;
   max-height: 200px;
-  padding-right:-100px;
+  padding-right: -100px;
 }
 
 ul.SpecUl {
@@ -721,8 +723,8 @@ ul.SpecUl {
   padding: 11px 21px;
 }
 
-.width-limit{
-	max-width: 350px;
+.width-limit {
+  max-width: 350px;
 }
 
 /*RESPONSIVE*/
@@ -834,9 +836,10 @@ ul.SpecUl {
     display: flex;
     width: 275px;
   }
-  .words,.location{
-	  background-color:white;
-	  opacity:.85;
+  .words,
+  .location {
+    background-color: white;
+    opacity: 0.85;
   }
   .image-site {
     height: auto;
