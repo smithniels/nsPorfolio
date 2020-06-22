@@ -185,7 +185,7 @@ a:visited {
 .location:hover {
   background-color: white;
   opacity: 0.85;
-  transition: width 1s;
+  transition: width 2s;
 }
 
 .words2 {
