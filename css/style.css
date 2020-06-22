@@ -526,7 +526,7 @@ div-2 {
 
 .item-sub {
   display: flex;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   padding-bottom: 10px;
   padding-left: 10px;
