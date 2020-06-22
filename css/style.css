@@ -179,15 +179,16 @@ a:visited {
   display: flex;
   align-items: center;
   margin-left: 50px;
-  opacity: ,85;
+  opacity: .85;
+  transition: width 2s;
+  transition-timing-function: ease;
 }
 
 .words:hover,
 .location:hover {
   background-color: white;
   opacity: 0.35;
-  transition: width 4s;
-  transition-timing-function: linear;
+ 
 }
 
 .words2 {
