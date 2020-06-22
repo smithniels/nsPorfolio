@@ -181,7 +181,7 @@ a:visited {
   margin-left: 50px;
 }
 
-.words:hover {
+.words:hover, .location:hover {
 background-color:white;
 opacity:.85;
 }
