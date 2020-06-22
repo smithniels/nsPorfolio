@@ -529,6 +529,7 @@ div-2 {
   flex-wrap: wrap;
   flex-direction: column;
   padding-bottom: 10px;
+  padding-right: 10px;
   padding-left: 10px;
   border-left: dashed 2px var(--myGrey);
 }
