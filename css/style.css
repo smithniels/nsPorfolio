@@ -522,10 +522,9 @@ div-2 {
   flex-wrap: flex;
   flex-direction: column;
   padding-bottom: 10px;
+  padding-left: 10px;
   border-left: dashed 2px var(--myGrey);
 }
-
-
 
 .location-edu {
   font-size: 16px;
