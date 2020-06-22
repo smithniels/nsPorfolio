@@ -521,7 +521,7 @@ div-2 {
   display: flex;
   flex-wrap: flex;
   flex-direction: column;
-  /* padding-left: 25px; */
+  padding-bottom: 5px;
 }
 
 .location-edu {
