@@ -181,6 +181,10 @@ a:visited {
   margin-left: 50px;
 }
 
+.words:hover {
+	color:white;
+}
+
 .words2 {
   color: var(--myGrey);
   font-style: Quicksand, Lato, sans-serif;
