@@ -182,7 +182,8 @@ a:visited {
 }
 
 .words:hover {
-background-color:white;;
+background-color:white;
+opacity:.85;
 }
 
 .words2 {
