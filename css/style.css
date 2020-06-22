@@ -674,6 +674,7 @@ a:after {
 .footer {
   flex-grow: 1;
   flex-basis: 100%;
+  margin-bottom: 15px;
 }
 
 .blog,
