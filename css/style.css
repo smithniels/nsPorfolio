@@ -188,7 +188,8 @@ a:visited {
 }
 
 #list {
-  display: inline-block;
+  /* display: inline-block; */
+  display:wrap;
   list-style-type: none;
   transition: height 500ms;
   font-style: Quicksand, Lato, sans-serif;
