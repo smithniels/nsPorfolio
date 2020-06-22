@@ -828,6 +828,10 @@ ul.SpecUl {
     display: flex;
     width: 275px;
   }
+  .words,.location{
+	  background-color:white;
+	  opacity:.85;
+  }
   .image-site {
     height: auto;
     width: 100%;
