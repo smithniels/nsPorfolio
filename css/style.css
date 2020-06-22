@@ -423,6 +423,7 @@ div-2 {
 .paragraph-site {
   margin: 30px 30px;
   background: white;
+  opacity:.85;
   /* width: 400px; */
   padding: 20px 10px;
   font-size: 23px;
