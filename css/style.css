@@ -423,7 +423,7 @@ div-2 {
 .paragraph-site {
   margin: 30px 30px;
   background: white;
-  opacity:.85;
+  opacity: 0.85;
   /* width: 400px; */
   padding: 20px 10px;
   font-size: 23px;
@@ -802,6 +802,10 @@ ul.SpecUl {
   h2 {
     font-size: 30px;
     margin: 0.15em 0;
+  }
+  h4 {
+    display: flex;
+    justify-content: center;
   }
   .paragraph-intro {
     font-size: 26px;
