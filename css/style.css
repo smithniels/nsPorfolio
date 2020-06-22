@@ -180,7 +180,7 @@ a:visited {
   align-items: center;
   margin-left: 50px;
   opacity: .85;
-  transition: width 2s;
+  transition: opacity 2s;
   transition-timing-function: ease;
 }
 
