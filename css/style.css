@@ -713,7 +713,7 @@ hr {
 .logo {
   width: 60%;
   max-width: 250px;
-  max-height: 200px;
+  max-height: 150%;
   padding-right: -100px;
   padding-left: 20px;
 }
