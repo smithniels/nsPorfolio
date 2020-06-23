@@ -534,6 +534,7 @@ div-2 {
 
 .item-sub {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
   padding-bottom: 20px;
