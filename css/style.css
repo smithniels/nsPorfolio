@@ -517,7 +517,7 @@ ul.box-small{
 .box-small {
   display: flex;
   background: var(--boxColor);
-  font-size: 30px;
+  font-size: 25px;
   /* width: 30%; */
   height: 100%;
   flex-wrap: wrap;
