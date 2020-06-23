@@ -510,10 +510,14 @@ div-2 {
   justify-content: space-between;
 }
 
+ul.box-small{
+  padding-right:10px;
+}
+
 .box-small {
   display: flex;
   background: var(--boxColor);
-  font-size: 20px;
+  font-size: 30px;
   /* width: 30%; */
   height: 100%;
   flex-wrap: wrap;
