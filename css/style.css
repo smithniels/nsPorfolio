@@ -188,7 +188,18 @@ span.a:visited {
   transition: opacity 2s;
   transition-timing-function: ease-in-out;
 }
+/*from here*/
+ /* HOVER OFF */
+  -webkit-transition: opacity 2s;
+}
 
+.location:hover, .words:hover {
+  opacity: .6;
+
+ /* HOVER ON */
+  -webkit-transition: opacity 2s;
+}
+/*to here*/
 .words:hover,
 .location:hover {
   background-color: white;
