@@ -725,10 +725,10 @@ hr {
 /* "The 1 means all sections should have equal width (initially at least), but the flex-basis means they all want to take up 100% of available width. So what ends up happening is that each of the four sections wrap and end up sitting on top of each other vertically. This is our mobile friendly layout." */
 
 .logo {
-  width: 60%;
-  max-width: 140px;
+  /* width: 60%; */
+  max-width: 250px;
   max-height: 150%;
-  padding-right: -100px;
+  padding-right: 50px;
   padding-left: 20px;
   padding-bottom:20px
 }
