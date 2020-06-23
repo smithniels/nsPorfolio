@@ -193,6 +193,8 @@ span.a:visited {
 .location:hover {
   background-color: white;
   opacity: 0.95;
+  transition: opacity 1s;
+  transition-timing-function: ease-in-out;
 }
 
 .words2 {
