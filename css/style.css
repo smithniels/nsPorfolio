@@ -542,7 +542,8 @@ div-2 {
   padding-bottom: 20px;
   padding-right: 15px;
   padding-left: 10px;
-  border-left: dashed 2px var(--myGrey);
+  border-left: dashed 2px var(--myPink);
+  text-decoration: none;
 }
 
 span.item-sub {
