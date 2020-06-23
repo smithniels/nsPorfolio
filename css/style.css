@@ -319,7 +319,7 @@ div-2 {
 
 .Here {
   font-weight: 900;
-  text-decoration: underline;
+  /* text-decoration: underline; */ /*this will start the double underlining..*/
   border-bottom: var(--myPink) 2px solid !important;
   color: var(--myPink);
 }
