@@ -184,28 +184,16 @@ span.a:visited {
   display: flex;
   align-items: center;
   margin-left: 50px;
-  opacity: 0.5;
+  /* opacity: 0.5;
   transition: opacity 2s;
-  transition-timing-function: ease-in-out;
-}
-/*from here*/
- /* HOVER OFF */
-  -webkit-transition: opacity 2s;
+  transition-timing-function: ease-in-out; */
 }
 
-.location:hover, .words:hover {
-  opacity: .6;
-
- /* HOVER ON */
-  -webkit-transition: opacity 2s;
-}
-/*to here*/
 .words:hover,
 .location:hover {
   background-color: white;
   opacity: 0.95;
-  transition: opacity 1s;
-  transition-timing-function: ease-in-out;
+
 }
 
 .words2 {
@@ -215,7 +203,6 @@ span.a:visited {
 }
 
 .list {
-  /* display: inline-block; */
   display: wrap;
   list-style-type: none;
   transition: height 500ms;
