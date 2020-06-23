@@ -295,7 +295,7 @@ div-2 {
 }
 
 .contact-link {
-  color: var(--myGrey);
+  color: var(--myGrey) !important;
   font-size: 23px;
   opacity: 0.85;
   padding: 5px;
