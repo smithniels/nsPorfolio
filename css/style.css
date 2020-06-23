@@ -162,7 +162,7 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: var(--myGrey);
+  color: var(--myPink);
 }
 
 span.a:visited {
