@@ -525,10 +525,12 @@ div-2 {
   flex-wrap: wrap;
   border: var(--myGrey) 2px solid;
   padding: 10px 10px;
+  margin-top:20px;
   margin-bottom: 20px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   opacity: 85%;
   margin-right: 15%;
+
 }
 
 .box-small > p {
