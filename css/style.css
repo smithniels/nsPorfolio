@@ -84,9 +84,7 @@ header a {
 }
 
 a:focus {
-  color: var(
-    --myPink
-  ) !important; /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
+  color: var(--myPink) !important; /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
 }
 /* If the focus didn't work try a:visited */
 /* a:visited{color: #40A97B;} */
@@ -160,9 +158,9 @@ a {
   text-decoration: none;
 }
 
-a:visited {
+a.myGrey:visited {
   text-decoration: none;
-  color: var(--myPink);
+  color: var(--myGrey);
 }
 
 span.a:visited {
