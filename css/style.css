@@ -162,12 +162,12 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: var(--myPink);
+  color: var(--myGrey);
 }
 
 span.a:visited {
   text-decoration: none;
-  color: black;
+  color: var(--myGrey);
 }
 
 .main {
