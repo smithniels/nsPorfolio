@@ -84,7 +84,9 @@ header a {
 }
 
 a:focus {
-  color: var(--myPink) !important; /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
+  color: var(
+    --myPink
+  ) !important; /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
 }
 /* If the focus didn't work try a:visited */
 /* a:visited{color: #40A97B;} */
@@ -191,7 +193,6 @@ span.a:visited {
 .location:hover {
   background-color: white;
   opacity: 0.95;
-
 }
 
 .words2 {
@@ -729,7 +730,7 @@ hr {
   max-height: 150%;
   padding-right: 50px;
   padding-left: 20px;
-  padding-bottom:20px
+  padding-bottom: 20px;
 }
 
 ul.SpecUl {
