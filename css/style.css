@@ -300,7 +300,7 @@ div-2 {
 .contact-link:hover {
   font-weight: 800;
   background-color: var(--myGrey);
-  color: var(--myPink);
+  color: var(--myGrey);
   border: var(--myGrey) 2px solid;
 }
 
