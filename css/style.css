@@ -544,6 +544,8 @@ div-2 {
   padding-left: 15px;
   border-left: dashed 2px var(--myPink);
   text-decoration: none;
+  align-content: center;
+  align-items: center;
 }
 
 span.item-sub {
