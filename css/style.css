@@ -547,7 +547,7 @@ div-2 {
 }
 
 span.item-sub {
-  color: var(--myGrey);
+  color: var(--myGrey) !important;
 }
 
 .location-edu {
