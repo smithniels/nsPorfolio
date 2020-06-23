@@ -299,6 +299,7 @@ div-2 {
   font-size: 23px;
   opacity: 0.85;
   padding: 5px;
+  margin-left: 20px;
 }
 
 .contact-link:visited {
