@@ -304,6 +304,11 @@ div-2 {
   border: var(--myPink) 2px solid;
 }
 
+.contact-links{
+  height: 220px;
+  max-height: 220px;
+}
+
 .sql {
   width: 35%;
   display: flex;
