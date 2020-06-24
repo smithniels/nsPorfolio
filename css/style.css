@@ -308,6 +308,9 @@ div-2 {
   height: 220px;
   min-width: 220px;
   max-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sql {
