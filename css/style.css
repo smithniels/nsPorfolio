@@ -556,6 +556,7 @@ ul.box-small {
   border-left: dashed 2px var(--myPink);
   text-decoration: none;
   align-content: center;
+  list-style-type: none;
   align-items: center;
 }
 
