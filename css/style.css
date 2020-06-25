@@ -560,6 +560,10 @@ ul.box-small {
   align-items: center;
 }
 
+item-sub:visited{
+  color: var(--myGrey);
+}
+
 span.item-sub {
   color: var(--myGrey) !important;
 }
