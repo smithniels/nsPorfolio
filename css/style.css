@@ -574,6 +574,7 @@ ul.box-small {
   align-items: center;
   min-width: 350px;
   width: 100%;
+
 }
 
 item-sub:visited {
@@ -1009,6 +1010,12 @@ ul.SpecUl {
     padding-bottom: 0;
   }
 }
+
+.item-sub{
+flex-flow: column wrap;
+}
+
+
 
 @media all and (min-width: 600px) {
   /* if screen > 600px sidebar appears alongside blog getting 1/3rd of space */
