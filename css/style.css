@@ -399,7 +399,11 @@ div-2 {
 /* This bit will make all of your Owl Carousel images the same size */
 
 .owl-carousel .item {
-  height: 700px;
+  /* height: 700px; */
+just curious;
+  height: 100%;
+  max-height: 800px;
+
   max-width: 900px;
 }
 
