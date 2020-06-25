@@ -1011,6 +1011,12 @@ ul.SpecUl {
   }
 }
 
+#ID{
+  flex-wrap:flex;
+  flex-direction: column
+
+}
+
 .item-sub{
 flex-flow: column wrap;
 flex-direction: column;
