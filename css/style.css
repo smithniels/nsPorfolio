@@ -1014,10 +1014,14 @@ ul.SpecUl {
 .item-sub{
 flex-flow: column wrap;
 flex-direction: column;
-.flex-item:nth-of-type(1) { order: 3; }
+width: 100%;
+max-width:350px;
+
+
+/* .flex-item:nth-of-type(1) { order: 3; }
 .flex-item:nth-of-type(2) { order: 4; }
 .flex-item:nth-of-type(3) { order: 1; }
-.flex-item:nth-of-type(4) { order: 5; }
+.flex-item:nth-of-type(4) { order: 5; } */
 
 }
 
