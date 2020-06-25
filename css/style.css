@@ -158,6 +158,12 @@ h6 {
 a {
   cursor: pointer;
   text-decoration: none;
+  /* This might cause issues   */
+  color: var(--myGrey);
+}
+
+a:hover {
+  color: var(--myGrey);
 }
 
 a.myGrey:visited {
@@ -568,8 +574,8 @@ span.item-sub {
   color: var(--myGrey) !important;
 }
 
-item-sub-sub{
-  width:350px;
+item-sub-sub {
+  width: 350px;
 }
 
 .location-edu {
