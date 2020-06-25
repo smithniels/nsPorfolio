@@ -583,9 +583,13 @@ span.item-sub {
   color: var(--myGrey) !important;
 }
 
-item-sub-sub {
+.item-sub-sub {
   width: 350px;
 }
+/* comment this back in if sub-sub is working */
+/* .box_100{
+  width=100%;
+} */
 
 .location-edu {
   font-size: 16px;
