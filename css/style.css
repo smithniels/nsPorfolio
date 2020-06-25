@@ -145,7 +145,7 @@ h3:hover {
 }
 
 h4 {
-  margin: 5px 0;
+  margin: 5px 0; /* this might cause issues */
 }
 
 h6 {
