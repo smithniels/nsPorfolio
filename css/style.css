@@ -92,7 +92,7 @@ a:focus {
 /* a:visited{color: #40A97B;} */
 
 header a:hover {
-  font-weight: 700;
+  font-weight: 800;
   border-width: thick;
   border-bottom: var(--myPink) 2px solid;
 }
