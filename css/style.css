@@ -541,7 +541,7 @@ ul.box-small {
 }
 
 .box-small > p {
-  padding-left: 0;
+  padding-left: 10;
 }
 
 .item-sub {
