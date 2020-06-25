@@ -573,6 +573,7 @@ ul.box-small {
   list-style-type: none;
   align-items: center;
   min-width: 350px;
+  width: 100%;
 }
 
 item-sub:visited {
