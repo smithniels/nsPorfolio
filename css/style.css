@@ -310,7 +310,7 @@ div-2 {
   max-height: 220px;
   display: flex;
   align-items: center;
-  list-style-type: none
+  list-style-type: none;
   justify-content: center;
 }
 
@@ -560,12 +560,16 @@ ul.box-small {
   align-items: center;
 }
 
-item-sub:visited{
+item-sub:visited {
   color: var(--myGrey);
 }
 
 span.item-sub {
   color: var(--myGrey) !important;
+}
+
+item-sub-sub{
+  width:350px;
 }
 
 .location-edu {
