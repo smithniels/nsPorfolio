@@ -144,6 +144,10 @@ h3:hover {
   font-weight: 700;
 }
 
+h4 {
+  margin: 5px 0;
+}
+
 h6 {
   padding-left: 6px;
 }
