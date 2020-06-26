@@ -762,6 +762,7 @@ a:after {
 }
 
 .flex-container{
+  display: flex;
   flex-direction: column;
 }
 
