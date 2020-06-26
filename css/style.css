@@ -761,6 +761,10 @@ a:after {
   align-items: center;
 }
 
+.flex-container{
+  flex-direction: column;
+}
+
 hr {
   /* color:black; */
   border-color: black;
