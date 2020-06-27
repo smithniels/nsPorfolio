@@ -753,7 +753,7 @@ a:after {
 }
 
 .item-ed {
-  display: flex;
+  /* display: flex; */
   /* flex-wrap: wrap; */
   justify-content:flex-start;
   border-bottom: 2px solid var(--myGrey);
