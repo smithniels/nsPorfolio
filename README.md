@@ -3,6 +3,8 @@ My portfolio page
 
 A man walks into a bar
 
-ow
+"ow"
 
-That's my favorite joke. Pleasse laugh.
+That's my favorite joke... 
+
+Pleasse laugh.
