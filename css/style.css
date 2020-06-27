@@ -771,6 +771,7 @@ a:after {
   border: 2px solid var(--myGrey);
   align-items: center;
   padding:20px;
+  min-width: 250px;
 }
 
 hr {
