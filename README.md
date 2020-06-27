@@ -5,4 +5,6 @@ A man walks into a bar
 
 "ow"
 
-That's my favorite joke. Pleasse laugh.
+That's my favorite joke... 
+
+Pleasse laugh.
