@@ -400,11 +400,8 @@ div-2 {
 
 .owl-carousel .item {
   height: 700px;
-  /* just curious;cats died for this...  */
-  /* height: 100%; */
-  /* max-height: 800px; */
-
-  max-width: 900px;
+/* This will change the size of images within the carousel */
+  max-width: 1100px;
 }
 
 .owl-carousel {
