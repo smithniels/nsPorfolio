@@ -264,7 +264,7 @@ button:focus {
 }
 
 .slide {
-  border: black 4px solid;
+  border: var(--myGrey) 4px solid;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -418,7 +418,7 @@ div-2 {
   top: 40%;
   margin-left: -20px;
   display: block !important;
-  border: 0px solid black;
+  border: 0px solid var(--myGrey);
 }
 
 .owl-next {
@@ -428,7 +428,7 @@ div-2 {
   top: 40%;
   right: -2px;
   display: block !important;
-  border: 0px solid black;
+  border: 0px solid var(--myGrey);
 }
 
 /* sites section */
@@ -599,7 +599,7 @@ span.item-sub {
 }
 
 a.show-text {
-  color: black;
+  color: var(--myGrey);
   font-weight: bold;
   text-decoration: underline;
 }
@@ -759,6 +759,7 @@ a:after {
   border: 2px solid var(--myGrey);
   align-items: center;
   padding:20px;
+  margin-bottom: 20px solid var(--myGrey);
 }
 
 .flex-container {
@@ -774,7 +775,7 @@ a:after {
 
 hr {
   /* color:black; */
-  border-color: black;
+  border-color: var(--myGrey)
 }
 
 .logo {
@@ -879,7 +880,7 @@ ul.SpecUl {
   .paragraph-intro {
     font-size: 26px;
     line-height: 26px;
-    color: black;
+    color: var(--myGrey);
     padding: 0;
     font-weight: bold;
     width: 100%;
