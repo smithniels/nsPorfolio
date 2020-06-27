@@ -534,9 +534,9 @@ div-2 {
   justify-content: space-between;
 }
 
-ul.box-small {
+/* ul.box-small {
   padding-right: 10px;
-}
+} */
 
 .box-small {
   display: flex;
@@ -574,7 +574,6 @@ ul.box-small {
   align-items: center;
   min-width: 350px;
   width: 100%;
-
 }
 
 item-sub:visited {
@@ -1036,6 +1035,7 @@ max-width:350px;
 
 .logo {
   max-height: 160px;
+  margin-top:10px;
 }
 
 
