@@ -755,16 +755,17 @@ a:after {
 .item-ed {
   /* display: flex; */
   /* flex-wrap: wrap; */
-  justify-content:flex-start;
-  border-bottom: 2px solid var(--myGrey);
+  justify-content: flex-start;
+  border: 2px solid var(--myGrey);
   align-items: center;
+  padding:20px;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   border-bottom: 2px black solid;
 }
 
@@ -974,9 +975,9 @@ ul.SpecUl {
   }
   .paragraph-code {
     width: 440px;
-    margin-top:3px;
-    margin-left:3px;
-    margin-right:3px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
     padding: 5px;
   }
 
@@ -1015,25 +1016,22 @@ ul.SpecUl {
   }
 }
 
-#list{
+#list {
   flex-wrap: wrap;
-  flex-direction: column
-
+  flex-direction: column;
 }
 
-.item-sub{
-flex-flow: column wrap;
-flex-direction: column;
-width: 100%;
-max-width:350px;
-
+.item-sub {
+  flex-flow: column wrap;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
 }
 
 .logo {
   max-height: 160px;
-  margin-top:10px;
+  margin-top: 10px;
 }
-
 
 @media all and (min-width: 600px) {
   /* if screen > 600px sidebar appears alongside blog getting 1/3rd of space */
