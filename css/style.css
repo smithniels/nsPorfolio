@@ -755,6 +755,7 @@ a:after {
 .item-ed {
   display: flex;
   /* flex-wrap: wrap; */
+  justify-content:flex-start;
   border-bottom: 2px solid var(--myGrey);
   align-items: center;
 }
@@ -977,13 +978,7 @@ ul.SpecUl {
     margin-right:3px;
     padding: 5px;
   }
-  /* .pargraph-site2 {
-    margin: 0.15em 0;
-  } */
-  /* .paragraph-code {
-    margin: 10px;
-    padding: 5px;
-  } */
+
   header {
     padding-inline-start: 0;
   }
