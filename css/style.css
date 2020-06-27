@@ -765,8 +765,11 @@ a:after {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* align-items: center; */
+  /* border-bottom: 2px black solid; */
+  border: 2px solid var(--myGrey);
   align-items: center;
-  border-bottom: 2px black solid;
+  padding:20px;
 }
 
 hr {
