@@ -755,9 +755,8 @@ a:after {
 
 .item-ed {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   border-bottom: 2px solid var(--myGrey);
-  display: flex;
   align-items: center;
 }
 
