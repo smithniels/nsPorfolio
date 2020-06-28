@@ -446,6 +446,7 @@ div-2 {
 .image-site {
   width: 100%;
   max-width: 1100px;
+  min-width:450px;
 }
 
 .paragraph-site {
