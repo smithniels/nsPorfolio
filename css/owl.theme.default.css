@@ -8,13 +8,15 @@
  */
 
  :root {
-	/* Background */
-	--myPink: #f0cd13;
-	/* lines */
-	--myGrey:#1998cb ;
-	/* Popart Color (almost white) */
-	--color3:red;
-  }
+  --myPink: #d3d3d3;
+  /*Primary/Background */
+  --myGrey: black;
+  /* Secondary/Lines */
+  --boxColor: white;
+  /* it's the color of the boxes!*/
+  /* Popart Color (almost white) */
+  --color3: #000000;
+}
  
 .owl-theme .owl-nav {
   margin-top: 10px;

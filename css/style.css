@@ -790,7 +790,7 @@ hr {
 
 ul.SpecUl {
   border-left: 6px solid var(--myPink);
-  background-color: purple; /* Probably delete me */
+  /* background-color: purple; Probably delete me */
   color: var(--boxColor);
   list-style-type: circle;
   padding: 11px 21px;
