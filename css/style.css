@@ -26,6 +26,8 @@ html {
   box-sizing: inherit;
   list-style-type: none;
   text-decoration: none;
+  /* this is just some fuckery: */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0)
 }
 
 body:before {
