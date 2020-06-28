@@ -27,7 +27,8 @@ html {
   list-style-type: none;
   text-decoration: none;
   /* this is just some fuckery: */
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0)
+  /* JK the fuckery is now the new standard. */
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
 }
 
 body:before {
