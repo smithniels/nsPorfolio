@@ -318,18 +318,19 @@ div-2 {
   height: 220px;
   min-width: 220px;
   max-height: 220px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   list-style-type: none;
   justify-content: center;
 }
-
+/* 
 .sql {
   width: 35%;
   display: flex;
   padding-right: 2%;
   flex-direction: column;
-}
+} */
 
 .Here {
   font-weight: 900;
