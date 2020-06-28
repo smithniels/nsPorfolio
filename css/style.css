@@ -763,8 +763,7 @@ a:after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
-  /* border-bottom: 2px black solid; */
+  margin-bottom: 15px;
   border: 2px solid var(--myGrey);
   align-items: center;
   padding:20px;
