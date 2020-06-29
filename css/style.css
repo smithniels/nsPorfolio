@@ -802,6 +802,10 @@ ul.SpecUl {
   max-width: 350px;
 }
 
+.spacer {
+  height:100px;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
@@ -1041,12 +1045,6 @@ ul.SpecUl {
   margin-top: 10px;
 }
 
-@media all and (min-width: 600px) {
-  /* if screen > 600px sidebar appears alongside blog getting 1/3rd of space */
-  .blog {
-    flex: 3 0px;
-  }
-  .sidebar {
-    flex: 1 0px;
-  }
+.spacer {
+  50px;
 }
