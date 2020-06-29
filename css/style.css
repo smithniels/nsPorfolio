@@ -197,6 +197,7 @@ span.a:visited {
   display: flex;
   align-items: center;
   margin-left: 50px;
+  margin-top:75px;
   /* opacity: 0.5;
   transition: opacity 2s;
   transition-timing-function: ease-in-out; */
@@ -913,6 +914,7 @@ ul.SpecUl {
     margin-left: 10px;
     display: flex;
     width: 275px;
+    margin-top:45px;
   }
   .words,
   .location {
