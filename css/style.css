@@ -511,7 +511,7 @@ div-2 {
   color: var(--myGrey);
   border-right: var(--myGrey) 2px solid;
   justify-content: center;
-  padding: 35px 0 0 50px;
+  /* padding: 35px 0 0 50px; */  /* That didn't work lol */
 }
 
 .link-text {
