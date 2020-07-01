@@ -157,7 +157,7 @@ $("#scroll").click(function () {
 // scroll-ee bits => Top to Bottom
 // scroll-ee bits => Top to Bottom
 // scroll-ee bits => Top to Bottom
-
+// credit to CSS Tricks <3
 
  // Select all links with hashes
 $('a[href*="#"]')
