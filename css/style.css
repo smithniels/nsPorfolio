@@ -405,7 +405,7 @@ div-2 {
 
 .owl-carousel .item {
   height: 700px;
-/* This will change the size of images within the carousel */
+  /* This will change the size of images within the carousel */
   max-width: 1100px;
 }
 
@@ -447,7 +447,7 @@ div-2 {
 .image-site {
   width: 100%;
   max-width: 1100px;
-  min-width:450px;
+  min-width: 450px;
 }
 
 .paragraph-site {
@@ -511,6 +511,7 @@ div-2 {
   color: var(--myGrey);
   border-right: var(--myGrey) 2px solid;
   justify-content: center;
+  padding: 35px 0 0 50px;
 }
 
 .link-text {
@@ -757,7 +758,7 @@ a:after {
   justify-content: flex-start;
   border: 2px solid var(--myGrey);
   align-items: center;
-  padding:20px;
+  padding: 20px;
   margin-bottom: 20px solid var(--myGrey);
 }
 
@@ -768,13 +769,13 @@ a:after {
   margin-bottom: 15px;
   border: 2px solid var(--myGrey);
   align-items: center;
-  padding:20px;
+  padding: 20px;
   min-width: 250px;
 }
 
 hr {
   /* color:black; */
-  border-color: var(--myGrey)
+  border-color: var(--myGrey);
 }
 
 .logo {
@@ -786,8 +787,6 @@ hr {
   padding-left: 20px;
   padding-bottom: 20px;
   margin: 50px auto;
-
-
 }
 
 ul.SpecUl {
@@ -803,7 +802,7 @@ ul.SpecUl {
 }
 
 .spacer {
-  height:100px;
+  height: 100px;
 }
 
 /*RESPONSIVE*/
@@ -924,6 +923,10 @@ ul.SpecUl {
     background-color: white;
     opacity: 0.75;
   }
+  .words:focus {
+    outline: thin dotted;
+  }
+
   .image-site {
     height: auto;
     width: 100%;
@@ -1049,7 +1052,6 @@ ul.SpecUl {
   something_something:50px;
 } */
 
-
 h1 {
-  margin-left:25px;
+  margin-left: 25px;
 }
