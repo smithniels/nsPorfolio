@@ -196,6 +196,7 @@ $('a[href*="#"]')
               $target.focus(); // Set focus again
               // $target.off(":focus"); // Niels' addition in attempt to get that focus outline outta here // this didn't work
               $target.blur(); // removes focus! //This bit works, but I want to see what .off("focus") does (.off didn't work)
+              console.log("this is updated now")
             }
           }
         );
