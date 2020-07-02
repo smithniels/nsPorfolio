@@ -760,6 +760,7 @@ a:after {
   align-items: center;
   padding: 20px;
   margin-bottom: 20px solid var(--myGrey);
+  padding-bottom:15px;
 }
 
 .flex-container {
