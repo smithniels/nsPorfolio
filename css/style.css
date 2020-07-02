@@ -811,8 +811,12 @@ ul.SpecUl {
 /* display: inline-block; */
 display:flex;
 flex-direction:row;
+
 /* padding-right:20px; */
 }
+
+
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
