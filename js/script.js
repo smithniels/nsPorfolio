@@ -194,8 +194,7 @@ $('a[href*="#"]')
             } else {
               $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
               $target.focus(); // Set focus again
-              $target.off("focus"); // Niels' addition in attempt to get that focus outline outta here
-              // $target.blur(); // removes focus! //This bit works, but I want to see what .off("focus") does
+              $target.blur(); // removes focus! //This bit works, but I want to see what .off("focus") does
             }
           }
         );
