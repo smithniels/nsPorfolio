@@ -806,7 +806,9 @@ ul.SpecUl {
 }
 
 .educ {
-display: inline-block;
+/* display: inline-block; */
+display:flex;
+flex-direction:row;
 
 }
 /*RESPONSIVE*/
