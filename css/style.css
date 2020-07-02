@@ -761,6 +761,7 @@ a:after {
   padding: 20px;
   margin-bottom: 20px solid var(--myGrey);
   padding-bottom:15px;
+  margin-right:25px;
 }
 
 .flex-container {
@@ -810,7 +811,7 @@ ul.SpecUl {
 /* display: inline-block; */
 display:flex;
 flex-direction:row;
-
+/* padding-right:20px; */
 }
 /*RESPONSIVE*/
 
