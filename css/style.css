@@ -619,6 +619,8 @@ li.paragraph {
   border-bottom: 2px var(--myGrey) solid;
   border-left: 2px var(--myGrey) solid;
   margin-left: 80px !important;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 /* Let's make stuff fade! */
@@ -1004,7 +1006,6 @@ ul.SpecUl {
     margin-right: 3px;
     padding: 5px;
   }
-
   header {
     padding-inline-start: 0;
   }
