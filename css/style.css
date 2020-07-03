@@ -616,6 +616,8 @@ li.paragraph {
 .intro-photo {
   height: 350px;
   border: 2px var(--myGrey) solid;
+  border-bottom: 2px var(--myGrey) solid;
+  border-left: 2px var(--myGrey) solid;
   margin-left: 80px !important;
 }
 
@@ -915,7 +917,6 @@ flex-direction:row;
     padding-top: none;
   }
   .intro-photo {
-    border: 2px var(--myGrey) solid;
     box-shadow: inset 0 0 0 25px var(--myGrey);
     padding: 2px;
     margin-right: 14px;
