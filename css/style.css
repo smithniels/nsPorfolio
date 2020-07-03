@@ -1048,13 +1048,6 @@ ul.SpecUl {
   flex-direction: column;
 }
 
-.item-sub {
-  flex-flow: column wrap;
-  flex-direction: column;
-  width: 100%;
-  max-width: 350px;
-}
-
 .logo {
   max-height: 160px;
   max-width: 250px;
@@ -1073,4 +1066,11 @@ h1 {
 .flex-container {
   flex-direction: column;
   max-width: 400px;
+}
+
+.item-sub {
+  flex-flow: column wrap;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
 }
