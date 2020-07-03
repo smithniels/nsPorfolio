@@ -1069,3 +1069,7 @@ ul.SpecUl {
 h1 {
   margin-left: 25px;
 }
+
+.flex-container {
+  flex-direction: column;
+}
