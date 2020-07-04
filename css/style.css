@@ -282,6 +282,7 @@ button:focus {
   display: flex;
   height: auto;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  opacity: .9;
 }
 
 div-2 {
@@ -296,7 +297,7 @@ div-2 {
 
 .bold_bits {
   font-weight: 900;
-  opacity: 1;
+  /* opacity: 1;  setting opacity to 1 is bold*/
 }
 
 .contact-link {
