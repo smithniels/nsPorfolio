@@ -856,8 +856,6 @@ ul.SpecUl {
 
 /*RESPONSIVE*/
 
-/* Things I forget: start small go big when designing responsive pages! */
-
 @media screen and (max-width: 1000px) {
   .site-ways {
     display: flex;
