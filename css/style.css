@@ -525,6 +525,7 @@ div-2 {
   font-size: 25px;
   height: 100%;
   flex-wrap: wrap;
+  flex-direction: row;
   border: var(--myGrey) 2px solid;
   padding: 10px 10px;
   margin-top: 20px;
@@ -967,6 +968,7 @@ ul.SpecUl {
   }
   .box-small {
     width: 100%;
+    flex-direction:row;
     padding-bottom: 15px;
     margin-right: 0%;
     margin-bottom: 15px;
