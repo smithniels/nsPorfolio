@@ -536,7 +536,7 @@ div-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .box-small {
@@ -811,7 +811,7 @@ ul.SpecUl {
 }
 
 .spacer {
-  height: 75px;
+  height: 70px;
 }
 
 .educ {
