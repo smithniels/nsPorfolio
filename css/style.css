@@ -726,14 +726,13 @@ a:after {
 }
 
 .item-ed {
-
-
   justify-content: flex-start;
   border: 2px solid var(--myGrey);
   align-items: center;
   padding: 20px;
-  margin-bottom: 20px solid var(--myGrey);
+  /* margin-bottom: 20px solid var(--myGrey); */
   margin-right: 25px;
+  margin-bottom: 20px;
   padding-bottom: 15px;
   padding-left: 15px;
 }
