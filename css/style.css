@@ -599,11 +599,11 @@ span.item-sub {
   padding-left: 25px;
 }
 
-a.show-text {
+/* a.show-text {
   color: var(--myGrey);
   font-weight: bold;
   text-decoration: underline;
-}
+} */
 
 .list-code {
   list-style-type: square;
@@ -820,6 +820,12 @@ ul.SpecUl {
   flex-direction: row;
 
   /* padding-right:20px; */
+}
+
+.projLink {
+  color: crimson;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /*RESPONSIVE*/
