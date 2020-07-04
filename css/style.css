@@ -781,11 +781,8 @@ ul.SpecUl {
 }
 
 .educ {
-  /* display: inline-block; */
   display: flex;
   flex-direction: row;
-
-  /* padding-right:20px; */
 }
 
 .projLink {
@@ -1051,4 +1048,9 @@ h1 {
   flex-direction: column;
   width: 100%;
   max-width: 20%;
+}
+
+.educ{
+  flex-direction: column;
+  padding-bottom: 20px;
 }
