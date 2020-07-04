@@ -515,7 +515,8 @@ div-2 {
 }
 
 .link-text {
-  color: var(--myGrey) !important;
+  color: crimson;
+  text-decoration: underline
   border-bottom: 2px var(--myGrey) solid;
 }
 
