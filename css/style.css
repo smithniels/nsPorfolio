@@ -794,6 +794,12 @@ ul.SpecUl {
   font-weight: bold;
 }
 
+.right-side{
+  justify-content: flex-end;
+  wrap: flex;
+  flex-wrap: wrap;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
