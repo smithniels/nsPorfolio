@@ -49,7 +49,6 @@ body:before {
 
 body {
   font-family: Quicksand, Lato, sans-serif;
-  /* color: var(--myGrey); */
   text-decoration: none;
   line-height: 1.5em;
   transition: all 0.3s ease;
@@ -91,8 +90,6 @@ a:focus {
     --myPink
   ) !important; /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
 }
-/* If the focus didn't work try a:visited */
-/* a:visited{color: #40A97B;} */
 
 header a:hover {
   font-weight: 800;
@@ -148,7 +145,7 @@ h3:hover {
 }
 
 h4 {
-  margin: 5px 0; /* this might cause issues */
+  margin: 5px 0;
 }
 
 h6 {
@@ -165,7 +162,6 @@ h6 {
 a {
   cursor: pointer;
   text-decoration: none;
-  /* This might cause issues   */
   color: var(--myGrey);
 }
 
@@ -197,10 +193,6 @@ span.a:visited {
   display: flex;
   align-items: center;
   margin-left: 50px;
-
-  /* opacity: 0.5;
-  transition: opacity 2s;
-  transition-timing-function: ease-in-out; */
 }
 
 .words2 {
@@ -216,7 +208,6 @@ span.a:visited {
   font-style: Quicksand, Lato, sans-serif;
   font-size: 22px;
   line-height: 1.5em;
-  /* margin-left: 15px; */
   color: var(--myGrey);
   display: flex;
   flex-direction: row;
@@ -236,7 +227,6 @@ span.a:visited {
   display: flex;
   width: 100%;
   margin-bottom: 4px;
-  /* border-bottom: var(--myPink) 2px solid; */
   padding-top: 50px;
 }
 
@@ -297,7 +287,6 @@ div-2 {
 
 .bold_bits {
   font-weight: 900;
-  /* opacity: 1;  setting opacity to 1 is bold*/
 }
 
 .contact-link {
@@ -329,17 +318,9 @@ div-2 {
   list-style-type: none;
   justify-content: center;
 }
-/* 
-.sql {
-  width: 35%;
-  display: flex;
-  padding-right: 2%;
-  flex-direction: column;
-} */
 
 .Here {
   font-weight: 900;
-  /* text-decoration: underline; */ /*this will start the double underlining..*/
   border-bottom: var(--myPink) 2px solid !important;
   color: var(--myPink);
 }
@@ -403,10 +384,9 @@ div-2 {
 /*OWL*/
 
 /* This bit will make all of your Owl Carousel images the same size */
-
+/* This will change the size of images within the carousel */
 .owl-carousel .item {
   height: 700px;
-  /* This will change the size of images within the carousel */
   max-width: 1100px;
 }
 
@@ -455,7 +435,6 @@ div-2 {
   margin: 30px 30px;
   background: white;
   opacity: 0.9;
-  /* width: 400px; */
   padding: 20px 10px;
   font-size: 23px;
   border: var(--myGrey) 2px solid;
@@ -512,7 +491,6 @@ div-2 {
   color: var(--myGrey);
   border-right: var(--myGrey) 2px solid;
   justify-content: center;
-  /* padding: 35px 0 0 50px; */ /* That didn't work lol */
 }
 
 .link-text {
@@ -545,7 +523,6 @@ div-2 {
   display: flex;
   background: var(--boxColor);
   font-size: 25px;
-  /* width: 30%; */
   height: 100%;
   flex-wrap: wrap;
   border: var(--myGrey) 2px solid;
@@ -590,22 +567,12 @@ span.item-sub {
 .item-sub-sub {
   width: 450px;
 }
-/* comment this back in if sub-sub is working */
-/* .box_100{
-  width=100%;
-} */
 
 .location-edu {
   font-size: 16px;
   font-style: italic;
   padding-left: 25px;
 }
-
-/* a.show-text {
-  color: var(--myGrey);
-  font-weight: bold;
-  text-decoration: underline;
-} */
 
 .list-code {
   list-style-type: square;
@@ -733,8 +700,6 @@ a:after {
   top: 0;
 }
 
-/* Blog Experiementation */
-
 .container {
   display: flex;
   flex-flow: row wrap;
@@ -760,8 +725,8 @@ a:after {
 }
 
 .item-ed {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+
+
   justify-content: flex-start;
   border: 2px solid var(--myGrey);
   align-items: center;
@@ -785,7 +750,6 @@ a:after {
 }
 
 hr {
-  /* color:black; */
   border-color: var(--myGrey);
 }
 
