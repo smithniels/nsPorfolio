@@ -1042,6 +1042,7 @@ h1 {
 
 .flex-container {
   flex-direction: column;
+  flex-wrap:wrap;
   max-width: 400px;
 }
 
