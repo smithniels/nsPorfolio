@@ -7,7 +7,7 @@
  * 	Default theme - Owl Carousel CSS File
  */
 
- :root {
+:root {
   --myPink: #d3d3d3;
   /*Primary/Background */
   --myGrey: black;
@@ -17,7 +17,7 @@
   /* Popart Color (almost white) */
   --color3: #000000;
 }
- 
+
 .owl-theme .owl-nav {
   margin-top: 10px;
   text-align: center;
@@ -72,5 +72,5 @@
   outline: 5px dashed blue;
   outline-color: white;
   -webkit-transition: background-color 2s ease-out;
-  background: red; /* controls color of SELECTED dots */
+  background: crimson; /* controls color of SELECTED dots */
 }
