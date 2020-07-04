@@ -973,7 +973,7 @@ ul.SpecUl {
   }
   .paragraph-site {
     padding: 5px 25px;
-    margin: 50px 0;
+    margin: 50px 20px;
   }
   .paragraph-code {
     width: 440px;
@@ -1027,6 +1027,8 @@ ul.SpecUl {
   max-width: 250px;
   min-width: 250px;
   margin-top: 10px;
+  padding:0;
+
 }
 /* 
 .spacer {
