@@ -10,6 +10,9 @@
   /* --boxColor: white; */
   --boxColor: #fff;
   --color3: #000000;
+
+  /* Dansk rød*/
+  --DKrød: #c60c30;
 }
 
 html {
@@ -495,7 +498,7 @@ div-2 {
 }
 
 .link-text {
-  color: crimson;
+  color: var(--DKrød);
   text-decoration: underline;
   border-bottom: 2px var(--myGrey) solid;
 }
@@ -799,7 +802,7 @@ li .educ {
 }
 
 .projLink {
-  color: crimson;
+  color: var(--DKrød);
   text-decoration: underline;
   font-weight: bold;
 }
