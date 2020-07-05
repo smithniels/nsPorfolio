@@ -272,7 +272,7 @@ button:focus {
   display: flex;
   height: auto;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  opacity: .9;
+  opacity: 0.9;
 }
 
 div-2 {
@@ -495,7 +495,7 @@ div-2 {
 
 .link-text {
   color: crimson;
-  text-decoration: underline
+  text-decoration: underline;
   border-bottom: 2px var(--myGrey) solid;
 }
 
@@ -785,13 +785,17 @@ ul.SpecUl {
   flex-direction: row;
 }
 
+li .educ {
+  list-style-type: none;
+}
+
 .projLink {
   color: crimson;
   text-decoration: underline;
   font-weight: bold;
 }
 
-.right-side{
+.right-side {
   justify-content: flex-end;
   wrap: flex;
   flex-wrap: wrap;
@@ -967,7 +971,7 @@ ul.SpecUl {
   }
   .box-small {
     width: 100%;
-    flex-direction:row;
+    flex-direction: row;
     padding-bottom: 15px;
     margin-right: 0%;
     margin-bottom: 15px;
@@ -1028,8 +1032,7 @@ ul.SpecUl {
   max-width: 250px;
   min-width: 250px;
   margin-top: 10px;
-  padding:0;
-
+  padding: 0;
 }
 /* 
 .spacer {
@@ -1042,7 +1045,7 @@ h1 {
 
 .flex-container {
   flex-direction: column;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   max-width: 400px;
 }
 
@@ -1053,7 +1056,7 @@ h1 {
   max-width: 20%;
 }
 
-.educ{
+.educ {
   flex-direction: column;
   padding-bottom: 20px;
 }
