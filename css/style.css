@@ -791,6 +791,7 @@ ul.SpecUl {
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
+  flex-direction: row;
 }
 
 li .educ {
