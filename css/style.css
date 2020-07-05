@@ -1032,43 +1032,38 @@ li .educ {
     display: inline;
     padding-bottom: 0;
   }
-}
+  #list {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 
-#list {
-  flex-wrap: wrap;
-  flex-direction: column;
-}
+  .logo {
+    max-height: 160px;
+    max-width: 250px;
+    min-width: 250px;
+    margin-top: 10px;
+    padding: 0;
+  }
 
-.logo {
-  max-height: 160px;
-  max-width: 250px;
-  min-width: 250px;
-  margin-top: 10px;
-  padding: 0;
-}
-/* 
-.spacer {
-  something_something:50px;
-} */
+  h1 {
+    margin-left: 25px;
+  }
 
-h1 {
-  margin-left: 25px;
-}
+  .flex-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+  }
 
-.flex-container {
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 400px;
-}
+  .item-sub {
+    flex-flow: column wrap;
+    flex-direction: column;
+    width: 100%;
+    max-width: 20%;
+  }
 
-.item-sub {
-  flex-flow: column wrap;
-  flex-direction: column;
-  width: 100%;
-  max-width: 20%;
-}
-
-.educ {
-  flex-direction: column;
-  padding-bottom: 20px;
+  .educ {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
 }
