@@ -730,7 +730,7 @@ a:after {
 }
 
 .item-ed {
-  justify-content: flex-start;
+  justify-content: center;
   border: 2px solid var(--myGrey);
   align-items: center;
   padding: 20px;
