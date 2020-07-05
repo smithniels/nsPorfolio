@@ -784,7 +784,7 @@ ul.SpecUl {
   height: 65px;
 }
 
-.educ {
+ul .educ {
   list-style: none;
   border: 1px solid silver;
   -ms-box-orient: horizontal;
