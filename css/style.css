@@ -781,8 +781,15 @@ ul.SpecUl {
 }
 
 .educ {
+  list-style: none;
+  border: 1px solid silver;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
-  flex-direction: row;
 }
 
 li .educ {
