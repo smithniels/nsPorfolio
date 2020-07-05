@@ -5,9 +5,10 @@
   /*Primary/Background */
   --myGrey: black;
   /* Secondary/Lines */
-  --boxColor: white;
   /* it's the color of the boxes!*/
-  /* Popart Color (almost white) */
+
+  /* --boxColor: white; */
+  --boxColor: #fff;
   --color3: #000000;
 }
 
