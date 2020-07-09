@@ -197,7 +197,8 @@ span.a:visited {
   display: flex;
   align-items: center;
   margin-left: 50px;
-  background: whitesmoke;
+  background: var(--boxColor);
+  opacity: 0.95;
 }
 
 .words2 {
