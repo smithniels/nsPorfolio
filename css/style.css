@@ -109,7 +109,7 @@ footer {
   margin-top: 3.3rem;
   font-weight: bold;
   background-color: white;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 li.nav-uo {
@@ -279,7 +279,7 @@ button:focus {
   display: flex;
   height: auto;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 div-2 {
@@ -299,7 +299,7 @@ div-2 {
 .contact-link {
   color: var(--myGrey) !important;
   font-size: 23px;
-  opacity: 0.9;
+  opacity: 0.95;
   padding: 5px;
   margin-left: 20px;
 }
@@ -358,7 +358,7 @@ div-2 {
   cursor: pointer;
   /* Color of unhovered pill*/
   background-color: var(--myPink);
-  opacity: 0.6;
+  opacity: 0.95; /* I changed this from .6 */
   border: 2px var(--myGrey) solid;
   text-indent: -9999px;
   display: none;
@@ -441,7 +441,7 @@ div-2 {
 .paragraph-site {
   margin: 30px 30px;
   background: white;
-  opacity: 0.9;
+  opacity: 0.95;
   padding: 20px 10px;
   font-size: 23px;
   border: var(--myGrey) 2px solid;
@@ -539,7 +539,7 @@ div-2 {
   margin-bottom: 20px;
   margin-left: 30px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  opacity: 0.9;
+  opacity: 0.95;
   margin-right: 15%;
 }
 
@@ -928,8 +928,8 @@ li .educ {
   }
   .words,
   .location {
-    background-color: white;
-    opacity: 0.75;
+    background-color: var(--boxColor);
+    opacity: 0.95;
   }
   .words:focus {
     outline: thin dotted;
