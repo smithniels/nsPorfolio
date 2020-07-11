@@ -503,7 +503,7 @@ div-2 {
 .link-text {
   color: var(--DKr);
   text-decoration: underline;
-  border-bottom: 2px var(--myGrey) solid;
+  /* border-bottom: 2px var(--myGrey) solid; */
 }
 
 .site-ways {
