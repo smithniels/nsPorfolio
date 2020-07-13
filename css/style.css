@@ -200,6 +200,7 @@ span.a:visited {
   background: var(--boxColor);
   opacity: 0.95;
   width: 45%;
+  border: var(--myGrey) 2px solid;
 }
 
 .words2 {
