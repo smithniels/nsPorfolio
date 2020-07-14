@@ -927,11 +927,11 @@ li .educ {
     display: flex;
     width: 275px;
   }
-  .words,
+  /* .words,
   .location {
     background-color: var(--boxColor);
     opacity: 0.95;
-  }
+  } */
   .words:focus {
     outline: thin dotted;
   }
