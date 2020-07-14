@@ -161,6 +161,8 @@ h6 {
   padding-bottom: 0;
   border: var(--myGrey) 2px solid;
   margin-right: 3px;
+  background-color: var(--boxColor);
+  opacity: 0.95;
 }
 
 a {
@@ -926,6 +928,8 @@ li .educ {
     margin-left: 10px;
     display: flex;
     width: 275px;
+    background-color: var(--boxColor);
+    opacity: 0.95;
   }
   /* .words,
   .location {
