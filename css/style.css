@@ -153,7 +153,8 @@ h4 {
 }
 
 h6 {
-  padding-left: 6px;
+  /* padding-left: 6px; */
+  padding: 0 6px 0 6px;
 }
 
 .location {
