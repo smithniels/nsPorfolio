@@ -935,13 +935,13 @@ li .educ {
     background-color: var(--boxColor);
     opacity: 0.95;
   }
-  /* .words,
-  .location {
-    background-color: var(--boxColor);
-    opacity: 0.95;
-  } */
+
   .words:focus {
     outline: thin dotted;
+  }
+
+  .location {
+    margin-left: 10px;
   }
 
   .image-site {
