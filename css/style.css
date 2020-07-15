@@ -160,7 +160,10 @@ h6 {
 .location {
   display: flex;
   padding-bottom: 0;
-  border-left: var(--myGrey) 2px solid;
+  /* border-left: var(--myGrey) 2px solid; */
+  border-top: var(--myGrey) 2px solid;
+  border-right: var(--myGrey) 2px solid;
+  border-bottom: var(--myGrey) 2px solid;
   margin-right: 3px;
   background-color: var(--boxColor);
   opacity: 0.95;
