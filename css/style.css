@@ -819,7 +819,7 @@ li .educ {
 
 .right-side {
   justify-content: flex-end;
-  wrap: flex;
+  flex-wrap: flex;
   flex-wrap: wrap;
 }
 
