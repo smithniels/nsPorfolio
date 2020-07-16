@@ -929,7 +929,7 @@ li .educ {
     margin-bottom: 20px;
   }
   .words {
-    margin-left: 10px;
+    margin-left: -10px;
     display: flex;
     width: 100%;
     background-color: var(--boxColor);
