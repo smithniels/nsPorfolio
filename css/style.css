@@ -321,12 +321,11 @@ div-2 {
 }
 
 .contact-links {
-  height: 220px;
+  /* height: 220px; */
   min-width: 220px;
   max-height: 220px;
   margin: 0 auto;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   list-style-type: none;
   justify-content: space-between;
