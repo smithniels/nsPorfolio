@@ -931,7 +931,7 @@ li .educ {
   .words {
     margin-left: 10px;
     display: flex;
-    width: 275px;
+    width: 100%;
     background-color: var(--boxColor);
     opacity: 0.95;
   }
