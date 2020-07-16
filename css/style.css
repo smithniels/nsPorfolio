@@ -335,7 +335,7 @@ div-2 {
 
 .Here {
   font-weight: 900;
-  border-bottom: var(--myPink) 2px solid !important;
+  /* border-bottom: var(--myPink) 2px solid !important; */
   color: var(--myPink);
 }
 
