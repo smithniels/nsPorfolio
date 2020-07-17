@@ -203,6 +203,7 @@ span.a:visited {
   margin-left: 50px;
   background: var(--boxColor);
   opacity: 0.95;
+  height: 200px;
   width: 500px;
   border: var(--myGrey) 2px solid;
 }
@@ -933,6 +934,7 @@ li .educ {
     width: 100%;
     background-color: var(--boxColor);
     opacity: 0.95;
+    height: 200px;
   }
 
   .words:focus {
