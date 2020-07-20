@@ -992,6 +992,9 @@ li .educ {
     border-right: none;
     padding: 5px 5px;
   }
+  .title-work {
+    margin: 0 auto;
+  }
   .index {
     padding-top: 20px;
   }
