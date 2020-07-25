@@ -402,6 +402,8 @@ div-2 {
 .owl-carousel .item {
   height: 700px;
   max-width: 1100px;
+  /* remove this display prop if things get messed up with the slider */
+  display: inline-block;
 }
 
 .owl-carousel {
@@ -973,7 +975,7 @@ li .educ {
     height: 280px;
   }
   .item {
-    height: 280px !important;
+    height: 380px !important;
   }
   .item:hover {
     cursor: grabbing;
