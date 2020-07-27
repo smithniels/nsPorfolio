@@ -1,9 +1,9 @@
 /* padding top, right, bottom, left */
 
 :root {
-  --myPink: #d3d3d3;
+  --color1: #d3d3d3;
   /*Primary/Background */
-  --myGrey: black;
+  --color2: black;
   /* Secondary/Lines */
   /* it's the color of the boxes!*/
 
@@ -17,7 +17,7 @@
 
 html {
   box-sizing: border-box;
-  /* background-color: var(--myPink); */
+  /* background-color: var(--color1); */
   background-attachment: fixed;
   list-style-type: none;
   font-family: Quicksand, sans-serif;
@@ -64,7 +64,7 @@ header {
   text-transform: uppercase;
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--myGrey);
+  background-color: var(--color2);
   font-size: 22px;
   list-style-type: none;
   text-decoration: none;
@@ -91,14 +91,14 @@ header a {
 
 a:focus {
   color: var(
-    --myPink
+    --color1
   ) !important; /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
 }
 
 header a:hover {
   font-weight: 800;
   border-width: thick;
-  border-bottom: var(--myPink) 2px solid;
+  border-bottom: var(--color1) 2px solid;
 }
 
 footer {
@@ -131,16 +131,16 @@ h1 {
 }
 
 h2 {
-  border-bottom: 2px solid var(--myGrey);
+  border-bottom: 2px solid var(--color2);
 }
 
 .line h2 {
-  border-bottom: 2px solid var(--myGrey);
+  border-bottom: 2px solid var(--color2);
   width: 100px;
 }
 
 h3 {
-  color: var(--myGrey);
+  color: var(--color2);
   font-size: 1.4em;
 }
 
@@ -160,8 +160,8 @@ h6 {
 .location {
   display: flex;
   padding-bottom: 0;
-  /* border-left: var(--myGrey) 2px solid; */
-  border-left: var(--myGrey) 2px solid;
+  /* border-left: var(--color2) 2px solid; */
+  border-left: var(--color2) 2px solid;
   margin-right: 3px;
   background-color: var(--boxColor);
   opacity: 0.95;
@@ -170,21 +170,21 @@ h6 {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: var(--myGrey);
+  color: var(--color2);
 }
 
 a:hover {
-  color: var(--myGrey);
+  color: var(--color2);
 }
 
-a.myGrey:visited {
+a.color2:visited {
   text-decoration: none;
-  color: var(--myPink);
+  color: var(--color1);
 }
 
 span.a:visited {
   text-decoration: none;
-  color: var(--myGrey);
+  color: var(--color2);
 }
 
 .main {
@@ -193,7 +193,7 @@ span.a:visited {
 }
 
 .words {
-  color: var(--myGrey);
+  color: var(--color2);
   z-index: 0;
   font-style: Quicksand, Lato, sans-serif;
   font-size: 40px;
@@ -205,11 +205,11 @@ span.a:visited {
   opacity: 0.95;
   /* height: 200px; */
   width: 500px;
-  border: var(--myGrey) 2px solid;
+  border: var(--color2) 2px solid;
 }
 
 .words2 {
-  color: var(--myGrey);
+  color: var(--color2);
   font-style: Quicksand, Lato, sans-serif;
   margin-left: 55px;
 }
@@ -221,7 +221,7 @@ span.a:visited {
   font-style: Quicksand, Lato, sans-serif;
   font-size: 22px;
   line-height: 1.5em;
-  color: var(--myGrey);
+  color: var(--color2);
   display: flex;
   flex-direction: row;
 }
@@ -271,14 +271,14 @@ button:focus {
 }
 
 .slide {
-  border: var(--myGrey) 4px solid;
+  border: var(--color2) 4px solid;
   width: 100%;
   height: 100%;
   text-align: center;
 }
 
 .div-0 {
-  border: var(--myGrey) 2px solid;
+  border: var(--color2) 2px solid;
   font-size: 45px;
   background: var(--boxColor);
   width: 59%;
@@ -295,7 +295,7 @@ div-2 {
 }
 
 .div-2 > p {
-  border-bottom: 2px var(--myGrey) solid;
+  border-bottom: 2px var(--color2) solid;
 }
 
 .bold_bits {
@@ -303,7 +303,7 @@ div-2 {
 }
 
 .contact-link {
-  color: var(--myGrey) !important;
+  color: var(--color2) !important;
   font-size: 23px;
   opacity: 0.95;
   padding: 5px;
@@ -311,14 +311,14 @@ div-2 {
 }
 
 .contact-link:visited {
-  color: var(--myGrey);
+  color: var(--color2);
 }
 
 .contact-link:hover {
   font-weight: 800;
-  background-color: var(--myGrey);
-  color: var(--myPink);
-  border: var(--myPink) 2px solid;
+  background-color: var(--color2);
+  color: var(--color1);
+  border: var(--color1) 2px solid;
 }
 
 .contact-links {
@@ -335,8 +335,8 @@ div-2 {
 
 .Here {
   font-weight: 900;
-  /* border-bottom: var(--myPink) 2px solid !important; */
-  color: var(--myPink);
+  /* border-bottom: var(--color1) 2px solid !important; */
+  color: var(--color1);
 }
 
 .character-first {
@@ -364,9 +364,9 @@ div-2 {
   position: fixed;
   cursor: pointer;
   /* Color of unhovered pill*/
-  background-color: var(--myPink);
+  background-color: var(--color1);
   opacity: 0.95; /* I changed this from .6 */
-  border: 2px var(--myGrey) solid;
+  border: 2px var(--color2) solid;
   text-indent: -9999px;
   display: none;
   -webkit-border-radius: 150px;
@@ -387,7 +387,7 @@ div-2 {
 }
 
 #scroll:hover {
-  background-color: var(--myGrey);
+  background-color: var(--color2);
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
@@ -417,7 +417,7 @@ div-2 {
   top: 40%;
   margin-left: -20px;
   display: block !important;
-  border: 0px solid var(--myGrey);
+  border: 0px solid var(--color2);
 }
 
 .owl-next {
@@ -427,7 +427,7 @@ div-2 {
   top: 40%;
   right: -2px;
   display: block !important;
-  border: 0px solid var(--myGrey);
+  border: 0px solid var(--color2);
 }
 
 /* sites section */
@@ -453,10 +453,10 @@ div-2 {
   opacity: 0.95;
   padding: 20px 10px;
   font-size: 23px;
-  border: var(--myGrey) 2px solid;
-  border-right: var(--myGrey) 2px solid;
+  border: var(--color2) 2px solid;
+  border-right: var(--color2) 2px solid;
   line-height: normal;
-  color: var(--myGrey);
+  color: var(--color2);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -496,7 +496,7 @@ div-2 {
   list-style-type: circle !important;
   line-height: 1.5em;
   font-size: 22px;
-  color: var(--myGrey);
+  color: var(--color2);
 }
 
 .title {
@@ -504,15 +504,15 @@ div-2 {
   font-weight: bold;
   margin-right: 7px;
   padding: 2px 5px;
-  color: var(--myGrey);
-  border-right: var(--myGrey) 2px solid;
+  color: var(--color2);
+  border-right: var(--color2) 2px solid;
   justify-content: center;
 }
 
 .link-text {
   color: var(--DKr);
   text-decoration: underline;
-  /* border-bottom: 2px var(--myGrey) solid; */
+  /* border-bottom: 2px var(--color2) solid; */
 }
 
 .site-ways {
@@ -542,7 +542,7 @@ div-2 {
   height: 100%;
   flex-wrap: wrap;
   flex-direction: row;
-  border: var(--myGrey) 2px solid;
+  border: var(--color2) 2px solid;
   padding: 10px 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -564,7 +564,7 @@ div-2 {
   padding-bottom: 20px;
   padding-right: 15px;
   padding-left: 10px;
-  border-left: dashed 2px var(--myPink);
+  border-left: dashed 2px var(--color1);
   text-decoration: none;
   align-content: center;
   list-style-type: none;
@@ -574,11 +574,11 @@ div-2 {
 }
 
 item-sub:visited {
-  color: var(--myGrey);
+  color: var(--color2);
 }
 
 span.item-sub {
-  color: var(--myGrey) !important;
+  color: var(--color2) !important;
 }
 
 .item-sub-sub {
@@ -593,7 +593,7 @@ span.item-sub {
 
 .list-code {
   list-style-type: square;
-  color: var(--myGrey);
+  color: var(--color2);
 }
 
 li.paragraph {
@@ -602,9 +602,9 @@ li.paragraph {
 
 .intro-photo {
   height: 350px;
-  border: 2px var(--myGrey) solid;
-  border-bottom: 2px var(--myGrey) solid;
-  border-left: 2px var(--myGrey) solid;
+  border: 2px var(--color2) solid;
+  border-bottom: 2px var(--color2) solid;
+  border-left: 2px var(--color2) solid;
   margin-left: 80px !important;
   margin-right: 20px;
   margin-top: 20px;
@@ -682,7 +682,7 @@ hr {
   height: 0.25rem;
   width: 50%;
   margin: 0;
-  background: var(--myPink);
+  background: var(--color1);
   border: none;
   transition: 0.3s ease-in-out;
 }
@@ -696,7 +696,7 @@ a:after {
 }
 
 .line {
-  color: var(--myPink);
+  color: var(--color1);
 }
 
 .highlight {
@@ -725,7 +725,7 @@ a:after {
 
 .sidebar {
   margin-left: 30px;
-  border-left: var(--myGrey) 2px solid;
+  border-left: var(--color2) 2px solid;
 }
 
 .blog,
@@ -743,10 +743,10 @@ a:after {
 
 .item-ed {
   justify-content: center;
-  border: 2px solid var(--myGrey);
+  border: 2px solid var(--color2);
   align-items: center;
   padding: 20px;
-  /* margin-bottom: 20px solid var(--myGrey); */
+  /* margin-bottom: 20px solid var(--color2); */
   margin-right: 25px;
   margin-bottom: 20px;
   padding-bottom: 15px;
@@ -758,7 +758,7 @@ a:after {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 15px;
-  border: 2px solid var(--myGrey);
+  border: 2px solid var(--color2);
   align-items: center;
   padding: 20px;
   min-width: 250px;
@@ -766,7 +766,7 @@ a:after {
 }
 
 hr {
-  border-color: var(--myGrey);
+  border-color: var(--color2);
 }
 
 .logo {
@@ -781,7 +781,7 @@ hr {
 }
 
 ul.SpecUl {
-  border-left: 6px solid var(--myPink);
+  border-left: 6px solid var(--color1);
   /* background-color: purple; Probably delete me */
   color: var(--boxColor);
   list-style-type: circle;
@@ -823,6 +823,10 @@ li .educ {
   justify-content: flex-end;
   flex-wrap: flex;
   flex-wrap: wrap;
+}
+
+.under:hover {
+  border-bottom: 2px solid --var(--color2);
 }
 
 /*RESPONSIVE*/
@@ -903,7 +907,7 @@ li .educ {
   .paragraph-intro {
     font-size: 26px;
     line-height: 26px;
-    color: var(--myGrey);
+    color: var(--color2);
     padding: 0;
     font-weight: bold;
     width: 100%;
@@ -921,7 +925,7 @@ li .educ {
     padding-top: none;
   }
   .intro-photo {
-    box-shadow: inset 0 0 0 25px var(--myGrey);
+    box-shadow: inset 0 0 0 25px var(--color2);
     padding: 2px;
     margin-right: 14px;
     max-width: 40%;
@@ -1031,7 +1035,7 @@ li .educ {
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
-    color: var(--myPink) !important;
+    color: var(--color1) !important;
   }
   .container {
     width: 100%;
