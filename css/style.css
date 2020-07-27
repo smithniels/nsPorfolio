@@ -92,7 +92,8 @@ header a {
 a:focus {
   color: var(
     --color1
-  ) !important; /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
+      /* Not sure what's making the colors keep changing to blue on mobile for Anchor tags, so I'm throwing in an !important */
+  ) !important;
 }
 
 header a:hover {
@@ -826,7 +827,7 @@ li .educ {
 }
 
 .under:hover {
-  border-bottom: 2px solid --var(--color2);
+  border-bottom: 2px solid black; /*--var(--color2)*/
 }
 
 /*RESPONSIVE*/
