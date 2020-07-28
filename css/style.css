@@ -689,7 +689,7 @@ hr {
 }
 
 .list-item {
-  margin: 10px 0;
+  /* margin: 10px 0; */
 }
 
 a:after {
@@ -828,6 +828,10 @@ li .educ {
 
 .under:hover {
   border-bottom: 2px solid black; /*--var(--color2)*/
+}
+
+ul {
+  padding: 5px 0;
 }
 
 /*RESPONSIVE*/
