@@ -834,23 +834,23 @@ ul {
   padding: 5px 0;
 }
 
---card-padding: 2rem;
+/* --card-padding: 2rem;
 padding: var(--card-padding);
-}
+} */
 
-.breakout { 
-width: calc(100% + (var(--x, 0) * 2));
-margin-left: calc(var(--x, 0) * -1);
-margin-bottom: calc(var(--bottom, 0) * -1);
-margin-top: calc(var(--top, 0) * -1);
+.breakout {
+  /* width: calc(100% + (var(--x, 0) * 2)); */
+  margin-left: calc(var(--x, 0) * -1);
+  margin-bottom: calc(var(--bottom, 0) * -1);
+  margin-top: calc(var(--top, 0) * -1);
 }
 
 /* Usecase */
 
 .card-breakout {
---x: var(--card-padding);
---top: var(--card-padding);
---bottom: calc(var(--card-padding) * -1);
+  --x: var(--card-padding);
+  --top: var(--card-padding);
+  --bottom: calc(var(--card-padding) * -1);
 }
 
 /* cosmetic styles */
