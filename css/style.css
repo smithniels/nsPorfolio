@@ -834,6 +834,29 @@ ul {
   padding: 5px 0;
 }
 
+--card-padding: 2rem;
+padding: var(--card-padding);
+}
+
+.breakout { 
+width: calc(100% + (var(--x, 0) * 2));
+margin-left: calc(var(--x, 0) * -1);
+margin-bottom: calc(var(--bottom, 0) * -1);
+margin-top: calc(var(--top, 0) * -1);
+}
+
+/* Usecase */
+
+.card-breakout {
+--x: var(--card-padding);
+--top: var(--card-padding);
+--bottom: calc(var(--card-padding) * -1);
+}
+
+/* cosmetic styles */
+
+*{box-sizing: border-box;} body {font-family:system-ui; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 5rem;} img {max-width: 100%;display: block;} .card-img{border-radius: .5rem .5rem 0 0;} h1{margin-top: 0; margin-bottom: 2rem; line-height: 1;}.buttons button{padding: 1rem 1rem;background-color: #eee;color: #222;border: 0;border-radius: .25rem;line-height: 1;}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
