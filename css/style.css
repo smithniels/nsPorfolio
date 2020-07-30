@@ -154,14 +154,12 @@ h4 {
 }
 
 h6 {
-  /* padding-left: 6px; */
   padding: 0 6px 0 6px;
 }
 
 .location {
   display: flex;
   padding-bottom: 0;
-  /* border-left: var(--color2) 2px solid; */
   border-left: var(--color2) 2px solid;
   margin-right: 3px;
   background-color: var(--boxColor);
@@ -204,7 +202,6 @@ span.a:visited {
   margin-left: 50px;
   background: var(--boxColor);
   opacity: 0.95;
-  /* height: 200px; */
   width: 500px;
   border: var(--color2) 2px solid;
 }
@@ -323,7 +320,6 @@ div-2 {
 }
 
 .contact-links {
-  /* height: 220px; */
   min-width: 220px;
   max-height: 220px;
   margin: 0 auto;
@@ -336,7 +332,6 @@ div-2 {
 
 .Here {
   font-weight: 900;
-  /* border-bottom: var(--color1) 2px solid !important; */
   color: var(--color1);
 }
 
@@ -743,7 +738,6 @@ a:after {
   border: 2px solid var(--color2);
   align-items: center;
   padding: 20px;
-  /* margin-bottom: 20px solid var(--color2); */
   margin-right: 25px;
   margin-bottom: 20px;
   padding-bottom: 15px;
@@ -767,7 +761,6 @@ hr {
 }
 
 .logo {
-  /* width: 60%; */
   min-width: 250px;
   max-width: 250px;
   max-height: 150%;
@@ -779,7 +772,6 @@ hr {
 
 ul.SpecUl {
   border-left: 6px solid var(--color1);
-  /* background-color: purple; Probably delete me */
   color: var(--boxColor);
   list-style-type: circle;
   padding: 11px 21px;
@@ -823,7 +815,7 @@ li .educ {
 }
 
 .under:hover {
-  border-bottom: 2px solid black; /*--var(--color2)*/
+  border-bottom: 2px solid black;
 }
 
 ul {
@@ -835,7 +827,6 @@ padding: var(--card-padding);
 } */
 
 .breakout {
-  /* width: calc(100% + (var(--x, 0) * 2)); */
   margin-left: calc(var(--x, 0) * -1);
   margin-bottom: calc(var(--bottom, 0) * -1);
   margin-top: calc(var(--top, 0) * -1);
@@ -848,10 +839,6 @@ padding: var(--card-padding);
   --top: var(--card-padding);
   --bottom: calc(var(--card-padding) * -1);
 }
-
-/* cosmetic styles */
-
-/* *{box-sizing: border-box;} body {font-family:system-ui; display: flex; align-items: center; justify-content: center; min-height: 100vh; padding: 5rem;} img {max-width: 100%;display: block;} .card-img{border-radius: .5rem .5rem 0 0;} h1{margin-top: 0; margin-bottom: 2rem; line-height: 1;}.buttons button{padding: 1rem 1rem;background-color: #eee;color: #222;border: 0;border-radius: .25rem;line-height: 1;} */
 
 /*RESPONSIVE*/
 
@@ -964,7 +951,6 @@ padding: var(--card-padding);
     width: 100%;
     background-color: var(--boxColor);
     opacity: 0.95;
-    /* height: 200px; */
     font-size: 32px;
   }
 
@@ -1037,7 +1023,6 @@ padding: var(--card-padding);
     line-height: 30px;
   }
   .paragraph-site {
-    /* padding: 5px 25px; */
     margin: 50px 20px;
     padding: 5px 35px;
   }
