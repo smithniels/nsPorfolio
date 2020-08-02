@@ -1,18 +1,15 @@
 /* padding top, right, bottom, left */
 
 :root {
-  --color1: #d3d3d3;
   /*Primary/Background */
-  --color2: black;
+  --color1: #d3d3d3;
   /* Secondary/Lines */
+  --color2: black;
   /* it's the color of the boxes!*/
-
-  /* --boxColor: white; */
   --boxColor: #fff;
-  --color3: #000000;
-
   /* Dansk rød*/
   --DKr: #c60c30;
+  /* --color3: #030202;  I don't think this was actually being used for anything...*/
 }
 
 html {
