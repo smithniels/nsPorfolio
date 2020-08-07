@@ -203,3 +203,17 @@ $('a[href*="#"]')
       }
     }
   });
+
+function changeWords() {
+  var words = document.getElementById("words");
+  words.classList.add("test");
+  console.log("words are hovered");
+}
+
+// function fadeInPage() {
+//   if (!window.AnimationEvent) {
+//     return;
+//   }
+//   var fader = document.getElementById("fader");
+//   fader.classList.add("fade-out");
+// }
