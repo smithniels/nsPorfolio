@@ -852,6 +852,13 @@ padding: var(--card-padding);
   color: red;
 }
 
+.showshow {
+  display: none;
+}
+
+.visevise {
+  display: inline;
+}
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
