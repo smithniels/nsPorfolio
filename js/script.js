@@ -3,6 +3,16 @@ function changeWords() {
   words.classList.add("test");
   console.log("words are hovered");
 }
+
+$("span.showshow").hover(
+  function () {
+    $(this).hide().text("Home").fadeIn("slow");
+  },
+  function () {
+    $(this).hide().text("Hjem").fadeIn("slow");
+  }
+);
+
 // document.getElementById("words").addEventListener("mouseover", function () {
 //   document.getElementById("words").style.backgroundColor = "green";
 // });
