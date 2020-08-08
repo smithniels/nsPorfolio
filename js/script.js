@@ -3,6 +3,13 @@ function changeWords() {
   words.classList.add("test");
   console.log("words are hovered");
 }
+document.getElementById("words").addEventListener("mouseover", function () {
+  document.getElementById("words").style.backgroundColor = "green";
+});
+
+document.getElementById("words").addEventListener("mouseout", function () {
+  document.getElementById("words").style.backgroundColor = "red";
+});
 
 // Fade Into/Out of page
 // Fade Into/Out of page
