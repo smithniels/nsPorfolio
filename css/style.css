@@ -169,9 +169,9 @@ span .comment {
 span:hover .showshow {
   display: none;
 }
-span:hover .comment {
+/* span:hover .comment {
   display: inline;
-}
+} */
 
 a {
   cursor: pointer;
