@@ -852,7 +852,7 @@ padding: var(--card-padding);
   color: red;
 }
 
-.showshow {
+.showshow:hover {
   display: none;
 }
 
