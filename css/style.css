@@ -856,6 +856,10 @@ padding: var(--card-padding);
   display: none;
 }
 
+.visevise {
+  display: none;
+}
+
 .visevise:hover {
   display: inline;
 }
