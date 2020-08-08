@@ -1,4 +1,4 @@
-function changeWords() {
+function changeWordsv() {
   var words = document.getElementById("words");
   words.classList.add("test");
   console.log("words are hovered");
