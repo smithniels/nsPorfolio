@@ -163,6 +163,16 @@ h6 {
   opacity: 0.95;
 }
 
+span .comment {
+  display: none;
+}
+span:hover .showshow {
+  display: none;
+}
+span:hover .comment {
+  display: inline;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
