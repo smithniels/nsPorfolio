@@ -854,6 +854,9 @@ ul {
   margin: 0;
 }
 
+.image_visual {
+  height: 80%;
+}
 /* Probably delete all of this below*/
 /* /* --card-padding: 2rem;
           padding: var(--card-padding);
