@@ -1,3 +1,7 @@
+// trying to get things to change
+// trying to get things to change
+// trying to get things to change
+
 function changeWords() {
   var words = document.getElementById("words");
   words.classList.add("test");
@@ -12,14 +16,6 @@ $("span.showshow").hover(
     $(this).hide().text("Hjem").fadeIn("slow");
   }
 );
-
-// document.getElementById("words").addEventListener("mouseover", function () {
-//   document.getElementById("words").style.backgroundColor = "green";
-// });
-
-// document.getElementById("words").addEventListener("mouseout", function () {
-//   document.getElementById("words").style.backgroundColor = "red";
-// });
 
 // Fade Into/Out of page
 // Fade Into/Out of page
@@ -91,7 +87,6 @@ $(".owl-carousel").owlCarousel({
   responsiveClass: true,
   responsive: {
     0: {
-      // stagePadding: 0,
       items: 1,
       dots: false,
     },

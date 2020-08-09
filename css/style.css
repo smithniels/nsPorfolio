@@ -863,27 +863,6 @@ ul {
   height: 80%;
   width: 75%;
 }
-/* Probably delete all of this below*/
-/* /* --card-padding: 2rem;
-          padding: var(--card-padding);
-          } */
-
-/* .breakout {
-            margin-left: calc(var(--x, 0) * -1);
-            margin-bottom: calc(var(--bottom, 0) * -1);
-            margin-top: calc(var(--top, 0) * -1);
-          } */
-
-/* Usecase */
-/* 
-          .card-breakout {
-            --x: var(--card-padding);
-            --top: var(--card-padding);
-            --bottom: calc(var(--card-padding) * -1);
-          }
-          */
-
-/*RESPONSIVE*/
 
 /*RESPONSIVE*/
 
