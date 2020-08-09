@@ -848,6 +848,7 @@ ul {
   justify-content: space-between;
   padding: 1rem;
   background: var(--boxColor);
+  max-width: 400px;
 }
 
 .ex8 h3 {
