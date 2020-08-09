@@ -830,39 +830,49 @@ ul {
   padding: 5px 0;
 }
 
-/* --card-padding: 2rem;
-padding: var(--card-padding);
-} */
-
-.breakout {
-  margin-left: calc(var(--x, 0) * -1);
-  margin-bottom: calc(var(--bottom, 0) * -1);
-  margin-top: calc(var(--top, 0) * -1);
+.ex8 .parent {
+  height: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
 }
+
+.ex8 .visual {
+  height: 150px;
+  width: 100%;
+}
+
+.ex8 .card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.ex8 h3 {
+  margin: 0;
+}
+
+/* Probably delete all of this below*/
+/* /* --card-padding: 2rem;
+          padding: var(--card-padding);
+          } */
+
+/* .breakout {
+            margin-left: calc(var(--x, 0) * -1);
+            margin-bottom: calc(var(--bottom, 0) * -1);
+            margin-top: calc(var(--top, 0) * -1);
+          } */
 
 /* Usecase */
+/* 
+          .card-breakout {
+            --x: var(--card-padding);
+            --top: var(--card-padding);
+            --bottom: calc(var(--card-padding) * -1);
+          }
+          */
 
-.card-breakout {
-  --x: var(--card-padding);
-  --top: var(--card-padding);
-  --bottom: calc(var(--card-padding) * -1);
-}
-
-/* #test {
-  color: red;
-} */
-
-/* .showshow:hover {
-  display: none;
-}
-
-.visevise {
-  display: none;
-}
-
-.visevise:hover {
-  display: inline;
-} */
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
