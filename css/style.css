@@ -845,8 +845,9 @@ ul {
 .ex8 .card {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
   justify-content: space-between;
+  padding: 1rem;
+  background: var(--boxColor);
 }
 
 .ex8 h3 {
