@@ -929,6 +929,7 @@ ul {
   }
   .list-code {
     width: 100%;
+    margin-top: 50px;
   }
   .title {
     border-right: none;
