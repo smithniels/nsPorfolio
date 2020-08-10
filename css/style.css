@@ -697,7 +697,7 @@ a:after {
   color: var(--color1);
 }
 
-.highlight {
+/* .highlight {
   transition: all 0.2s;
   border-bottom: 2px solid white;
   position: absolute;
@@ -708,33 +708,33 @@ a:after {
   border-radius: 20px;
   display: block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+} */
 
 #bruh {
   position: absolute;
   top: 0;
 }
-
+/* 
 .container {
   display: flex;
   flex-flow: row wrap;
   margin-top: 25px;
-}
+} */
 
-.sidebar {
+/* .sidebar {
   margin-left: 30px;
   border-left: var(--color2) 2px solid;
-}
+} */
 
-.blog,
+/* .blog,
 .sidebar,
 .footer {
   flex-grow: 1;
   flex-basis: 100%;
   margin-bottom: 15px;
-}
+} */
 
-.blog,
+/* .blog,
 .sidebar {
   padding-left: 20px;
 }
@@ -748,8 +748,8 @@ a:after {
   margin-bottom: 20px;
   padding-bottom: 15px;
   padding-left: 15px;
-}
-
+} */
+/* 
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -760,13 +760,13 @@ a:after {
   padding: 20px;
   min-width: 250px;
   margin: 20px;
-}
+} */
 
 hr {
   border-color: var(--color2);
 }
 
-.logo {
+/* .logo {
   min-width: 250px;
   max-width: 250px;
   max-height: 150%;
@@ -774,15 +774,16 @@ hr {
   padding-left: 20px;
   padding-bottom: 20px;
   margin: 50px auto;
-}
-
+} */
+/* 
 ul.SpecUl {
   border-left: 6px solid var(--color1);
   color: var(--boxColor);
   list-style-type: circle;
   padding: 11px 21px;
-}
+} */
 
+/* sets width for the programming section*/
 .width-limit {
   max-width: 350px;
 }
@@ -791,7 +792,7 @@ ul.SpecUl {
   height: 65px;
 }
 
-ul .educ {
+/* ul .educ {
   list-style: none;
   border: 1px solid silver;
   -ms-box-orient: horizontal;
@@ -806,8 +807,9 @@ ul .educ {
 
 li .educ {
   list-style-type: none;
-}
+} */
 
+/*Work Section stuff*/
 .projLink {
   color: var(--DKr);
   text-decoration: underline;
