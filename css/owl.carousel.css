@@ -6,14 +6,14 @@
 /*
  *  Owl Carousel - Core
  */
- :root {
-	/* Background */
-	--myPink: #f0cd13;
-	/* lines */
-	--myGrey:#1998cb ;
-	/* Popart Color (almost white) */
-	--color3:#000000;
-  }
+:root {
+  /* Background */
+  --myPink: #f0cd13;
+  /* lines */
+  --myGrey: #1998cb;
+  /* Popart Color (almost white) */
+  --color3: #000000;
+}
 .owl-carousel {
   display: none;
   width: 100%;
@@ -86,7 +86,7 @@
   border: none;
   padding: 0 !important;
   font: inherit;
-  width: 100px;
+  width: 200px;
   height: auto;
 }
 .owl-carousel.owl-loaded {
