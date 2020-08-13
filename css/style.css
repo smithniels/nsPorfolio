@@ -757,9 +757,9 @@ ul {
 }
 
 .image_visual {
-  height: 80%;
-  width: auto;
-  margin: auto;
+  height: 150px;
+  width: 75%;
+  margin: 0 auto;
 }
 
 /*RESPONSIVE*/
