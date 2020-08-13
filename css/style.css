@@ -758,8 +758,10 @@ ul {
 
 .image_visual {
   height: 150px;
-  width: 75%;
+  width: 50%;
   margin: 0 auto;
+  border: 2px solid var(--color2);
+  padding: 5px;
 }
 
 /*RESPONSIVE*/
