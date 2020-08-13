@@ -753,6 +753,8 @@ ul {
 .image_visual {
   height: 80%;
   width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*RESPONSIVE*/
