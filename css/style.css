@@ -753,13 +753,7 @@ ul {
 .image_visual {
   height: 80%;
   width: 75%;
-  margin-right: auto;
-  margin-left: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  margin: -70px 0 0 -170px;
+  margin: auto;
 }
 
 /*RESPONSIVE*/
