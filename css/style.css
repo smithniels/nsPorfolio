@@ -750,6 +750,7 @@ ul {
   padding: 1rem;
   background: var(--boxColor);
   max-width: 650px;
+  margin-right: 50px;
 }
 
 .ex8 h3 {
