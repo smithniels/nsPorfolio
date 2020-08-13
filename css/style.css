@@ -754,7 +754,7 @@ ul {
 
 .image_visual {
   height: 80%;
-  width: 75%;
+  width: auto;
   margin: auto;
 }
 
