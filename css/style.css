@@ -736,10 +736,11 @@ ul {
 }
 
 .ex8 .visual {
-  height: 350px;
-  width: 100%;
+  height: 100%;
+  width: auto;
   /* This centers things (the img) */
   display: flex;
+  object-fit: cover;
 }
 
 .ex8 .card {
