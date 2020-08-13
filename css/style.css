@@ -735,6 +735,8 @@ ul {
 .ex8 .visual {
   height: 350px;
   width: 100%;
+  /* This centers things (the img) */
+  display: flex;
 }
 
 .ex8 .card {
