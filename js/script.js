@@ -3,15 +3,19 @@
 // trying to get things to change
 
 function changeWords() {
-  $("span.showHome").hover(
-    function () {
-      $(this).hide().text("Home").fadeIn("slow");
-    },
-    function () {
-      $(this).hide().text("Hjem").fadeIn("slow");
-    }
-  );
+  var words = document.getElementById("showHome");
+  words.classList.add("test");
+  console.log("words are hovered");
 }
+
+$("span.showHome").hover(
+  function () {
+    $(this).hide().text("Home").fadeIn("slow");
+  },
+  function () {
+    $(this).hide().text("Hjem").fadeIn("slow");
+  }
+);
 
 // function myFunction() {
 //   var element = document.getElementById("myDIV");
