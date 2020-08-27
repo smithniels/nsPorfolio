@@ -199,7 +199,9 @@ span.a:visited {
   margin-left: 50px;
   background: var(--boxColor);
   opacity: 0.95;
-  width: 500px;
+  /* width: 500px; */
+  min-width: 550px;
+  max-width: 600px;
   border: var(--color2) 2px solid;
 }
 
