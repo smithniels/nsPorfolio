@@ -7,7 +7,6 @@
   --boxColor: #fff;
   /* Dansk rød*/
   --DKr: #c60c30;
-  /* --color3: #030202;  I don't think this was actually being used for anything...*/
 }
 
 html {
@@ -15,9 +14,8 @@ html {
   /* background-color: var(--color1); */
   background-attachment: fixed;
   list-style-type: none;
-  /* font-family: Quicksand, sans-serif; */
-  font-family: "Poppins", sans-serif;
-  /* font-family: Helvetica, sans-serif; */
+  font-family: Quicksand, sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   /* background-image: url("../images/wallpaper/wallpaper1.jpg"); */
 }
 
