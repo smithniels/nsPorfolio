@@ -197,7 +197,7 @@ span.a:visited {
   align-items: center;
   margin-left: 50px;
   background: var(--boxColor);
-  opacity: 0.95;
+  /* opacity: 0.95; */
   /* width: 500px; */
   min-width: 550px;
   max-width: 600px;
@@ -883,7 +883,7 @@ ul {
     display: flex;
     width: 100%;
     background-color: var(--boxColor);
-    opacity: 0.95;
+    /* opacity: 0.95; */
     font-size: 32px;
   }
 
