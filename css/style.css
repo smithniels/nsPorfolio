@@ -326,6 +326,7 @@ div-2 {
   list-style-type: none;
   justify-content: space-between;
   font-size: 30px;
+  flex-direction: column;
 }
 
 .Here {
