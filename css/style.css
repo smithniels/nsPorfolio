@@ -326,7 +326,7 @@ div-2 {
   list-style-type: none;
   justify-content: space-between;
   font-size: 30px;
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 
 .Here {
@@ -768,6 +768,11 @@ ul {
   margin: 0 auto;
   border: 2px solid var(--color2);
   padding: 5px;
+}
+
+.fa {
+  width: 150%;
+  height: 150%;
 }
 
 /*RESPONSIVE*/
