@@ -774,7 +774,11 @@ ul {
   width: 150%;
   height: 150%;
 }
-
+/*
+Better text underline
+by Lukas Horak
+https://codepen.io/lhorak/pen/bEavyg
+*/
 $color-accent: #d21e1e;
 $color-text-body: rgb(0, 0, 0);
 // Font stacks
