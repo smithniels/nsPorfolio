@@ -784,7 +784,7 @@ $color-text-body: rgb(0, 0, 0);
 // Font stacks
 $font-sans-serif: Helvetica, sans-serif;
 $font-serif: "Roboto Slab", Georgia, serif;
-
+/*
 body {
   font-size: 100%;
   color: $color-text-body;
@@ -793,6 +793,7 @@ body {
   padding: 0 1.5em 1.5em;
   background: white;
 }
+*/
 
 a {
   /* color: $color-accent; */
