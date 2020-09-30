@@ -1012,6 +1012,7 @@ h2 {
     padding-bottom: 15px;
     margin-right: 0%;
     margin-bottom: 15px;
+    margin-left: 0;
     line-height: 30px;
   }
   .paragraph-site {
@@ -1019,7 +1020,7 @@ h2 {
     padding: 15px 35px;
   }
   .paragraph-code {
-    width: 440px;
+    width: 6000px;
     margin-top: 3px;
     margin-left: 3px;
     margin-right: 3px;
