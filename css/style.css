@@ -878,7 +878,7 @@ h2 {
 /* Style the back side */
 .flip-box-back {
   background-color: var(--boxColor);
-  color: white;
+  color: var(--color2);
   transform: rotateY(180deg);
 }
 
