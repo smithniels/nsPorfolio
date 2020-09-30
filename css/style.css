@@ -840,7 +840,7 @@ h2 {
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid var(--color2);
+  border: 2px solid var(--color2);
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
