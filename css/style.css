@@ -331,7 +331,7 @@ div-2 {
 
 .Here {
   font-weight: 900;
-  color: var(--color1);
+  color: var(--boxColor);
 }
 
 .character-first {
