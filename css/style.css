@@ -882,6 +882,10 @@ h2 {
   transform: rotateY(180deg);
 }
 
+.flip-box {
+  margin: 0 auto;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
