@@ -839,7 +839,7 @@ h2 {
 .flip-box {
   background-color: transparent;
   width: 451px;
-  height: 301px;
+  height: 310px;
   border: 2px solid var(--color2);
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
