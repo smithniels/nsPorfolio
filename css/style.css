@@ -466,7 +466,7 @@ div-2 {
 }
 
 .paragraph-intro-main {
-  line-height: 1.6;
+  line-height: 0.9em; /* this needs to stay at .9em  */
   z-index: 102;
   min-width: 600px;
 }
