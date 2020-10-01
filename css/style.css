@@ -890,6 +890,7 @@ h2 {
 /* CSS Tricks on making */
 .flex-grid {
   display: flex;
+  flex-direction: row;
 }
 .col {
   flex: 1;
