@@ -896,7 +896,6 @@ h2 {
   flex: 1;
 }
 
-
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
@@ -943,7 +942,7 @@ h2 {
     display: flex;
     font-size: 16px;
     flex-direction: row;
-    line-height: 1.6
+    line-height: 1.6;
     justify-content: flex-start;
     margin: auto 15px;
     padding-bottom: 10px;
