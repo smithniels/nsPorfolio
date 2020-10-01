@@ -887,6 +887,14 @@ h2 {
   line-height: 2em;
 }
 
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
