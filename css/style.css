@@ -888,18 +888,20 @@ h2 {
   line-height: 2em;
 }
 
-/* CSS Tricks on making */
-.flex-grid {
+.flipable {
+  width: 446.5px;
+  height: 306px;
+}
+
+/* CSS Tricks on making grids */
+/* .flex-grid {
   display: flex;
   flex-direction: row;
 }
 .col {
   flex: 1;
-}
-.flipable {
-  width: 446.5px;
-  height: 306px;
-}
+} */
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
