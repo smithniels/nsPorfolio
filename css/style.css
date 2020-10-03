@@ -891,8 +891,6 @@ h2 {
 .flip-box {
   margin: 25px;
   line-height: 2em;
-  display: flex;
-  justify-content: space-between;
 }
 
 .flipable {
@@ -901,13 +899,15 @@ h2 {
 }
 
 /* CSS Tricks on making grids */
-/* .flex-grid {
+.flex-grid {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 15em;
 }
 .col {
   flex: 1;
-} */
+}
 
 /*RESPONSIVE*/
 
