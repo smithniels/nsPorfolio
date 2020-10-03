@@ -9,12 +9,15 @@
   --DKr: #c60c30;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat:400,700|Seymour+One&display=swap");
+
 html {
   box-sizing: border-box;
   /* background-color: var(--color1); */
   background-attachment: fixed;
   list-style-type: none;
-  font-family: Roboto, Quicksand, sans-serif;
+  font-family: Quicksand, sans-serif;
+  font-family: "Montserrat";
   /* font-family: "Poppins", sans-serif; */
   /* background-image: url("../images/wallpaper/wallpaper1.jpg"); */
 }
