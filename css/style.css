@@ -906,7 +906,7 @@ h2 {
   flex-basis: 15em;
 }
 .col {
-  flex: 1;
+  flex: 3;
 }
 
 /*RESPONSIVE*/
