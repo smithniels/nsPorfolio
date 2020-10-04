@@ -475,6 +475,10 @@ div-2 {
   z-index: 102;
   min-width: 600px;
 }
+
+.first-name {
+  border-bottom: var(--color2) 2px solid;
+}
 .paragraph-body {
   font-size: 22px;
   margin-left: 3px;
