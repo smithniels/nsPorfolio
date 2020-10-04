@@ -194,17 +194,15 @@ span.a:visited {
 .words {
   color: var(--color2);
   z-index: 0;
-  /* font-style: Quicksand, Lato, sans-serif; */
   font-size: 40px;
   line-height: 30px;
   display: flex;
   align-items: center;
   margin-left: 50px;
   background: var(--boxColor);
-  /* opacity: 0.95; */
   width: 500px;
-  /* min-width: 550px; */
   max-width: 600px;
+  height: 220px;
   border: var(--color2) 2px solid;
 }
 
