@@ -65,7 +65,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--color2);
-  font-size: 22px;
+  font-size: 20px;
   list-style-type: none;
   text-decoration: none;
   padding-inline-start: 40px;
