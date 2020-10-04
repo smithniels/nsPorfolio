@@ -481,6 +481,7 @@ div-2 {
   margin-top: 15px;
   color: var(--color3);
   padding-bottom: 20px;
+  width: 500px;
 }
 
 .paragraph-container {
