@@ -201,7 +201,7 @@ span.a:visited {
   margin-left: 50px;
   background: var(--boxColor);
   width: 500px;
-  max-width: 600px;
+  max-width: 650px;
   height: 235px;
   border: var(--color2) 2px solid;
 }
@@ -910,6 +910,10 @@ h2 {
 }
 .col {
   flex: 3;
+}
+
+.secondWords {
+  /* width: */
 }
 
 /*RESPONSIVE*/
