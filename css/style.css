@@ -913,7 +913,7 @@ h2 {
 }
 
 .secondWords {
-  /* width: */
+  border-left: 2px var(--color2) solid;
 }
 
 /*RESPONSIVE*/
