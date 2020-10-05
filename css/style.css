@@ -157,15 +157,6 @@ h6 {
   padding: 0 6px 0 6px;
 }
 
-.location {
-  display: flex;
-  padding-bottom: 0;
-  border-left: var(--color2) 2px solid;
-  margin-right: 3px;
-  background-color: var(--boxColor);
-  opacity: 0.95;
-}
-
 a {
   cursor: pointer;
   text-decoration: none;
@@ -1031,10 +1022,6 @@ h2 {
 
   .words:focus {
     outline: thin dotted;
-  }
-
-  .location {
-    margin-left: 10px;
   }
 
   .image-site {
