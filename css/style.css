@@ -191,8 +191,8 @@ span.a:visited {
   align-items: center;
   margin-left: 50px;
   background: var(--boxColor);
-  width: 500px;
-  max-width: 650px;
+  width: 100%;
+  max-width: 750px;
   height: 235px;
   border: var(--color2) 2px solid;
 }
