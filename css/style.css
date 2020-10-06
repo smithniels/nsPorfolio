@@ -291,15 +291,15 @@ div-2 {
   font-weight: 900;
 }
 
-.contact-link {
+/* .contact-link {
   color: var(--color2) !important;
   font-size: 23px;
   opacity: 0.95;
   padding: 5px;
   margin-left: 20px;
-}
+} */
 
-.contact-link:visited {
+/* .contact-link:visited {
   color: var(--color2);
 }
 
@@ -308,7 +308,7 @@ div-2 {
   background-color: var(--color2);
   color: var(--color1);
   border: var(--color1) 2px solid;
-}
+} */
 
 .contact-links {
   min-width: 220px;
@@ -319,7 +319,6 @@ div-2 {
   list-style-type: none;
   justify-content: space-between;
   font-size: 30px;
-  /* flex-direction: column; */
 }
 
 .Here {
