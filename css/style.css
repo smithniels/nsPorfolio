@@ -1131,10 +1131,6 @@ h2 {
     display: inline;
     padding-bottom: 0;
   }
-  /* #list {
-    flex-wrap: wrap;
-    flex-direction: column;
-  } */
 
   h1 {
     margin-left: 25px;
@@ -1144,4 +1140,8 @@ h2 {
 .flex-grid {
   display: flex;
   flex-direction: column;
+}
+
+.owl-dots {
+  display: none;
 }
