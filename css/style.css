@@ -465,7 +465,7 @@ div-2 {
 }
 
 .first-name {
-  border-bottom: var(--color2) 2px solid;
+  border-bottom: var(--color2) 2px solid !important;
 }
 .paragraph-body {
   font-size: 22px;
