@@ -19,7 +19,7 @@ html {
   list-style-type: none;
   /* font-family: Quicksand, sans-serif; */
 
-  font-family: "Nunito", "Poppins", sans-serif;
+  font-family: "Roboto Slab", "Poppins", sans-serif;
   /* background-image: url("../images/wallpaper/wallpaper1.jpg"); */
 }
 
@@ -782,16 +782,6 @@ $color-text-body: rgb(0, 0, 0);
 // Font stacks
 $font-sans-serif: Helvetica, sans-serif;
 $font-serif: "Roboto Slab", Georgia, serif;
-/*
-body {
-  font-size: 100%;
-  color: $color-text-body;
-  font-family: $font-serif;
-  font-weight: 400;
-  padding: 0 1.5em 1.5em;
-  background: white;
-}
-*/
 
 a {
   /* color: $color-accent; */
