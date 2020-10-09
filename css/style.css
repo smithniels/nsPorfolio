@@ -7,6 +7,8 @@
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
+  /* my background color */
+  --myBackground: #add8e6;
 }
 
 /* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat:400,700|Seymour+One&display=swap"); */
@@ -44,7 +46,7 @@ body:before {
   height: 100%;
   z-index: -10;
   /* light blue */
-  background-color: #add8e6;
+  background-color: --var(myBackground);
   /* background: url("../images/wallpaper/wallpaper3.jpeg") no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
