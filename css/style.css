@@ -383,7 +383,7 @@ div-2 {
 .owl-carousel {
   margin: 0 auto;
 }
-
+/* sneaking suspicion these two (prev.next) aren't working */
 .owl-prev {
   width: 20px;
   height: 100px;
