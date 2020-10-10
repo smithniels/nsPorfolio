@@ -779,7 +779,7 @@ a {
 
   &:hover {
     transition: all 0.3s ease-out;
-    box-shadow: 0 -1px 0 0 white inset, 0 -2px 0 0 $color-accent inset;
+    box-shadow: 0 -1px 0 0 white inset, 0 -2px 0 0 ;color-accent inset;
   }
 
   &::selection {
