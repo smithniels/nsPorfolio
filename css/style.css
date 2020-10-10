@@ -488,12 +488,6 @@ div-2 {
   justify-content: center;
 }
 
-.link-text {
-  color: var(--DKr);
-  text-decoration: underline;
-  /* border-bottom: 2px var(--color2) solid; */
-}
-
 .site-ways {
   display: flex;
   flex-direction: row;
