@@ -435,7 +435,7 @@ div-2 {
 }
 
 .paragraph-intro {
-  color: var(--color3);
+  color: var(--color2);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -458,7 +458,7 @@ div-2 {
   font-size: 22px;
   margin-left: 3px;
   margin-top: 15px;
-  color: var(--color3);
+  color: var(--color2);
   padding-bottom: 20px;
   width: 500px;
 }
