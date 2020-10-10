@@ -481,7 +481,7 @@ div-2 {
 .title {
   font-size: 29px;
   font-weight: bold;
-  margin: 30px 10px 0px 0px;
+  margin: 30px 10px 10px 0px;
   padding: 2px 5px;
   color: var(--color2);
   border-right: var(--color2) 2px solid;
