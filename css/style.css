@@ -788,15 +788,16 @@ a {
 }
 
 h1,
-h2 {
+h2 
   a {
+    /* probably going to be a problem,.... */
     box-shadow: 0 -1px 0 0 white inset, 0 -3px 0 0 transparent inset;
 
-    &:hover {
+    /* &:hover {
       transition: all 0.3s ease-out;
       box-shadow: 0 -1px 0 0 white inset, 0 -3px 0 0 .color-accent inset;
     }
-  }
+   */
 }
 
 /* FLIP on Hover from WC3 */
