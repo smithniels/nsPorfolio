@@ -758,11 +758,12 @@ Better text underline
 by Lukas Horak
 https://codepen.io/lhorak/pen/bEavyg
 */
-$color-accent: #d21e1e;
+/* NielsNote: SCSS is probably not going to work in CSS, but tbh I'm not totally sure. */
+/* $color-accent: #d21e1e;
 $color-text-body: rgb(0, 0, 0);
 // Font stacks
 $font-sans-serif: Helvetica, sans-serif;
-$font-serif: "Roboto Slab", Georgia, serif;
+$font-serif: "Roboto Slab", Georgia, serif; */
 
 a {
   /* color: $color-accent; */
