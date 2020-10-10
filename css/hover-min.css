@@ -7,7 +7,7 @@
 
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
-
+/* No longer minified. Sorry for the deception */
 /*This is mine (Niels')*/
 :root {
   /* Prima86ry/Background */
@@ -38,8 +38,8 @@
 .hvr-grow:active,
 .hvr-grow:focus,
 .hvr-grow:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 .hvr-shrink {
   display: inline-block;
