@@ -11,6 +11,8 @@
   --color1: #d3d3d3;
   /* Secondary/Lines */
   --color2: #1c1c1c;
+  /* Third Color!??? */
+  --color3: rgb(188, 214, 214);
   /* it's the color of the boxes!*/
   --boxColor: #f9f9f9;
   /* Dansk rød*/
@@ -18,6 +20,7 @@
   /* my background color */
   --myBackground: #add8e6;
 }
+
 .owl-carousel {
   display: none;
   width: 100%;
