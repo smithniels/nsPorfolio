@@ -295,25 +295,6 @@ div-2 {
   font-weight: 900;
 }
 
-/* .contact-link {
-  color: var(--color2) !important;
-  font-size: 23px;
-  opacity: 0.95;
-  padding: 5px;
-  margin-left: 20px;
-} */
-
-/* .contact-link:visited {
-  color: var(--color2);
-}
-
-.contact-link:hover {
-  font-weight: 800;
-  background-color: var(--color2);
-  color: var(--color1);
-  border: var(--color1) 2px solid;
-} */
-
 .contact-links {
   min-width: 220px;
   max-height: 220px;
