@@ -13,11 +13,13 @@
   /* Prima86ry/Background */
   --color1: #d3d3d3;
   /* Secondary/Lines */
-  --color2: #555;
+  --color2: #1c1c1c;
   /* it's the color of the boxes!*/
-  --boxColor: #fff;
+  --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
+  /* my background color */
+  --myBackground: #add8e6;
 }
 
 /* var(--color1) */

@@ -4,10 +4,16 @@
 */
 
 :root {
-	--myGrey: #eae9e7;
-	/* Margaret's Pantone Blue*/
-	--myPink: #1d4e89;
-	/* rgba(255, 255, 255, 0.8) TRANSPARENT! */
+  /* Prima86ry/Background */
+  --color1: #d3d3d3;
+  /* Secondary/Lines */
+  --color2: #1c1c1c;
+  /* it's the color of the boxes!*/
+  --boxColor: #f9f9f9;
+  /* Dansk rød*/
+  --DKr: #c60c30;
+  /* my background color */
+  --myBackground: #add8e6;
 }
 /* 
 html, body, div, span, applet, object, iframe,
@@ -32,169 +38,183 @@ time, mark, audio, video {
  } */
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 
 /**
  *  mod-singular
  */
 .mod-singular {
-	font-family: 'Raleway', sans-serif;
-	height: 100%;
-	left: 0;
-	position: relative;
-	top: 0;
-	width: 100%;
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
 }
 .mod-singular-section {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .mod-singular-section:first-child {
-	background: var(--myPink);
+  background: var(--myPink);
 }
 .mod-singular-section:nth-child(2) {
-	background: var(--myPink);
+  background: var(--myPink);
 }
 .mod-singular-section:nth-child(3) {
-	background: var(--myPink);
+  background: var(--myPink);
 }
 .mod-singular-section:nth-child(4) {
-	background: var(--myPink);
+  background: var(--myPink);
 }
 .mod-singular-section:last-child {
-	background: var(--myPink);
+  background: var(--myPink);
 }
 .mod-singular-section-in {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	height: 100%;
-	padding: 10% 40px;
-	text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10% 40px;
+  text-align: center;
 }
 .mod-singular-ttl {
-	font-size: 500%;
-	font-weight: 900;
-	margin-bottom: 50px;
+  font-size: 500%;
+  font-weight: 900;
+  margin-bottom: 50px;
 }
 .mod-singular-txt {
-	line-height: 1.2;
-	margin: 1.5em 0;
+  line-height: 1.2;
+  margin: 1.5em 0;
 }
 .mod-singular-pre {
-	background: rgba(0, 0, 0, 0.2);
-	line-height: 1.2;
-	margin: 1.5em auto;
-	padding: 10px;
-	text-align: left;
-	width: 40%;
+  background: rgba(0, 0, 0, 0.2);
+  line-height: 1.2;
+  margin: 1.5em auto;
+  padding: 10px;
+  text-align: left;
+  width: 40%;
 }
 .mod-singular-options {
-	border-top: 1px solid #fff;
-	font-size: 90%;
-	margin: 1.5em auto;
-	overflow: hidden;
-	text-align: left;
-	width: 60%;
+  border-top: 1px solid #fff;
+  font-size: 90%;
+  margin: 1.5em auto;
+  overflow: hidden;
+  text-align: left;
+  width: 60%;
 }
 .mod-singular-options-name {
-	clear: both;
-	float: left;
-	padding: 1em 0;
-	width: 12em;
+  clear: both;
+  float: left;
+  padding: 1em 0;
+  width: 12em;
 }
 .mod-singular-options-txt {
-	border-bottom: 1px solid #fff;
-	padding: 1em 0 1em 12.5em;
+  border-bottom: 1px solid #fff;
+  padding: 1em 0 1em 12.5em;
 }
-.mod-singular-pager {}
+.mod-singular-pager {
+}
 .mod-singular-pager a {
-	background: #fff;
-	-webkit-border-radius: 25px;
-	border-radius: 25px;
-	display: inline-block;
-	height: 50px;
-	margin: 0 15px;
-	overflow: hidden;
-	position: relative;
-	text-indent: 100%;
-	white-space: nowrap;
-	width: 50px;
+  background: #fff;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  display: inline-block;
+  height: 50px;
+  margin: 0 15px;
+  overflow: hidden;
+  position: relative;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 50px;
 }
 .mod-singular-pager a:before {
-	border-top: 5px solid #edad0b;
-	border-left: 5px solid #edad0b;
-	content: "";
-	display: block;
-	height: 14px;
-	left: 50%;
-	position: absolute;
-	top: 50%;
-	width: 14px;
+  border-top: 5px solid #edad0b;
+  border-left: 5px solid #edad0b;
+  content: "";
+  display: block;
+  height: 14px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 14px;
 }
 .mod-singular-prev:before {
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-	margin: -7px 0 0 -10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: -7px 0 0 -10px;
 }
 .mod-singular-next:before {
-	-webkit-transform: rotate(-135deg);
-	-moz-transform: rotate(-135deg);
-	-ms-transform: rotate(-135deg);
-	-o-transform: rotate(-135deg);
-	transform: rotate(-135deg);
-	margin: -13px 0 0 -10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  margin: -13px 0 0 -10px;
 }
 
 .mod-nav {
-	margin-top: -90px;
-	position: fixed;
-	right: 20px;
-	top: 50%;
+  margin-top: -90px;
+  position: fixed;
+  right: 20px;
+  top: 50%;
 }
-.mod-nav-list {}
+.mod-nav-list {
+}
 .mod-nav-item {
-	margin: 20px 0;
+  margin: 20px 0;
 }
 .mod-nav-item a {
-	background: #aaa;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-	display: block;
-	height: 20px;
-	overflow: hidden;
-	text-indent: 100%;
-	white-space: nowrap;
-	width: 20px;
+  background: #aaa;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  height: 20px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 20px;
 }
 .mod-nav-item a:hover,
 .mod-nav-item a:focus,
 .mod-nav-item.js-singular-active a {
-	background: #edad0b;
+  background: #edad0b;
 }

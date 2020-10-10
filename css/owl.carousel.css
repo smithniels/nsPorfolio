@@ -7,12 +7,16 @@
  *  Owl Carousel - Core
  */
 :root {
-  /* Background */
-  --myPink: #f0cd13;
-  /* lines */
-  --myGrey: #1998cb;
-  /* Popart Color (almost white) */
-  --color3: #000000;
+  /* Prima86ry/Background */
+  --color1: #d3d3d3;
+  /* Secondary/Lines */
+  --color2: #1c1c1c;
+  /* it's the color of the boxes!*/
+  --boxColor: #f9f9f9;
+  /* Dansk rød*/
+  --DKr: #c60c30;
+  /* my background color */
+  --myBackground: #add8e6;
 }
 .owl-carousel {
   display: none;
