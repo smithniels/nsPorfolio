@@ -382,7 +382,7 @@ div-2 {
 
 .paragraph-site {
   margin: 30px 30px;
-  background: --boxColor;
+  background: var(--boxColor);
   opacity: 0.95;
   padding: 25px 25px;
   font-size: 23px;
