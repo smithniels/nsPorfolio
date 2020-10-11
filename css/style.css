@@ -9,8 +9,8 @@
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
-  /* my background color */
-  --myBackground: #add8e6;
+
+
 }
 
 /* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat:400,700|Seymour+One&display=swap"); */
@@ -62,6 +62,7 @@ body {
   text-decoration: none;
   line-height: 1.6em;
   transition: all 0.3s ease;
+  background-image: linear-gradient(to right top, #bcd6d6, #a3d9d7, #88dcd6, #69dfd2, #40e1cc);;
 }
 
 header {
