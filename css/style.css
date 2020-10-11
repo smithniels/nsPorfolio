@@ -788,6 +788,7 @@ h2 a {
   flex-direction: row;
   justify-content: space-between;
   flex-basis: 15em;
+  margin-bottom: 100em;
 }
 .col {
   flex: 3;
