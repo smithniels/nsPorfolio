@@ -4,13 +4,11 @@
   /* Secondary/Lines */
   --color2: #1c1c1c;
   /* Third Color!??? */
-  --color3:rgb(188,214,214) ;
+  --color3: rgb(188, 214, 214);
   /* it's the color of the boxes!*/
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
-
-
 }
 
 /* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat:400,700|Seymour+One&display=swap"); */
@@ -48,7 +46,7 @@ body:before {
   height: 100%;
   z-index: -10;
   /* light blue */
-  
+
   /* background: url("../images/wallpaper/wallpaper3.jpeg") no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -62,9 +60,16 @@ body {
   text-decoration: none;
   line-height: 1.6em;
   transition: all 0.3s ease;
-  background-image: linear-gradient(to right, #e1e1e1, #cfdcf1, #a4defa, #69e1f0, #40e1cc);
+  background-image: linear-gradient(
+    to right,
+    #e1e1e1,
+    #cfdcf1,
+    #a4defa,
+    #69e1f0,
+    #40e1cc
+  );
 }
-  header {
+header {
   position: fixed;
   width: 100%;
   text-transform: uppercase;
@@ -325,7 +330,6 @@ div-2 {
   display: none;
 }
 
-
 /*OWL*/
 /*OWL*/
 /*OWL*/
@@ -420,7 +424,7 @@ div-2 {
   color: var(--color2);
   padding-bottom: 20px;
   width: 500px;
-  line-height:1.6em;
+  line-height: 1.6em;
 }
 
 .paragraph-container {
@@ -474,7 +478,7 @@ div-2 {
   display: flex;
   background: var(--boxColor);
   font-size: 25px;
-  
+
   flex-wrap: wrap;
   flex-direction: row;
   border: var(--color2) 2px solid;
@@ -486,7 +490,7 @@ div-2 {
   margin-right: 15%; */
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   opacity: 0.95;
-  
+
   height: 100%;
   width: 30em;
   padding: 0px 20px 20px 25px;
@@ -733,32 +737,12 @@ https://codepen.io/lhorak/pen/bEavyg
 .font-sans-serif: Helvetica, sans-serif;
 .font-serif: "Roboto Slab", Georgia, serif; */
 
-a {
-  /* color: .color-accent; */
-  text-decoration: none;
-  box-shadow: 0 -1px 0 0 white inset, 0 -2px 0 0 transparent inset;
-
-  transition: all 0.3s ease-in;
-
-  &:hover {
-    transition: all 0.3s ease-out;
-    box-shadow: 0 -1px 0 0 white inset, 0 -2px 0 0 ;color-accent inset;
-  }
-
-  &::selection {
-    color: white;
-    background: --color-accent;
-    text-shadow: none;
-  }
-}
-
 h1,
-h2 
-  a {
-    /* probably going to be a problem,.... */
-    box-shadow: 0 -1px 0 0 white inset, 0 -3px 0 0 transparent inset;
+h2 a {
+  /* probably going to be a problem,.... */
+  box-shadow: 0 -1px 0 0 white inset, 0 -3px 0 0 transparent inset;
 
-    /* &:hover {
+  /* &:hover {
       transition: all 0.3s ease-out;
       box-shadow: 0 -1px 0 0 white inset, 0 -3px 0 0 .color-accent inset;
     }
