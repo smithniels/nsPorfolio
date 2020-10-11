@@ -48,7 +48,7 @@ body:before {
   height: 100%;
   z-index: -10;
   /* light blue */
-  background-color: --var(myBackground);
+  
   /* background: url("../images/wallpaper/wallpaper3.jpeg") no-repeat center center; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -62,9 +62,9 @@ body {
   text-decoration: none;
   line-height: 1.6em;
   transition: all 0.3s ease;
-  background-image: linear-gradient(to right, #bcd6d6, #a3d9d7, #88dcd6, #69dfd2, #40e1cc);}
-
-header {
+  background-image: linear-gradient(to right, #e1e1e1, #cfdcf1, #a4defa, #69e1f0, #40e1cc);
+}
+  header {
   position: fixed;
   width: 100%;
   text-transform: uppercase;
@@ -411,7 +411,7 @@ div-2 {
 }
 
 .first-name {
-  border-bottom: var(--color2) 2px solid !important;
+  border-bottom: var(--color3) 2px solid !important;
 }
 .paragraph-body {
   font-size: 22px;
@@ -747,7 +747,7 @@ a {
 
   &::selection {
     color: white;
-    background: .color-accent;
+    background: --color-accent;
     text-shadow: none;
   }
 }
