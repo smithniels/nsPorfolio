@@ -15,13 +15,13 @@
   /* Secondary/Lines */
   --color2: #1c1c1c;
   /* Third Color!??? */
-  --color3:rgb(188,214,214) ;
+  --color3: rgb(188, 214, 214);
   /* it's the color of the boxes!*/
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
   /* my background color */
-  --myBackground: #add8e6;
+  /*--myBackground: #add8e6;*/
 }
 
 /* var(--color1) */
@@ -1497,7 +1497,9 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098d1;
+
+  background: #69dfd2;
+
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
