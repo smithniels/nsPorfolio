@@ -62,8 +62,7 @@ body {
   text-decoration: none;
   line-height: 1.6em;
   transition: all 0.3s ease;
-  background-image: linear-gradient(to right top, #bcd6d6, #a3d9d7, #88dcd6, #69dfd2, #40e1cc);;
-}
+  background-image: linear-gradient(to right, #bcd6d6, #a3d9d7, #88dcd6, #69dfd2, #40e1cc);}
 
 header {
   position: fixed;
