@@ -60,7 +60,7 @@ body {
   text-decoration: none;
   line-height: 1.6em;
   transition: all 0.3s ease;
-  background-image: linear-gradient(
+  background: linear-gradient(
     to right,
     #e1e1e1,
     #cfdcf1,
