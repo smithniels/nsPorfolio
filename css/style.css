@@ -47,7 +47,7 @@ body:before {
   z-index: -10;
   /* light blue */
 
-  /* background: url("../images/wallpaper/wallpaper3.jpeg") no-repeat center center; */
+  background: url("../images/wallpaper/wallpaper3.jpeg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,14 +60,14 @@ body {
   text-decoration: none;
   line-height: 1.6em;
   transition: all 0.3s ease;
-  background: linear-gradient(
+  /* background: linear-gradient(
     to right,
     #e1e1e1,
     #cfdcf1,
     #a4defa,
     #69e1f0,
     #40e1cc
-  );
+  ); */
 }
 header {
   position: fixed;
@@ -113,42 +113,12 @@ header a:hover {
   border-bottom: var(--color1) 2px solid;
 }
 
-footer {
-  display: flex;
-  align-items: flex-end;
-  position: bottom;
-  justify-content: center;
-  margin-top: 3.3rem;
-  font-weight: bold;
-  background-color: white;
-  opacity: 0.95;
-}
-
-li.nav-uo {
-  float: left;
-  list-style: none;
-}
-
-.nav-up {
-  top: -60px;
-}
-
-.bar {
-  margin-top: 10px;
-  border: none;
-}
-
 h1 {
   padding: 0 6px 0 6px;
 }
 
 h2 {
   border-bottom: 2px solid var(--color2);
-}
-
-.line h2 {
-  border-bottom: 2px solid var(--color2);
-  width: 100px;
 }
 
 h3 {
