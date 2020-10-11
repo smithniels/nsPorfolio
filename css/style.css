@@ -442,7 +442,7 @@ div-2 {
   font-size: 35px;
   width: 25px;
   padding-right: 1px;
-  line-height: 1.6;
+  line-height: 1.6em;
 }
 
 .paragraph-intro-main {
@@ -930,7 +930,7 @@ h2
     display: flex;
     font-size: 16px;
     flex-direction: row;
-    line-height: 1.6;
+    line-height: 1.6em;
     justify-content: flex-start;
     margin: auto 15px;
     padding-bottom: 10px;
@@ -1062,7 +1062,7 @@ h2
     margin-right: 0%;
     margin-bottom: 15px;
     margin-left: 0;
-    line-height: 1.6;
+    line-height: 1.6em;
   }
   .paragraph-site {
     margin: 50px 20px;
