@@ -389,7 +389,7 @@ div-2 {
   border-bottom: var(--color3) 2px solid !important;
 }
 
-.first-name::before {
+.first-name::after {
   content: "";
   position: absolute;
   bottom: 10px;
