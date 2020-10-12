@@ -386,7 +386,7 @@ div-2 {
 }
 
 .first-name {
-  border-bottom: var(--color3) 2px solid !important;
+  /* border-bottom: var(--color3) 2px solid !important; */
 }
 
 .first-name::after {
