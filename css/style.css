@@ -389,11 +389,11 @@ div-2 {
   /* border-bottom: var(--color3) 2px solid !important; */
 }
 
-.first-name:after {
+text.first-name:after {
   content: "";
   position: absolute;
-  /* bottom: 10px; */
-  /* left: -20%; */
+  bottom: 10px;
+  left: -20%;
   top: 40%;
   height: 25px;
   width: 100%;
