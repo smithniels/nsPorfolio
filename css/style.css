@@ -388,6 +388,18 @@ div-2 {
 .first-name {
   border-bottom: var(--color3) 2px solid !important;
 }
+
+.first-name::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  /* left: -20%; */
+  height: 25px;
+  width: 40%;
+  background: var(--color3);
+  z-index: -1;
+}
+
 .paragraph-body {
   font-size: 22px;
   margin-left: 3px;
