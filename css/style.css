@@ -392,7 +392,7 @@ div-2 {
 .first-name:after {
   content: "";
   position: absolute;
-  bottom: 10px;
+  /* bottom: 10px; */
   /* left: -20%; */
   height: 25px;
   width: 100%;
