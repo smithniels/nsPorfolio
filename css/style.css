@@ -394,6 +394,7 @@ div-2 {
   position: absolute;
   /* bottom: 10px; */
   /* left: -20%; */
+  top: 40%;
   height: 25px;
   width: 100%;
   background: var(--color3);
