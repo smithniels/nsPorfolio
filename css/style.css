@@ -389,13 +389,13 @@ div-2 {
   /* border-bottom: var(--color3) 2px solid !important; */
 }
 
-.first-name::after {
+.first-name:after {
   content: "";
   position: absolute;
   bottom: 10px;
   /* left: -20%; */
   height: 25px;
-  width: 40%;
+  width: 100%;
   background: var(--color3);
   z-index: -1;
 }
