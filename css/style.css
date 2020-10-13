@@ -386,13 +386,12 @@ div-2 {
 text.first-name:after {
   content: "";
   position: absolute;
-  bottom: 20%;
+  bottom: -65%;
   left: -20%;
-  /* top: 40%; */
   height: 25px;
   width: 20em;
   background: var(--color3);
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .paragraph-body {
