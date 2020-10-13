@@ -16,13 +16,9 @@
 
 html {
   box-sizing: border-box;
-  /* background-color: var(--color1); */
   background-attachment: fixed;
   list-style-type: none;
-  /* font-family: Quicksand, sans-serif; */
-
   font-family: "Roboto Slab", "Poppins", sans-serif;
-  /* background-image: url("../images/wallpaper/wallpaper1.jpg"); */
 }
 
 *,
@@ -31,7 +27,7 @@ html {
   box-sizing: inherit;
   list-style-type: none;
   text-decoration: none;
-  /*  this is just some fuckery  */
+  /*  this is some fuckery  */
   /*  JK the fuckery is now standard.  */
   box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
 }
@@ -56,7 +52,6 @@ body:before {
 }
 
 body {
-  /* font-family: Quicksand, Lato, sans-serif; */
   text-decoration: none;
   line-height: 1.6em;
   transition: all 0.3s ease;
@@ -180,7 +175,6 @@ span.a:visited {
 
 .words2 {
   color: var(--color2);
-  /* font-style: Quicksand, Lato, sans-serif; */
   margin-left: 55px;
 }
 
@@ -188,7 +182,6 @@ span.a:visited {
   display: wrap;
   list-style-type: none;
   transition: height 500ms;
-  /* font-style: Quicksand, Lato, sans-serif; */
   font-size: 22px;
   line-height: 1.6em;
   color: var(--color2);
