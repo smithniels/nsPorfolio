@@ -805,6 +805,10 @@ h2 a {
   border-left: 2px var(--color2) solid;
 }
 
+span .title {
+  margin-bottom: 0;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
