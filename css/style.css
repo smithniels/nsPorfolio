@@ -805,10 +805,6 @@ h2 a {
   border-left: 2px var(--color2) solid;
 }
 
-span .title {
-  margin-bottom: 0;
-}
-
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
@@ -1019,6 +1015,7 @@ span .title {
     /* padding: 10px 0; */
     margin: auto 0;
     display: inline-block;
+    margin-top: 0;
   }
   .character-first {
     display: none;
