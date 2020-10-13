@@ -1017,7 +1017,7 @@ h2 a {
     display: inline-block;
   }
 
-  div.box-small > ul {
+  .box-small > ul {
     margin-top: 0;
   }
 
