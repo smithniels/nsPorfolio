@@ -298,7 +298,7 @@ div-2 {
 /*OWL*/
 
 /* This bit will make all of your Owl Carousel images the same size */
-/* This will change the size of images within the carousel */
+/* changing the size of images within the carousel */
 .owl-carousel .item {
   height: 700px;
   max-width: 1100px;
@@ -309,7 +309,8 @@ div-2 {
 .owl-carousel {
   margin: 0 auto;
 }
-/* sneaking suspicion these two (prev.next) aren't working */
+
+/* sneaking suspicion these two (prev & next) aren't working */
 .owl-prev {
   width: 20px;
   height: 100px;
