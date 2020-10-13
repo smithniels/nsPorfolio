@@ -79,7 +79,8 @@ header {
   align-items: center;
   text-align: center;
   z-index: 101;
-  height: 60px;
+  height: 50px;
+  padding-top: 1em;
 }
 
 header li {
