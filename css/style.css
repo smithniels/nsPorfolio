@@ -170,7 +170,7 @@ span.a:visited {
   background: var(--boxColor);
   width: 100%;
   max-width: 750px;
-  height: 100%;
+  height: 175px;
   border: var(--color2) 2px solid;
 }
 
