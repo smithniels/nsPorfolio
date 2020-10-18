@@ -1044,6 +1044,7 @@ h2 a {
 .flex-grid {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30em;
 }
 
 .owl-dots {
