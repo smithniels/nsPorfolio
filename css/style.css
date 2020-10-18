@@ -796,7 +796,7 @@ h2 a {
   flex-direction: row;
   justify-content: space-between;
   flex-basis: 15em;
-  margin-bottom: 30em;
+  margin-bottom: 35em;
 }
 .col {
   flex: 3;
@@ -1040,17 +1040,20 @@ h2 a {
     margin-left: 25px;
     font-size: 36.5px;
   }
-}
-.flex-grid {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 30em;
-}
 
-.owl-dots {
-  display: none;
-}
+  .flex-grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40em;
+  }
 
-.about {
-  width: 700px;
+  .owl-dots {
+    display: none;
+  }
+
+  .about {
+    width: 700px;
+  }
+
+  /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
