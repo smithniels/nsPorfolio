@@ -1009,6 +1009,7 @@ h2 a {
   .paragraph-site {
     margin: 50px 20px;
     padding: 15px 35px;
+    min-width:500px;
   }
 
   .paragraph-code {
