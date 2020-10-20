@@ -1053,5 +1053,8 @@ h2 a {
     width: 700px;
   }
 
+  .top_{
+    font-size:1.2em;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
