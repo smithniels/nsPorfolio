@@ -1061,5 +1061,9 @@ ul {
   header {
     height: 75px;
   }
+
+  .big_spacer {
+    height: 500px;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
