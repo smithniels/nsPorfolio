@@ -4,7 +4,8 @@
   /* Secondary/Lines */
   --color2: #1c1c1c;
   /* Third Color!??? */
-  --color3: rgb(188, 214, 214);
+  --color3: #69dfd2;
+  /* rgb(188, 214, 214); */
   /* it's the color of the boxes!*/
   --boxColor: #f9f9f9;
   /* Dansk rød*/
@@ -1055,7 +1056,7 @@ ul {
     font-size: 2em;
   }
 
-  .spacer-fake {
+  .fake_spacer {
     height: 20px;
   }
   header {
@@ -1064,6 +1065,8 @@ ul {
 
   .big_spacer {
     height: 500px;
+  }
+  .sites {
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
