@@ -848,10 +848,6 @@ ul {
     padding-left: 2.5px;
   }
 
-  h3.makeBiggerWSmallSreen {
-    font-size: 35px;
-  }
-
   h2 {
     font-size: 30px;
     margin: 0.15em;
@@ -1055,12 +1051,14 @@ ul {
   }
 
   .top_ {
-    font-size: 1.2em;
+    font-size: 2em;
   }
 
   .spacer-fake {
     height: 20px;
   }
-
+  header {
+    height: 75px;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
