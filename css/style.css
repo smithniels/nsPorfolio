@@ -636,6 +636,10 @@ hr {
   height: 65px;
 }
 
+.spacer-fake {
+  height: 130px;
+}
+
 /*Work Section stuff*/
 .projLink {
   color: var(--DKr);
@@ -1079,5 +1083,10 @@ h2 a {
   .top_ {
     font-size: 1.2em;
   }
+
+  .spacer-fake {
+    height: 20px;
+  }
+
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
