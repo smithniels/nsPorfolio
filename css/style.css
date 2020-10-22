@@ -46,7 +46,7 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
   background-position: right top;
-  background-color: --color3: rgb(188, 214, 214);
+  background-color: rgb(188, 214, 214);
 }
 
 body {
@@ -898,7 +898,7 @@ h2 a {
   }
 
   .paragraph-body {
-    font-size: 18px;
+    font-size: 2em;
     height: 100%;
     width: 100%;
     padding-left: 2px;
@@ -908,7 +908,6 @@ h2 a {
 
   .intro-photo {
     box-shadow: inset 0 0 0 25px var(--color2);
-    padding: 2px;
     margin-right: 14px;
     max-width: 40%;
     height: auto;
@@ -922,7 +921,6 @@ h2 a {
     display: flex;
     width: 100%;
     background-color: var(--boxColor);
-    /* opacity: 0.95; */
     font-size: 32px;
   }
 
@@ -971,15 +969,8 @@ h2 a {
   }
 
   .owl-carousel {
-    /* height: 300px; */
     height: auto;
     width: 700px;
-  }
-
-  /* Del? */
-  .paragraph {
-    width: 90%;
-    font-size: 16px;
   }
 
   .list-code {
@@ -991,7 +982,7 @@ h2 a {
     border-right: none;
     padding: 5px 5px;
   }
-  
+
   .index {
     padding-top: 20px;
   }
@@ -1007,9 +998,6 @@ h2 a {
   }
 
   .paragraph-site {
-    /* margin: 50px 20px;
-    padding: 15px 35px;
-    min-width:500px; */
     width: 100%;
     flex-direction: row;
     padding-bottom: 15px;
@@ -1088,8 +1076,8 @@ h2 a {
     width: 700px;
   }
 
-  .top_{
-    font-size:1.2em;
+  .top_ {
+    font-size: 1.2em;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
