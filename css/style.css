@@ -823,7 +823,7 @@ ul {
 
 @media screen and (max-width: 800px) {
   .div-0 {
-    min-width: 450px;
+    min-width: 650px;
     width: 100%;
     display: flex;
     font-size: 16px;
