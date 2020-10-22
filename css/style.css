@@ -380,10 +380,10 @@ div-2 {
 }
 
 .first-name {
-  /* border-bottom: var(--color3) 2px solid !important; */
+  border-bottom: var(--color3) 4px solid !important;
 }
 
-text.first-name:after {
+/* text.first-name:after {
   content: "";
   position: absolute;
   bottom: -65%;
@@ -391,8 +391,8 @@ text.first-name:after {
   height: 25px;
   width: 20em;
   background: var(--color3);
-  /* z-index: -1; */
-}
+  z-index: -1; 
+} */
 
 .paragraph-body {
   font-size: 22px;
@@ -664,8 +664,6 @@ ul {
 .ex8 .parent {
   height: auto;
   display: grid;
-  /* grid-gap: 1rem; */
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
   grid-column-gap: 6px;
   grid-row-gap: 6px;
@@ -674,7 +672,7 @@ ul {
 .ex8 .visual {
   height: 100%;
   width: auto;
-  /* This centers things (the img) */
+  /* This centers things (the imgs) */
   display: flex;
   object-fit: cover;
 }
@@ -704,30 +702,6 @@ ul {
 .fa {
   width: 150%;
   height: 150%;
-}
-
-/*
-Better text underline
-by Lukas Horak
-https://codepen.io/lhorak/pen/bEavyg
-*/
-/* NielsNote: SCSS is probably not going to work in CSS, but tbh I'm not totally sure. */
-/* .color-accent: #d21e1e;
-.color-text-body: rgb(0, 0, 0);
-// Font stacks
-.font-sans-serif: Helvetica, sans-serif;
-.font-serif: "Roboto Slab", Georgia, serif; */
-
-h1,
-h2 a {
-  /* probably going to be a problem,.... */
-  box-shadow: 0 -1px 0 0 white inset, 0 -3px 0 0 transparent inset;
-
-  /* &:hover {
-      transition: all 0.3s ease-out;
-      box-shadow: 0 -1px 0 0 white inset, 0 -3px 0 0 .color-accent inset;
-    }
-   */
 }
 
 /* FLIP on Hover from WC3 */
