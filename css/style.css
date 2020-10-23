@@ -10,6 +10,9 @@
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
+  /* Background Color */
+  --backgroundColor: #69dfd2;
+  /* rgb(188, 214, 214); */
 }
 
 /* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat:400,700|Seymour+One&display=swap"); */
@@ -47,7 +50,7 @@ body:before {
   -o-background-size: cover;
   background-size: cover;
   background-position: right top;
-  background-color: rgb(188, 214, 214);
+  background-color: var(--backgroundColor);
 }
 
 body {
