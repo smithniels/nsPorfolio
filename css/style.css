@@ -302,8 +302,8 @@ div-2 {
 /* changing the size of images within the carousel */
 .owl-carousel .item {
   height: 700px;
-  max-width: 1100px;
-  /* remove this display prop if things get messed up with the slider */
+  max-width: 1000px;
+  /* remove this if things get messed up with the slider */
   display: inline-block;
 }
 
