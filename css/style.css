@@ -301,7 +301,7 @@ div-2 {
 /* This bit will make all of your Owl Carousel images the same size */
 /* changing the size of images within the carousel */
 .owl-carousel .item {
-  height: 700px;
+  height: 600px;
   max-width: 1000px;
   /* remove this if things get messed up with the slider */
   display: inline-block;
