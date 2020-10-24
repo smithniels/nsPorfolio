@@ -796,6 +796,11 @@ ul {
   height: 80px;
 }
 
+.box-program {
+  padding-top: 20px;
+  border-bottom: 2px var(--color2) solid;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
