@@ -990,6 +990,10 @@ ul {
     line-height: 1.6em;
   }
 
+  .boxsmall > li {
+    padding-bottom: 15px;
+  }
+
   .paragraph-site {
     width: 100%;
     flex-direction: row;
