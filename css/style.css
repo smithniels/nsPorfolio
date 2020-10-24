@@ -802,6 +802,10 @@ ul {
   border-bottom: 2px var(--color2) solid;
 }
 
+.list-item {
+  padding-bottom: 20px;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
@@ -1093,7 +1097,12 @@ ul {
   .big_spacer {
     height: 500px;
   }
+
   .sites {
+  }
+
+  .list-item {
+    padding-bottom: 10px;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
