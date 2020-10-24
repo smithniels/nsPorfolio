@@ -652,7 +652,7 @@ hr {
 .projLink:hover {
   color: var(--color3);
   font-weight: bold;
-  border-bottom: 3px var(--color2) dashed;
+  /* border-bottom: 3px var(--color2) dashed; */
   text-decoration: none;
 }
 
