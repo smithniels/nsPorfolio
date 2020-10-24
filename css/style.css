@@ -644,7 +644,9 @@ hr {
   height: 130px;
 }
 
-.spacer_false{(65 * 2) px;
+.spacer_false {
+  height: 200px;
+}
 
 /*Work Section stuff*/
 .projLink {
@@ -1084,6 +1086,7 @@ ul {
   .big_spacer {
     height: 500px;
   }
+  /* why is this? */
   .sites {
   }
 
