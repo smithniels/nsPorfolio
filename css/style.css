@@ -785,6 +785,7 @@ ul {
   /* margin-bottom: 35em; */
 }
 .col {
+  /* tbh not really sure what this does. */
   flex: 3;
 }
 
