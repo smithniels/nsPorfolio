@@ -382,7 +382,8 @@ div-2 {
 }
 
 .first-name {
-  border-bottom: var(--color3) 4px solid !important;
+  /* border-bottom: var(--color3) 4px solid !important;*/
+  border-bottom: 3px var(--color3) dashed;
 }
 
 /* text.first-name:after {
@@ -652,7 +653,6 @@ hr {
 .projLink:hover {
   color: var(--color3);
   font-weight: bold;
-  /* border-bottom: 3px var(--color2) dashed; */
   text-decoration: none;
 }
 
