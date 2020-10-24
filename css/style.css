@@ -645,7 +645,7 @@ hr {
 /*Work Section stuff*/
 .projLink {
   color: var(--color2);
-  /* text-decoration: underline; */
+  text-decoration: underline;
   /* text-decoration-color: var(--color3); */
 }
 
@@ -653,6 +653,7 @@ hr {
   color: var(--color3);
   font-weight: bold;
   border-bottom: 3px var(--color2) dashed;
+  text-decoration: none;
 }
 
 .right-side {
