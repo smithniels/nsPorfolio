@@ -5,14 +5,12 @@
   --color2: #1c1c1c;
   /* Third Color!??? */
   --color3: #69dfd2;
-  /* rgb(188, 214, 214); */
   /* it's the color of the boxes!*/
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
   /* Background Color */
   --backgroundColor: #69dfd2;
-  /* rgb(188, 214, 214); */
 }
 
 /* @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat:400,700|Seymour+One&display=swap"); */
@@ -647,9 +645,14 @@ hr {
 /*Work Section stuff*/
 .projLink {
   color: var(--color2);
-  font-weight: bold;
   text-decoration: underline;
   text-decoration-color: var(--color3);
+}
+
+.projLink:hover {
+  color: var(--color3);
+  font-weight: bold;
+  border-bottom: 3px var(--color2) dashed;
 }
 
 .right-side {
