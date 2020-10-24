@@ -644,6 +644,8 @@ hr {
   height: 130px;
 }
 
+.spacer_false{(65 * 2) px;
+
 /*Work Section stuff*/
 .projLink {
   color: var(--DKr);
@@ -1070,6 +1072,11 @@ ul {
   .fake_spacer {
     height: 20px;
   }
+
+  .spacer_false {
+    height: 350px;
+  }
+
   header {
     height: 75px;
   }
@@ -1081,7 +1088,7 @@ ul {
   }
 
   .spacer_top {
-    height: 75px;
+    height: 90px;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
