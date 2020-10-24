@@ -786,6 +786,10 @@ ul {
   border-left: 2px var(--color2) solid;
 }
 
+.spacer_top {
+  height: 55px;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
@@ -873,6 +877,10 @@ ul {
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
+  }
+
+  .paragraph-intro-sentence {
+    font-size: 3em;
   }
 
   .paragraph-body {
