@@ -1079,5 +1079,9 @@ ul {
   }
   .sites {
   }
+
+  .spacer_top {
+    height: 75px;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
