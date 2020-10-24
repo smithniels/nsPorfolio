@@ -644,7 +644,7 @@ hr {
 
 /*Work Section stuff*/
 .projLink {
-  color: var(--color2);
+  color: red;
   text-decoration: underline;
   text-decoration-color: var(--color3);
 }
