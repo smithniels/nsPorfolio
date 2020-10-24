@@ -644,9 +644,9 @@ hr {
 
 /*Work Section stuff*/
 .projLink {
-  color: red;
-  text-decoration: underline;
-  text-decoration-color: var(--color3);
+  color: var(--color2);
+  /* text-decoration: underline; */
+  /* text-decoration-color: var(--color3); */
 }
 
 .projLink:hover {
