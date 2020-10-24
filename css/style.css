@@ -644,10 +644,6 @@ hr {
   height: 130px;
 }
 
-.spacer_false {
-  height: 200px;
-}
-
 /*Work Section stuff*/
 .projLink {
   color: var(--DKr);
@@ -884,7 +880,7 @@ ul {
   }
 
   .paragraph-intro-sentence {
-    font-size: 3em;
+    font-size: 2.7em;
   }
 
   .paragraph-body {
@@ -1074,11 +1070,6 @@ ul {
   .fake_spacer {
     height: 20px;
   }
-
-  .spacer_false {
-    height: 350px;
-  }
-
   header {
     height: 75px;
   }
@@ -1086,12 +1077,7 @@ ul {
   .big_spacer {
     height: 500px;
   }
-  /* why is this? */
   .sites {
-  }
-
-  .spacer_top {
-    height: 90px;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
