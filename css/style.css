@@ -247,8 +247,9 @@ button:focus {
   background: var(--boxColor);
   width: 59%;
   display: flex;
-  height: auto;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* i don't think this is doing anything... */
+  /* height: auto; */
+  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
   opacity: 0.95;
   margin-left: 250px;
 }
@@ -382,20 +383,8 @@ div-2 {
 }
 
 .first-name {
-  /* border-bottom: var(--color3) 4px solid !important;*/
-  border-bottom: 0.15px var(--color3) dashed;
+  border: 5px var(--color3) dashed;
 }
-
-/* text.first-name:after {
-  content: "";
-  position: absolute;
-  bottom: -65%;
-  left: -20%;
-  height: 25px;
-  width: 20em;
-  background: var(--color3);
-  z-index: -1; 
-} */
 
 .paragraph-body {
   font-size: 22px;
@@ -1106,6 +1095,10 @@ ul {
   .list-item {
     padding-bottom: 10px;
     margin-bottom: 10px;
+  }
+
+  .first-name {
+    border: 2px var(--color3) dashed;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
