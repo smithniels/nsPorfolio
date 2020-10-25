@@ -15,16 +15,14 @@
   /* Secondary/Lines */
   --color2: #1c1c1c;
   /* Third Color!??? */
-  --color3: rgb(188, 214, 214);
+  --color3: #69dfd2;
   /* it's the color of the boxes!*/
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
-  /* my background color */
-  /*--myBackground: #add8e6;*/
+  /* Background Color */
+  --backgroundColor: #69dfd2;
 }
-
-/* var(--color1) */
 
 .hvr-grow {
   display: inline-block;
@@ -1218,7 +1216,7 @@
 .hvr-fade:active,
 .hvr-fade:focus,
 .hvr-fade:hover {
-  background-color: #2098d1;
+  background-color: var(--backgroundColor);
   color: #fff;
 }
 @-webkit-keyframes hvr-back-pulse {
@@ -1498,7 +1496,7 @@
   right: 0;
   bottom: 0;
 
-  background: #69dfd2;
+  background: var(--backgroundColor);
 
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
