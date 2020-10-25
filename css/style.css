@@ -383,7 +383,7 @@ div-2 {
 
 .first-name {
   /* border-bottom: var(--color3) 4px solid !important;*/
-  border-bottom: 5px var(--color3) dashed;
+  border-bottom: 0.15px var(--color3) dashed;
 }
 
 /* text.first-name:after {
@@ -800,6 +800,8 @@ ul {
 .box-program {
   padding-top: 20px;
   border-bottom: 2px var(--color2) solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .list-item {
@@ -1103,6 +1105,7 @@ ul {
 
   .list-item {
     padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
