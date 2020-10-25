@@ -383,7 +383,7 @@ div-2 {
 
 .first-name {
   /* border-bottom: var(--color3) 4px solid !important;*/
-  border-bottom: 3px var(--color3) dashed;
+  border-bottom: 5px var(--color3) dashed;
 }
 
 /* text.first-name:after {
