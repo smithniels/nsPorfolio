@@ -736,7 +736,8 @@ ul {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* padding: 0.5em; */ /* Bad idea */
+  /* Bad idea */
+  /* padding: 0.5em; */
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -770,7 +771,6 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   flex-basis: 15em;
-  /* margin-bottom: 35em; */
 }
 .col {
   /* tbh not really sure what this does. */
