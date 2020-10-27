@@ -1097,9 +1097,8 @@ ul {
   }
 
   .first-name {
-    border: none;
-    border-bottom: 4px var(--color3) dashed;
-    margin-top: 20px;
+    border: 0.1px;
+    border-bottom: 12px var(--color3) dashed;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
