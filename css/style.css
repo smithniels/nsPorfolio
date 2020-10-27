@@ -1098,7 +1098,6 @@ ul {
 
   .first-name {
     border: 0.1px;
-    border-bottom: var(--color2) 2px dashed;
     color: var(--color3);
   }
 
