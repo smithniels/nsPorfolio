@@ -1002,6 +1002,8 @@ ul {
     margin-bottom: 15px;
     margin-left: 0;
     line-height: 1.6em;
+    /* this might fuck things up... */
+    font-size: 1.6em;
   }
 
   .paragraph-code {
@@ -1057,6 +1059,7 @@ ul {
   h1 {
     margin-left: 25px;
     font-size: 36.5px;
+    line-height: 1.5em;
   }
 
   .flex-grid {
