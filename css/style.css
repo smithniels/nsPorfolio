@@ -798,6 +798,7 @@ ul {
 
 .name-box {
   background-color: var(--color3);
+  color: var(--boxColor);
 }
 
 /*RESPONSIVE*/
