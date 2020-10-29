@@ -800,7 +800,7 @@ ul {
   background-color: var(--color3);
   color: var(--boxColor);
   border-radius: 20px 2px;
-  margin-top: 25px;
+  line-height: 1.3em;
 }
 
 /* .paragraph-body p .list-item {
