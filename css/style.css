@@ -801,6 +801,7 @@ ul {
   color: var(--boxColor);
   border-radius: 20px 2px;
   line-height: 1.3em;
+  font-weight: 600;
 }
 
 /* .paragraph-body p .list-item {
