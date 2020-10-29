@@ -800,11 +800,12 @@ ul {
   background-color: var(--color3);
   color: var(--boxColor);
   border-radius: 20px 2px;
+  margin-top: 25px;
 }
 
-.paragraph-body p .list-item {
+/* .paragraph-body p .list-item {
   text-indent: 20px;
-}
+} */
 
 /*RESPONSIVE*/
 
