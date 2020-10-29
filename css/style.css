@@ -802,6 +802,10 @@ ul {
   border-radius: 20px 2px;
 }
 
+.paragraph-body .paragraph-site .list-item . {
+  text-indent: 20px;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
@@ -1116,5 +1120,6 @@ ul {
     border-radius: 20px 2px;
     margin-top: 15px;
   }
+
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
