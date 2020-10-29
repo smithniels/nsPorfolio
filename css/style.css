@@ -1107,8 +1107,13 @@ ul {
 
   .first-name {
     border: 0.1px;
-    color: var(--color3);
+    /* color: var(--color3); */
   }
 
+  .name-box {
+    background-color: var(--color3);
+    color: var(--boxColor);
+    border-radius: 20px 2px;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
