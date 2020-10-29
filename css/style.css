@@ -28,8 +28,8 @@ html {
   box-sizing: inherit;
   list-style-type: none;
   text-decoration: none;
-  /*  this is some fuckery */
-  /*  JK the fuckery is now standard. */
+  /*  this is some fuck-ery */
+  /*  JK the fuck-ery is now standard. */
   box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
 }
 
@@ -1002,7 +1002,7 @@ ul {
     line-height: 1.6em;
   }
 
-  .boxsmall > li {
+  .box-small > li {
     padding-bottom: 15px;
   }
 
