@@ -19,7 +19,7 @@ html {
   box-sizing: border-box;
   background-attachment: fixed;
   list-style-type: none;
-  font-family: "Amatic+SC", "Roboto Slab", "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 *,
@@ -28,8 +28,8 @@ html {
   box-sizing: inherit;
   list-style-type: none;
   text-decoration: none;
-  /*  this is some fuckery  */
-  /*  JK the fuckery is now standard.  */
+  /*  this is some fuckery */
+  /*  JK the fuckery is now standard. */
   box-shadow: 0 0 1px rgba(0, 0, 0, 0) !important;
 }
 
