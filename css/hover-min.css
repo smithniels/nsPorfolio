@@ -7,8 +7,8 @@
 
  * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
  */
-/* No longer minified. Sorry for the deception */
-/*This is mine (Niels')*/
+/* This file is no longer minified. Sorry for the deception -niels */
+/*This is my stuff; Just trying to keep colors consistent (Niels')*/
 :root {
   /* Prima86ry/Background */
   --color1: #d3d3d3;
@@ -2229,7 +2229,7 @@
   left: 51%;
   right: 51%;
   bottom: 0;
-  background: var(--color2);
+  background: var(--color1);
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
