@@ -804,10 +804,15 @@ ul {
   font-weight: 600;
 }
 
-/* .paragraph-body p .list-item {
-  text-indent: 20px;
-} */
-
+.box-one {
+}
+.box-two {
+  margin-left: 500px;
+}
+.box-three {
+}
+.box-four {
+}
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
