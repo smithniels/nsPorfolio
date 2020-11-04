@@ -814,6 +814,24 @@ ul {
 .box-four {
   margin-left: 500px;
 }
+
+.line-right {
+  height: 2px;
+  width: 100%;
+  border-top: 2px var(--color2) solid;
+}
+
+.line-left {
+  height: 2px;
+  width: 100%;
+  border-top: 2px var(--color2) solid;
+}
+
+.container-misc {
+  display: flex;
+  justify-content: row;
+}
+
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
