@@ -1146,7 +1146,7 @@ ul {
     margin-top: 15px;
   }
   .wrapper {
-    align-items: center;
+    align-content: center;
   }
 
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
