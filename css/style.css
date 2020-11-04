@@ -885,7 +885,6 @@ ul {
     justify-content: flex-start;
     margin: auto 15px;
     padding-bottom: 10px;
-    /* padding-right: 10px; */
     margin-right: 1 0px;
     margin-left: 100px;
   }
@@ -1040,7 +1039,6 @@ ul {
     margin-bottom: 15px;
     margin-left: 0;
     line-height: 1.6em;
-    /* this might fuck things up... */
     font-size: 1.6em;
   }
 
@@ -1089,6 +1087,7 @@ ul {
     padding-left: 3px;
     font-weight: 2000;
   }
+
   .character-first2 {
     display: inline;
     padding-bottom: 0;
@@ -1136,7 +1135,6 @@ ul {
 
   .first-name {
     border: 0.1px;
-    /* color: var(--color3); */
   }
 
   .name-box {
@@ -1146,7 +1144,6 @@ ul {
     margin-top: 15px;
   }
   .wrapper {
-    align-content: center;
   }
 
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
