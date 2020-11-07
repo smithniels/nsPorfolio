@@ -1216,17 +1216,17 @@
 .hvr-fade:active,
 .hvr-fade:focus,
 .hvr-fade:hover {
-  background-color: var(--backgroundColor);
+  background-color: var(--color3);
   color: #fff;
 }
 @-webkit-keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(32, 152, 209, 0.75);
+    background-color: var(--color3);
   }
 }
 @keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(32, 152, 209, 0.75);
+    background-color: var(--color3);
   }
 }
 .hvr-back-pulse {
@@ -1496,7 +1496,7 @@
   right: 0;
   bottom: 0;
 
-  background: var(--backgroundColor);
+  background: var(--color3);
 
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
