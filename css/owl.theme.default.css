@@ -73,8 +73,8 @@
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  outline: 5px dashed blue;
+  outline: 2px dashed blue;
   outline-color: white;
   -webkit-transition: background-color 2s ease-out;
-  background: crimson; /* controls color of SELECTED dots */
+  background: var(--color3); /* controls color of SELECTED dots */
 }
