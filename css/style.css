@@ -981,6 +981,7 @@ ul {
 
   .item:hover {
     cursor: grabbing;
+    -transition: background-color 2s ease-in; /* I don't think this will work, but wouldn't the be nice?*/
   }
 
   .owl-carousel {
