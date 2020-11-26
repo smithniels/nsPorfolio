@@ -801,18 +801,6 @@ ul {
   margin-left: 500px;
 }
 
-/* .line-right {
-  height: 2px;
-  width: 100%;
-  border-top: 2px var(--color2) solid;
-} */
-/* 
-.line-left {
-  height: 2px;
-  width: 100%;
-  border-top: 2px var(--color2) solid;
-} */
-
 .container-misc {
   display: flex;
   justify-content: row;
@@ -911,7 +899,7 @@ ul {
   }
 
   .paragraph-body {
-    font-size: 1.7em;
+    font-size: 1.8em;
     height: 100%;
     width: 100%;
     padding-left: 2px;
@@ -1023,7 +1011,7 @@ ul {
     margin-bottom: 15px;
     margin-left: 0;
     line-height: 1.6em;
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 
   .paragraph-code {
@@ -1039,7 +1027,7 @@ ul {
   }
 
   header a {
-    font-size: 1em;
+    font-size: 1.7em;
     padding-right: 5px;
     padding-left: 5px;
     margin: 0 auto;
