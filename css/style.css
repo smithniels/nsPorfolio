@@ -1143,5 +1143,9 @@ ul {
     height: 100%;
   }
 
+  .wrapper {
+    paddingleft: 15px;
+    padding-right: 15px;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
