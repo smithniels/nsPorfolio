@@ -888,9 +888,9 @@ ul {
     padding: 20px;
     font-weight: bold;
     width: 100%;
-    padding-right: 0.25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-right: 0.25px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
     display: inline-block;
   }
 
