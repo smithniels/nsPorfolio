@@ -1146,6 +1146,9 @@ ul {
   .wrapper {
     paddingleft: 15px;
     padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    /* padding:auto? */
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
