@@ -603,7 +603,7 @@ hr {
 
 /* sets width for the programming section*/
 .width-limit {
-  max-width: 350px;
+  /* max-width: 350px; */
 }
 
 .spacer {
