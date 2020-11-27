@@ -805,11 +805,11 @@ ul {
   display: flex;
   justify-content: row;
 }
-.full {
+#content-desktop {
   display: hide;
 }
 
-.responds {
+#content-mobile {
   display: none;
 }
 /*RESPONSIVE*/
@@ -1130,9 +1130,12 @@ ul {
   .full {
     display: none;
   }
+  #content-desktop {
+    display: none;
+  }
 
-  .responds {
-    display: show;
+  #content-mobile {
+    display: block;
     width: 100%;
     flex-direction: row;
     /* padding-bottom: 15px; */
