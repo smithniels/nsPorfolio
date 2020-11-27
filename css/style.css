@@ -20,6 +20,8 @@ html {
   background-attachment: fixed;
   list-style-type: none;
   font-family: "Raleway", sans-serif;
+  /* this will be the root font REM's will use!
+  font-size:  */
 }
 
 *,
@@ -52,7 +54,7 @@ body:before {
 
 body {
   text-decoration: none;
-  line-height: 1.6em;
+  line-height: 1.6rem;
   transition: all 0.3s ease;
 }
 header {
@@ -70,7 +72,7 @@ header {
   text-align: center;
   z-index: 101;
   height: 50px;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 header li {
@@ -78,7 +80,7 @@ header li {
 }
 
 header a {
-  font-size: 1.4em;
+  font-size: 1.4rem;
   padding-right: 10px;
   padding-left: 10px;
   margin-left: 10px;
@@ -109,7 +111,7 @@ h2 {
 
 h3 {
   color: var(--color2);
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 h3:hover {
@@ -174,7 +176,7 @@ span.a:visited {
   list-style-type: none;
   transition: height 500ms;
   font-size: 22px;
-  line-height: 1.6em;
+  line-height: 1.6rem;
   color: var(--color2);
   display: flex;
   flex-direction: row;
@@ -346,7 +348,7 @@ div-2 {
   font-size: 23px;
   border: var(--color2) 2px solid;
   border-right: var(--color2) 2px solid;
-  line-height: 1.6em;
+  line-height: 1.6rem;
   color: var(--color2);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -359,7 +361,7 @@ div-2 {
   font-size: 35px;
   width: 25px;
   padding-right: 1px;
-  line-height: 1.6em;
+  line-height: 1.6rem;
 }
 
 /* This is for the "ello my name is... */
@@ -380,7 +382,7 @@ div-2 {
   color: var(--color2);
   padding-bottom: 20px;
   width: 500px;
-  line-height: 1.6em;
+  line-height: 1.6rem;
 }
 
 .paragraph-container {
@@ -395,7 +397,7 @@ div-2 {
   padding-left: 20px;
   margin-left: 20px;
   list-style-type: circle !important;
-  line-height: 1.6em;
+  line-height: 1.6rem;
   font-size: 22px;
   color: var(--color2);
 }
@@ -441,7 +443,7 @@ div-2 {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   opacity: 0.95;
   height: 100%;
-  width: 30em;
+  width: 30rem;
   padding: 0px 20px 20px 25px;
 }
 
@@ -720,7 +722,7 @@ ul {
   width: 100%;
   height: 100%;
   /* Bad idea */
-  /* padding: 0.5em; */
+  /* padding: 0.5rem; */
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -740,7 +742,7 @@ ul {
 
 .flip-box {
   margin: 25px;
-  line-height: 2em;
+  line-height: 2rem;
 }
 
 .flipable {
@@ -753,7 +755,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-basis: 15em;
+  flex-basis: 15rem;
 }
 .col {
   /* tbh not really sure what this does. */
@@ -783,7 +785,7 @@ ul {
   background-color: var(--color3);
   color: var(--boxColor);
   border-radius: 20px 2px;
-  line-height: 1.3em;
+  line-height: 1.3rem;
   font-weight: 600;
 }
 
@@ -855,7 +857,7 @@ ul {
     display: flex;
     font-size: 16px;
     flex-direction: row;
-    line-height: 1.6em;
+    line-height: 1.6rem;
     justify-content: flex-start;
     margin: auto 15px;
     padding-bottom: 10px;
@@ -869,14 +871,14 @@ ul {
 
   header li {
     font-weight: bold;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     padding-right: 2.5px;
     padding-left: 2.5px;
   }
 
   h2 {
     font-size: 30px;
-    margin: 0.15em;
+    margin: 0.15rem;
   }
 
   h4 {
@@ -885,7 +887,7 @@ ul {
   }
 
   .paragraph-intro {
-    line-height: 1.8em;
+    line-height: 1.8rem;
     color: var(--color2);
     padding: 20px;
     font-weight: bold;
@@ -897,11 +899,11 @@ ul {
   }
 
   .paragraph-intro-sentence {
-    font-size: 2.7em;
+    font-size: 2.7rem;
   }
 
   .paragraph-body {
-    font-size: 1.8em;
+    font-size: 1.8rem;
     height: 100%;
     width: 100%;
     padding-left: 2px;
@@ -985,7 +987,7 @@ ul {
 
   .title {
     padding: 30px 0 10px 10px;
-    font-size: 1.4em;
+    font-size: 1.4rem;
   }
 
   .index {
@@ -1003,8 +1005,8 @@ ul {
     margin-right: 0%;
     margin-bottom: 15px;
     margin-left: 0;
-    line-height: 1.6em;
-    font-size: 1.8em;
+    line-height: 1.6rem;
+    font-size: 1.8rem;
     padding: 20px;
   }
 
@@ -1021,7 +1023,7 @@ ul {
   }
 
   header a {
-    font-size: 1.8em;
+    font-size: 1.8rem;
     padding-right: 5px;
     padding-left: 5px;
     margin: 0 auto;
@@ -1045,7 +1047,7 @@ ul {
   }
 
   .box-small {
-    font-size: 1.8em;
+    font-size: 1.8rem;
   }
 
   .character-first {
@@ -1065,13 +1067,13 @@ ul {
   h1 {
     margin-left: 25px;
     font-size: 36.5px;
-    line-height: 1.5em;
+    line-height: 1.5rem;
   }
 
   .flex-grid {
     display: flex;
     flex-direction: column;
-    margin-bottom: 30em;
+    margin-bottom: 30rem;
   }
 
   .owl-dots {
@@ -1079,18 +1081,19 @@ ul {
   }
 
   .about {
-    width: 700px;
+    width: 80%;
   }
 
   .top_ {
-    font-size: 2em;
+    font-size: 2rem;
+  }
+
+  header {
+    height: 75px;
   }
 
   .fake_spacer {
     height: 20px;
-  }
-  header {
-    height: 75px;
   }
 
   .big_spacer {
@@ -1120,7 +1123,7 @@ ul {
     margin-right: 0%;
     margin-bottom: 15px;
     margin-left: 0;
-    line-height: 1.6em;
+    line-height: 1.6rem;
   }
 
   #content-desktop {
@@ -1134,8 +1137,8 @@ ul {
     background-color: var(--boxColor);
     margin: 20px;
     padding: 20px;
-    font-size: 1.8em;
-    line-height: 1.7em;
+    font-size: 1.8rem;
+    line-height: 1.7rem;
     border: var(--color2) 2px solid;
     margin: 20px 15% 20px 30px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
