@@ -1042,13 +1042,17 @@ ul {
   }
 
   ul {
-    /* padding: 10px 0; */
     margin: auto 0;
     display: inline-block;
   }
 
   .box-small > ul {
     margin-top: 0;
+  }
+
+  .box-small {
+    font-size: 1.8em;
+    line-height: 1.7em;
   }
 
   .character-first {
