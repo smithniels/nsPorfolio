@@ -1052,8 +1052,8 @@ ul {
   }
 
   .box-small {
-    font-size: 1.8em;
-    line-height: 1.7em;
+    font-size: 1.7em;
+    /* line-height: 1.7em; */
   }
 
   .character-first {
