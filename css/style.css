@@ -805,9 +805,6 @@ ul {
   display: flex;
   justify-content: row;
 }
-#content-desktop {
-  display: hide;
-}
 
 #content-mobile {
   display: none;
@@ -1126,9 +1123,7 @@ ul {
     border-radius: 20px 2px;
     margin-top: 15px;
   }
-  .full {
-    display: none;
-  }
+
   #content-desktop {
     display: none;
   }
