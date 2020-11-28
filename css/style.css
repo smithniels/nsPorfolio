@@ -429,7 +429,7 @@ div-2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .box-small {
@@ -604,7 +604,8 @@ hr {
 }
 
 /* sets width for the programming section*/
-.width-limit {60%;
+.width-limit {
+  width: 60%;
   /* max-width: 350px; */
 }
 
@@ -612,9 +613,9 @@ hr {
   height: 65px;
 }
 
-.fake_spacer {
+/* .fake_spacer {
   height: 130px;
-}
+} */
 
 /*Work Section stuff*/
 .projLink {
@@ -799,8 +800,8 @@ ul {
   display: none;
 }
 
-.box-small>.fa-linkedin:hover{
-  color:darkblue;
+.box-small > .fa-linkedin:hover {
+  color: darkblue;
 }
 /*RESPONSIVE*/
 
@@ -910,7 +911,7 @@ ul {
     max-height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
-  } 
+  }
 
   .words {
     margin-left: -10px;
@@ -918,7 +919,7 @@ ul {
     width: 100%;
     background-color: var(--boxColor);
     font-size: 32px;
-    margin-top:8%;
+    margin-top: 8%;
   }
 
   .words:focus {
