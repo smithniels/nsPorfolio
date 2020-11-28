@@ -798,6 +798,10 @@ ul {
 #content-mobile {
   display: none;
 }
+
+.box-small>.fa-linkedin:hover{
+  color:darkblue;
+}
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
