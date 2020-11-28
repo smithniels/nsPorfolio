@@ -839,7 +839,7 @@ ul {
 
 @media screen and (max-width: 800px) {
   .div-0 {
-    min-width: 650px;
+    min-width: 350px;
     width: 100%;
     display: flex;
     font-size: 16px;
@@ -906,7 +906,7 @@ ul {
     max-height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
+  } 
 
   .words {
     margin-left: -10px;
@@ -914,6 +914,7 @@ ul {
     width: 100%;
     background-color: var(--boxColor);
     font-size: 32px;
+    margin-top:8%;
   }
 
   .words:focus {
