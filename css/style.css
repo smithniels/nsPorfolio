@@ -996,7 +996,7 @@ ul {
   .title {
     padding: 30px 0 10px 10px;
     font-size: 1.9em;
-    border-right: none;
+    border-right: 2px solid var(--color2);
     margin-top: 10px;
   }
 
