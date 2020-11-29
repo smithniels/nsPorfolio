@@ -1158,7 +1158,7 @@ ul {
   }
 
   .wrapper {
-    paddingleft: 15px;
+    padding-left: 15px;
     padding-right: 15px;
     display: flex;
     justify-content: center;
@@ -1169,6 +1169,7 @@ ul {
     min-width: 520px;
     max-height: 620px;
     font-size: 60px;
+    
   }
   /* test1 */
   .contact-links > li {
