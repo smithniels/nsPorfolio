@@ -1165,5 +1165,11 @@ ul {
     justify-content: center;
     /* padding:auto? */
   }
+
+  .contact-links {
+    min-width: 520px;
+    max-height: 620px;
+    font-size: 60px;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
