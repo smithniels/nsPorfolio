@@ -778,10 +778,12 @@ ul {
 }
 
 .box-one {
+  width: 600px;
 }
 
 .box-two {
   margin-left: 200px;
+  width: 600px;
 }
 
 .box-three {
