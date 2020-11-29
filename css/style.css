@@ -789,6 +789,7 @@ ul {
 
 .box-four {
   margin-left: 500px;
+  min-width: 600px;
 }
 
 .container-misc {
@@ -1169,7 +1170,6 @@ ul {
     min-width: 520px;
     max-height: 620px;
     font-size: 60px;
-    
   }
   /* test1 */
   .contact-links > li {
