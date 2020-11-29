@@ -1016,9 +1016,9 @@ ul {
     margin-right: 0%;
     margin-bottom: 15px;
     margin-left: 0;
-    /* line-height: 1.6em; */
     font-size: 1.8em;
     padding: 20px;
+    min-width: 550px;
   }
 
   .paragraph-code {
@@ -1091,9 +1091,9 @@ ul {
     display: none;
   }
 
-  .about {
+  /* .about {
     min-width: 600px;
-  }
+  } */
 
   .top_ {
     font-size: 2rem;
