@@ -1177,5 +1177,9 @@ ul {
     background: red;
     border: --var(color2) solid 2px;
   }
+
+  .fa {
+    background-color: green;
+  }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
 }
