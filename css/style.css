@@ -172,7 +172,6 @@ span.a:visited {
 }
 
 .list {
-  display: wrap;
   list-style-type: none;
   transition: height 500ms;
   font-size: 22px;
@@ -1171,15 +1170,20 @@ ul {
     max-height: 620px;
     font-size: 60px;
   }
-
+  /* test1 */
   .contact-links > li {
     color: purple;
     background: red;
     border: --var(color2) solid 2px;
   }
-
+  /* test2 */
   .fa {
     background-color: green;
   }
-  /* DON'T PUT CODE BELOW THIS FINAL BRACKET! */
+
+  .list {
+    justify-content: center;
+    align-content: center;
+  }
+  /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
 }
