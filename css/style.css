@@ -624,7 +624,7 @@ hr {
 
 .projLink:hover {
   color: var(--color3);
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: none;
 }
 
