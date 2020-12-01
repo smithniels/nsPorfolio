@@ -820,6 +820,12 @@ ul {
   hyphens: auto;
 }
 
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: flex;
+  /* margin-bottom: 30em; */
+}
 /*RESPONSIVE*/
 
 /*RESPONSIVE*/
@@ -1086,8 +1092,8 @@ ul {
 
   .flex-grid {
     display: flex;
-    flex-direction: row;
-    wrap: flex;
+    flex-direction: column;
+    flex-wrap: flex;
     /* margin-bottom: 30em; */
   }
 
