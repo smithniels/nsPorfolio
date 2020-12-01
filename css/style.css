@@ -173,7 +173,7 @@ span.a:visited {
 
 .list {
   list-style-type: none;
-  transition: height 500ms;
+  /* transition: height 500ms; */
   font-size: 22px;
   line-height: 1.6em;
   color: var(--color2);
