@@ -339,7 +339,8 @@ div-2 {
   min-width: 450px;
 }
 
-.paragraph-site {
+.paragraph-site,
+.paragraph-site2 {
   margin: 30px 30px;
   background: var(--boxColor);
   opacity: 0.95;
