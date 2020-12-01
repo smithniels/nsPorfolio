@@ -1086,7 +1086,8 @@ ul {
 
   .flex-grid {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    wrap: flex;
     /* margin-bottom: 30em; */
   }
 
