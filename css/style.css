@@ -1203,11 +1203,11 @@ ul {
   }
   /* test2 */
   .fa {
-    background-color: green;
+    /* background-color: green; */
   }
 
   .list {
-    justify-content: space-between;
+    justify-content: stretch;
     align-content: center;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
