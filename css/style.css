@@ -1207,7 +1207,7 @@ ul {
   }
 
   .list {
-    justify-content: stretch;
+    justify-content: space-between;
     align-content: center;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
