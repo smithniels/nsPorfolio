@@ -1196,9 +1196,10 @@ ul {
   }
   /* test1 */
   .contact-links > li {
-    color: purple;
-    background: red;
+    /* color: purple; */
+    /* background: red; */
     border: --var(color2) solid 2px;
+    padding: 0 20px;
   }
   /* test2 */
   .fa {
@@ -1206,7 +1207,7 @@ ul {
   }
 
   .list {
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
