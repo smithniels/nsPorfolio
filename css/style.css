@@ -1199,7 +1199,7 @@ ul {
     /* color: purple; */
     /* background: red; */
     border: --var(color2) solid 2px;
-    padding: 0 20px;
+    padding: 0 20%;
   }
   /* test2 */
   .fa {
