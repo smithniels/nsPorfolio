@@ -1191,6 +1191,7 @@ ul {
 
   .contact-links {
     display: flex;
+    /* next try space-between */
     justify-content: space-between;
     min-width: 620px;
     max-height: 620px;
@@ -1205,6 +1206,19 @@ ul {
     justify-content: space-between;
     align-content: center;
     color: red;
+  }
+
+  #some-element {
+    border: 1px solid #ccc;
+    display: none;
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+  }
+
+  #some-div:hover #some-element {
+    display: block;
   }
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
 }
