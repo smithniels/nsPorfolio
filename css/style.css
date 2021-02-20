@@ -656,7 +656,7 @@ ul {
 .ex8 .visual {
   height: 100%;
   width: auto;
-  /* This centers things (the imgs) */
+  /* This centers things (the images) */
   display: flex;
   object-fit: cover;
 }
