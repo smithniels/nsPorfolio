@@ -220,7 +220,7 @@ span.a:visited {
   margin: 0 auto;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   padding-left: 0;
-  will-change: opacity;
+  will-change: transform;
 }
 
 button:focus {
