@@ -55,6 +55,7 @@ body {
   line-height: 1.6em;
   transition: all 0.3s ease;
 }
+
 header {
   position: fixed;
   width: 100%;
