@@ -945,6 +945,7 @@ ul {
     background-color: var(--boxColor);
     font-size: 32px;
     margin-top: 8%;
+    min-width: 850px;
   }
 
   .words:focus {
