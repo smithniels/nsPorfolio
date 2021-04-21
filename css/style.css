@@ -4,13 +4,13 @@
   /* Secondary/Lines  - Special Black */
   --color2: #1c1c1c;
   /* Third Color!??? */
-  --color3: #69dfd2;
+  --color3: #c60c30;
   /* it's the color of the boxes!*/
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
   /* Background Color */
-  --backgroundColor: #69dfd2;
+  --backgroundColor: #c60c30;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
