@@ -73,7 +73,7 @@
     />
   </head>
   <body>
-    <div id="scroll" class="optiscroll">
+    
     <!-- page transition fade effect *KEEP*-->
     <svg id="fader"></svg>
    
@@ -836,6 +836,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <!-- js script! -->
     <script src="js/script.js"></script>
+
+<!-- Optiscroll -->
+<script>
+  // Optiscroll
+  // plain JS version
+  var element = document.querySelector("#scroll");
+  var myOptiscrollInstance = new Optiscroll(element);
+  </script>
+
     <!-- page fade in func() -->
     <script>
       fadeInPage();
