@@ -1,31 +1,6 @@
-// trying to get things to change
-// trying to get things to change
-// trying to get things to change
-
-function changeWords() {
-  var words = document.getElementById("showHome");
-  words.classList.add("test");
-  console.log("words are hovered");
-}
-
-$("span.showHome").hover(
-  function () {
-    $(this).hide().text("Home").fadeIn("slow");
-  },
-  function () {
-    $(this).hide().text("Hjem").fadeIn("slow");
-  }
-);
-
-// function myFunction() {
-//   var element = document.getElementById("myDIV");
-//   element.classList.toggle("mystyle");
-// }
-
-// Fade Into/Out of page
-// Fade Into/Out of page
-// Fade Into/Out of page
-// Thanks  Christopher Vue https://christopheraue.net/design/fading-pages-on-load-and-unload
+// Optiscroll;
+var element = document.querySelector("#scroll");
+var myOptiscrollInstance = new Optiscroll(element);
 
 function fadeInPage() {
   if (!window.AnimationEvent) {
