@@ -179,3 +179,8 @@ $('a[href*="#"]')
       }
     }
   });
+
+// Optiscroll
+// plain JS version
+var element = document.querySelector("#scroll");
+var myOptiscrollInstance = new Optiscroll(element);
