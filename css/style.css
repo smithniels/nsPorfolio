@@ -815,8 +815,7 @@ ul {
   /* Careful, this breaks the word wherever it is without a hyphen */
   overflow-wrap: break-word;
   word-wrap: break-word;
-
-  /* Adds a hyphen where the word breaks */
+  /* Adds a hyphen where on the break */
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   -moz-hyphens: auto;
