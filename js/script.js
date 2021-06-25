@@ -1,7 +1,3 @@
-// Optiscroll;
-var element = document.querySelector("#scroll");
-var myOptiscrollInstance = new Optiscroll(element);
-
 function fadeInPage() {
   if (!window.AnimationEvent) {
     return;
