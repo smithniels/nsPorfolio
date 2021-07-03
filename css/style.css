@@ -767,8 +767,10 @@ ul {
   height: auto;
 }
 .hvrbox img {
-  max-width: 100%;
+  max-width: 451px;
+  max-height: 310px;
 }
+
 .hvrbox .hvrbox-layer_bottom {
   display: block;
 }
