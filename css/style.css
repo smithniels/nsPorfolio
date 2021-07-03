@@ -783,8 +783,8 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 451px;
-  height: 310px;
+  min-width: 451px;
+  min-height: 310px;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 15px;
