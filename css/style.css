@@ -766,6 +766,7 @@ ul {
   overflow: hidden;
   max-width: 100%;
   height: auto;
+  border: 2px solid var(--color2);
 }
 .hvrbox img {
   max-width: 451px;
