@@ -124,11 +124,6 @@ h4 {
   color: var(--boxColor);
 }
 
-h6 {
-  /* Deleting because it's been slightly ruining everything... sorta */
-  /* padding: 0 6px 0 6px; */
-}
-
 a {
   cursor: pointer;
   text-decoration: none;
@@ -793,10 +788,12 @@ ul {
   -ms-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
 }
+
 .hvrbox:hover .hvrbox-layer_top,
 .hvrbox.active .hvrbox-layer_top {
   opacity: 1;
 }
+
 .hvrbox .hvrbox-text {
   text-align: center;
   font-size: 18px;
@@ -860,9 +857,6 @@ ul {
   width: 600px;
 }
 
-.box-three {
-}
-
 .box-four {
   margin-left: 500px;
   min-width: 600px;
@@ -881,7 +875,7 @@ ul {
   color: darkblue;
 }
 
-/* CSS Tricks Merci Beaucuop! */
+/* CSS Tricks Mange Tak! */
 .hyphenate {
   /* Careful, this breaks the word wherever it is without a hyphen */
   overflow-wrap: break-word;
