@@ -121,6 +121,7 @@ h3:hover {
 
 h4 {
   margin: 5px 0;
+  color: var(--boxColor);
 }
 
 h6 {
