@@ -766,6 +766,8 @@ ul {
 .hvrbox img {
   max-width: 451px;
   max-height: 310px;
+  min-width: 451px;
+  min-height: 310px;
 }
 
 .hvrbox .hvrbox-layer_bottom {
