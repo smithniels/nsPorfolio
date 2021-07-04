@@ -127,11 +127,11 @@ h4 {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: var(--color2);
+  color: var(--boxColor);
 }
 
 a:hover {
-  color: var(--color2);
+  color: var(--color3);
 }
 
 a.color2:visited {
