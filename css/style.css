@@ -763,6 +763,7 @@ ul {
   height: auto;
   border: 2px solid var(--color2);
 }
+
 .hvrbox img {
   max-width: 451px;
   max-height: 310px;
@@ -798,7 +799,7 @@ ul {
 
 .hvrbox .hvrbox-text {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   display: inline-block;
   position: absolute;
   top: 50%;
