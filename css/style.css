@@ -816,7 +816,7 @@ ul {
   color: darkblue;
 }
 
-/* CSS Tricks Mange Tak! */
+/* CSS Tricks, Mange Tak! */
 .hyphenate {
   /* Careful, this breaks the word wherever it is without a hyphen */
   overflow-wrap: break-word;
@@ -835,13 +835,10 @@ ul {
   margin-top: 35px;
 }
 
-/*RESPONSIVE*/
-
-/*RESPONSIVE*/
-
-/*RESPONSIVE*/
-
-/*RESPONSIVE*/
+/*RESPONSIVE CODE BELOW*/
+/*RESPONSIVE CODE BELOW*/
+/*RESPONSIVE CODE BELOW*/
+/*RESPONSIVE CODE BELOW*/
 
 @media screen and (max-width: 1000px) {
   .site-ways {
