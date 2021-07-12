@@ -1215,6 +1215,7 @@ ul {
   .hvrbox .hvrbox-layer_top,
   .hvrbox.active .hvrbox-layer_top {
     opacity: 1;
+    border: 1rem pink dotted;
   }
 
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
