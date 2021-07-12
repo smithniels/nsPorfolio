@@ -777,6 +777,8 @@ ul {
   line-height: 1.6em;
 }
 
+/*    end of hvrbox     */
+
 .list-item {
   padding-bottom: 20px;
 }
@@ -1209,5 +1211,11 @@ ul {
   #some-div:hover #some-element {
     display: block;
   }
+
+  .hvrbox .hvrbox-layer_top,
+  .hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+  }
+
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
 }
