@@ -1233,5 +1233,9 @@ p {
     color: --var(color2);
   }
 
+  p {
+    font-size: 1.3rem;
+  }
+
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
 }
