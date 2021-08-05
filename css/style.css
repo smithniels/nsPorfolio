@@ -12,6 +12,11 @@
   --boxColor: #f9f9f9;
   /* Dansk rød*/
   --DKr: #c60c30;
+  /* Font-Sizes */
+  --fontSuperBig: 2.5rem;
+  --fontBig: 1.5rem;
+  --fontMed: 1.2rem;
+  --fontSmall: 1rem;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
@@ -838,6 +843,10 @@ ul {
   margin-top: 35px;
 }
 
+p {
+  font-size: 1rem;
+}
+
 /*RESPONSIVE CODE BELOW*/
 /*RESPONSIVE CODE BELOW*/
 /*RESPONSIVE CODE BELOW*/
@@ -1218,6 +1227,10 @@ ul {
   .hvrbox.active .hvrbox-layer_top {
     opacity: 1;
     border: 1rem pink dotted;
+  }
+
+  .fa {
+    color: --var(color2);
   }
 
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
