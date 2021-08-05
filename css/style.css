@@ -684,6 +684,7 @@ ul {
 .fa {
   width: 150%;
   height: 150%;
+  min-height: 75px;
 }
 
 /* Hover Text Over Image */
