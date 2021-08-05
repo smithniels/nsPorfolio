@@ -1074,6 +1074,7 @@ ul {
 
   .box-small {
     font-size: 1.8rem;
+    min-height: 300px;
   }
 
   .character-first {
