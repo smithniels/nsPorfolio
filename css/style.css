@@ -1219,7 +1219,8 @@ p {
     text-transform: uppercase;
   }
 
-  #some-div:hover #some-element {
+  /* #some-div:hover  */
+  #some-element {
     display: block;
   }
 
