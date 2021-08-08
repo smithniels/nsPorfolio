@@ -425,8 +425,9 @@ div-2 {
 .site-ways-rev {
   display: flex;
   flex-direction: row-reverse;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-top: 50px; */
+  /* padding-bottom: 50px; */
+  padding-top: 20px;
 }
 
 .box-big {
