@@ -425,9 +425,8 @@ div-2 {
 .site-ways-rev {
   display: flex;
   flex-direction: row-reverse;
-  /* padding-top: 50px; */
-  /* padding-bottom: 50px; */
-  padding-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .box-big {
@@ -1220,8 +1219,7 @@ p {
     text-transform: uppercase;
   }
 
-  /* #some-div:hover  */
-  #some-element {
+  #some-div:hover #some-element {
     display: block;
   }
 
@@ -1237,7 +1235,7 @@ p {
 
   p {
     font-size: 1.9rem;
-    color: purple;
+    color: red;
   }
 
   /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
