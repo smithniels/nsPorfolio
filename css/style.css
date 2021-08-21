@@ -1278,5 +1278,9 @@ ul {
   #some-div:hover #some-element {
     display: block;
   }
+
+  h6 {
+    font-size: var(--fontMed);
+  }
   /* DON'T PUT CODE BELOW FINAL  CLOSING BRACKET! Consider yourself warned */
 }
