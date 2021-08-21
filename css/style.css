@@ -156,7 +156,7 @@ span.a:visited {
 .words {
   color: var(--color2);
   z-index: 0;
-  font-size: 40px;
+  font-size: var(--fontSmall);
   line-height: 30px;
   display: flex;
   align-items: center;
@@ -176,7 +176,7 @@ span.a:visited {
 .list {
   list-style-type: none;
   /* transition: height 500ms; */
-  font-size: 22px;
+  font-size: var(--fontSmall);
   line-height: 1.6em;
   color: var(--color2);
   display: flex;
@@ -206,7 +206,7 @@ span.a:visited {
 }
 
 .small {
-  font-size: 10px;
+  font-size: var(--fontSmall);
   line-height: 0;
 }
 
@@ -1278,5 +1278,5 @@ ul {
   #some-div:hover #some-element {
     display: block;
   }
-  /* DON'T PUT CODE BELOW THIS FINAL BRACKET! Consider yourself warned */
+  /* DON'T PUT CODE BELOW FINAL  CLOSING BRACKET! Consider yourself warned */
 }
