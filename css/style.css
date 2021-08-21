@@ -841,6 +841,7 @@ ul {
   padding-bottom: 20px;
   margin-bottom: 20px;
   line-height: 1.6em;
+  font-size: var(--fontMed);
 }
 
 .list-item {
