@@ -925,11 +925,15 @@ ul {
 }
 
 @media screen and (max-width: 800px) {
+  h6 {
+    font-size: var(--fontMed);
+  }
+
   .div-0 {
     min-width: 350px;
     width: 100%;
     display: flex;
-    font-size: 16px;
+    font-size: var(--fontSmall);
     flex-direction: row;
     line-height: 1.6em;
     justify-content: flex-start;
@@ -973,11 +977,11 @@ ul {
   }
 
   .paragraph-intro-sentence {
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
 
   .paragraph-body {
-    font-size: 1.8rem;
+    font-size: var(--fontBig);
     height: 100%;
     width: 100%;
     padding-left: 2px;
@@ -1166,16 +1170,11 @@ ul {
     display: flex;
     flex-direction: column;
     flex-wrap: flex;
-    /* margin-bottom: 30em; */
   }
 
   .owl-dots {
     display: none;
   }
-
-  /* .about {
-    min-width: 600px;
-  } */
 
   .top_ {
     font-size: 2rem;
@@ -1279,8 +1278,5 @@ ul {
     display: block;
   }
 
-  h6 {
-    font-size: var(--fontMed);
-  }
   /* DON'T PUT CODE BELOW FINAL  CLOSING BRACKET! Consider yourself warned */
 }
