@@ -1,10 +1,3 @@
 # nsPortfolio
-My portfolio page
+This was my first attempt at designing a portfolio page. 
 
-A man walks into a bar
-
-"ow"
-
-That's my favorite joke... 
-
-Pleasse laugh.
