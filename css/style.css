@@ -1258,10 +1258,6 @@ ul {
     max-height: 620px;
     font-size: 60px;
   }
-  /* test1 */
-  .contact-links > li {
-    border: var(--color2) solid 2px;
-  }
 
   .list {
     justify-content: space-between;
