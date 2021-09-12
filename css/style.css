@@ -1263,12 +1263,13 @@ ul {
   }
   /* test1 */
   .contact-links > li {
-    border: --var(color2) solid 2px;
+    border: var(--color2) solid 2px;
   }
 
   .list {
     justify-content: space-between;
     align-content: center;
+    font-size: var(--fontMed);
   }
 
   #some-element {
