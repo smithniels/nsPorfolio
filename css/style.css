@@ -620,10 +620,6 @@ hr {
   height: 65px;
 }
 
-/* .fake_spacer {
-  height: 130px;
-} */
-
 /*Work Section stuff*/
 .projLink {
   color: var(--color2);
@@ -692,6 +688,7 @@ ul {
 .fa {
   width: 150%;
   height: 150%;
+  color: var(--color2);
 }
 
 /* FLIP on Hover from WC3 */
