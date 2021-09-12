@@ -1287,6 +1287,7 @@ ul {
     width: 100%;
     height: 100%;
     color: var(--color2);
+    border: none;
   }
 
   /* DON'T PUT CODE BELOW FINAL  CLOSING BRACKET! Consider yourself warned */
