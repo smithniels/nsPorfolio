@@ -1272,7 +1272,7 @@ ul {
     font-size: var(--fontMed);
   }
 
-  #some-element {
+  /* #some-element {
     border: 1px solid #ccc;
     color: --var(color1);
     display: none;
@@ -1280,7 +1280,7 @@ ul {
     margin-top: 10px;
     padding: 5px;
     text-transform: uppercase;
-  }
+  } */
 
   #some-div:hover #some-element {
     display: block;
