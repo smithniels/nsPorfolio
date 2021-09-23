@@ -1,3 +1,5 @@
+/* Expected (<border-width> || <border-style> || <color>) but found 'var(--color2) 2px solid'. */
+
 :root {
   /* Header text color */
   --color1: #65c2e7;
@@ -445,12 +447,12 @@ div-2 {
   font-size: 25px;
   flex-wrap: wrap;
   flex-direction: row;
-  border: var(--color2) 2px solid;
-  margin: 20px 15% 20px 30px;
+  border: 2px solid var(--color2);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   opacity: 0.95;
   height: 100%;
   width: 30rem;
+  margin: 20px 15% 20px 30px;
   padding: 20px 15px 20px 25px;
 }
 
